@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: df96a2712dc6b4040ac547987fc0f732
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pano Trial
+  fontNames:
+  - Pano Trial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 336b1480ce87f4a949140ac020b64251, type: 3}
+  - {fileID: 12800000, guid: 74f06bb7dd01a4fd78714c8dafb9a09d, type: 3}
+  - {fileID: 12800000, guid: 5f694a883dd114f36b8cbfe287a7414e, type: 3}
+  - {fileID: 12800000, guid: 0b9c360de1c924b0389e10d68effb367, type: 3}
+  - {fileID: 12800000, guid: 58dd7a8e060b9447bb6e528a40bcc26e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

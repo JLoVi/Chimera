@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 25babfffb83474d31b158c450c6d4cd8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Topol Trial
+  fontNames:
+  - Topol Trial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 09b6b35b328b44bda9968ebba0261b2d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 84be1f584ec644dafa686f205827c09d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Left Trial
+  fontNames:
+  - Left Trial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7bb1fa711fa874795bd7483a2060e149, type: 3}
+  - {fileID: 12800000, guid: 09fc63cf0b0d548f786bd898ca662a9b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

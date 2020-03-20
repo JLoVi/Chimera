@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: efd55a324177b4fe8a43719ee4950da1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HW Nuckle Trial
+  fontNames:
+  - HW Nuckle Trial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b136d6c11cf0e40038f0a2a0131a0d43, type: 3}
+  - {fileID: 12800000, guid: 3879ea82e0f664dd59ad4e0bb3db665f, type: 3}
+  - {fileID: 12800000, guid: adeffb16764394eb9963803b184a517e, type: 3}
+  - {fileID: 12800000, guid: cf6f6d2a642364ea7a63cccab5dcb333, type: 3}
+  - {fileID: 12800000, guid: 8c56847ae849d4a1d8be1ab253fdd6a8, type: 3}
+  - {fileID: 12800000, guid: 0fbd37cc3df164720996e9c263131e31, type: 3}
+  - {fileID: 12800000, guid: 91164badfb1034287b351034426eef6d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
