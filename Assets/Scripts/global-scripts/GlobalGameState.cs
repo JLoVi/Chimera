@@ -12,7 +12,8 @@ public class GlobalGameState : MonoBehaviour
     [SerializeField]
     private GameEvent OnSceneChanged;
 
-    public ActiveSceneData activeSceneData;
+    [SerializeField]
+    private ActiveSceneData activeSceneData;
 
 
     private void Update()

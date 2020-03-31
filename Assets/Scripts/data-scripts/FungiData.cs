@@ -7,32 +7,14 @@ using UnityEngine;
 public class FungiData : ScriptableObject
 {
     [SerializeField]
-    private List<GameObject> activeFungiObjects;
-
-    [SerializeField]
-    private List<Vector3> activeFungiPositions;
-
-    [SerializeField]
-    private float fungiTerritoryOccupied;
-
-    //how old are the organisms / lifetime
-    [SerializeField]
-    private float fungiHealth;
+    private Dictionary<LocationOnMap, FungiUnitLifespan> activeFungiUnits = new Dictionary<LocationOnMap, FungiUnitLifespan>();
 
 
-    public List<GameObject> ActiveFungiObjects
+    public Dictionary<LocationOnMap, FungiUnitLifespan> ActiveFungiUnits
     {
         get
         {
-            return activeFungiObjects;
+            return activeFungiUnits;
         }
-    }
-
-    public List<Vector3> ActiveFungiPositions
-    {
-        get;
-       // {
-        //    return activeFungiPositions;
-       // }
     }
 }
