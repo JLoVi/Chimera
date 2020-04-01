@@ -7,6 +7,7 @@ public class NodeController : MonoBehaviour
     public int id;
 
     public int position;
+    public LocationOnMap locatonOnMap;
 
     public TerrainNode terrainNode;
     public HoverInfoPopup popup;

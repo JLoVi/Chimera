@@ -6,15 +6,9 @@ using UnityEngine;
 
 public class FungiData : ScriptableObject
 {
-    [SerializeField]
-    private Dictionary<LocationOnMap, FungiUnitLifespan> activeFungiUnits = new Dictionary<LocationOnMap, FungiUnitLifespan>();
 
+    public List <LocationOnMap> activeUnitLocations  = new List<LocationOnMap>();
 
-    public Dictionary<LocationOnMap, FungiUnitLifespan> ActiveFungiUnits
-    {
-        get
-        {
-            return activeFungiUnits;
-        }
-    }
+    public List <FungiUnitLifespan> activeUnitLifespans = new List<FungiUnitLifespan>();
+
 }
