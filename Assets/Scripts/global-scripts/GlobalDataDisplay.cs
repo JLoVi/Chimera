@@ -9,19 +9,18 @@ public class GlobalDataDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Global Data Display:" );
-
-        foreach (LocationOnMap loc in fungiData.activeUnitLocations)
-        {
-            Debug.Log("LLLL");
-
-        }
-
+        Debug.Log("Global Data Display:");
+      //  DisplayFungiData();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DisplayFungiData()
     {
-        
+        if (fungiData.activeUnitLifespans != null || fungiData.activeUnitLocations != null)
+        {
+            foreach (LocationOnMap loc in fungiData.activeUnitLocations)
+            {
+                Debug.Log("Location: " + fungiData.activeUnitLocations + " Health: " + fungiData.activeUnitLifespans);
+            }
+        }
     }
 }

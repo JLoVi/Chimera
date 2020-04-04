@@ -5,24 +5,22 @@ using System.Linq;
 
 public class FungiUnit : MonoBehaviour
 {
-
+   
     public List<GameObject> sporesInUnit;
 
     [SerializeField] private GameEvent OnUnitActivated;
 
-
     public bool active;
-
-   
-
 
     public void OnTriggerEnter(Collider other)
     {
         GameManagerFungi.activeLocation = GetComponent<ActivateFungiUnit>().locationOnMap;
         if (other.gameObject.tag == "spore")
         {
-            sporesInUnit.Add(other.gameObject);
-
+            if (sporesInUnit.Count < 3)
+            {
+                sporesInUnit.Add(other.gameObject);
+            }
             if (sporesInUnit.Count > 3)
             {
                 return;
@@ -32,13 +30,22 @@ public class FungiUnit : MonoBehaviour
                 if (!active)
                 {
                     OnUnitActivated.Raise();
-                    active = true;
                 }
                 else { return; }
-
             }
-
         }
+    }
+
+    public void ReactivateFungi()
+    {
+        StartCoroutine(ResetData());
+    }
+
+    public IEnumerator ResetData()
+    {
+        yield return new WaitForSeconds(10);
+        sporesInUnit.Clear();
+        active = false;
     }
 }
 

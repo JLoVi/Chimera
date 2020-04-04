@@ -49,15 +49,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   range: 15
-  fireRate: 0.5
   friendTag: spore
   partToRotate: {fileID: 5659943184213816195}
-  turnSpeed: 10
   bulletPrefab: {fileID: 5401241678304089479, guid: 1d97cfe29ade343e3a605fe0a5a30d85,
     type: 3}
   firePoint: {fileID: 4025974380497121784}
-  territoryText: {fileID: 0}
-  shooting: 0
+  fireSpeed: 0.05
 --- !u!65 &6954864588227239135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -989,6 +986,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8d8b06f49bb22403dbfe338526797b92, type: 2}
+    - target: {fileID: -6057140222963153312, guid: d71679cbb31fe414c9283afd6a97e421,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f6bb115462a8f4a99809a6f631040622, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d71679cbb31fe414c9283afd6a97e421, type: 3}
 --- !u!4 &5659943184213816195 stripped

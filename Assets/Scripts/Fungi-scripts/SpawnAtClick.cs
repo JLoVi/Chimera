@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnAtClick : MonoBehaviour
 {
+    [SerializeField] private GameEvent OnTerritoryIncrease;
     public GameObject spore;
     public Camera fungicam;
 
@@ -22,7 +23,8 @@ public class SpawnAtClick : MonoBehaviour
 
                     float altitude = Random.Range(-3f, 0f);
                     Instantiate(spore, new Vector3(hit.point.x, hit.point.y + altitude, hit.point.z), Quaternion.identity);
-                  }
+                    OnTerritoryIncrease.Raise();
+                }
               }
         }
     }

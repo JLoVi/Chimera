@@ -1,51 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using System;
+
 
 public class Spore : MonoBehaviour
 {
+
     public Transform target;
 
-    [Header ("Attributes")]
-
     public float range = 15f;
-    public float fireRate = 6f;
-    private float fireCountdown = 0f;
-
-    [Header("Unity Setup Fields")]
 
     public string friendTag = "spore";
 
     public Transform partToRotate;
-    public float turnSpeed = 10f;
+    private float turnSpeed = 10f;
 
     public GameObject bulletPrefab;
     public Transform firePoint;
 
-    public Text territoryText;
-    public static float territoryPercentage;
+    public float fireSpeed = 0.05f;
 
-    public bool shooting;
+    private bool shooting;
 
-    public static Animator fungiAnimator;
+    private Animator animator;
 
     void Start()
     {
-        territoryText = GameObject.Find("textterritory").GetComponent<Text>();
-        InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        animator = GetComponentInChildren<Animator>();
+        animator.SetTrigger("expand");
         shooting = false;
-       // territoryPercentage = 0;
-        territoryText.text = "territory occupied: " + territoryPercentage + "%" ;
-
-       fungiAnimator = GameObject.Find("fungi-territory-all").GetComponent<Animator>();
+        InvokeRepeating("UpdateTarget", 0f, 0.5f);
     }
 
     void UpdateTarget()
     {
-
-
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(friendTag);
         float shortestDistance = Mathf.Infinity;
         GameObject nearestEnemy = null;
@@ -60,7 +48,7 @@ public class Spore : MonoBehaviour
             }
         }
 
-        if(nearestEnemy != null && shortestDistance <= range)
+        if (nearestEnemy != null && shortestDistance <= range)
         {
             target = nearestEnemy.transform;
         }
@@ -68,42 +56,29 @@ public class Spore : MonoBehaviour
 
     void Update()
     {
-
-       // Debug.Log(shooting);
         if (target == null)
             return;
 
         //target lock on
-
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler (0f, rotation.y, 0f);
+        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
 
-        float territoryRounded = (float)Math.Round(territoryPercentage, 1);
-        territoryText.text = "territory occupied: " + territoryRounded + "%";
-
-        if (fireCountdown <= 3f)
+        if (!shooting && fireSpeed < 1)
         {
+            StartCoroutine(CreateConnection(fireSpeed));
 
-            if (!shooting)
-            {
-                IncreaseTerritory();
-            }
-            Shoot();
-            fireCountdown = 1f / fireRate;
-            
+        }
+        if (fireSpeed >= 1)
+        {
+            StartCoroutine(Shrink());
         }
     }
 
     void Shoot()
     {
-        
-        shooting = true;
-
-        
-        
-        GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation, gameObject.transform);
         Bullet bullet = bulletGo.GetComponent<Bullet>();
 
         if (bullet != null)
@@ -116,24 +91,20 @@ public class Spore : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, range);
     }
 
-    void IncreaseTerritory()
+    public IEnumerator CreateConnection(float fireRate)
     {
-        if (territoryPercentage < 100) { 
-        territoryPercentage += UnityEngine.Random.Range(0.1f, 0.3f);
-        float territoryRounded =  (float)Math.Round(territoryPercentage, 1);
-        territoryText.text = "territory occupied: " + territoryRounded + "%";
-            // shooting = false;
-            StartCoroutine(PlayAnimInterval(0.2f, 5f));
-        }
-
-
+        shooting = true;
+        yield return new WaitForSeconds(fireRate);
+        fireSpeed += 0.02f;
+        Shoot();
+        shooting = false;
     }
 
-    private IEnumerator PlayAnimInterval(float speed, float time)
+    public IEnumerator Shrink()
     {
-        fungiAnimator.speed = speed;
-        yield return new WaitForSeconds(time);
-        fungiAnimator.speed = 0;
+        animator.SetTrigger("shrink");
+        yield return new WaitForSeconds(10);
+        Destroy(gameObject);
     }
 
 }
