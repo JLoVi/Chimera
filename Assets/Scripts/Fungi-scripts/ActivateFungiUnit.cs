@@ -10,8 +10,12 @@ public class ActivateFungiUnit : MonoBehaviour
 
     private Animator animator;
 
-    [SerializeField] private GameEvent OnFungiDead;
     [SerializeField] private float lifeTime;
+
+
+    public delegate void DeactivateAction();
+    public static event DeactivateAction OnDeactivated;
+
 
 
     public void Start()
@@ -19,17 +23,14 @@ public class ActivateFungiUnit : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         lifeTime = lifespan.lifespan;
         // lifeTime = 3f;
-
     }
+
     public void ActivateFUnit(LocationOnMap location)
     {
         if (location == GameManagerFungi.activeLocation)
         {
-            // Debug.Log("location to activate unit at: " + locationOnMap);
-
             GetComponent<FungiUnit>().active = true;
             animator.SetTrigger("grow");
-
             fungiData.activeUnitLifespans.Add(lifespan);
             fungiData.activeUnitLocations.Add(locationOnMap);
             StartCoroutine(LifeSequence());
@@ -39,17 +40,17 @@ public class ActivateFungiUnit : MonoBehaviour
     public IEnumerator LifeSequence()
     {
         yield return new WaitForSeconds(lifeTime * 3);
-        OnFungiDead.Raise();
+        animator.SetTrigger("die");
+        yield return new WaitForSeconds(5);
+        ResetData();
     }
 
-    public void RemoveFungiData()
+    public void ResetData()
     {
-        for (int i = 0; i < fungiData.activeUnitLocations.Count-1; i++)
-        {
-            if (fungiData.activeUnitLocations[i].name == locationOnMap.name)
-            {
-                fungiData.activeUnitLocations.RemoveAt(i);
-            }
-        }
+        GameManagerFungi.deadLifespan = lifespan;
+        GameManagerFungi.deadLocation = locationOnMap;
+        GetComponent<FungiUnit>().sporesInUnit.Clear();
+        GetComponent<FungiUnit>().active = false;
+        OnDeactivated();
     }
 }

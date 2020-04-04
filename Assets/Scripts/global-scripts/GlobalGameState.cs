@@ -62,7 +62,8 @@ public class GlobalGameState : MonoBehaviour
         switch (activeScene)
         {
             case 1:
-                if (!activeSceneData.acpActive) { 
+                if (!activeSceneData.acpActive)
+                {
                     SceneManager.LoadScene("01-acp", LoadSceneMode.Additive);
                     activeSceneData.acpActive = true;
                 }
@@ -172,9 +173,4 @@ public class GlobalGameState : MonoBehaviour
 
         }
     }
-    //default 0 - none loaded / main menu with all the maps
-
-    //1,2,3,4 are the different scenes
-
-    // switch to switch between them / load different scenes on 1 2 3 4 keys
 }

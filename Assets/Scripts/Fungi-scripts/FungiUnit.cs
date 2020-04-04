@@ -5,7 +5,7 @@ using System.Linq;
 
 public class FungiUnit : MonoBehaviour
 {
-   
+
     public List<GameObject> sporesInUnit;
 
     [SerializeField] private GameEvent OnUnitActivated;
@@ -14,7 +14,7 @@ public class FungiUnit : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        GameManagerFungi.activeLocation = GetComponent<ActivateFungiUnit>().locationOnMap;
+
         if (other.gameObject.tag == "spore")
         {
             if (sporesInUnit.Count < 3)
@@ -29,6 +29,7 @@ public class FungiUnit : MonoBehaviour
             {
                 if (!active)
                 {
+                    GameManagerFungi.activeLocation = GetComponent<ActivateFungiUnit>().locationOnMap;
                     OnUnitActivated.Raise();
                 }
                 else { return; }
