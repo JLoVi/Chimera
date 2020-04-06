@@ -19,6 +19,11 @@ public class GlobalGameState : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             activeScene = 1;
