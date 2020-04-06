@@ -5,20 +5,16 @@ using UnityEngine.UI;
 
 public class FadeOutText : MonoBehaviour
 {
-    
-
     void Start()
     {
         GameEventsGlobal.currentGlobalEvent.onBuildingPurchased += FadeOut;
         StartCoroutine(FadeOutRoutine());
     }
-
     void FadeOut()
     {
         StopAllCoroutines();
         StartCoroutine(FadeOutRoutine());
     }
-
     private IEnumerator FadeOutRoutine()
     {
         Text text = gameObject.GetComponent<Text>();
@@ -27,20 +23,17 @@ public class FadeOutText : MonoBehaviour
 
         float t = 0f;
 
-       
-       // Debug.Log(text);
+
+        // Debug.Log(text);
         while (t < 2)
         {
             t += Time.deltaTime;
-           // Debug.Log(t);
+            // Debug.Log(t);
             float alpha = Mathf.Lerp(1f, 0f, t);
             text.color = new Color(text.color.r, text.color.g, text.color.b, alpha);
 
             yield return null;
-
-
         }
-
         yield return null;
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - fungi
   - spore
   - ayuc-target
+  - o-camera
   layers:
   - Default
   - TransparentFX

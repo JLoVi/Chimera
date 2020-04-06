@@ -15,6 +15,7 @@ public class GlobalGameState : MonoBehaviour
     [SerializeField]
     private ActiveSceneData activeSceneData;
 
+    public Camera mainCam; 
 
     private void Update()
     {
@@ -62,6 +63,7 @@ public class GlobalGameState : MonoBehaviour
         switch (activeScene)
         {
             case 1:
+                mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.acpActive)
                 {
                     SceneManager.LoadScene("01-acp", LoadSceneMode.Additive);
@@ -85,6 +87,7 @@ public class GlobalGameState : MonoBehaviour
                 }
                 break;
             case 2:
+                mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.fungiActive)
                 {
                     SceneManager.LoadScene("02-fungi", LoadSceneMode.Additive);
@@ -109,6 +112,7 @@ public class GlobalGameState : MonoBehaviour
 
                 break;
             case 3:
+                mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.ayucActive)
                 {
                     SceneManager.LoadScene("03-ayuc", LoadSceneMode.Additive);
@@ -133,6 +137,7 @@ public class GlobalGameState : MonoBehaviour
 
                 break;
             case 4:
+                mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.rockActive)
                 {
                     SceneManager.LoadScene("04-rock", LoadSceneMode.Additive);
@@ -157,6 +162,7 @@ public class GlobalGameState : MonoBehaviour
 
                 break;
             case 0:
+                mainCam.gameObject.SetActive(true);
                 SceneManager.LoadScene("00-base-all", LoadSceneMode.Single);
                 activeSceneData.acpActive = false;
                 activeSceneData.fungiActive = false;
@@ -164,6 +170,7 @@ public class GlobalGameState : MonoBehaviour
                 activeSceneData.rockActive = false;
                 break;
             default:
+                mainCam.gameObject.SetActive(true);
                 SceneManager.LoadScene("00-base-all", LoadSceneMode.Single);
                 activeSceneData.acpActive = false;
                 activeSceneData.fungiActive = false;

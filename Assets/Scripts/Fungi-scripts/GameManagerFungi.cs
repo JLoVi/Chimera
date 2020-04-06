@@ -37,7 +37,6 @@ public class GameManagerFungi : MonoBehaviour
     {
         // Debug.Log("fungi unit saved in data");
         //  Debug.Log("location: " + fungiData.activeUnitLocations + " lifespan: " + fungiData.activeUnitLifespans);
-
     }
 
     public void IncreaseTerritory()

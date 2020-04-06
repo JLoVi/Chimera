@@ -16,8 +16,6 @@ public class ActivateFungiUnit : MonoBehaviour
     public delegate void DeactivateAction();
     public static event DeactivateAction OnDeactivated;
 
-
-
     public void Start()
     {
         animator = GetComponentInChildren<Animator>();
