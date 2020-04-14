@@ -10,6 +10,7 @@ public class NodeController : MonoBehaviour
     public LocationOnMap locatonOnMap;
 
     [SerializeField] public TerrainNode terrainNode;
+
     public HoverInfoPopup popup;
 
     public static TerrainNode selectedNode;
@@ -23,25 +24,18 @@ public class NodeController : MonoBehaviour
     [SerializeField]
     public GameEvent updateCapital;
 
-
+    public bool observable;
 
 
     private void Awake()
     {
-        terrainNode = new TerrainNode
-        {
-            health = Random.Range(1, 100),
-            price = Random.Range(1, 100),
-            position = position,
-            observable = true,
-            purchased = false
-        };
+        terrainNode = CreateTerrainNode();
 
-        //  acpDataHandler.t.Add(terrainNode);
         acpDataHandler.terrainNodesOnMap.Add(terrainNode);
         terrainNode.id = acpDataHandler.terrainNodesOnMap.Count;
+
         id = terrainNode.id;
-        acpData.nodeID.Add(id);
+        terrainNode.AddTerrainNodeToData(acpData);
     }
     private void Start()
     {
@@ -51,13 +45,26 @@ public class NodeController : MonoBehaviour
 
     }
 
+    private TerrainNode CreateTerrainNode()
+    {
+        TerrainNode node = new TerrainNode
+        {
+            location = locatonOnMap,
+            health = Random.Range(1, 100),
+            price = Random.Range(1, 100),
+            purchased = false
+        };
+        return node;
+    }
+
+
     private void OnTerrainNodeHover(int id)
     {
         // Debug.Log(terrainNode.observable);
         popup.DisplayInfo();
         if (id == this.id)
         {
-            if (terrainNode != null && terrainNode.observable) Survey(id);
+            if (terrainNode != null && observable) Survey(id);
 
             if (terrainNode.purchased)
             {
@@ -122,10 +129,9 @@ public class NodeController : MonoBehaviour
             acpData.capital -= terrainNode.price;
             updateCapital.Raise();
             terrainNode.purchased = true;
-            //            acpData.terrainUnitsPurcased.Add(terrainNode);
-
-            GameEventsGlobal.currentGlobalEvent.TerrainPurchased();
-            this.gameObject.AddComponent<BuildingSlots>();
+            terrainNode.ModifyTerrainNodeData(acpData);
+          //  GameEventsGlobal.currentGlobalEvent.TerrainPurchased();
+            this.gameObject.AddComponent<CreateBuildingSlots>();
             this.gameObject.GetComponent<NodeClickArea>().enabled = false;
 
         }

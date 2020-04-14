@@ -22,14 +22,14 @@ public class GameEventsGlobal : MonoBehaviour
         }
     }*/
 
-    public event Action onTerrainPurchased;
+   /* public event Action onTerrainPurchased;
     public void TerrainPurchased()
     {
         if (onTerrainPurchased != null)
         {
             onTerrainPurchased();
         }
-    }
+    }*/
 
     public event Action onBuildingPurchased;
     public void BuildingPurchased()

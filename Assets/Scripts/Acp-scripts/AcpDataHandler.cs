@@ -10,7 +10,6 @@ public class AcpDataHandler : MonoBehaviour
     public static List<BuildingSlot> buildingSlots = new List<BuildingSlot>();
     public static List<GameObject> buildingSlotGameObjects = new List<GameObject>();
 
-    public static List<BuildingSlot> buildings = new List<BuildingSlot>();
 
     public static GameObject buildingInventory;
     public GameObject buildingInventoryUtility;

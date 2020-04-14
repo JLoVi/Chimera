@@ -24,7 +24,7 @@ public class SlotClickArea : MonoBehaviour
         startColor = rend.material.color;
         if (GetComponent<SlotController>()!= null)
         {
-            id = GetComponent<SlotController>().building.id;
+            id = GetComponent<SlotController>().buildingSlot.id;
         }
     }
 

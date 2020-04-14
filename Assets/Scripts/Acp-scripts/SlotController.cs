@@ -4,31 +4,28 @@ using UnityEngine;
 
 public class SlotController : MonoBehaviour
 {
-    [SerializeField] private int id;
+    [SerializeField] private int buildingSlotID;
     [SerializeField] private TerrainNode parentNode;
     [SerializeField] private HoverInfoPopup popup;
     public GameObject inventoryUI;
-    public BuildingSlot building;
-    public static InventoryBuilding currentInventoryBuilding;
+    public BuildingSlot buildingSlot;
+  //  public static InventoryBuilding currentInventoryBuilding;
 
 
 
     private void Awake()
     {
-        building = new BuildingSlot
-        {
-            slotMesh = this.gameObject,
-            locationOnMap = transform.parent.GetComponent<NodeController>().locatonOnMap
-        };
+        buildingSlot = new BuildingSlot(false);
+        
         if (GetComponentInParent<NodeController>().terrainNode != null)
         {
             parentNode = GetComponentInParent<NodeController>().terrainNode;
-            building.price = parentNode.price;
-            building.maintinence = parentNode.health / 3;
+            buildingSlot.price = parentNode.price;
+            //building.maintinence = parentNode.health / 3;
         }
-        AcpDataHandler.buildingSlots.Add(building);
-        building.id = AcpDataHandler.buildingSlots.Count;
-        id = building.id;
+        AcpDataHandler.buildingSlots.Add(buildingSlot);
+        buildingSlot.buildingSlotID = AcpDataHandler.buildingSlots.Count;
+        buildingSlotID = buildingSlot.buildingSlotID;
        // Debug.Log("buildingslot created" + id);
 
     }
@@ -47,7 +44,7 @@ public class SlotController : MonoBehaviour
 
     void OnSlotHover(int id)
     {
-        if (id == this.id)
+        if (id == this.buildingSlotID)
         {
             popup.DisplayInfo();
             popup.infoText.text = "Click to see your building options on this slot";
@@ -56,11 +53,11 @@ public class SlotController : MonoBehaviour
 
     void OnSlotClick(int id)
     {
-        if (id == this.id)
+        if (id == this.buildingSlotID)
         {
-            if (!building.containsBuilding) {
+            if (!buildingSlot.containsBuilding) {
                 inventoryUI.SetActive(true);
-                InventoryBuilding.id = id;
+                //InventoryBuilding.id = id;
             }
             else
             {

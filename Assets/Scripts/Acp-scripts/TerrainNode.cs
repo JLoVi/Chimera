@@ -1,38 +1,39 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+[System.Serializable]
 public class TerrainNode
 {
-
-
+    //immutable
     public int id;
+    public LocationOnMap location;
+
+    //variable
     public int health;
-    public int position;
     public int price;
+   
     public bool purchased;
-    public bool observable;
 
-
-    public TerrainNode(int Id, int h, int pos, int pri, bool pur, bool obs)
+    public void AddTerrainNodeToData(AcpData data)
     {
-        id = Id;
-        health = h;
-        position = pos;
-        price = pri;
-        purchased = pur;
-        observable = obs;
-       
+        data.nodeID.Add(id);
+        data.nodeLocationOnGlobalMap.Add(location);
+        data.nodeHealth.Add(health);
+        data.nodePrice.Add(price);
+        data.nodePurchased.Add(purchased);
     }
 
-    // Constructor
-    public TerrainNode()
+    public void ModifyTerrainNodeData(AcpData data)
     {
-        id = 0;
-        health = 1;
-        position = 1;
-        price = 1;
-        purchased = false;
-        observable = true;
+        for (int i = 0; i < data.nodeID.Count; i++)
+        {
+            if (i == id)
+            {
+                data.nodeHealth[i] = health;
+                data.nodePrice[i] = price;
+                data.nodePurchased[i] = purchased;
+            }
+        }
     }
 }
 

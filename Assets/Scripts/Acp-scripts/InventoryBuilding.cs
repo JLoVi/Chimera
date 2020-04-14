@@ -7,9 +7,11 @@ using UnityEngine.UI;
 public class InventoryBuilding : MonoBehaviour
 {
 
-    public static int id;
+    public int inventoryID;
     public HoverInfoPopup popup;
+
     public BuildingSlot activeSlot;
+    public Transform activeSlotTransform;
 
     public bool highEnd;
     public BuildingType buildingType;
@@ -49,7 +51,7 @@ public class InventoryBuilding : MonoBehaviour
 
 
         popup.DisplayInfo();
-        popup.infoText.text = "Building Slot: " + id + '\n' +
+        popup.infoText.text = "Building Slot: " + inventoryID + '\n' +
                   pricecat + '\n' + "Type: " + buildingType + '\n' +
                    +'\n' + '\n' + "<Click To Buy> ";
     }
@@ -65,101 +67,39 @@ public class InventoryBuilding : MonoBehaviour
 
     public void FindActiveSlotByID()
     {
-        foreach (BuildingSlot building in AcpDataHandler.buildingSlots)
+        foreach (BuildingSlot buildingSlot in AcpDataHandler.buildingSlots)
         {
-            if (building.id == id)
+            if (buildingSlot.buildingSlotID == inventoryID)
             {
-                activeSlot = building;
-                // Debug.Log("The Active Slot IS: " + activeSlot.id);
-                GetBuildingProperties();
+                activeSlot = buildingSlot;
+                Debug.Log("The Active Slot IS: " + activeSlot.id);
             }
         }
-
-    }
-
-    public void GetBuildingProperties()
-    {
-        if (!activeSlot.containsBuilding)
+        for (int i = 0; i < AcpDataHandler.buildingSlots.Count; i++)
         {
-            activeSlot.buildingMesh = buildingMesh;
-            activeSlot.buildingType = buildingType;
-            activeSlot.highEnd = highEnd;
-        }
-        else
-        {
-            return;
-        }
-
-    }
-
-    public void SetBuildingProperties()
-    {
-        if (activeSlot.buildingType == BuildingType.Financial && activeSlot.highEnd)
-        {
-            activeSlot.impactCapital = 3;
-            activeSlot.impactPeople = 1;
-            activeSlot.impactEnvironment = -2;
-        }
-
-        if (activeSlot.buildingType == BuildingType.Industrial && activeSlot.highEnd)
-        {
-            activeSlot.impactCapital = 2;
-            activeSlot.impactPeople = 2;
-            activeSlot.impactEnvironment = 2;
-        }
-
-        if (activeSlot.buildingType == BuildingType.Residential && activeSlot.highEnd)
-        {
-            activeSlot.impactCapital = 1;
-            activeSlot.impactPeople = 3;
-            activeSlot.impactEnvironment = -1;
-        }
-
-        if (activeSlot.buildingType == BuildingType.Financial && !activeSlot.highEnd)
-        {
-            activeSlot.impactCapital = 1;
-            activeSlot.impactPeople = 1;
-            activeSlot.impactEnvironment = 1;
-        }
-
-        if (activeSlot.buildingType == BuildingType.Industrial && !activeSlot.highEnd)
-        {
-            activeSlot.impactCapital = 1;
-            activeSlot.impactPeople = 1;
-            activeSlot.impactEnvironment = -3;
-        }
-
-        if (activeSlot.buildingType == BuildingType.Residential && !activeSlot.highEnd)
-        {
-            activeSlot.impactCapital = -3;
-            activeSlot.impactPeople = 2;
-            activeSlot.impactEnvironment = -2;
+            if (AcpDataHandler.buildingSlots[i].buildingSlotID == inventoryID)
+            {
+                activeSlot = AcpDataHandler.buildingSlots[i];
+                activeSlotTransform = AcpDataHandler.buildingSlotGameObjects[i].transform;
+                
+            }
         }
     }
 
     public void Buy()
     {
-        //  Debug.Log("buybuybuyb");
-        if (!activeSlot.containsBuilding)
-        {
+     
             activeSlot.containsBuilding = true;
-            GameObject MeshToBuild = Instantiate(buildingMesh, activeSlot.slotMesh.transform.position, Quaternion.identity);
+            GameObject MeshToBuild = Instantiate(buildingMesh, activeSlotTransform.position, Quaternion.identity);
             MeshToBuild.transform.localScale = MeshToBuild.transform.localScale / 3;
 
-
-            if (activeSlot.highEnd) activeSlot.price = activeSlot.price * 2;
-            if (!activeSlot.highEnd) activeSlot.maintinence = activeSlot.maintinence * 2;
-
-            SetBuildingProperties();
-
-            AcpDataHandler.buildings.Add(activeSlot);
 
             acpData.capital = acpData.capital - activeSlot.price;
             updateCapital.Raise();
 
             newBuildingInfo.gameObject.SetActive(true);
 
-            Debug.Log("New Building: " +
+    /*        Debug.Log("New Building: " +
                activeSlot.id + ", Capital: " + activeSlot.impactCapital + ", Environment: " + activeSlot.impactEnvironment + ", People:" + activeSlot.impactPeople +
                ", Maintenance: " + activeSlot.maintinence + ", Price: " + activeSlot.price + ", highend: " + activeSlot.highEnd + ", Type: " + activeSlot.buildingType);
 
@@ -168,15 +108,10 @@ public class InventoryBuilding : MonoBehaviour
                 activeSlot.id + ", Capital: " + activeSlot.impactCapital + ", Environment: " + activeSlot.impactEnvironment + ", People:" + activeSlot.impactPeople +
                 ", Maintenance: " + activeSlot.maintinence + ", Price: " + activeSlot.price + ", highend: " + activeSlot.highEnd + ", Type: " + activeSlot.buildingType;
 
-            GameEventsGlobal.currentGlobalEvent.BuildingPurchased();
+            GameEventsGlobal.currentGlobalEvent.BuildingPurchased();*/
 
             InventoryPanel.SetActive(false);
-        }
-
-        else
-        {
-            return;
-        }
+       
     }
 
 

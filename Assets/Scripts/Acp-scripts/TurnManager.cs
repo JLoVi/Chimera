@@ -51,13 +51,13 @@ public class TurnManager : MonoBehaviour
             AcpDataHandler.seasonTimerValue -= Time.deltaTime;
             // }
 
-            foreach (BuildingSlot building in AcpDataHandler.buildings)
+          /*  foreach (BuildingSlot buildingSlot in AcpDataHandler.buildingSlots)
             {
                 acpData.capital = acpData.capital += building.impactCapital * 0.1f;
                 OnCapitalUpdated.Raise();
 //                capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
 
-            }
+            }*/
 
             TimeTilTurnText.text = "Time until next turn: " + Mathf.RoundToInt(AcpDataHandler.seasonTimerValue);
 
