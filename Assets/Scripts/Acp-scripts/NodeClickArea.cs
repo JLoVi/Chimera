@@ -11,40 +11,55 @@ public class NodeClickArea : MonoBehaviour
 
     public HoverInfoPopup popup;
 
-
-
     void Start()
     {
         rend = GetComponent<Renderer>();
-       // Debug.Log(GetComponent<NodeController>().terrainNode);
         id = GetComponent<NodeController>().terrainNode.id;
         popup = HoverInfoPopup.hoverInfoPopup;
         startColor = rend.material.color;
+        CheckForActiveFungiUnits();
 
+        //Debug.Log(GetComponent<NodeController>().terrainNode);
     }
 
     private void OnMouseDown()
     {
-        
         GameEventsTerrain.currentTerrainEvent.TerrainMouseClick(id);
         //popup.DisplayInfo();
     }
 
-
     void OnMouseEnter()
     {
-       
         GameEventsTerrain.currentTerrainEvent.TerrainMouseHover(id);
-
-      //  popup.DisplayInfo();
-
         rend.material.color = hoverColor;
+        //popup.DisplayInfo();
     }
 
     void OnMouseExit()
     {
         popup.HideInfo();
-
         rend.material.color = startColor;
+    }
+
+    void CheckForActiveFungiUnits()
+    {
+        if (AcpDataHandler.acpDataHandlerInstance.fungiData.activeUnitLocations != null)
+        {
+            foreach (LocationOnMap location in AcpDataHandler.acpDataHandlerInstance.fungiData.activeUnitLocations)
+            {
+                if (GetComponent<NodeController>().locatonOnMap != null)
+                {
+                    if (location.name == GetComponent<NodeController>().locatonOnMap.name)
+                    {
+                        rend.material.color = AcpDataHandler.acpDataHandlerInstance.colorPallette.color1;
+                        startColor = rend.material.color;
+                    }
+                }
+                else
+                {
+                    return;
+                }
+            }
+        }
     }
 }

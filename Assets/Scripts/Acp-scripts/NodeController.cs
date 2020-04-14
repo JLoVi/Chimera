@@ -9,23 +9,39 @@ public class NodeController : MonoBehaviour
     public int position;
     public LocationOnMap locatonOnMap;
 
-    public TerrainNode terrainNode;
+    [SerializeField] public TerrainNode terrainNode;
     public HoverInfoPopup popup;
+
+    public static TerrainNode selectedNode;
+
+    [SerializeField]
+    public AcpDataHandler acpDataHandler;
+
+    [SerializeField]
+    public AcpData acpData;
+
+    [SerializeField]
+    public GameEvent updateCapital;
+
+
 
 
     private void Awake()
     {
-        terrainNode = ScriptableObject.CreateInstance<TerrainNode>();
-        terrainNode.health = Random.Range(1, 100);
-        terrainNode.price = Random.Range(1, 100);
-        terrainNode.position = position;
-        terrainNode.observable = true;
-        terrainNode.purchased = false;
+        terrainNode = new TerrainNode
+        {
+            health = Random.Range(1, 100),
+            price = Random.Range(1, 100),
+            position = position,
+            observable = true,
+            purchased = false
+        };
 
-        GlobalDataStorage.terrainNodes.Add(terrainNode);
-
-        terrainNode.id = GlobalDataStorage.terrainNodes.Count;
+        //  acpDataHandler.t.Add(terrainNode);
+        acpDataHandler.terrainNodesOnMap.Add(terrainNode);
+        terrainNode.id = acpDataHandler.terrainNodesOnMap.Count;
         id = terrainNode.id;
+        acpData.nodeID.Add(id);
     }
     private void Start()
     {
@@ -46,10 +62,8 @@ public class NodeController : MonoBehaviour
             if (terrainNode.purchased)
             {
                 popup.infoText.text = "Already Purchased";
-
             }
         }
-
     }
 
     private void OnTerrainNodeClick(int id)
@@ -72,15 +86,15 @@ public class NodeController : MonoBehaviour
     private void Survey(int id)
     {
         //sx Debug.Log(terrainNode.health);
-        if (!terrainNode.purchased && GlobalDataStorage.capital > terrainNode.price)
+        if (!terrainNode.purchased && acpData.capital > terrainNode.price)
         {
             popup.infoText.text = "Terrain Survey: " + '\n'
                   + "health: " + terrainNode.health + '\n'
                   + "cost: " + terrainNode.price
-                  + '\n' + '\n'+ "<Click To Buy> ";
+                  + '\n' + '\n' + "<Click To Buy> ";
         }
 
-        if (!terrainNode.purchased && GlobalDataStorage.capital < terrainNode.price)
+        if (!terrainNode.purchased && acpData.capital < terrainNode.price)
         {
             popup.infoText.text = "Terrain Survey: " + '\n'
                   + "health: " + terrainNode.health + '\n'
@@ -103,21 +117,19 @@ public class NodeController : MonoBehaviour
     private void Buy(int id)
     {
 
-        if (GlobalDataStorage.capital > terrainNode.price)
+        if (acpData.capital > terrainNode.price)
         {
-            GlobalDataStorage.capital = GlobalDataStorage.capital - terrainNode.price;
-            GameEventsGlobal.currentGlobalEvent.CapitalUpdated();
+            acpData.capital -= terrainNode.price;
+            updateCapital.Raise();
             terrainNode.purchased = true;
-            GlobalDataStorage.terrainUnitsPurcased.Add(terrainNode);
+            //            acpData.terrainUnitsPurcased.Add(terrainNode);
 
             GameEventsGlobal.currentGlobalEvent.TerrainPurchased();
             this.gameObject.AddComponent<BuildingSlots>();
             this.gameObject.GetComponent<NodeClickArea>().enabled = false;
 
-
-
         }
     }
 
-   
+
 }

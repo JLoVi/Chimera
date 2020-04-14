@@ -15,16 +15,19 @@ public class SlotController : MonoBehaviour
 
     private void Awake()
     {
-        building = ScriptableObject.CreateInstance<BuildingSlot>();
-        building.slotMesh = this.gameObject;
+        building = new BuildingSlot
+        {
+            slotMesh = this.gameObject,
+            locationOnMap = transform.parent.GetComponent<NodeController>().locatonOnMap
+        };
         if (GetComponentInParent<NodeController>().terrainNode != null)
         {
             parentNode = GetComponentInParent<NodeController>().terrainNode;
             building.price = parentNode.price;
             building.maintinence = parentNode.health / 3;
         }
-        GlobalDataStorage.buildingSlots.Add(building);
-        building.id = GlobalDataStorage.buildingSlots.Count;
+        AcpDataHandler.buildingSlots.Add(building);
+        building.id = AcpDataHandler.buildingSlots.Count;
         id = building.id;
        // Debug.Log("buildingslot created" + id);
 
@@ -34,7 +37,7 @@ public class SlotController : MonoBehaviour
     void Start()
     {
         popup = HoverInfoPopup.hoverInfoPopup;
-        inventoryUI = GlobalDataStorage.buildingInventory;
+        inventoryUI = AcpDataHandler.buildingInventory;
         inventoryUI.SetActive(false);
 
         GameEventsBuildingSlots.currentBuildingSlotEvent.onSlotMouseHover += OnSlotHover;

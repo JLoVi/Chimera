@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class TerrainNode: ScriptableObject
+public class TerrainNode
 {
 
 

@@ -245,8 +245,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &10168112
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,8 +374,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &18279098
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,8 +503,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &30001273
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,8 +632,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &42409738
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,8 +853,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &47360640
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,8 +982,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &54736453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,8 +1197,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &75950571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,8 +1326,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &87702104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,8 +1547,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &101882612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,8 +1676,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &102957787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,8 +1805,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &104693680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,8 +1934,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: c6d550bd8e37247dfb74f7a2221f36d5, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &105661538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,8 +2063,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: df76a2a0c6d8d4bd086293e1be20cd86, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &114503036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,8 +2192,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &121670455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,8 +2321,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &122435698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,8 +2450,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &136295326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,8 +2671,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &171510640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,8 +2800,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &185038431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2893,8 +2929,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &195077999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,8 +3058,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: df76a2a0c6d8d4bd086293e1be20cd86, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &197178727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3191,8 +3231,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &201667490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,8 +3360,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &233325600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3667,8 +3711,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &247131882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,8 +3914,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &256877260
 GameObject:
   m_ObjectHideFlags: 0
@@ -4072,8 +4120,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 0489bbf84ad59482daba6a411f9ae69b, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &268924347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4243,8 +4293,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &280798140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,8 +4422,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &290875281
 GameObject:
   m_ObjectHideFlags: 0
@@ -4590,8 +4644,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &299067507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,8 +4773,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &305417178
 GameObject:
   m_ObjectHideFlags: 0
@@ -4937,8 +4995,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: c6d550bd8e37247dfb74f7a2221f36d5, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &356576503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5064,8 +5124,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &358684300
 GameObject:
   m_ObjectHideFlags: 0
@@ -5312,8 +5374,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &395482216
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,7 +5546,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  activeSlot: {fileID: 0}
   highEnd: 1
   buildingType: 1
   buildingMesh: {fileID: 9025222698381554044, guid: fddf09175c0f7465b88f07ef17e3f550,
@@ -5490,6 +5553,8 @@ MonoBehaviour:
   pricecat: 
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &401038352
 GameObject:
   m_ObjectHideFlags: 0
@@ -5615,8 +5680,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &406658550
 GameObject:
   m_ObjectHideFlags: 0
@@ -5742,8 +5809,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &409211038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5869,8 +5938,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &410412283
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,8 +6292,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &453307193
 GameObject:
   m_ObjectHideFlags: 0
@@ -6348,8 +6421,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &458417831
 GameObject:
   m_ObjectHideFlags: 0
@@ -6552,8 +6627,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &474838413
 GameObject:
   m_ObjectHideFlags: 0
@@ -6771,8 +6848,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &493255223
 GameObject:
   m_ObjectHideFlags: 0
@@ -6898,8 +6977,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &497898346
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,8 +7106,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &511653554
 GameObject:
   m_ObjectHideFlags: 0
@@ -7152,8 +7235,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &513801951
 GameObject:
   m_ObjectHideFlags: 0
@@ -7430,8 +7515,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &527311407
 GameObject:
   m_ObjectHideFlags: 0
@@ -7557,8 +7644,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &539685602
 GameObject:
   m_ObjectHideFlags: 0
@@ -7684,8 +7773,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &542059431
 GameObject:
   m_ObjectHideFlags: 0
@@ -7855,8 +7946,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &582948280
 GameObject:
   m_ObjectHideFlags: 0
@@ -8059,8 +8152,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &594113961
 GameObject:
   m_ObjectHideFlags: 0
@@ -8186,8 +8281,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &603559110
 GameObject:
   m_ObjectHideFlags: 0
@@ -8313,8 +8410,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &624024691
 GameObject:
   m_ObjectHideFlags: 0
@@ -8440,8 +8539,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &643264380
 GameObject:
   m_ObjectHideFlags: 0
@@ -8567,8 +8668,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &655397052
 GameObject:
   m_ObjectHideFlags: 0
@@ -8694,8 +8797,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &669479569
 GameObject:
   m_ObjectHideFlags: 0
@@ -8821,8 +8926,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &674411378
 GameObject:
   m_ObjectHideFlags: 0
@@ -8948,8 +9055,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &694630518
 GameObject:
   m_ObjectHideFlags: 0
@@ -9214,8 +9323,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &723038439
 GameObject:
   m_ObjectHideFlags: 0
@@ -9433,8 +9544,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &735810983
 GameObject:
   m_ObjectHideFlags: 0
@@ -9604,8 +9717,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &738813192
 GameObject:
   m_ObjectHideFlags: 0
@@ -9867,8 +9982,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &748170146
 GameObject:
   m_ObjectHideFlags: 0
@@ -10104,7 +10221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  activeSlot: {fileID: 0}
   highEnd: 0
   buildingType: 0
   buildingMesh: {fileID: 5413859998577570484, guid: f8b4ffa305d664e28a5cd1c2f4c9bf18,
@@ -10112,6 +10228,8 @@ MonoBehaviour:
   pricecat: 
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!114 &766378809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10434,8 +10552,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &811562297
 GameObject:
   m_ObjectHideFlags: 0
@@ -10561,8 +10681,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &823321134
 GameObject:
   m_ObjectHideFlags: 0
@@ -10688,8 +10810,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &823732757
 GameObject:
   m_ObjectHideFlags: 0
@@ -10815,8 +10939,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &830456861
 GameObject:
   m_ObjectHideFlags: 0
@@ -10942,8 +11068,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &867636409
 GameObject:
   m_ObjectHideFlags: 0
@@ -11069,8 +11197,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &872172161
 GameObject:
   m_ObjectHideFlags: 0
@@ -11196,8 +11326,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &879698498
 GameObject:
   m_ObjectHideFlags: 0
@@ -11507,8 +11639,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &887449651
 GameObject:
   m_ObjectHideFlags: 0
@@ -11634,8 +11768,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &888091148
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,8 +11897,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &896194966
 GameObject:
   m_ObjectHideFlags: 0
@@ -11888,8 +12026,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &897528590
 GameObject:
   m_ObjectHideFlags: 0
@@ -12015,8 +12155,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &900931045
 GameObject:
   m_ObjectHideFlags: 0
@@ -12142,8 +12284,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &904325119
 GameObject:
   m_ObjectHideFlags: 0
@@ -12269,8 +12413,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &908758033
 GameObject:
   m_ObjectHideFlags: 0
@@ -12396,8 +12542,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &922643229
 GameObject:
   m_ObjectHideFlags: 0
@@ -12523,8 +12671,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &947196108
 GameObject:
   m_ObjectHideFlags: 0
@@ -12650,8 +12800,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &948074067
 GameObject:
   m_ObjectHideFlags: 0
@@ -12821,8 +12973,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -13099,8 +13253,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &976029155
 GameObject:
   m_ObjectHideFlags: 0
@@ -13226,8 +13382,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1002062909
 GameObject:
   m_ObjectHideFlags: 0
@@ -13353,8 +13511,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1003247507
 GameObject:
   m_ObjectHideFlags: 0
@@ -13480,8 +13640,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1004948508
 GameObject:
   m_ObjectHideFlags: 0
@@ -13651,8 +13813,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1018482648
 GameObject:
   m_ObjectHideFlags: 0
@@ -13822,8 +13986,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1028266385
 GameObject:
   m_ObjectHideFlags: 0
@@ -13949,8 +14115,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1037756105
 GameObject:
   m_ObjectHideFlags: 0
@@ -14076,8 +14244,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1049444556
 GameObject:
   m_ObjectHideFlags: 0
@@ -14203,8 +14373,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 0489bbf84ad59482daba6a411f9ae69b, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1052336391
 GameObject:
   m_ObjectHideFlags: 0
@@ -14407,8 +14579,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1065173606
 GameObject:
   m_ObjectHideFlags: 0
@@ -14534,8 +14708,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: df76a2a0c6d8d4bd086293e1be20cd86, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1066490613
 GameObject:
   m_ObjectHideFlags: 0
@@ -14661,8 +14837,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1069515939
 GameObject:
   m_ObjectHideFlags: 0
@@ -14788,8 +14966,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1077225242
 GameObject:
   m_ObjectHideFlags: 0
@@ -14959,8 +15139,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1102954410
 GameObject:
   m_ObjectHideFlags: 0
@@ -14970,11 +15152,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102954411}
-  - component: {fileID: 1102954412}
   - component: {fileID: 1102954413}
-  - component: {fileID: 1102954414}
-  - component: {fileID: 1102954415}
   - component: {fileID: 1102954416}
+  - component: {fileID: 1102954414}
+  - component: {fileID: 1102954412}
+  - component: {fileID: 1102954415}
+  - component: {fileID: 1102954417}
+  - component: {fileID: 1102954418}
+  - component: {fileID: 1102954419}
   m_Layer: 0
   m_Name: ACP-GameMaster
   m_TagString: Untagged
@@ -15005,7 +15190,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102954410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0c157d812a364f02b0d80ff029f3942, type: 3}
+  m_Script: {fileID: 11500000, guid: 958324b32955d4cf39fa257de2a8d43c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1102954413
@@ -15024,6 +15209,8 @@ MonoBehaviour:
   SocialScoreText: 0
   EnvScoreText: 0
   EconomucScoreText: 0
+  fungiData: {fileID: 11400000, guid: 9db48c57541b24bcba71edc727599458, type: 2}
+  colorPallette: {fileID: 11400000, guid: b287428be4ba948e2ac6086258b21b52, type: 2}
 --- !u!114 &1102954414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15033,7 +15220,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102954410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52c6d6757f9d24225be42b16778291db, type: 3}
+  m_Script: {fileID: 11500000, guid: ae89eea3173224829939657de2011eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1102954415
@@ -15045,9 +15232,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102954410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45aec40b433842d98c0b57e3e5bdaf9, type: 3}
+  m_Script: {fileID: 11500000, guid: ddf44b5bc0742448d80be7eb52a9c1ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startSeasonButton: {fileID: 0}
+  StartTimerValue: 0
+  TimeTilTurnText: {fileID: 0}
+  SeasonCountText: {fileID: 0}
+  SocialScoreText: {fileID: 0}
+  EnvScoreText: {fileID: 0}
+  EconomucScoreText: {fileID: 0}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  OnCapitalUpdated: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!114 &1102954416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15064,10 +15260,64 @@ MonoBehaviour:
   StartTimerValue: 5
   TimeTilTurnText: {fileID: 1228846491}
   SeasonCountText: {fileID: 1052336393}
-  capitalText: {fileID: 768082536}
   SocialScoreText: {fileID: 0}
   EnvScoreText: {fileID: 0}
   EconomucScoreText: {fileID: 0}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  OnCapitalUpdated: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+--- !u!114 &1102954417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102954410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b80e379d6dc0145e284901ec959a3979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  capitalText: {fileID: 768082536}
+--- !u!114 &1102954418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102954410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7c0b7593d6344eba8e7b27f0ed77b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1102954417}
+        m_MethodName: UpdateCapitalText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1102954419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102954410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f41729cd6870430393eb56cead960c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1119382830
 GameObject:
   m_ObjectHideFlags: 0
@@ -15193,8 +15443,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1122173863
 GameObject:
   m_ObjectHideFlags: 0
@@ -15412,8 +15664,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1144730412
 GameObject:
   m_ObjectHideFlags: 0
@@ -15539,8 +15793,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1168524503
 GameObject:
   m_ObjectHideFlags: 0
@@ -15666,8 +15922,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1175322490
 GameObject:
   m_ObjectHideFlags: 0
@@ -15837,8 +16095,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1198872071
 GameObject:
   m_ObjectHideFlags: 0
@@ -16000,8 +16260,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1213118094
 GameObject:
   m_ObjectHideFlags: 0
@@ -16127,8 +16389,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1228846489
 GameObject:
   m_ObjectHideFlags: 0
@@ -16331,8 +16595,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1238483734
 GameObject:
   m_ObjectHideFlags: 0
@@ -16458,8 +16724,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1241572089
 GameObject:
   m_ObjectHideFlags: 0
@@ -16677,8 +16945,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1257947914
 GameObject:
   m_ObjectHideFlags: 0
@@ -16804,8 +17074,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1268466069
 GameObject:
   m_ObjectHideFlags: 0
@@ -17024,8 +17296,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1281229240
 GameObject:
   m_ObjectHideFlags: 0
@@ -17397,7 +17671,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  activeSlot: {fileID: 0}
   highEnd: 0
   buildingType: 2
   buildingMesh: {fileID: 1984717401883333893, guid: f4991c68f2ead4132849ec06ba3c4262,
@@ -17405,6 +17678,8 @@ MonoBehaviour:
   pricecat: 
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &1286030260
 GameObject:
   m_ObjectHideFlags: 0
@@ -17805,8 +18080,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1337173737
 GameObject:
   m_ObjectHideFlags: 0
@@ -17932,8 +18209,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1338770909
 GameObject:
   m_ObjectHideFlags: 0
@@ -18088,7 +18367,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  activeSlot: {fileID: 0}
   highEnd: 0
   buildingType: 1
   buildingMesh: {fileID: 9025222698381554044, guid: fddf09175c0f7465b88f07ef17e3f550,
@@ -18096,6 +18374,8 @@ MonoBehaviour:
   pricecat: 
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!114 &1338770916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18492,8 +18772,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1433300563
 GameObject:
   m_ObjectHideFlags: 0
@@ -18619,8 +18901,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1442795106
 GameObject:
   m_ObjectHideFlags: 0
@@ -18746,8 +19030,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1446507739
 GameObject:
   m_ObjectHideFlags: 0
@@ -18994,8 +19280,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1479557048
 GameObject:
   m_ObjectHideFlags: 0
@@ -19121,8 +19409,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1489506144
 GameObject:
   m_ObjectHideFlags: 0
@@ -19497,8 +19787,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1533993304
 GameObject:
   m_ObjectHideFlags: 0
@@ -19624,8 +19916,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1540562092
 GameObject:
   m_ObjectHideFlags: 0
@@ -19751,8 +20045,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1543700117
 GameObject:
   m_ObjectHideFlags: 0
@@ -19878,8 +20174,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1544323166
 GameObject:
   m_ObjectHideFlags: 0
@@ -20141,8 +20439,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1565114862
 GameObject:
   m_ObjectHideFlags: 0
@@ -20268,8 +20568,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1571992173
 GameObject:
   m_ObjectHideFlags: 0
@@ -20395,8 +20697,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1586446909
 GameObject:
   m_ObjectHideFlags: 0
@@ -20522,8 +20826,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1616344415
 GameObject:
   m_ObjectHideFlags: 0
@@ -20649,8 +20955,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1622607126
 GameObject:
   m_ObjectHideFlags: 0
@@ -20776,8 +21084,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1624374937
 GameObject:
   m_ObjectHideFlags: 0
@@ -20903,8 +21213,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1634966478
 GameObject:
   m_ObjectHideFlags: 0
@@ -21030,8 +21342,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1656019069
 GameObject:
   m_ObjectHideFlags: 0
@@ -21323,7 +21637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  activeSlot: {fileID: 0}
   highEnd: 1
   buildingType: 0
   buildingMesh: {fileID: 5413859998577570484, guid: f8b4ffa305d664e28a5cd1c2f4c9bf18,
@@ -21331,6 +21644,8 @@ MonoBehaviour:
   pricecat: 
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &1675525673
 GameObject:
   m_ObjectHideFlags: 0
@@ -21734,8 +22049,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1690691049
 GameObject:
   m_ObjectHideFlags: 0
@@ -21910,8 +22227,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1717967003
 GameObject:
   m_ObjectHideFlags: 0
@@ -22080,7 +22399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  activeSlot: {fileID: 0}
   highEnd: 1
   buildingType: 2
   buildingMesh: {fileID: 1984717401883333893, guid: f4991c68f2ead4132849ec06ba3c4262,
@@ -22088,6 +22406,8 @@ MonoBehaviour:
   pricecat: 
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &1720054789
 GameObject:
   m_ObjectHideFlags: 0
@@ -22257,8 +22577,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1722468988
 GameObject:
   m_ObjectHideFlags: 0
@@ -22384,8 +22706,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1741928805
 GameObject:
   m_ObjectHideFlags: 0
@@ -22617,8 +22941,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1745249974
 GameObject:
   m_ObjectHideFlags: 0
@@ -22744,8 +23070,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1746809973
 GameObject:
   m_ObjectHideFlags: 0
@@ -22941,8 +23269,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1760608790
 GameObject:
   m_ObjectHideFlags: 0
@@ -23068,8 +23398,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1769455686
 GameObject:
   m_ObjectHideFlags: 0
@@ -23195,8 +23527,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1769599814
 GameObject:
   m_ObjectHideFlags: 0
@@ -23555,8 +23889,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 0489bbf84ad59482daba6a411f9ae69b, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1862134468
 GameObject:
   m_ObjectHideFlags: 0
@@ -23757,8 +24093,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1864327615
 GameObject:
   m_ObjectHideFlags: 0
@@ -24301,8 +24639,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1910550760
 GameObject:
   m_ObjectHideFlags: 0
@@ -24428,8 +24768,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1912303199
 GameObject:
   m_ObjectHideFlags: 0
@@ -24599,8 +24941,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1937824518
 GameObject:
   m_ObjectHideFlags: 0
@@ -24726,8 +25070,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1942190359
 GameObject:
   m_ObjectHideFlags: 0
@@ -24853,8 +25199,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1943184527
 GameObject:
   m_ObjectHideFlags: 0
@@ -25149,8 +25497,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1969983146
 GameObject:
   m_ObjectHideFlags: 0
@@ -25276,8 +25626,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1975944863
 GameObject:
   m_ObjectHideFlags: 0
@@ -25403,8 +25755,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1977959730
 GameObject:
   m_ObjectHideFlags: 0
@@ -25683,8 +26037,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1992359189
 GameObject:
   m_ObjectHideFlags: 0
@@ -25841,8 +26197,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &1998338112
 GameObject:
   m_ObjectHideFlags: 0
@@ -25968,8 +26326,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2002740973
 GameObject:
   m_ObjectHideFlags: 0
@@ -26095,8 +26455,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2011987543
 GameObject:
   m_ObjectHideFlags: 0
@@ -26222,8 +26584,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2013043815
 GameObject:
   m_ObjectHideFlags: 0
@@ -26349,8 +26713,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 0}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2027548354
 GameObject:
   m_ObjectHideFlags: 0
@@ -26660,8 +27026,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2039869356
 GameObject:
   m_ObjectHideFlags: 0
@@ -26787,8 +27155,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2073896720
 GameObject:
   m_ObjectHideFlags: 0
@@ -26914,8 +27284,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2080704926
 GameObject:
   m_ObjectHideFlags: 0
@@ -27041,8 +27413,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2093674655
 GameObject:
   m_ObjectHideFlags: 0
@@ -27353,8 +27727,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2126136049
 GameObject:
   m_ObjectHideFlags: 0
@@ -27480,8 +27856,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2132332778
 GameObject:
   m_ObjectHideFlags: 0
@@ -27607,8 +27985,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &2133295603
 GameObject:
   m_ObjectHideFlags: 0
@@ -27778,8 +28158,10 @@ MonoBehaviour:
   id: 0
   position: 2
   locatonOnMap: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
-  terrainNode: {fileID: 0}
   popup: {fileID: 0}
+  acpDataHandler: {fileID: 1102954413}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!1 &52622435515014495
 GameObject:
   m_ObjectHideFlags: 0

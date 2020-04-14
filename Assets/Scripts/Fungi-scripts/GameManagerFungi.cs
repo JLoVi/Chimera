@@ -4,7 +4,6 @@ using System;
 
 public class GameManagerFungi : MonoBehaviour
 {
-
     public FungiData fungiData;
 
     public static LocationOnMap activeLocation;

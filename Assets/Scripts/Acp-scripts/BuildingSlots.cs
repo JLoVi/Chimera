@@ -49,7 +49,7 @@ public class BuildingSlots : MonoBehaviour
             // Instantiate(objectToPlace, new Vector3(randomX, randomY, randomZ))
             GameObject buildingSlot = Instantiate(objectToPlace, randomPos, Quaternion.identity);
             buildingSlots.Add(buildingSlot);
-            GlobalDataStorage.buildingSlotGameObjects.Add(buildingSlot);
+            AcpDataHandler.buildingSlotGameObjects.Add(buildingSlot);
 
             buildingSlot.transform.localScale = buildingSlot.transform.localScale * Random.Range(0.7f, 1.4f);
             buildingSlot.transform.parent = this.transform;

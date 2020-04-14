@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "New Building", menuName = "Items/Building")]
-
-public class BuildingSlot : ScriptableObject
-
+public class BuildingSlot 
 {
 
 
     public int id;
+    public LocationOnMap locationOnMap;
     public GameObject slotMesh;
     public int price;
     public int maintinence;

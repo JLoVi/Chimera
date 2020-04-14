@@ -19,7 +19,11 @@ public class InventoryBuilding : MonoBehaviour
 
     public GameObject InventoryPanel;
     public Text newBuildingInfo;
-   
+
+    [SerializeField] private GameEvent updateCapital;
+    [SerializeField] private AcpData acpData;
+
+
 
     private void Start()
     {
@@ -43,43 +47,43 @@ public class InventoryBuilding : MonoBehaviour
     {
         FindActiveSlotByID();
 
-        
 
         popup.DisplayInfo();
-        popup.infoText.text = "Building Slot: " +  id + '\n' +
+        popup.infoText.text = "Building Slot: " + id + '\n' +
                   pricecat + '\n' + "Type: " + buildingType + '\n' +
-                   + '\n' + '\n' + "<Click To Buy> ";
+                   +'\n' + '\n' + "<Click To Buy> ";
     }
 
     public void ExitMouseUI()
     {
-      
+
         popup.HideInfo();
-        
+
     }
 
-    
+
 
     public void FindActiveSlotByID()
     {
-        foreach (BuildingSlot building in GlobalDataStorage.buildingSlots)
+        foreach (BuildingSlot building in AcpDataHandler.buildingSlots)
         {
             if (building.id == id)
             {
                 activeSlot = building;
-               // Debug.Log("The Active Slot IS: " + activeSlot.id);
+                // Debug.Log("The Active Slot IS: " + activeSlot.id);
                 GetBuildingProperties();
             }
         }
-        
+
     }
 
     public void GetBuildingProperties()
     {
-        if (!activeSlot.containsBuilding) { 
-        activeSlot.buildingMesh = buildingMesh;
-        activeSlot.buildingType = buildingType;
-        activeSlot.highEnd = highEnd;
+        if (!activeSlot.containsBuilding)
+        {
+            activeSlot.buildingMesh = buildingMesh;
+            activeSlot.buildingType = buildingType;
+            activeSlot.highEnd = highEnd;
         }
         else
         {
@@ -141,23 +145,23 @@ public class InventoryBuilding : MonoBehaviour
             activeSlot.containsBuilding = true;
             GameObject MeshToBuild = Instantiate(buildingMesh, activeSlot.slotMesh.transform.position, Quaternion.identity);
             MeshToBuild.transform.localScale = MeshToBuild.transform.localScale / 3;
-            
+
 
             if (activeSlot.highEnd) activeSlot.price = activeSlot.price * 2;
-            if (!activeSlot.highEnd) activeSlot.maintinence = activeSlot.maintinence * 2 ;
-           
+            if (!activeSlot.highEnd) activeSlot.maintinence = activeSlot.maintinence * 2;
+
             SetBuildingProperties();
 
-            GlobalDataStorage.buildings.Add(activeSlot);
+            AcpDataHandler.buildings.Add(activeSlot);
 
-            GlobalDataStorage.capital = GlobalDataStorage.capital - activeSlot.price;
-            GameEventsGlobal.currentGlobalEvent.CapitalUpdated();
+            acpData.capital = acpData.capital - activeSlot.price;
+            updateCapital.Raise();
 
             newBuildingInfo.gameObject.SetActive(true);
 
-             Debug.Log("New Building: " +
-                activeSlot.id + ", Capital: " + activeSlot.impactCapital + ", Environment: " + activeSlot.impactEnvironment + ", People:" + activeSlot.impactPeople +
-                ", Maintenance: " + activeSlot.maintinence + ", Price: " + activeSlot.price + ", highend: " + activeSlot.highEnd + ", Type: " + activeSlot.buildingType);
+            Debug.Log("New Building: " +
+               activeSlot.id + ", Capital: " + activeSlot.impactCapital + ", Environment: " + activeSlot.impactEnvironment + ", People:" + activeSlot.impactPeople +
+               ", Maintenance: " + activeSlot.maintinence + ", Price: " + activeSlot.price + ", highend: " + activeSlot.highEnd + ", Type: " + activeSlot.buildingType);
 
 
             newBuildingInfo.text = "New Building: " +
@@ -166,9 +170,6 @@ public class InventoryBuilding : MonoBehaviour
 
             GameEventsGlobal.currentGlobalEvent.BuildingPurchased();
 
-            
-           
-           
             InventoryPanel.SetActive(false);
         }
 
@@ -178,8 +179,8 @@ public class InventoryBuilding : MonoBehaviour
         }
     }
 
-   
-   
+
+
 
 }
 

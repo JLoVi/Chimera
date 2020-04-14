@@ -14,8 +14,7 @@ public class GlobalGameState : MonoBehaviour
 
     [SerializeField]
     private ActiveSceneData activeSceneData;
-
-    public Camera mainCam; 
+    public Camera mainCam;
 
     private void Update()
     {
@@ -48,8 +47,6 @@ public class GlobalGameState : MonoBehaviour
             OnSceneChanged.Raise();
         }
 
-        //0 or 5 is default scene
-
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
             activeScene = 0;
@@ -62,7 +59,6 @@ public class GlobalGameState : MonoBehaviour
             OnSceneChanged.Raise();
         }
     }
-
     public void UpdateScene()
     {
         switch (activeScene)
@@ -91,6 +87,7 @@ public class GlobalGameState : MonoBehaviour
                     activeSceneData.rockActive = false;
                 }
                 break;
+
             case 2:
                 mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.fungiActive)
@@ -114,8 +111,8 @@ public class GlobalGameState : MonoBehaviour
                     SceneManager.UnloadSceneAsync("04-rock");
                     activeSceneData.rockActive = false;
                 }
-
                 break;
+
             case 3:
                 mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.ayucActive)
@@ -139,8 +136,8 @@ public class GlobalGameState : MonoBehaviour
                     SceneManager.UnloadSceneAsync("04-rock");
                     activeSceneData.rockActive = false;
                 }
-
                 break;
+
             case 4:
                 mainCam.gameObject.SetActive(false);
                 if (!activeSceneData.rockActive)
@@ -164,8 +161,8 @@ public class GlobalGameState : MonoBehaviour
                     SceneManager.UnloadSceneAsync("01-acp");
                     activeSceneData.acpActive = false;
                 }
-
                 break;
+
             case 0:
                 mainCam.gameObject.SetActive(true);
                 SceneManager.LoadScene("00-base-all", LoadSceneMode.Single);
@@ -174,6 +171,7 @@ public class GlobalGameState : MonoBehaviour
                 activeSceneData.ayucActive = false;
                 activeSceneData.rockActive = false;
                 break;
+
             default:
                 mainCam.gameObject.SetActive(true);
                 SceneManager.LoadScene("00-base-all", LoadSceneMode.Single);
@@ -182,7 +180,6 @@ public class GlobalGameState : MonoBehaviour
                 activeSceneData.ayucActive = false;
                 activeSceneData.rockActive = false;
                 break;
-
         }
     }
 }

@@ -14,20 +14,21 @@ public class TurnManager : MonoBehaviour
     public Text TimeTilTurnText;
     public Text SeasonCountText;
 
-    public Text capitalText;
+   // public Text capitalText;
     public Text SocialScoreText;
     public Text EnvScoreText;
     public Text EconomucScoreText;
 
+    public AcpData acpData;
+
+    [SerializeField] private GameEvent OnCapitalUpdated;
 
 
     void Start()
     {
-        GlobalDataStorage.seasonCount = 1;
-        GlobalDataStorage.seasonTimerValue = StartTimerValue;
-        GameEventsGlobal.currentGlobalEvent.onCapitalUpdated += OnCapitalUpdated;
-
-        capitalText.text = "Capital: " + GlobalDataStorage.capital.ToString();
+        AcpDataHandler.seasonCount = 1;
+        AcpDataHandler.seasonTimerValue = StartTimerValue;
+        OnCapitalUpdated.Raise();
         GameEventsGlobal.currentGlobalEvent.onSeasonBegin += OnSeasonBegin;
         GameEventsGlobal.currentGlobalEvent.onSeasonEnd += OnSeasonEnd;
 
@@ -35,7 +36,7 @@ public class TurnManager : MonoBehaviour
 
     public void StartSeason()
     {
-        
+
         StartCoroutine(StartSeasonCounter());
 
     }
@@ -43,55 +44,51 @@ public class TurnManager : MonoBehaviour
     public IEnumerator StartSeasonCounter()
     {
         GameEventsGlobal.currentGlobalEvent.SeasonBegin();
-        while (GlobalDataStorage.seasonTimerValue >= 0.0f)
+        while (AcpDataHandler.seasonTimerValue >= 0.0f)
         {
             //if (!isPaused)
             //{
-            GlobalDataStorage.seasonTimerValue -= Time.deltaTime;
+            AcpDataHandler.seasonTimerValue -= Time.deltaTime;
             // }
 
-            foreach(BuildingSlot building in GlobalDataStorage.buildings)
+            foreach (BuildingSlot building in AcpDataHandler.buildings)
             {
-               GlobalDataStorage.capital = GlobalDataStorage.capital += building.impactCapital * 0.1f;
+                acpData.capital = acpData.capital += building.impactCapital * 0.1f;
+                OnCapitalUpdated.Raise();
+//                capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
 
-                capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(GlobalDataStorage.capital);
             }
 
-            TimeTilTurnText.text = "Time until next turn: " + Mathf.RoundToInt(GlobalDataStorage.seasonTimerValue);
+            TimeTilTurnText.text = "Time until next turn: " + Mathf.RoundToInt(AcpDataHandler.seasonTimerValue);
 
             //  yield return new WaitForEndOfFrame ();
             yield return null;
-            
+
         }
         GameEventsGlobal.currentGlobalEvent.SeasonEnd();
-       // GameEventsGlobal.currentGlobalEvent.onSeasonBegin -= OnSeasonBegin;
+        // GameEventsGlobal.currentGlobalEvent.onSeasonBegin -= OnSeasonBegin;
     }
 
 
     public void OnSeasonBegin()
     {
         Debug.Log("Start Season");
-        GlobalDataStorage.inSeason = true;
-        GlobalDataStorage.seasonCount++;
+        AcpDataHandler.inSeason = true;
+        AcpDataHandler.seasonCount++;
         startSeasonButton.SetActive(false);
-        SeasonCountText.text = "Season / Turn: " + GlobalDataStorage.seasonCount;
-        TimeTilTurnText.text = "Time until next turn: " + GlobalDataStorage.seasonTimerValue;
+        SeasonCountText.text = "Season / Turn: " + AcpDataHandler.seasonCount;
+        TimeTilTurnText.text = "Time until next turn: " + AcpDataHandler.seasonTimerValue;
     }
 
     public void OnSeasonEnd()
     {
         Debug.Log("End Season");
-        GlobalDataStorage.seasonTimerValue = StartTimerValue;
+        AcpDataHandler.seasonTimerValue = StartTimerValue;
         startSeasonButton.SetActive(true);
 
     }
 
-    private void OnCapitalUpdated()
-    {
-
-        capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(GlobalDataStorage.capital);
-
-    }
+   
 
 
 }

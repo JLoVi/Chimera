@@ -13,14 +13,14 @@ public class GameEventsGlobal : MonoBehaviour
         currentGlobalEvent = this;
     }
 
-    public event Action onCapitalUpdated;
+    /*public event Action onCapitalUpdated;
     public void CapitalUpdated()
     {
         if (onCapitalUpdated != null)
         {
             onCapitalUpdated();
         }
-    }
+    }*/
 
     public event Action onTerrainPurchased;
     public void TerrainPurchased()

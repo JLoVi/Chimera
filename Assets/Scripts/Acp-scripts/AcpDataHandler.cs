@@ -3,14 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GlobalDataStorage : MonoBehaviour
-{ 
-    //ACP
-    public static float capital;
-    
-
-    public static List<TerrainNode> terrainNodes = new List<TerrainNode>();
-    public static List<TerrainNode> terrainUnitsPurcased = new List<TerrainNode>();
+public class AcpDataHandler : MonoBehaviour
+{
+    public List<TerrainNode> terrainNodesOnMap = new List<TerrainNode>();
 
     public static List<BuildingSlot> buildingSlots = new List<BuildingSlot>();
     public static List<GameObject> buildingSlotGameObjects = new List<GameObject>();
@@ -28,23 +23,28 @@ public class GlobalDataStorage : MonoBehaviour
     public float EnvScoreText;
     public float EconomucScoreText;
 
+    public FungiData fungiData;
+    public ColorPallette colorPallette;
+
+    public static AcpDataHandler acpDataHandlerInstance;
+
     void Awake()
     {
-        capital = Random.Range(300, 1000);
+        acpDataHandlerInstance = this;
 
         buildingInventory = buildingInventoryUtility;
 
         if(buildingInventory != null) {
-            Debug.Log("GLOBAL DATA STORE - Building Inventory Found");
+            Debug.Log("ACP data utility - Building Inventory Found");
                 }
 
     }
 
     private void Start()
     {
-        GameEventsGlobal.currentGlobalEvent.CapitalUpdated();
         buildingInventory.SetActive(false);
         inSeason = false;
+
     }
 
 }

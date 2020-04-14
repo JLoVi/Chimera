@@ -34,7 +34,7 @@ public class SlotClickArea : MonoBehaviour
 
         if (selected)
         {
-            foreach(GameObject slot in GlobalDataStorage.buildingSlotGameObjects)
+            foreach(GameObject slot in AcpDataHandler.buildingSlotGameObjects)
             {
                 if (slot != this.gameObject)
                 {
