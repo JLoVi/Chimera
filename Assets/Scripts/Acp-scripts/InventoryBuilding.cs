@@ -11,7 +11,6 @@ public class InventoryBuilding : MonoBehaviour
     public HoverInfoPopup popup;
 
     public BuildingSlot activeSlot;
-    public Transform activeSlotTransform;
 
     public bool highEnd;
     public BuildingType buildingType;
@@ -31,8 +30,6 @@ public class InventoryBuilding : MonoBehaviour
     {
         popup = HoverInfoPopup.hoverInfoPopup;
 
-        FindActiveSlotByID();
-
         pricecat = highEnd ? "High End " : "Cheap ";
 
         newBuildingInfo.gameObject.SetActive(false);
@@ -47,9 +44,6 @@ public class InventoryBuilding : MonoBehaviour
 
     public void MouseOnUI()
     {
-        FindActiveSlotByID();
-
-
         popup.DisplayInfo();
         popup.infoText.text = "Building Slot: " + inventoryID + '\n' +
                   pricecat + '\n' + "Type: " + buildingType + '\n' +
@@ -63,34 +57,11 @@ public class InventoryBuilding : MonoBehaviour
 
     }
 
-
-
-    public void FindActiveSlotByID()
-    {
-        foreach (BuildingSlot buildingSlot in AcpDataHandler.buildingSlots)
-        {
-            if (buildingSlot.buildingSlotID == inventoryID)
-            {
-                activeSlot = buildingSlot;
-                Debug.Log("The Active Slot IS: " + activeSlot.id);
-            }
-        }
-        for (int i = 0; i < AcpDataHandler.buildingSlots.Count; i++)
-        {
-            if (AcpDataHandler.buildingSlots[i].buildingSlotID == inventoryID)
-            {
-                activeSlot = AcpDataHandler.buildingSlots[i];
-                activeSlotTransform = AcpDataHandler.buildingSlotGameObjects[i].transform;
-                
-            }
-        }
-    }
-
     public void Buy()
     {
      
             activeSlot.containsBuilding = true;
-            GameObject MeshToBuild = Instantiate(buildingMesh, activeSlotTransform.position, Quaternion.identity);
+            GameObject MeshToBuild = Instantiate(buildingMesh, SlotClickArea.selectedBuildingSlotObject.transform.position, Quaternion.identity);
             MeshToBuild.transform.localScale = MeshToBuild.transform.localScale / 3;
 
 

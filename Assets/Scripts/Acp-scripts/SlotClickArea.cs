@@ -12,6 +12,8 @@ public class SlotClickArea : MonoBehaviour
     public HoverInfoPopup popup;
 
     public bool selected;
+    public static GameObject selectedBuildingSlotObject;
+    public static BuildingSlot selectedBuildingSlot;
 
 
     void Start()
@@ -24,12 +26,19 @@ public class SlotClickArea : MonoBehaviour
         startColor = rend.material.color;
         if (GetComponent<SlotController>()!= null)
         {
-            id = GetComponent<SlotController>().buildingSlot.id;
+            id = GetComponent<SlotController>().buildingSlot.buildingSlotID;
         }
     }
 
     private void OnMouseDown()
     {
+        if (!selected)
+        {
+            selectedBuildingSlotObject = this.gameObject;
+            selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
+            Debug.Log("selected slot " + selectedBuildingSlot.buildingSlotID);
+        }
+
         selected = !selected;
 
         if (selected)
@@ -43,6 +52,7 @@ public class SlotClickArea : MonoBehaviour
                 }
             }
         }
+       
        // Debug.Log(selected);
         GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
         //popup.DisplayInfo();

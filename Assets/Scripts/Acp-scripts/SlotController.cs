@@ -9,24 +9,28 @@ public class SlotController : MonoBehaviour
     [SerializeField] private HoverInfoPopup popup;
     public GameObject inventoryUI;
     public BuildingSlot buildingSlot;
-  //  public static InventoryBuilding currentInventoryBuilding;
+    //  public static InventoryBuilding currentInventoryBuilding;
 
 
 
     private void Awake()
     {
         buildingSlot = new BuildingSlot(false);
-        
+
         if (GetComponentInParent<NodeController>().terrainNode != null)
         {
             parentNode = GetComponentInParent<NodeController>().terrainNode;
             buildingSlot.price = parentNode.price;
-            //building.maintinence = parentNode.health / 3;
+            buildingSlot.id = parentNode.id;
+            buildingSlot.location = parentNode.location;
+            buildingSlot.health = parentNode.health;
+
+
         }
         AcpDataHandler.buildingSlots.Add(buildingSlot);
         buildingSlot.buildingSlotID = AcpDataHandler.buildingSlots.Count;
         buildingSlotID = buildingSlot.buildingSlotID;
-       // Debug.Log("buildingslot created" + id);
+        // Debug.Log("buildingslot created" + id);
 
     }
 
@@ -39,7 +43,7 @@ public class SlotController : MonoBehaviour
 
         GameEventsBuildingSlots.currentBuildingSlotEvent.onSlotMouseHover += OnSlotHover;
         GameEventsBuildingSlots.currentBuildingSlotEvent.onSlotMouseClick += OnSlotClick;
-       
+
     }
 
     void OnSlotHover(int id)
@@ -55,7 +59,8 @@ public class SlotController : MonoBehaviour
     {
         if (id == this.buildingSlotID)
         {
-            if (!buildingSlot.containsBuilding) {
+            if (!buildingSlot.containsBuilding)
+            {
                 inventoryUI.SetActive(true);
                 //InventoryBuilding.id = id;
             }
@@ -65,11 +70,5 @@ public class SlotController : MonoBehaviour
                 popup.infoText.text = "This slot already contains a building";
             }
         }
-
-        
-               
-        
     }
-
-
 }

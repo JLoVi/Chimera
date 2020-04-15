@@ -18,21 +18,19 @@ public class NodeClickArea : MonoBehaviour
         popup = HoverInfoPopup.hoverInfoPopup;
         startColor = rend.material.color;
         CheckForActiveFungiUnits();
-
-        //Debug.Log(GetComponent<NodeController>().terrainNode);
     }
 
     private void OnMouseDown()
     {
         GameEventsTerrain.currentTerrainEvent.TerrainMouseClick(id);
-        //popup.DisplayInfo();
+        popup.DisplayInfo();
     }
 
     void OnMouseEnter()
     {
         GameEventsTerrain.currentTerrainEvent.TerrainMouseHover(id);
         rend.material.color = hoverColor;
-        //popup.DisplayInfo();
+        popup.DisplayInfo();
     }
 
     void OnMouseExit()
