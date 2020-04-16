@@ -15,7 +15,6 @@ public class CreateBuildingSlots : MonoBehaviour
 
     [SerializeField] private AcpData acpData;
 
-
     // public GameObject a;
     // public GameObject b;
 
@@ -29,11 +28,13 @@ public class CreateBuildingSlots : MonoBehaviour
         numberOfObjects = Mathf.RoundToInt(gameObject.GetComponent<NodeController>().terrainNode.health / 10);
 
         StartCoroutine(SpawnBuildingSlots());
+
         /*
-                if (a.GetComponent<Collider>().bounds.Intersects(b.GetComponent<Collider>().bounds))
-                {
-                    Debug.Log("HHHHH");
-                }*/
+        if (a.GetComponent<Collider>().bounds.Intersects(b.GetComponent<Collider>().bounds))
+        {
+            Debug.Log("HHHHH");
+        }
+        */
     }
 
 
@@ -50,43 +51,40 @@ public class CreateBuildingSlots : MonoBehaviour
             // Instantiate(objectToPlace, new Vector3(randomX, randomY, randomZ))
             GameObject buildingSlot = Instantiate(objectToPlace, randomPos, Quaternion.identity);
             AcpDataHandler.buildingSlotGameObjects.Add(buildingSlot);
-            
+
 
 
             buildingSlot.transform.localScale = buildingSlot.transform.localScale * Random.Range(0.7f, 1.4f);
             buildingSlot.transform.parent = this.transform;
             buildingSlot.AddComponent<SlotController>();
-           
 
-            /* CheckIfOverlap();
-             while (overlaps)
-             {
-                 randomPos = new Vector3(gameObject.transform.position.x + Random.Range(-1.5f, 1.5f),
-                     gameObject.transform.position.y + 0.58f,
-                     gameObject.transform.position.z + Random.Range(-1.5f, 1.5f));
 
-                 objectToPlace.transform.position = randomPos;
-                 CheckIfOverlap();*/
+            /*CheckIfOverlap();
+            while (overlaps)
+            {
+                randomPos = new Vector3(gameObject.transform.position.x + Random.Range(-1.5f, 1.5f),
+                    gameObject.transform.position.y + 0.58f,
+                    gameObject.transform.position.z + Random.Range(-1.5f, 1.5f));
+
+                objectToPlace.transform.position = randomPos;
+                CheckIfOverlap();*/
         }
     }
 }
 
-/*   public void CheckIfOverlap()
-   {
-
-       foreach (GameObject slot in buildingSlots)
-       {
-         //  Debug.Log(slot);
-           //Debug.Log("check");
-           if (objectToPlace.GetComponent<Collider>().bounds.Intersects(slot.GetComponent<Collider>().bounds))
-           {
-               overlaps = true;
-                Debug.Log("overlaps");
-           }
-
-       }
-
-   }*/
+/*public void CheckIfOverlap()
+ {
+     foreach (GameObject slot in buildingSlots)
+     {
+       //  Debug.Log(slot);
+         //Debug.Log("check");
+         if (objectToPlace.GetComponent<Collider>().bounds.Intersects(slot.GetComponent<Collider>().bounds))
+         {
+             overlaps = true;
+              Debug.Log("overlaps");
+         }
+     }
+ }*/
 
 
 

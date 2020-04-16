@@ -15,6 +15,8 @@ public class InventoryBuilding : MonoBehaviour
     public Text newBuildingInfo;
 
     [SerializeField] private GameEvent updateCapital;
+    [SerializeField] private GameEvent purchaseBuilding;
+
     [SerializeField] private AcpData acpData;
 
     private void Start()
@@ -55,6 +57,7 @@ public class InventoryBuilding : MonoBehaviour
         AcpDataHandler.selectedBuildingSlot.purchased = true;
         AcpDataHandler.selectedBuildingSlot.containsBuilding = true;
         AcpDataHandler.selectedBuildingSlot.building = building;
+        purchaseBuilding.Raise();
 
         acpData.capital = acpData.capital - (AcpDataHandler.selectedBuildingSlot.price + building.constructitonCost);
         updateCapital.Raise();

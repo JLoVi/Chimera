@@ -24,26 +24,10 @@ public class NodeController : MonoBehaviour
     [SerializeField]
     public GameEvent updateCapital;
 
+    [SerializeField]
+    public GameEvent terrainNodePurchased;
+
     public bool observable;
-
-
-    private void Awake()
-    {
-        terrainNode = CreateTerrainNode();
-
-        acpDataHandler.terrainNodesOnMap.Add(terrainNode);
-        terrainNode.id = acpDataHandler.terrainNodesOnMap.Count;
-
-        id = terrainNode.id;
-        terrainNode.AddTerrainNodeToData(acpData);
-    }
-    private void Start()
-    {
-        popup = HoverInfoPopup.hoverInfoPopup;
-        GameEventsTerrain.currentTerrainEvent.onTerrainMouseHover += OnTerrainNodeHover;
-        GameEventsTerrain.currentTerrainEvent.onTerrainMouseClick += OnTerrainNodeClick;
-
-    }
 
     private TerrainNode CreateTerrainNode()
     {
@@ -56,7 +40,24 @@ public class NodeController : MonoBehaviour
         };
         return node;
     }
+    private void Awake()
+    {
+        terrainNode = CreateTerrainNode();
 
+        acpDataHandler.terrainNodesOnMap.Add(terrainNode);
+        terrainNode.id = acpDataHandler.terrainNodesOnMap.Count;
+
+        id = terrainNode.id;
+        terrainNode.AddTerrainNodeToData(acpData);
+    }
+
+    private void Start()
+    {
+        popup = HoverInfoPopup.hoverInfoPopup;
+        GameEventsTerrain.currentTerrainEvent.onTerrainMouseHover += OnTerrainNodeHover;
+        GameEventsTerrain.currentTerrainEvent.onTerrainMouseClick += OnTerrainNodeClick;
+
+    }
 
     private void OnTerrainNodeHover(int id)
     {
@@ -86,8 +87,6 @@ public class NodeController : MonoBehaviour
                 return;
             }
         }
-
-
     }
 
     private void Survey(int id)
@@ -130,7 +129,8 @@ public class NodeController : MonoBehaviour
             updateCapital.Raise();
             terrainNode.purchased = true;
             terrainNode.ModifyTerrainNodeData(acpData, terrainNode);
-          //  GameEventsGlobal.currentGlobalEvent.TerrainPurchased();
+            terrainNodePurchased.Raise();
+
             this.gameObject.AddComponent<CreateBuildingSlots>();
             this.gameObject.GetComponent<NodeClickArea>().enabled = false;
 

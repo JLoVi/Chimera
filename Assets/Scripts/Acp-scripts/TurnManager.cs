@@ -29,8 +29,8 @@ public class TurnManager : MonoBehaviour
         AcpDataHandler.seasonCount = 1;
         AcpDataHandler.seasonTimerValue = StartTimerValue;
         OnCapitalUpdated.Raise();
-        GameEventsGlobal.currentGlobalEvent.onSeasonBegin += OnSeasonBegin;
-        GameEventsGlobal.currentGlobalEvent.onSeasonEnd += OnSeasonEnd;
+        GameEventsTurns.currentSeasonEvent.onSeasonBegin += OnSeasonBegin;
+        GameEventsTurns.currentSeasonEvent.onSeasonEnd += OnSeasonEnd;
 
     }
 
@@ -43,7 +43,7 @@ public class TurnManager : MonoBehaviour
 
     public IEnumerator StartSeasonCounter()
     {
-        GameEventsGlobal.currentGlobalEvent.SeasonBegin();
+        GameEventsTurns.currentSeasonEvent.SeasonBegin();
         while (AcpDataHandler.seasonTimerValue >= 0.0f)
         {
             //if (!isPaused)
@@ -51,11 +51,11 @@ public class TurnManager : MonoBehaviour
             AcpDataHandler.seasonTimerValue -= Time.deltaTime;
             // }
 
-          /*  foreach (BuildingSlot buildingSlot in AcpDataHandler.buildingSlots)
+            /*  foreach (BuildingSlot buildingSlot in AcpDataHandler.buildingSlots)
             {
                 acpData.capital = acpData.capital += building.impactCapital * 0.1f;
                 OnCapitalUpdated.Raise();
-//                capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
+                //capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
 
             }*/
 
@@ -65,7 +65,7 @@ public class TurnManager : MonoBehaviour
             yield return null;
 
         }
-        GameEventsGlobal.currentGlobalEvent.SeasonEnd();
+        GameEventsTurns.currentSeasonEvent.SeasonEnd();
         // GameEventsGlobal.currentGlobalEvent.onSeasonBegin -= OnSeasonBegin;
     }
 
