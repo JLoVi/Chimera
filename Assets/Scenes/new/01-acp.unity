@@ -5771,20 +5771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   popup: {fileID: 0}
-  activeSlot:
-    id: 0
-    location: {fileID: 0}
-    health: 0
-    price: 0
-    purchased: 0
-    buildingSlotID: 0
-    containsBuilding: 0
-  activeSlotTransform: {fileID: 0}
-  highEnd: 1
-  buildingType: 1
-  buildingMesh: {fileID: 9025222698381554044, guid: fddf09175c0f7465b88f07ef17e3f550,
-    type: 3}
-  pricecat: 
+  building: {fileID: 11400000, guid: a71c5ec6da1774225a2f3e65dc28da14, type: 2}
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
@@ -6342,7 +6329,7 @@ RectTransform:
   - {fileID: 1673639236}
   - {fileID: 1717967004}
   m_Father: {fileID: 1302765961}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7575,11 +7562,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1302765961}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 136, y: -109}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 423, y: 116}
   m_SizeDelta: {x: 700, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513801953
@@ -10638,20 +10625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   popup: {fileID: 0}
-  activeSlot:
-    id: 0
-    location: {fileID: 0}
-    health: 0
-    price: 0
-    purchased: 0
-    buildingSlotID: 0
-    containsBuilding: 0
-  activeSlotTransform: {fileID: 0}
-  highEnd: 0
-  buildingType: 0
-  buildingMesh: {fileID: 5413859998577570484, guid: f8b4ffa305d664e28a5cd1c2f4c9bf18,
-    type: 3}
-  pricecat: 
+  building: {fileID: 11400000, guid: 7d076a74ee5ee4b5e8adacdb3edd2a68, type: 2}
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
@@ -15857,9 +15831,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terrainNodesOnMap: []
   buildingInventoryUtility: {fileID: 420619846}
-  SocialScoreText: 0
-  EnvScoreText: 0
-  EconomucScoreText: 0
   fungiData: {fileID: 11400000, guid: 9db48c57541b24bcba71edc727599458, type: 2}
   colorPallette: {fileID: 11400000, guid: b287428be4ba948e2ac6086258b21b52, type: 2}
 --- !u!114 &1102954414
@@ -18407,20 +18378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   popup: {fileID: 0}
-  activeSlot:
-    id: 0
-    location: {fileID: 0}
-    health: 0
-    price: 0
-    purchased: 0
-    buildingSlotID: 0
-    containsBuilding: 0
-  activeSlotTransform: {fileID: 0}
-  highEnd: 0
-  buildingType: 2
-  buildingMesh: {fileID: 1984717401883333893, guid: f4991c68f2ead4132849ec06ba3c4262,
-    type: 3}
-  pricecat: 
+  building: {fileID: 11400000, guid: e9283a02b245b4e67a8aa255a5326560, type: 2}
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
@@ -18689,9 +18647,9 @@ RectTransform:
   - {fileID: 785521909}
   - {fileID: 1489506145}
   - {fileID: 1862134469}
+  - {fileID: 513801952}
   - {fileID: 420619847}
   - {fileID: 1746809974}
-  - {fileID: 513801952}
   m_Father: {fileID: 1992359190}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19127,20 +19085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   popup: {fileID: 0}
-  activeSlot:
-    id: 0
-    location: {fileID: 0}
-    health: 0
-    price: 0
-    purchased: 0
-    buildingSlotID: 0
-    containsBuilding: 0
-  activeSlotTransform: {fileID: 0}
-  highEnd: 0
-  buildingType: 1
-  buildingMesh: {fileID: 9025222698381554044, guid: fddf09175c0f7465b88f07ef17e3f550,
-    type: 3}
-  pricecat: 
+  building: {fileID: 11400000, guid: 85c83c43f57f94758b441cabb0af8468, type: 2}
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
@@ -22526,20 +22471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   popup: {fileID: 0}
-  activeSlot:
-    id: 0
-    location: {fileID: 0}
-    health: 0
-    price: 0
-    purchased: 0
-    buildingSlotID: 0
-    containsBuilding: 0
-  activeSlotTransform: {fileID: 0}
-  highEnd: 1
-  buildingType: 0
-  buildingMesh: {fileID: 5413859998577570484, guid: f8b4ffa305d664e28a5cd1c2f4c9bf18,
-    type: 3}
-  pricecat: 
+  building: {fileID: 11400000, guid: fd26d8ec7c75847c1a50890fcb84e293, type: 2}
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
@@ -23312,20 +23244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryID: 0
   popup: {fileID: 0}
-  activeSlot:
-    id: 0
-    location: {fileID: 0}
-    health: 0
-    price: 0
-    purchased: 0
-    buildingSlotID: 0
-    containsBuilding: 0
-  activeSlotTransform: {fileID: 0}
-  highEnd: 1
-  buildingType: 2
-  buildingMesh: {fileID: 1984717401883333893, guid: f4991c68f2ead4132849ec06ba3c4262,
-    type: 3}
-  pricecat: 
+  building: {fileID: 11400000, guid: 711128abd3ec74849875f8c9c7583867, type: 2}
   InventoryPanel: {fileID: 420619846}
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
@@ -24054,7 +23973,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1302765961}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}

@@ -10,7 +10,7 @@ public class AcpDataHandler : MonoBehaviour
     public static List<BuildingSlot> buildingSlots = new List<BuildingSlot>();
     public static List<GameObject> buildingSlotGameObjects = new List<GameObject>();
 
-
+    
     public static GameObject buildingInventory;
     public GameObject buildingInventoryUtility;
 
@@ -18,14 +18,13 @@ public class AcpDataHandler : MonoBehaviour
     public static int seasonCount;
     public static float seasonTimerValue;
 
-    public float SocialScoreText;
-    public float EnvScoreText;
-    public float EconomucScoreText;
-
     public FungiData fungiData;
     public ColorPallette colorPallette;
 
     public static AcpDataHandler acpDataHandlerInstance;
+
+    public static BuildingSlot selectedBuildingSlot;
+    public static GameObject selectedBuildingSlotObject;
 
     void Awake()
     {

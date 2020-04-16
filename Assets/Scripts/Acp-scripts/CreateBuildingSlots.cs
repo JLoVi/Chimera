@@ -13,12 +13,15 @@ public class CreateBuildingSlots : MonoBehaviour
 
     [SerializeField] private bool overlaps = false;
 
+    [SerializeField] private AcpData acpData;
+
 
     // public GameObject a;
     // public GameObject b;
 
     void Start()
     {
+        acpData = GetComponent<NodeController>().acpData;
         objectToPlace = GameObject.Find("BuildingSlotPrefab");
         // Debug.Log(GameObject.Find("BuildingSlotPrefab"));
         // transform.GetChild(0).gameObject.SetActive(true);
@@ -31,7 +34,6 @@ public class CreateBuildingSlots : MonoBehaviour
                 {
                     Debug.Log("HHHHH");
                 }*/
-
     }
 
 
@@ -47,12 +49,14 @@ public class CreateBuildingSlots : MonoBehaviour
 
             // Instantiate(objectToPlace, new Vector3(randomX, randomY, randomZ))
             GameObject buildingSlot = Instantiate(objectToPlace, randomPos, Quaternion.identity);
-             AcpDataHandler.buildingSlotGameObjects.Add(buildingSlot);
+            AcpDataHandler.buildingSlotGameObjects.Add(buildingSlot);
+            
+
 
             buildingSlot.transform.localScale = buildingSlot.transform.localScale * Random.Range(0.7f, 1.4f);
             buildingSlot.transform.parent = this.transform;
             buildingSlot.AddComponent<SlotController>();
-
+           
 
             /* CheckIfOverlap();
              while (overlaps)

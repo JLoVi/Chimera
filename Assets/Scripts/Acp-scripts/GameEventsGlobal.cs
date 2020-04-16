@@ -31,14 +31,14 @@ public class GameEventsGlobal : MonoBehaviour
         }
     }*/
 
-    public event Action onBuildingPurchased;
+ /*   public event Action onBuildingPurchased;
     public void BuildingPurchased()
     {
         if (onBuildingPurchased != null)
         {
             onBuildingPurchased();
         }
-    }
+    }*/
 
     public event Action onSeasonBegin;
     public void SeasonBegin()

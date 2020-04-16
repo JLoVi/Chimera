@@ -12,8 +12,8 @@ public class SlotClickArea : MonoBehaviour
     public HoverInfoPopup popup;
 
     public bool selected;
-    public static GameObject selectedBuildingSlotObject;
-    public static BuildingSlot selectedBuildingSlot;
+    
+  
 
 
     void Start()
@@ -34,9 +34,9 @@ public class SlotClickArea : MonoBehaviour
     {
         if (!selected)
         {
-            selectedBuildingSlotObject = this.gameObject;
-            selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
-            Debug.Log("selected slot " + selectedBuildingSlot.buildingSlotID);
+            AcpDataHandler.selectedBuildingSlotObject = this.gameObject;
+            AcpDataHandler.selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
+        //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
         }
 
         selected = !selected;

@@ -12,12 +12,7 @@ public class AcpData : ScriptableObject
 
     public float capital;
 
-    public List<int> nodeID;
-    public List<LocationOnMap> nodeLocationOnGlobalMap;
-
-    public List<int> nodeHealth;
-    public List<int> nodePrice;
-    public List<bool> nodePurchased;
+    public List<TerrainNode> terrainNodes;
+    public List<BuildingSlot> buildingSlots;
    
-
 }

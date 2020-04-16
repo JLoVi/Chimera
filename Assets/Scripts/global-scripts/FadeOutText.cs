@@ -5,12 +5,7 @@ using UnityEngine.UI;
 
 public class FadeOutText : MonoBehaviour
 {
-    void Start()
-    {
-        GameEventsGlobal.currentGlobalEvent.onBuildingPurchased += FadeOut;
-        StartCoroutine(FadeOutRoutine());
-    }
-    void FadeOut()
+    public void FadeOut()
     {
         StopAllCoroutines();
         StartCoroutine(FadeOutRoutine());

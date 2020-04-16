@@ -28,6 +28,7 @@ public class SlotController : MonoBehaviour
 
         }
         AcpDataHandler.buildingSlots.Add(buildingSlot);
+        buildingSlot.AddBuildingSlotData(GetComponentInParent<NodeController>().acpData);
         buildingSlot.buildingSlotID = AcpDataHandler.buildingSlots.Count;
         buildingSlotID = buildingSlot.buildingSlotID;
         // Debug.Log("buildingslot created" + id);

@@ -129,7 +129,7 @@ public class NodeController : MonoBehaviour
             acpData.capital -= terrainNode.price;
             updateCapital.Raise();
             terrainNode.purchased = true;
-            terrainNode.ModifyTerrainNodeData(acpData);
+            terrainNode.ModifyTerrainNodeData(acpData, terrainNode);
           //  GameEventsGlobal.currentGlobalEvent.TerrainPurchased();
             this.gameObject.AddComponent<CreateBuildingSlots>();
             this.gameObject.GetComponent<NodeClickArea>().enabled = false;

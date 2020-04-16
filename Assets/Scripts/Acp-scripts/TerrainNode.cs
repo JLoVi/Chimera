@@ -16,22 +16,17 @@ public class TerrainNode
 
     public void AddTerrainNodeToData(AcpData data)
     {
-        data.nodeID.Add(id);
-        data.nodeLocationOnGlobalMap.Add(location);
-        data.nodeHealth.Add(health);
-        data.nodePrice.Add(price);
-        data.nodePurchased.Add(purchased);
+        data.terrainNodes.Add(this);
     }
 
-    public void ModifyTerrainNodeData(AcpData data)
+    public void ModifyTerrainNodeData(AcpData data, TerrainNode node)
     {
-        for (int i = 0; i < data.nodeID.Count; i++)
+        for (int i = 0; i < data.terrainNodes.Count; i++)
         {
-            if (i == id)
+            if (i == node.id)
             {
-                data.nodeHealth[i] = health;
-                data.nodePrice[i] = price;
-                data.nodePurchased[i] = purchased;
+                data.terrainNodes[i] = node;
+                
             }
         }
     }

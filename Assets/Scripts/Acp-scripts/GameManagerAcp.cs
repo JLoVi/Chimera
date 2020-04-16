@@ -29,6 +29,7 @@ public class GameManagerAcp : MonoBehaviour
 
     public void WipeAcpData()
     {
-        acpData.nodeID.Clear();
+        acpData.terrainNodes.Clear();
+        acpData.buildingSlots.Clear();
     }
 }

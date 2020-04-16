@@ -21,4 +21,21 @@ public class BuildingSlot : TerrainNode
         this.building = b;
     }
 
+    public void AddBuildingSlotData(AcpData data)
+    {
+        data.buildingSlots.Add(this);
+    }
+
+    public void ModifyBuildingSlotData(AcpData data, BuildingSlot slot)
+    {
+        for (int i = 0; i < data.buildingSlots.Count; i++)
+        {
+            if (i == slot.buildingSlotID)
+            {
+                data.buildingSlots[i] = slot;
+
+            }
+        }
+    }
+
 }
