@@ -9,15 +9,13 @@ public class TurnManager : MonoBehaviour
 
     public GameObject startSeasonButton;
 
-    public float StartTimerValue;
+   // public float StartTimerValue;
     //UI
     public Text TimeTilTurnText;
     public Text SeasonCountText;
 
-   // public Text capitalText;
-    public Text SocialScoreText;
-    public Text EnvScoreText;
-    public Text EconomucScoreText;
+    public Text revenuesText;
+    public Text capitalText;
 
     public AcpData acpData;
 
@@ -27,7 +25,7 @@ public class TurnManager : MonoBehaviour
     void Start()
     {
         AcpDataHandler.seasonCount = 1;
-        AcpDataHandler.seasonTimerValue = StartTimerValue;
+        AcpDataHandler.seasonTimerValue = acpData.seasonLength;
         OnCapitalUpdated.Raise();
         GameEventsTurns.currentSeasonEvent.onSeasonBegin += OnSeasonBegin;
         GameEventsTurns.currentSeasonEvent.onSeasonEnd += OnSeasonEnd;
@@ -46,33 +44,32 @@ public class TurnManager : MonoBehaviour
         GameEventsTurns.currentSeasonEvent.SeasonBegin();
         while (AcpDataHandler.seasonTimerValue >= 0.0f)
         {
-            //if (!isPaused)
-            //{
             AcpDataHandler.seasonTimerValue -= Time.deltaTime;
-            // }
-
-            /*  foreach (BuildingSlot buildingSlot in AcpDataHandler.buildingSlots)
-            {
-                acpData.capital = acpData.capital += building.impactCapital * 0.1f;
-                OnCapitalUpdated.Raise();
-                //capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
-
-            }*/
-
+        
             TimeTilTurnText.text = "Time until next turn: " + Mathf.RoundToInt(AcpDataHandler.seasonTimerValue);
 
-            //  yield return new WaitForEndOfFrame ();
+            
+            CalculateRevenues();
+
             yield return null;
 
         }
         GameEventsTurns.currentSeasonEvent.SeasonEnd();
-        // GameEventsGlobal.currentGlobalEvent.onSeasonBegin -= OnSeasonBegin;
     }
 
+    public void CalculateRevenues()
+    {
+        AcpDataHandler.revenues += acpData.economicGrowth / 10;
+        revenuesText.text = "Seasonal Revenues: " + AcpDataHandler.revenues;
+
+        acpData.capital += acpData.economicGrowth / 10;
+        capitalText.text = "Total Capital Revenues: " + acpData.capital;
+    }
 
     public void OnSeasonBegin()
     {
         Debug.Log("Start Season");
+        AcpDataHandler.revenues = 0;
         AcpDataHandler.inSeason = true;
         AcpDataHandler.seasonCount++;
         startSeasonButton.SetActive(false);
@@ -83,12 +80,9 @@ public class TurnManager : MonoBehaviour
     public void OnSeasonEnd()
     {
         Debug.Log("End Season");
-        AcpDataHandler.seasonTimerValue = StartTimerValue;
+        AcpDataHandler.seasonTimerValue = acpData.seasonLength;
         startSeasonButton.SetActive(true);
 
     }
-
-   
-
 
 }

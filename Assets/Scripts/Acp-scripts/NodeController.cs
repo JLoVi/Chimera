@@ -27,6 +27,9 @@ public class NodeController : MonoBehaviour
     [SerializeField]
     public GameEvent terrainNodePurchased;
 
+    [SerializeField]
+    public GameEvent updateExpenses;
+
     public bool observable;
 
     private TerrainNode CreateTerrainNode()
@@ -127,6 +130,9 @@ public class NodeController : MonoBehaviour
         {
             acpData.capital -= terrainNode.price;
             updateCapital.Raise();
+            AcpDataHandler.expenses += terrainNode.price;
+            updateExpenses.Raise();
+
             terrainNode.purchased = true;
             terrainNode.ModifyTerrainNodeData(acpData, terrainNode);
             terrainNodePurchased.Raise();

@@ -11,6 +11,11 @@ public class AcpData : ScriptableObject
     public bool populateData;
 
     public float capital;
+    public int socialScore;
+    public int environmentScore;
+    public int economicGrowth;
+
+    public int seasonLength;
 
     public List<TerrainNode> terrainNodes;
     public List<BuildingSlot> buildingSlots;

@@ -257,6 +257,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &10168112
 GameObject:
@@ -395,6 +396,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &18279098
 GameObject:
@@ -533,6 +535,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &30001273
 GameObject:
@@ -671,6 +674,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &42409738
 GameObject:
@@ -901,6 +905,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &47360640
 GameObject:
@@ -1039,6 +1044,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &54736453
 GameObject:
@@ -1263,6 +1269,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &75950571
 GameObject:
@@ -1401,6 +1408,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &87702104
 GameObject:
@@ -1631,6 +1639,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &101882612
 GameObject:
@@ -1769,6 +1778,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &102957787
 GameObject:
@@ -1907,6 +1917,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &104693680
 GameObject:
@@ -2045,6 +2056,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &105661538
 GameObject:
@@ -2183,6 +2195,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &114503036
 GameObject:
@@ -2321,6 +2334,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &121670455
 GameObject:
@@ -2459,6 +2473,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &122435698
 GameObject:
@@ -2597,6 +2612,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &136295326
 GameObject:
@@ -2827,6 +2843,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &171510640
 GameObject:
@@ -2965,6 +2982,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &185038431
 GameObject:
@@ -3103,6 +3121,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &195077999
 GameObject:
@@ -3241,6 +3260,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &197178727
 GameObject:
@@ -3423,6 +3443,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &201667490
 GameObject:
@@ -3561,6 +3582,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &233325600
 GameObject:
@@ -3921,6 +3943,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &247131882
 GameObject:
@@ -4133,6 +4156,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &256877260
 GameObject:
@@ -4348,6 +4372,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &268924347
 GameObject:
@@ -4530,6 +4555,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &280798140
 GameObject:
@@ -4668,6 +4694,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &290875281
 GameObject:
@@ -4899,6 +4926,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &299067507
 GameObject:
@@ -5037,6 +5065,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &305417178
 GameObject:
@@ -5268,6 +5297,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &356576503
 GameObject:
@@ -5406,6 +5436,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &358684300
 GameObject:
@@ -5665,6 +5696,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &395482216
 GameObject:
@@ -5840,6 +5872,7 @@ MonoBehaviour:
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &401038352
 GameObject:
@@ -5978,6 +6011,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &406658550
 GameObject:
@@ -6116,6 +6150,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &409211038
 GameObject:
@@ -6254,6 +6289,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &410412283
 GameObject:
@@ -6604,6 +6640,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &453307193
 GameObject:
@@ -6742,6 +6779,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &458417831
 GameObject:
@@ -6957,6 +6995,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &474838413
 GameObject:
@@ -7187,6 +7226,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &493255223
 GameObject:
@@ -7325,6 +7365,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &497898346
 GameObject:
@@ -7463,6 +7504,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &511653554
 GameObject:
@@ -7601,6 +7643,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &513801951
 GameObject:
@@ -7890,6 +7933,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &527311407
 GameObject:
@@ -8028,6 +8072,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &539685602
 GameObject:
@@ -8166,6 +8211,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &542059431
 GameObject:
@@ -8348,6 +8394,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &582948280
 GameObject:
@@ -8563,6 +8610,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &594113961
 GameObject:
@@ -8701,6 +8749,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &603559110
 GameObject:
@@ -8839,6 +8888,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &624024691
 GameObject:
@@ -8977,6 +9027,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &643264380
 GameObject:
@@ -9115,6 +9166,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &655397052
 GameObject:
@@ -9253,6 +9305,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &669479569
 GameObject:
@@ -9391,6 +9444,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &674411378
 GameObject:
@@ -9529,6 +9583,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &694630518
 GameObject:
@@ -9806,6 +9861,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &723038439
 GameObject:
@@ -10036,6 +10092,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &735810983
 GameObject:
@@ -10218,6 +10275,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &738813192
 GameObject:
@@ -10492,6 +10550,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &748170146
 GameObject:
@@ -10734,6 +10793,7 @@ MonoBehaviour:
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!114 &766378809
 MonoBehaviour:
@@ -11069,6 +11129,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &811562297
 GameObject:
@@ -11207,6 +11268,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &823321134
 GameObject:
@@ -11345,6 +11407,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &823732757
 GameObject:
@@ -11483,6 +11546,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &830456861
 GameObject:
@@ -11621,6 +11685,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &867636409
 GameObject:
@@ -11759,6 +11824,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &872172161
 GameObject:
@@ -11897,6 +11963,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &879698498
 GameObject:
@@ -12219,6 +12286,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &887449651
 GameObject:
@@ -12357,6 +12425,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &888091148
 GameObject:
@@ -12495,6 +12564,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &896194966
 GameObject:
@@ -12633,6 +12703,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &897528590
 GameObject:
@@ -12771,6 +12842,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &900931045
 GameObject:
@@ -12909,6 +12981,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &904325119
 GameObject:
@@ -13047,6 +13120,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &908758033
 GameObject:
@@ -13185,6 +13259,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &922643229
 GameObject:
@@ -13323,6 +13398,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &947196108
 GameObject:
@@ -13461,6 +13537,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &948074067
 GameObject:
@@ -13643,6 +13720,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &963194225
 GameObject:
@@ -13932,6 +14010,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &976029155
 GameObject:
@@ -14070,6 +14149,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1002062909
 GameObject:
@@ -14208,6 +14288,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1003247507
 GameObject:
@@ -14346,6 +14427,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1004948508
 GameObject:
@@ -14528,6 +14610,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1018482648
 GameObject:
@@ -14710,6 +14793,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1028266385
 GameObject:
@@ -14848,6 +14932,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1037756105
 GameObject:
@@ -14986,6 +15071,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1049444556
 GameObject:
@@ -15124,6 +15210,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1052336391
 GameObject:
@@ -15339,6 +15426,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1065173606
 GameObject:
@@ -15477,6 +15565,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1066490613
 GameObject:
@@ -15615,6 +15704,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1069515939
 GameObject:
@@ -15753,6 +15843,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1077225242
 GameObject:
@@ -15935,6 +16026,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1102954410
 GameObject:
@@ -15952,6 +16044,7 @@ GameObject:
   - component: {fileID: 1102954418}
   - component: {fileID: 1102954415}
   - component: {fileID: 1102954420}
+  - component: {fileID: 1102954421}
   - component: {fileID: 1102954412}
   - component: {fileID: 1102954419}
   m_Layer: 0
@@ -16067,12 +16160,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSeasonButton: {fileID: 1495715027}
-  StartTimerValue: 5
   TimeTilTurnText: {fileID: 1228846491}
   SeasonCountText: {fileID: 1052336393}
-  SocialScoreText: {fileID: 0}
-  EnvScoreText: {fileID: 0}
-  EconomucScoreText: {fileID: 0}
+  revenuesText: {fileID: 1360505179}
+  capitalText: {fileID: 768082536}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
   OnCapitalUpdated: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
 --- !u!114 &1102954417
@@ -16089,11 +16180,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
   capitalText: {fileID: 768082536}
+  socialText: {fileID: 256877262}
+  environmentText: {fileID: 1791148122}
+  economicText: {fileID: 1812945716}
   terrainHealthText: {fileID: 582948282}
   terrainNodesPurchasedText: {fileID: 410412285}
   residentialText: {fileID: 1864976741}
   industrialText: {fileID: 1446507741}
   financialText: {fileID: 1977959732}
+  expensesText: {fileID: 1884230115}
+  maintenanceText: {fileID: 1286030262}
 --- !u!114 &1102954418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16162,6 +16258,55 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1102954417}
         m_MethodName: OnBuildingPurchased
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1102954421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102954410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7c0b7593d6344eba8e7b27f0ed77b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1102954417}
+        m_MethodName: OnUpdateExpenses
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1102954413}
+        m_MethodName: GetMaintenanceFees
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1102954417}
+        m_MethodName: UpdateMaintenance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16308,6 +16453,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1122173863
 GameObject:
@@ -16538,6 +16684,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1144730412
 GameObject:
@@ -16676,6 +16823,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1168524503
 GameObject:
@@ -16814,6 +16962,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1175322490
 GameObject:
@@ -16996,6 +17145,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1198872071
 GameObject:
@@ -17170,6 +17320,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1213118094
 GameObject:
@@ -17308,6 +17459,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1228846489
 GameObject:
@@ -17523,6 +17675,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1238483734
 GameObject:
@@ -17661,6 +17814,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1241572089
 GameObject:
@@ -17891,6 +18045,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1257947914
 GameObject:
@@ -18029,6 +18184,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1268466069
 GameObject:
@@ -18260,6 +18416,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1281229240
 GameObject:
@@ -18638,6 +18795,7 @@ MonoBehaviour:
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &1286030260
 GameObject:
@@ -18704,10 +18862,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Maintenance Fees:'
+  m_Text: 'Seasonal Maintenance Fees:'
 --- !u!222 &1286030263
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19051,6 +19209,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1337173737
 GameObject:
@@ -19189,6 +19348,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1338770909
 GameObject:
@@ -19350,6 +19510,7 @@ MonoBehaviour:
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!114 &1338770916
 MonoBehaviour:
@@ -19562,10 +19723,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Revenues:'
+  m_Text: 'Seasonal Revenues:'
 --- !u!222 &1360505180
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19759,6 +19920,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1433300563
 GameObject:
@@ -19897,6 +20059,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1442795106
 GameObject:
@@ -20035,6 +20198,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1446507739
 GameObject:
@@ -20294,6 +20458,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1479557048
 GameObject:
@@ -20432,6 +20597,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1489506144
 GameObject:
@@ -20819,6 +20985,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1533993304
 GameObject:
@@ -20957,6 +21124,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1540562092
 GameObject:
@@ -21095,6 +21263,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1543700117
 GameObject:
@@ -21233,6 +21402,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1544323166
 GameObject:
@@ -21507,6 +21677,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1565114862
 GameObject:
@@ -21645,6 +21816,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1571992173
 GameObject:
@@ -21783,6 +21955,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1586446909
 GameObject:
@@ -21921,6 +22094,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1616344415
 GameObject:
@@ -22059,6 +22233,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1622607126
 GameObject:
@@ -22197,6 +22372,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1624374937
 GameObject:
@@ -22335,6 +22511,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1634966478
 GameObject:
@@ -22473,6 +22650,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1656019069
 GameObject:
@@ -22771,6 +22949,7 @@ MonoBehaviour:
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &1675525673
 GameObject:
@@ -23187,6 +23366,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1690691049
 GameObject:
@@ -23374,6 +23554,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1717967003
 GameObject:
@@ -23549,6 +23730,7 @@ MonoBehaviour:
   newBuildingInfo: {fileID: 513801953}
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
 --- !u!1 &1720054789
 GameObject:
@@ -23731,6 +23913,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1722468988
 GameObject:
@@ -23869,6 +24052,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1741928805
 GameObject:
@@ -24113,6 +24297,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1745249974
 GameObject:
@@ -24251,6 +24436,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1746809973
 GameObject:
@@ -24459,6 +24645,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1760608790
 GameObject:
@@ -24597,6 +24784,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1769455686
 GameObject:
@@ -24735,6 +24923,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1769599814
 GameObject:
@@ -25106,6 +25295,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1862134468
 GameObject:
@@ -25319,6 +25509,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1864327615
 GameObject:
@@ -25874,6 +26065,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1910550760
 GameObject:
@@ -26012,6 +26204,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1912303199
 GameObject:
@@ -26194,6 +26387,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1937824518
 GameObject:
@@ -26332,6 +26526,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1942190359
 GameObject:
@@ -26470,6 +26665,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1943184527
 GameObject:
@@ -26777,6 +26973,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1969983146
 GameObject:
@@ -26915,6 +27112,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1975944863
 GameObject:
@@ -27053,6 +27251,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1977959730
 GameObject:
@@ -27344,6 +27543,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1992359189
 GameObject:
@@ -27513,6 +27713,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &1998338112
 GameObject:
@@ -27651,6 +27852,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2002740973
 GameObject:
@@ -27789,6 +27991,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2011987543
 GameObject:
@@ -27927,6 +28130,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2013043815
 GameObject:
@@ -28065,6 +28269,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2027548354
 GameObject:
@@ -28387,6 +28592,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2039869356
 GameObject:
@@ -28525,6 +28731,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2073896720
 GameObject:
@@ -28663,6 +28870,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2080704926
 GameObject:
@@ -28801,6 +29009,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2093674655
 GameObject:
@@ -29124,6 +29333,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2126136049
 GameObject:
@@ -29262,6 +29472,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2132332778
 GameObject:
@@ -29400,6 +29611,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &2133295603
 GameObject:
@@ -29582,6 +29794,7 @@ MonoBehaviour:
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
 --- !u!1 &52622435515014495
 GameObject:

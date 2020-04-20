@@ -16,6 +16,7 @@ public class InventoryBuilding : MonoBehaviour
 
     [SerializeField] private GameEvent updateCapital;
     [SerializeField] private GameEvent purchaseBuilding;
+    [SerializeField] public GameEvent updateExpenses;
 
     [SerializeField] private AcpData acpData;
 
@@ -54,21 +55,40 @@ public class InventoryBuilding : MonoBehaviour
         GameObject MeshToBuild = Instantiate(building.buildingMesh, AcpDataHandler.selectedBuildingSlotObject.transform.position, Quaternion.identity);
         MeshToBuild.transform.localScale = MeshToBuild.transform.localScale / 3;
 
+        UpdateSelectedBuilding();
+        DisplayPurchasedBuildngInfo();
+       
+        InventoryPanel.SetActive(false);
+    }
+
+    public void UpdateSelectedBuilding()
+    {
+        building.maintenanceCost = AcpDataHandler.selectedBuildingSlot.health / 2;
+
+        Debug.Log("maintenance: " + building.maintenanceCost);
         AcpDataHandler.selectedBuildingSlot.purchased = true;
         AcpDataHandler.selectedBuildingSlot.containsBuilding = true;
         AcpDataHandler.selectedBuildingSlot.building = building;
-        purchaseBuilding.Raise();
 
-        acpData.capital = acpData.capital - (AcpDataHandler.selectedBuildingSlot.price + building.constructitonCost);
+        acpData.capital -= (AcpDataHandler.selectedBuildingSlot.price + building.constructitonCost);
+        acpData.socialScore += building.impactPeople;
+        acpData.environmentScore += building.impactEnvironment;
+        acpData.economicGrowth += building.impactCapital;
+
         updateCapital.Raise();
         AcpDataHandler.selectedBuildingSlot.ModifyBuildingSlotData(acpData, AcpDataHandler.selectedBuildingSlot);
+        purchaseBuilding.Raise();
+        AcpDataHandler.expenses += AcpDataHandler.selectedBuildingSlot.price + building.constructitonCost;
+        updateExpenses.Raise();
+    }
 
+    public void DisplayPurchasedBuildngInfo()
+    {
         newBuildingInfo.gameObject.SetActive(true);
         newBuildingInfo.color = new Color(newBuildingInfo.color.r, newBuildingInfo.color.g, newBuildingInfo.color.b, 1);
         newBuildingInfo.text = "New Building: " + building.buildingType + '\n' +
         "Land Costs: " + AcpDataHandler.selectedBuildingSlot.price + "Construction Cost: " + building.constructitonCost + '\n' +
         "Seasonal Maintenance Cost: " + building.maintenanceCost;
-        InventoryPanel.SetActive(false);
     }
 }
 

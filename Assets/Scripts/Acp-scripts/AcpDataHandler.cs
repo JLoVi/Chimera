@@ -27,6 +27,11 @@ public class AcpDataHandler : MonoBehaviour
     public static int industrialAmt;
     public static int financialAmt;
 
+    //FINANCIAL DATA:
+    public static int expenses;
+    public static int maintenanceFees;
+    public static int revenues;
+
     //TURNS
     public static bool inSeason;
     public static int seasonCount;
@@ -117,6 +122,24 @@ public class AcpDataHandler : MonoBehaviour
             }
         }
     }
+
+    public void GetMaintenanceFees()
+    {
+        maintenanceFees = 0;
+        for (int i = 0; i < acpData.buildingSlots.Count; i++)
+        {
+            if (acpData.buildingSlots[i].containsBuilding)
+            {
+                maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
+            }
+        }
+    }
+
+    public void CalculateRevenues()
+    {
+
+    }
+
 }
 
 

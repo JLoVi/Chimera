@@ -9,6 +9,9 @@ public class GameManagerAcp : MonoBehaviour
 
     //CAPITAL AND SCORES
     public Text capitalText;
+    public Text socialText;
+    public Text environmentText;
+    public Text economicText;
 
     //TERRAIN INFO
     public Text terrainHealthText;
@@ -18,6 +21,11 @@ public class GameManagerAcp : MonoBehaviour
     public Text residentialText;
     public Text industrialText;
     public Text financialText;
+
+    //FINANCIAL INFO
+    public Text expensesText;
+    public Text maintenanceText;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -39,6 +47,9 @@ public class GameManagerAcp : MonoBehaviour
     {
         acpData.terrainNodes.Clear();
         acpData.buildingSlots.Clear();
+        acpData.socialScore = 0;
+        acpData.environmentScore = 0;
+        acpData.economicGrowth = 0;
     }
 
     public void UpdateCapitalText()
@@ -63,5 +74,20 @@ public class GameManagerAcp : MonoBehaviour
         residentialText.text = "Residential: " + AcpDataHandler.residentialAmt;
         industrialText.text = "Industrial: " + AcpDataHandler.industrialAmt;
         financialText.text = "Financial: " + AcpDataHandler.financialAmt;
+
+        socialText.text = "Social Score: " + acpData.socialScore;
+        environmentText.text = "Environmental Sustainability: " + acpData.environmentScore;
+        economicText.text = "Economic Growth: " + acpData.economicGrowth;
+    }
+
+    public void OnUpdateExpenses()
+    {
+        expensesText.text = "Expenses: " + AcpDataHandler.expenses;
+
+    }
+
+    public void UpdateMaintenance()
+    {
+        maintenanceText.text = "Seasonal Maintenance Fees: " + AcpDataHandler.maintenanceFees;
     }
 }
