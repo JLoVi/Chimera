@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 [CreateAssetMenu(fileName = "New ACP Data", menuName = " ACP Data", order = 51)]
 public class AcpData : ScriptableObject
 {
