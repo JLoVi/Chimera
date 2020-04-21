@@ -15,7 +15,7 @@ public class AyucGameManager : MonoBehaviour
 
     public void ClickAction()
     {
-        Debug.Log("clickckckck");
+       // Debug.Log("clickckckck");
             if (OnTargetChange != null)
             {
                 OnTargetChange();

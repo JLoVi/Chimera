@@ -9,6 +9,8 @@ public class LocationOnMap : ScriptableObject
     [SerializeField]
     private float location;
 
+    public float resources;
+
     public float Location
     {
         get
@@ -16,4 +18,6 @@ public class LocationOnMap : ScriptableObject
             return location;
         }
     }
+
+    
 }
