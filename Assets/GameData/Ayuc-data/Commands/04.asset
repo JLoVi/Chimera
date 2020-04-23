@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3e1de0c7216043eeaf4f7b5c64a9076, type: 3}
-  m_Name: 01
+  m_Name: 04
   m_EditorClassIdentifier: 
-  command: Add resources to terrain
-  response: {fileID: 11400000, guid: d7441ad5ae2ef45bb802eef828d4b775, type: 2}
+  command: Decrease the impact of buildings on humans
+  response: {fileID: 11400000, guid: 51d21727894dc4f5982eb9514b760090, type: 2}

@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   command: Remove resources from terrain
-  wordResponse:
-  - resource
+  response: {fileID: 11400000, guid: ab214f9fb7f8645f4af13f92014990b3, type: 2}

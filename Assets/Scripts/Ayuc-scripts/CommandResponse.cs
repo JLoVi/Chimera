@@ -7,6 +7,6 @@ public class CommandResponse : ScriptableObject
 {
     public string command;
 
-    public string[] wordResponse;
+    public GameEvent response;
 
 }
