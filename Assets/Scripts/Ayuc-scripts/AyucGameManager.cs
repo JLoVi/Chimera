@@ -10,8 +10,20 @@ public class AyucGameManager : MonoBehaviour
     public static event ChangeTarget OnTargetChange;
 
     public AyucData ayucData;
+    public AyucNavAgentStore ayucAgentStore;
+
+    public GameEvent onSpawnAgents;
 
     public static CommandResponse currentCommandResponse;
+
+    public int agentCount;
+    public Transform spawnPosition;
+
+    public static int numberOfAgents;
+    public static int birthrate;
+
+    public Text birthrateText;
+    public Text remainingTimeText;
 
     public enum Response
     {
@@ -49,6 +61,7 @@ public class AyucGameManager : MonoBehaviour
         if (currentResponse == Response.yes)
         {
             currentCommandResponse.response.Raise();
+            onSpawnAgents.Raise();
         }
         if (currentResponse == Response.no)
         {
@@ -63,5 +76,31 @@ public class AyucGameManager : MonoBehaviour
         currentCommandResponse = ayucData.commandResponses[Random.Range(0, ayucData.commandResponses.Count)];
         commandText.text = currentCommandResponse.command;
         
+    }
+
+    public void SpawnAgents()
+    {
+        StartCoroutine(InstantiateAgentsByCount());
+
+    }
+
+
+    public IEnumerator InstantiateAgentsByCount()
+    {
+        for (int i = 0; i < agentCount; i++)
+        {
+            Instantiate(ayucAgentStore.agentMeshes[0], spawnPosition.position, Quaternion.identity, AyucDataHandler.ayucRuntimeAssetParent.transform);
+            numberOfAgents++;
+            OnUpdateBirthRate();
+            yield return new WaitForSeconds(0.1f);
+
+        }
+    }
+
+    public void OnUpdateBirthRate()
+    {
+        birthrateText.text = "Birth Rate: " + birthrate;
+        remainingTimeText.text = "Remaining Time: " + numberOfAgents;
+
     }
 }

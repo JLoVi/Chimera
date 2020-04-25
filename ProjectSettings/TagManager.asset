@@ -9,6 +9,7 @@ TagManager:
   - spore
   - ayuc-target
   - o-camera
+  - agent
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class AyucDataHandler : MonoBehaviour
 {
-    public GameObject ayucRuntimeAssetParent;
+    public RockData rockData;
+
+    public static GameObject ayucRuntimeAssetParent;
 
     // Start is called before the first frame update
     void Start()
@@ -13,17 +15,12 @@ public class AyucDataHandler : MonoBehaviour
 
         if (ayucRuntimeAssetParent != null)
         {
-            Debug.Log(ayucRuntimeAssetParent + " AYUC runtime parent found!");
+            Debug.Log(ayucRuntimeAssetParent.name + " ++ AYUC runtime parent found!");
+            rockData.ayucRuntimeAssets = ayucRuntimeAssetParent;
         }
         else
         {
             Debug.LogError(ayucRuntimeAssetParent + " AYUC runtime parent NOT FOUND!");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
