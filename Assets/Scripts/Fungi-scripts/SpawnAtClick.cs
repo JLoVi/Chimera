@@ -22,7 +22,8 @@ public class SpawnAtClick : MonoBehaviour
                   {
 
                     float altitude = Random.Range(-3f, 0f);
-                    Instantiate(spore, new Vector3(hit.point.x, hit.point.y + altitude, hit.point.z), Quaternion.identity);
+                    Instantiate(spore, new Vector3(hit.point.x, hit.point.y + altitude, hit.point.z), Quaternion.identity, GameManagerFungi.fungiRuntimeAssetParent.transform);
+                   
                     OnTerritoryIncrease.Raise();
                 }
               }

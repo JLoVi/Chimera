@@ -20,7 +20,7 @@ public class AyucDataHandler : MonoBehaviour
         }
         else
         {
-            Debug.LogError(ayucRuntimeAssetParent + " AYUC runtime parent NOT FOUND!");
+            Debug.LogError( " AYUC runtime parent NOT FOUND!");
         }
     }
 }

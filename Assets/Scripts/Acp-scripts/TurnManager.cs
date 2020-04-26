@@ -61,8 +61,8 @@ public class TurnManager : MonoBehaviour
     {
         AcpDataHandler.revenues += acpData.economicGrowth / 10;
         revenuesText.text = "Seasonal Revenues: " + AcpDataHandler.revenues;
-
         acpData.capital += acpData.economicGrowth / 10;
+        
         capitalText.text = "Total Capital Revenues: " + acpData.capital;
     }
 

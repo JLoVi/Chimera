@@ -53,7 +53,6 @@ public class CreateBuildingSlots : MonoBehaviour
             AcpDataHandler.buildingSlotGameObjects.Add(buildingSlot);
 
 
-
             buildingSlot.transform.localScale = buildingSlot.transform.localScale * Random.Range(0.7f, 1.4f);
             buildingSlot.transform.parent = this.transform;
             buildingSlot.AddComponent<SlotController>();

@@ -38,8 +38,10 @@ public class AcpDataHandler : MonoBehaviour
     public static float seasonTimerValue;
 
     //DATA
+    public static GameObject acpRuntimeAssetParent;
     public AcpData acpData;
     public FungiData fungiData;
+    public RockData rockData;
     private GameManagerAcp gameManagerAcp;
     public ColorPallette colorPallette;
     public static AcpDataHandler acpDataHandlerInstance;
@@ -64,6 +66,17 @@ public class AcpDataHandler : MonoBehaviour
 
     private void Start()
     {
+        acpRuntimeAssetParent = GameObject.Find("ACP-runtime-assets");
+        if (acpRuntimeAssetParent != null)
+        {
+            Debug.Log(acpRuntimeAssetParent.name + " ++ ACP runtime parent found!");
+            rockData.acpRuntimeAssets = acpRuntimeAssetParent;
+        }
+        else
+        {
+            Debug.LogError(" ACP runtime parent NOT FOUND!");
+        }
+
         buildingInventory.SetActive(false);
         inSeason = false;
         //terrainHealth = terrainNodesOnMap.Sum(TerrainNode => TerrainNode.health);
@@ -133,11 +146,6 @@ public class AcpDataHandler : MonoBehaviour
                 maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
             }
         }
-    }
-
-    public void CalculateRevenues()
-    {
-
     }
 
 }

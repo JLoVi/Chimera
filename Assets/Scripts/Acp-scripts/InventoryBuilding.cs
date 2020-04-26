@@ -52,20 +52,21 @@ public class InventoryBuilding : MonoBehaviour
     public void Buy()
     {
 
-        GameObject MeshToBuild = Instantiate(building.buildingMesh, AcpDataHandler.selectedBuildingSlotObject.transform.position, Quaternion.identity);
-        MeshToBuild.transform.localScale = MeshToBuild.transform.localScale / 3;
+        GameObject meshToBuild = Instantiate(building.buildingMesh, AcpDataHandler.selectedBuildingSlotObject.transform.position, Quaternion.identity);
+        meshToBuild.transform.localScale = meshToBuild.transform.localScale / 3;
 
         UpdateSelectedBuilding();
         DisplayPurchasedBuildngInfo();
        
         InventoryPanel.SetActive(false);
+
+        meshToBuild.transform.parent = AcpDataHandler.acpRuntimeAssetParent.transform;
     }
 
     public void UpdateSelectedBuilding()
     {
         building.maintenanceCost = AcpDataHandler.selectedBuildingSlot.health / 2;
 
-        Debug.Log("maintenance: " + building.maintenanceCost);
         AcpDataHandler.selectedBuildingSlot.purchased = true;
         AcpDataHandler.selectedBuildingSlot.containsBuilding = true;
         AcpDataHandler.selectedBuildingSlot.building = building;
