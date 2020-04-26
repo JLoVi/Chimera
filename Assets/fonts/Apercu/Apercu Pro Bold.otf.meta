@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 89b76d3749dc94de7b1142f5747e24c1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Apercu Pro
+  fontNames:
+  - Apercu Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 319727d4256b6484089b908bf543da72, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: acdddd161f9ac4e57ac28042367103c1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Apercu
+  fontNames:
+  - Apercu
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 394fe733cd84049a09007230afdf2d15, type: 3}
+  - {fileID: 12800000, guid: 03aed8566e19c4cc39377bc74a8ce89f, type: 3}
+  - {fileID: 12800000, guid: 80fda83829d4446a9a8f1e977a87f9c9, type: 3}
+  - {fileID: 12800000, guid: 998486a92e64d4442a0c2824faac6b3f, type: 3}
+  - {fileID: 12800000, guid: 21f7b0db89c0e42cbbc4acb38b632aa3, type: 3}
+  - {fileID: 12800000, guid: 3ebdddfb65fbc4c2487602b1792aa05a, type: 3}
+  - {fileID: 12800000, guid: 986cf6ad76e1f46a3ae13f9c60efc9ef, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
