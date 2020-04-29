@@ -9,8 +9,15 @@ public class CameraController : MonoBehaviour
     public float panBorderThickness = 10f;
 
     public float scrollSpeed = 5f;
-    public float minY = 10f;
-    public float maxY = 80f;
+   public float minZoom;
+    public float maxZoom;
+
+    public float camSize;
+
+    private void Start()
+    {
+        GetComponent<Camera>().orthographicSize = camSize;
+    }
 
     void Update()
     {
@@ -23,12 +30,12 @@ public class CameraController : MonoBehaviour
         if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBorderThickness)
         {
             if (WorldEdges.edge != "world-edge-top")
-                transform.Translate(Vector3.forward * panSpeed * Time.deltaTime);
+                transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
         }
         if (Input.GetKey("s") || Input.mousePosition.y <= panBorderThickness)
         {
             if (WorldEdges.edge != "world-edge-bottom")
-                transform.Translate(Vector3.back * panSpeed * Time.deltaTime);
+                transform.Translate(Vector3.back * panSpeed * Time.deltaTime, Space.World);
         }
         if (Input.GetKey("d") || Input.mousePosition.x >= Screen.width - panBorderThickness)
         {
@@ -43,10 +50,13 @@ public class CameraController : MonoBehaviour
 
         float scroll = Input.GetAxis("Mouse ScrollWheel");
 
-        Vector3 pos = transform.position;
+        camSize += scroll * scrollSpeed;
 
-        pos.y -= scroll * 1000 * scrollSpeed * Time.deltaTime;
-        pos.y = Mathf.Clamp(pos.y, minY, maxY);
+        camSize = Mathf.Clamp(camSize, minZoom, maxZoom);
+
+        GetComponent<Camera>().orthographicSize = camSize;
+
+        Vector3 pos = transform.position;
 
         transform.position = pos;
     }

@@ -12,8 +12,8 @@ public class SlotClickArea : MonoBehaviour
     public HoverInfoPopup popup;
 
     public bool selected;
-    
-  
+
+
 
 
     void Start()
@@ -21,10 +21,10 @@ public class SlotClickArea : MonoBehaviour
         selected = false;
         rend = GetComponent<Renderer>();
         // Debug.Log(GetComponent<NodeController>().terrainNode);
-       
+
         popup = HoverInfoPopup.hoverInfoPopup;
         startColor = rend.material.color;
-        if (GetComponent<SlotController>()!= null)
+        if (GetComponent<SlotController>() != null)
         {
             id = GetComponent<SlotController>().buildingSlot.buildingSlotID;
         }
@@ -36,14 +36,14 @@ public class SlotClickArea : MonoBehaviour
         {
             AcpDataHandler.selectedBuildingSlotObject = this.gameObject;
             AcpDataHandler.selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
-        //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
+            //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
         }
 
         selected = !selected;
 
         if (selected)
         {
-            foreach(GameObject slot in AcpDataHandler.buildingSlotGameObjects)
+            foreach (GameObject slot in AcpDataHandler.buildingSlotGameObjects)
             {
                 if (slot != this.gameObject)
                 {
@@ -52,8 +52,8 @@ public class SlotClickArea : MonoBehaviour
                 }
             }
         }
-       
-       // Debug.Log(selected);
+
+        // Debug.Log(selected);
         GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
         //popup.DisplayInfo();
     }
@@ -61,21 +61,24 @@ public class SlotClickArea : MonoBehaviour
 
     void OnMouseEnter()
     {
-       
+
         GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseHover(id);
 
-       // popup.DisplayInfo();
+        // popup.DisplayInfo();
 
         rend.material.color = hoverColor;
     }
 
     void OnMouseExit()
     {
+        if (HoverInfoPopup.hoverInfoPopup != null)
+        {
+            HoverInfoPopup.hoverInfoPopup.HideInfo();
+        }
 
-        popup.HideInfo();
-
-        if(!selected) { 
-        rend.material.color = startColor;
+        if (!selected)
+        {
+            rend.material.color = startColor;
         }
     }
 }

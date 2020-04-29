@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: e5c1bb1c446c8418f909c47f58a510b0, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: c8948ba5ba7a24af5b601cfcfa801582, type: 2}
 --- !u!1 &93381623
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1793766357
 AudioListener:
   m_ObjectHideFlags: 0

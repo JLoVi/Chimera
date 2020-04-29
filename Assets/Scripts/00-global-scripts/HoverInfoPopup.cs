@@ -62,8 +62,9 @@ public class HoverInfoPopup : MonoBehaviour
         // builder.Append(infoItem.GetInfoDisplayText());
 
        
-
+        if (popupCanvasObject != null) { 
         popupCanvasObject.SetActive(true);
+        }
 
         //LayoutRebuilder.ForceRebuildLayoutImmediate(popupObject);
     }

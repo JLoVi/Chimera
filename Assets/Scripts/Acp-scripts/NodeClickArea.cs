@@ -35,7 +35,7 @@ public class NodeClickArea : MonoBehaviour
 
     void OnMouseExit()
     {
-        popup.HideInfo();
+        HoverInfoPopup.hoverInfoPopup.HideInfo();
         rend.material.color = startColor;
     }
 

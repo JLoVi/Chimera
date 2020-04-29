@@ -20,7 +20,7 @@ public class FadeOutText : MonoBehaviour
 
 
         // Debug.Log(text);
-        while (t < 2)
+        while (t < 1)
         {
             t += Time.deltaTime;
             // Debug.Log(t);

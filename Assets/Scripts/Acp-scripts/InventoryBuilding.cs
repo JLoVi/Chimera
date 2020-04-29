@@ -88,8 +88,9 @@ public class InventoryBuilding : MonoBehaviour
         newBuildingInfo.gameObject.SetActive(true);
         newBuildingInfo.color = new Color(newBuildingInfo.color.r, newBuildingInfo.color.g, newBuildingInfo.color.b, 1);
         newBuildingInfo.text = "New Building: " + building.buildingType + '\n' +
-        "Land Costs: " + AcpDataHandler.selectedBuildingSlot.price + "Construction Cost: " + building.constructitonCost + '\n' +
+        "Land Costs: " + AcpDataHandler.selectedBuildingSlot.price + '\n' + "Construction Cost: " + building.constructitonCost + '\n' +
         "Seasonal Maintenance Cost: " + building.maintenanceCost;
+        newBuildingInfo.gameObject.GetComponent<FadeOutText>().FadeOut();
     }
 }
 

@@ -49,7 +49,7 @@ public class AyucGameManager : MonoBehaviour
     public void ClickAction(int response)
     {
         currentResponse = (Response)response;
-        // Debug.Log(currentResponse);
+        Debug.Log(currentResponse);
         if (OnTargetChange != null)
         {
             OnTargetChange();

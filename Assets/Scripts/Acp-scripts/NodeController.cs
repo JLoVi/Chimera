@@ -86,7 +86,7 @@ public class NodeController : MonoBehaviour
 
             if (terrainNode.purchased)
             {
-                popup.HideInfo();
+                HoverInfoPopup.hoverInfoPopup.HideInfo();
                 return;
             }
         }
