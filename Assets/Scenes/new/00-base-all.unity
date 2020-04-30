@@ -241,6 +241,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &512403653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6520547791510394602, guid: 29bf15cdfeba94321aa47d404a8cbb5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6520547792231621784}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &653782882
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,6 +907,7 @@ MonoBehaviour:
   OnSceneChanged: {fileID: 11400000, guid: bf7278e1874de4eb1a650aa9a9a06d00, type: 2}
   activeSceneData: {fileID: 11400000, guid: 27a269369781f453389bfc746b9eb7c4, type: 2}
   mainCam: {fileID: 1793766358}
+  acpAssets: {fileID: 512403653}
 --- !u!114 &1931935642
 MonoBehaviour:
   m_ObjectHideFlags: 0

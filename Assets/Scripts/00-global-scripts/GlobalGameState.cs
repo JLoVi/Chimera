@@ -68,7 +68,7 @@ public class GlobalGameState : MonoBehaviour
         {
             case 1:
                 mainCam.gameObject.SetActive(false);
-                EnableACPRuntimeAssetProperties();
+           //     EnableACPRuntimeAssetProperties();
                 if (!activeSceneData.acpActive)
                 {
                     SceneManager.LoadScene("01-acp", LoadSceneMode.Additive);
@@ -94,7 +94,7 @@ public class GlobalGameState : MonoBehaviour
 
             case 2:
                 mainCam.gameObject.SetActive(false);
-                DisableACPRuntimeAssetProperties();
+             //   DisableACPRuntimeAssetProperties();
                 if (!activeSceneData.fungiActive)
                 {
                     SceneManager.LoadScene("02-fungi", LoadSceneMode.Additive);
@@ -120,7 +120,7 @@ public class GlobalGameState : MonoBehaviour
 
             case 3:
                 mainCam.gameObject.SetActive(false);
-                DisableACPRuntimeAssetProperties();
+             //   DisableACPRuntimeAssetProperties();
                 if (!activeSceneData.ayucActive)
                 {
                     SceneManager.LoadScene("03-ayuc", LoadSceneMode.Additive);
@@ -146,7 +146,7 @@ public class GlobalGameState : MonoBehaviour
 
             case 4:
                 mainCam.gameObject.SetActive(false);
-                DisableACPRuntimeAssetProperties();
+              //  DisableACPRuntimeAssetProperties();
                 if (!activeSceneData.rockActive)
                 {
                     SceneManager.LoadScene("04-rock", LoadSceneMode.Additive);
@@ -177,7 +177,7 @@ public class GlobalGameState : MonoBehaviour
                 activeSceneData.fungiActive = false;
                 activeSceneData.ayucActive = false;
                 activeSceneData.rockActive = false;
-                DisableACPRuntimeAssetProperties();
+              //  DisableACPRuntimeAssetProperties();
                 break;
 
             default:
@@ -187,12 +187,12 @@ public class GlobalGameState : MonoBehaviour
                 activeSceneData.fungiActive = false;
                 activeSceneData.ayucActive = false;
                 activeSceneData.rockActive = false;
-                DisableACPRuntimeAssetProperties();
+             //   DisableACPRuntimeAssetProperties();
                 break;
         }
     }
 
-    public void DisableACPRuntimeAssetProperties()
+   /* public void DisableACPRuntimeAssetProperties()
     {
         if (acpAssets != null)
         {
@@ -230,5 +230,5 @@ public class GlobalGameState : MonoBehaviour
         {
             Debug.Log("Global Game Maanger: no ACP runtime assets to disable");
         }
-    }
+    }*/
 }

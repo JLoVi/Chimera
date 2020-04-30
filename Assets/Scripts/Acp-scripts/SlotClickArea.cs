@@ -13,72 +13,82 @@ public class SlotClickArea : MonoBehaviour
 
     public bool selected;
 
-
+    public ActiveSceneData activeSceneData;
 
 
     void Start()
     {
-        selected = false;
-        rend = GetComponent<Renderer>();
-        // Debug.Log(GetComponent<NodeController>().terrainNode);
-
-        popup = HoverInfoPopup.hoverInfoPopup;
-        startColor = rend.material.color;
-        if (GetComponent<SlotController>() != null)
+        if (activeSceneData.acpActive)
         {
-            id = GetComponent<SlotController>().buildingSlot.buildingSlotID;
+            selected = false;
+            rend = GetComponent<Renderer>();
+            // Debug.Log(GetComponent<NodeController>().terrainNode);
+
+            popup = HoverInfoPopup.hoverInfoPopup;
+            startColor = rend.material.color;
+            if (GetComponent<SlotController>() != null)
+            {
+                id = GetComponent<SlotController>().buildingSlot.buildingSlotID;
+            }
         }
     }
 
     private void OnMouseDown()
     {
-        if (!selected)
+        if (activeSceneData.acpActive)
         {
-            AcpDataHandler.selectedBuildingSlotObject = this.gameObject;
-            AcpDataHandler.selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
-            //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
-        }
-
-        selected = !selected;
-
-        if (selected)
-        {
-            foreach (GameObject slot in AcpDataHandler.buildingSlotGameObjects)
+            if (!selected)
             {
-                if (slot != this.gameObject)
+                AcpDataHandler.selectedBuildingSlotObject = this.gameObject;
+                AcpDataHandler.selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
+                //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
+            }
+
+            selected = !selected;
+
+            if (selected)
+            {
+                foreach (GameObject slot in AcpDataHandler.buildingSlotGameObjects)
                 {
-                    slot.GetComponent<SlotClickArea>().selected = false;
-                    slot.GetComponent<SlotClickArea>().rend.material.color = startColor;
+                    if (slot != this.gameObject && slot != null)
+                    {
+                        slot.GetComponent<SlotClickArea>().selected = false;
+                        slot.GetComponent<SlotClickArea>().rend.material.color = startColor;
+                    }
                 }
             }
+
+            // Debug.Log(selected);
+            GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
+            //popup.DisplayInfo();
         }
 
-        // Debug.Log(selected);
-        GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
-        //popup.DisplayInfo();
     }
-
-
     void OnMouseEnter()
     {
+        if (activeSceneData.acpActive)
+        {
+            GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseHover(id);
 
-        GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseHover(id);
+            // popup.DisplayInfo();
 
-        // popup.DisplayInfo();
-
-        rend.material.color = hoverColor;
+            rend.material.color = hoverColor;
+        }
     }
 
     void OnMouseExit()
     {
-        if (HoverInfoPopup.hoverInfoPopup != null)
+        if (activeSceneData.acpActive)
         {
-            HoverInfoPopup.hoverInfoPopup.HideInfo();
-        }
+            if (HoverInfoPopup.hoverInfoPopup != null)
+            {
+                HoverInfoPopup.hoverInfoPopup.HideInfo();
+            }
 
-        if (!selected)
-        {
-            rend.material.color = startColor;
+            if (!selected)
+            {
+                rend.material.color = startColor;
+            }
         }
     }
 }

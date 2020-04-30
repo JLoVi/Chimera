@@ -13,6 +13,7 @@ public class SlotController : MonoBehaviour
 
 
 
+
     private void Awake()
     {
         buildingSlot = new BuildingSlot(false);
@@ -31,7 +32,7 @@ public class SlotController : MonoBehaviour
         buildingSlot.AddBuildingSlotData(GetComponentInParent<NodeController>().acpData);
         buildingSlot.buildingSlotID = AcpDataHandler.buildingSlots.Count;
         buildingSlotID = buildingSlot.buildingSlotID;
-        transform.parent = AcpDataHandler.acpRuntimeAssetParent.transform;
+       // transform.parent = AcpDataHandler.acpRuntimeAssetParent.transform;
 
 
     }
