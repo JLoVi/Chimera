@@ -16,8 +16,7 @@ MonoBehaviour:
   maintenanceCost: 50
   highEnd: 0
   buildingType: 1
-  buildingMesh: {fileID: 9025222698381554044, guid: fddf09175c0f7465b88f07ef17e3f550,
-    type: 3}
+  buildingMesh: {fileID: 100000, guid: 8e9199f2e3caac048be02e06264269b0, type: 3}
   impactEnvironment: -1
-  impactPeople: -2
+  impactPeople: -4
   impactCapital: 2

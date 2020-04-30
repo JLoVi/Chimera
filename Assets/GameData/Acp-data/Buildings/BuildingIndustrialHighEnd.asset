@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BuildingIndustrialHighEnd
   m_EditorClassIdentifier: 
   constructitonCost: 500
-  maintenanceCost: 200
+  maintenanceCost: 14
   highEnd: 1
   buildingType: 2
-  buildingMesh: {fileID: 1984717401883333893, guid: f4991c68f2ead4132849ec06ba3c4262,
+  buildingMesh: {fileID: 1979999768024140153, guid: 730b502ad844744689458c14cad2c1d6,
     type: 3}
   impactEnvironment: -1
-  impactPeople: 2
+  impactPeople: 0
   impactCapital: 1

@@ -13841,8 +13841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cc1ef015825d4f818ff0cb8849fdd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panSpeed: 20
-  panBorderThickness: 70
+  panSpeed: 15
+  panBorderThickness: 50
   scrollSpeed: 5
   minZoom: 2
   maxZoom: 20
@@ -18836,7 +18836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: -11.000032}
+  m_AnchoredPosition: {x: -77.99994, y: 2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1286030262
@@ -18868,9 +18868,11 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Seasonal Maintenance Fees: locked'
+  m_Text: 'Seasonal Maintenance Fees: locked
+
+    (build to unlock)'
 --- !u!222 &1286030263
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19697,7 +19699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: -46.00003}
+  m_AnchoredPosition: {x: -77.99994, y: -46.999985}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1360505179
@@ -19729,9 +19731,11 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Seasonal Revenues: locked'
+  m_Text: 'Seasonal Revenues: locked
+
+    (requires economic growth of 10)'
 --- !u!222 &1360505180
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20642,7 +20646,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -222.99994, y: -442.00006}
-  m_SizeDelta: {x: 400, y: 159}
+  m_SizeDelta: {x: 400, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489506146
 MonoBehaviour:
@@ -25798,7 +25802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: 20}
+  m_AnchoredPosition: {x: -77.99994, y: 48.000015}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884230115
@@ -25830,9 +25834,9 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Expenses: locked'
+  m_Text: "Expenses: locked \n(buy land or build to unlock)"
 --- !u!222 &1884230116
 CanvasRenderer:
   m_ObjectHideFlags: 0
