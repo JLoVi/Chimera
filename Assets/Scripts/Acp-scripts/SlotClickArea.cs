@@ -18,77 +18,67 @@ public class SlotClickArea : MonoBehaviour
 
     void Start()
     {
-        if (activeSceneData.acpActive)
-        {
-            selected = false;
-            rend = GetComponent<Renderer>();
-            // Debug.Log(GetComponent<NodeController>().terrainNode);
 
-            popup = HoverInfoPopup.hoverInfoPopup;
-            startColor = rend.material.color;
-            if (GetComponent<SlotController>() != null)
-            {
-                id = GetComponent<SlotController>().buildingSlot.buildingSlotID;
-            }
-        }
+
+//        Debug.Log("FSF");
+        selected = false;
+        rend = GetComponent<Renderer>();
+        
+        popup = HoverInfoPopup.hoverInfoPopup;
+        startColor = rend.material.color;
+       
     }
 
     private void OnMouseDown()
     {
-        if (activeSceneData.acpActive)
+        if (!selected)
         {
-            if (!selected)
-            {
-                AcpDataHandler.selectedBuildingSlotObject = this.gameObject;
-                AcpDataHandler.selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
-                //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
-            }
+            AcpDataHandler.selectedBuildingSlotObject = this.gameObject;
+            AcpDataHandler.selectedBuildingSlot = GetComponent<SlotController>().buildingSlot;
+            //    Debug.Log("selected slot " + AcpDataHandler.selectedBuildingSlot.buildingSlotID);
+        }
 
-            selected = !selected;
+        selected = !selected;
 
-            if (selected)
+        if (selected)
+        {
+            foreach (GameObject slot in AcpDataHandler.instance.buildingSlotGameObjects)
             {
-                foreach (GameObject slot in AcpDataHandler.buildingSlotGameObjects)
+                if (slot != this.gameObject && slot != null)
                 {
-                    if (slot != this.gameObject && slot != null)
-                    {
-                        slot.GetComponent<SlotClickArea>().selected = false;
-                        slot.GetComponent<SlotClickArea>().rend.material.color = startColor;
-                    }
+                    slot.GetComponent<SlotClickArea>().selected = false;
+                    slot.GetComponent<SlotClickArea>().rend.material.color = startColor;
                 }
             }
-
-            // Debug.Log(selected);
-            GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
-            //popup.DisplayInfo();
         }
+
+        // Debug.Log(selected);
+        GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
+        //popup.DisplayInfo();
+
 
     }
     void OnMouseEnter()
     {
-        if (activeSceneData.acpActive)
-        {
-            GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseHover(id);
+        GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseHover(id);
 
-            // popup.DisplayInfo();
+        // popup.DisplayInfo();
 
-            rend.material.color = hoverColor;
-        }
+        rend.material.color = hoverColor;
+
     }
 
     void OnMouseExit()
     {
-        if (activeSceneData.acpActive)
+        if (HoverInfoPopup.hoverInfoPopup != null)
         {
-            if (HoverInfoPopup.hoverInfoPopup != null)
-            {
-                HoverInfoPopup.hoverInfoPopup.HideInfo();
-            }
+            HoverInfoPopup.hoverInfoPopup.HideInfo();
+        }
 
-            if (!selected)
-            {
-                rend.material.color = startColor;
-            }
+        if (!selected)
+        {
+            rend.material.color = startColor;
         }
     }
+
 }

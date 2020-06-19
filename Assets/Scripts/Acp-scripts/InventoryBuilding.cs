@@ -39,7 +39,7 @@ public class InventoryBuilding : MonoBehaviour
         string pricecat = building.highEnd ? "High End " : "Cheap ";
         popup.infoText.text = "Building : " + building.buildingType + '\n' +
                     pricecat + '\n' + "Costs: " + '\n' +
-                    "Land: " + AcpDataHandler.selectedBuildingSlot.price + "Construction: " + building.constructitonCost + '\n' +
+                     "Construction: " + building.constructitonCost + '\n' +
                     "Seasonal Maintenance Cost: " + building.maintenanceCost +
                     '\n' + '\n' + "<Click To Buy> ";
     }
@@ -60,26 +60,26 @@ public class InventoryBuilding : MonoBehaviour
        
         InventoryPanel.SetActive(false);
 
-        meshToBuild.transform.parent = AcpDataHandler.acpRuntimeAssetParent.transform;
+        meshToBuild.transform.parent = AcpDataHandler.selectedBuildingSlotObject.transform;
     }
 
     public void UpdateSelectedBuilding()
     {
         building.maintenanceCost = AcpDataHandler.selectedBuildingSlot.health / 2;
 
-        AcpDataHandler.selectedBuildingSlot.purchased = true;
+//        AcpDataHandler.selectedBuildingSlot.purchased = true;
         AcpDataHandler.selectedBuildingSlot.containsBuilding = true;
         AcpDataHandler.selectedBuildingSlot.building = building;
 
-        acpData.capital -= (AcpDataHandler.selectedBuildingSlot.price + building.constructitonCost);
+        acpData.capital -=  building.constructitonCost;
         acpData.socialScore += building.impactPeople;
         acpData.environmentScore += building.impactEnvironment;
         acpData.economicGrowth += building.impactCapital;
 
         updateCapital.Raise();
-        AcpDataHandler.selectedBuildingSlot.ModifyBuildingSlotData(acpData, AcpDataHandler.selectedBuildingSlot);
+   //     AcpDataHandler.selectedBuildingSlot.parentNode.ModifyTerrainNodeData(acpData, AcpDataHandler.selectedBuildingSlot.parentNode);
         purchaseBuilding.Raise();
-        AcpDataHandler.expenses += AcpDataHandler.selectedBuildingSlot.price + building.constructitonCost;
+        AcpDataHandler.expenses += building.constructitonCost;
         updateExpenses.Raise();
     }
 
@@ -88,7 +88,7 @@ public class InventoryBuilding : MonoBehaviour
         newBuildingInfo.gameObject.SetActive(true);
         newBuildingInfo.color = new Color(newBuildingInfo.color.r, newBuildingInfo.color.g, newBuildingInfo.color.b, 1);
         newBuildingInfo.text = "New Building: " + building.buildingType + '\n' +
-        "Land Costs: " + AcpDataHandler.selectedBuildingSlot.price + '\n' + "Construction Cost: " + building.constructitonCost + '\n' +
+      '\n' + "Construction Cost: " + building.constructitonCost + '\n' +
         "Seasonal Maintenance Cost: " + building.maintenanceCost;
         newBuildingInfo.gameObject.GetComponent<FadeOutText>().FadeOut();
     }

@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: BuildingFinancialCheap
   m_EditorClassIdentifier: 
   constructitonCost: 300
-  maintenanceCost: 50
+  maintenanceCost: 31
   highEnd: 0
   buildingType: 1
-  buildingMesh: {fileID: 100000, guid: 8e9199f2e3caac048be02e06264269b0, type: 3}
+  buildingMesh: {fileID: 2064681411247047436, guid: 03c1e5277d8284a94b4f2f9430127ea6,
+    type: 3}
   impactEnvironment: -1
   impactPeople: -4
   impactCapital: 2

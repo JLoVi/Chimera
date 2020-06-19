@@ -8,14 +8,11 @@ public class AcpDataHandler : MonoBehaviour
 {
     //TERRAIN
     public List<TerrainNode> terrainNodesOnMap = new List<TerrainNode>();
+    public List<BuildingSlot> buildingSlotsOnMap = new List<BuildingSlot>();
+    public List<GameObject> buildingSlotGameObjects = new List<GameObject>();
 
     public static int terrainHealth;
     public static int terrainNodesPurchased;
-
-
-    //BUILDING SLOTS
-    public static List<BuildingSlot> buildingSlots = new List<BuildingSlot>();
-    public static List<GameObject> buildingSlotGameObjects = new List<GameObject>();
 
     public static BuildingSlot selectedBuildingSlot;
     public static GameObject selectedBuildingSlotObject;
@@ -44,12 +41,12 @@ public class AcpDataHandler : MonoBehaviour
     public RockData rockData;
     private GameManagerAcp gameManagerAcp;
     public ColorPallette colorPallette;
-    public static AcpDataHandler acpDataHandlerInstance;
+    public static AcpDataHandler instance;
 
 
     void Awake()
     {
-        acpDataHandlerInstance = this;
+        instance = this;
 
         buildingInventory = buildingInventoryUtility;
 
@@ -80,7 +77,7 @@ public class AcpDataHandler : MonoBehaviour
         buildingInventory.SetActive(false);
         inSeason = false;
         //terrainHealth = terrainNodesOnMap.Sum(TerrainNode => TerrainNode.health);
-        CalculateTerrainHealth();
+       // CalculateTerrainHealth();
         gameManagerAcp.OnTerrainHealthUpdate();
 
         GetPurchasedTerrainNodes();
@@ -92,11 +89,13 @@ public class AcpDataHandler : MonoBehaviour
 
     }
 
-    public void CalculateTerrainHealth()
+
+
+  /*  public void CalculateTerrainHealth()
     {
         double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
         terrainHealth = Mathf.RoundToInt((float)averageHealth);
-    }
+    }*/
 
     public void GetPurchasedTerrainNodes()
     {
@@ -116,7 +115,7 @@ public class AcpDataHandler : MonoBehaviour
         industrialAmt = 0;
         financialAmt = 0;
 
-        for (int i = 0; i < acpData.buildingSlots.Count; i++)
+   /*     for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
             if (buildingSlots[i].containsBuilding)
             {
@@ -133,19 +132,19 @@ public class AcpDataHandler : MonoBehaviour
                     financialAmt++;
                 }
             }
-        }
+        }*/
     }
 
     public void GetMaintenanceFees()
     {
         maintenanceFees = 0;
-        for (int i = 0; i < acpData.buildingSlots.Count; i++)
+      /*  for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
             if (acpData.buildingSlots[i].containsBuilding)
             {
                 maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
             }
-        }
+        }*/
     }
 
 }

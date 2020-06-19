@@ -12,34 +12,43 @@ public class SlotController : MonoBehaviour
     //  public static InventoryBuilding currentInventoryBuilding;
 
 
-
-
+    private BuildingSlot CreateBuilidingSlot()
+    {
+        BuildingSlot slot = new BuildingSlot
+        {
+            id = parentNode.id,
+            location = parentNode.location,
+            //price
+            purchased = false
+        };
+        return slot;
+    }
     private void Awake()
     {
-        buildingSlot = new BuildingSlot(false);
-
-        if (GetComponentInParent<NodeController>().terrainNode != null)
-        {
-            parentNode = GetComponentInParent<NodeController>().terrainNode;
-            buildingSlot.price = parentNode.price;
-            buildingSlot.id = parentNode.id;
-            buildingSlot.location = parentNode.location;
-            buildingSlot.health = parentNode.health;
-
-
-        }
-        AcpDataHandler.buildingSlots.Add(buildingSlot);
-        buildingSlot.AddBuildingSlotData(GetComponentInParent<NodeController>().acpData);
-        buildingSlot.buildingSlotID = AcpDataHandler.buildingSlots.Count;
-        buildingSlotID = buildingSlot.buildingSlotID;
-       // transform.parent = AcpDataHandler.acpRuntimeAssetParent.transform;
-
-
+        
     }
 
     // Start is called before the first frame update
     void Start()
     {
+
+        if (GetComponentInParent<NodeController>().terrainNode != null)
+        {
+            parentNode = GetComponentInParent<NodeController>().terrainNode;
+            buildingSlot = CreateBuilidingSlot();
+            buildingSlot.AddBuildingSlotData(AcpDataHandler.instance.acpData);
+            AcpDataHandler.instance.buildingSlotsOnMap.Add(buildingSlot);
+            buildingSlot.buildingSlotID = AcpDataHandler.instance.buildingSlotsOnMap.Count;
+            buildingSlotID = buildingSlot.buildingSlotID;
+            GetComponent<SlotClickArea>().id = buildingSlotID;
+        }
+        else
+        {
+            Debug.Log("can't find parent node");
+        }
+      
+
+
         popup = HoverInfoPopup.hoverInfoPopup;
         inventoryUI = AcpDataHandler.buildingInventory;
         inventoryUI.SetActive(false);
@@ -51,8 +60,10 @@ public class SlotController : MonoBehaviour
 
     void OnSlotHover(int id)
     {
+       
         if (id == this.buildingSlotID)
         {
+            
             popup.DisplayInfo();
             popup.infoText.text = "Click to see your building options on this slot";
         }

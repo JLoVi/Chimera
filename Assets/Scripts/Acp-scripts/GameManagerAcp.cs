@@ -26,6 +26,7 @@ public class GameManagerAcp : MonoBehaviour
     public Text expensesText;
     public Text maintenanceText;
 
+    
 
     // Start is called before the first frame update
     private void Awake()
@@ -83,11 +84,32 @@ public class GameManagerAcp : MonoBehaviour
     public void OnUpdateExpenses()
     {
         expensesText.text = "Expenses: " + AcpDataHandler.expenses;
-
     }
 
     public void UpdateMaintenance()
     {
         maintenanceText.text = "Seasonal Maintenance Fees: " + AcpDataHandler.maintenanceFees;
+    }
+
+    void CheckForActiveFungiUnits()
+    {
+        if (AcpDataHandler.instance.fungiData.activeUnitLocations != null)
+        {
+            foreach (LocationOnMap location in AcpDataHandler.instance.fungiData.activeUnitLocations)
+            {
+                if (GetComponent<NodeController>().locatonOnMap != null)
+                {
+                    if (location.name == GetComponent<NodeController>().locatonOnMap.name)
+                    {
+                       // rend.material.color = AcpDataHandler.acpDataHandlerInstance.colorPallette.color1;
+                       // startColor = rend.material.color;
+                    }
+                }
+                else
+                {
+                    return;
+                }
+            }
+        }
     }
 }

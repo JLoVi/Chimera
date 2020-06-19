@@ -1,5 +1,5 @@
 ﻿using System;
 public enum BuildingType
 {
-    Residential, Financial, Industrial
+    Residential, Financial, Industrial, Sanitation, Social
 }
