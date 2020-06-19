@@ -15,7 +15,7 @@ public class NodeController : MonoBehaviour
 
     public static TerrainNode selectedNode;
 
-  
+
     [SerializeField]
     public GameEvent updateCapital;
 
@@ -40,26 +40,51 @@ public class NodeController : MonoBehaviour
     }
     private void Awake()
     {
-       
+
     }
 
     private void Start()
     {
         terrainNode = CreateTerrainNode();
-        terrainNode.AddTerrainNodeToData(AcpDataHandler.instance.acpData);
-        AcpDataHandler.instance.terrainNodesOnMap.Add(terrainNode);
-        terrainNode.id = AcpDataHandler.instance.terrainNodesOnMap.Count;
+
+        AcpDataHandler.instance.terrainNodeCount++;
+        terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
 
         id = terrainNode.id;
 
         GetComponent<NodeClickArea>().id = id;
 
+
+        if (AcpDataHandler.instance.acpData.populateNodes) { 
+        terrainNode.AddTerrainNodeToData(AcpDataHandler.instance.acpData);
+        }
+        else
+        {
+            for (int i = 0; i < AcpDataHandler.instance.acpData.terrainNodes.Count; i++)
+            {
+                if(AcpDataHandler.instance.acpData.terrainNodes[i].id == id)
+                {
+                    terrainNode = AcpDataHandler.instance.acpData.terrainNodes[i];
+                }
+            }
+        }
+
+        
+
         popup = HoverInfoPopup.hoverInfoPopup;
+
+        if (terrainNode.purchased)
+        {
+            this.gameObject.AddComponent<CreateBuildingSlots>();
+            this.gameObject.GetComponent<NodeClickArea>().enabled = false;
+        }
 
         GameEventsTerrain.currentTerrainEvent.onTerrainMouseHover += OnTerrainNodeHover;
         GameEventsTerrain.currentTerrainEvent.onTerrainMouseClick += OnTerrainNodeClick;
 
     }
+
+
 
     private void OnTerrainNodeHover(int id)
     {
@@ -67,7 +92,7 @@ public class NodeController : MonoBehaviour
         popup.DisplayInfo();
         if (id == this.id)
         {
-//            Debug.Log("bbb");
+            //            Debug.Log("bbb");
             if (terrainNode != null && observable) Survey(id);
 
             if (terrainNode.purchased)
@@ -94,7 +119,7 @@ public class NodeController : MonoBehaviour
 
     private void Survey(int id)
     {
-       
+
         //sx Debug.Log(terrainNode.health);
         if (!terrainNode.purchased && AcpDataHandler.instance.acpData.capital > terrainNode.price)
         {

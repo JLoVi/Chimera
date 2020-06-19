@@ -7,7 +7,9 @@ using System.Linq;
 public class AcpDataHandler : MonoBehaviour
 {
     //TERRAIN
-    public List<TerrainNode> terrainNodesOnMap = new List<TerrainNode>();
+    //  public List<TerrainNode> terrainNodesOnMap = new List<TerrainNode>();
+    public int terrainNodeCount;
+
     public List<BuildingSlot> buildingSlotsOnMap = new List<BuildingSlot>();
     public List<GameObject> buildingSlotGameObjects = new List<GameObject>();
 
@@ -59,6 +61,8 @@ public class AcpDataHandler : MonoBehaviour
         {
             gameManagerAcp = GetComponent<GameManagerAcp>();
         }
+
+      
     }
 
     private void Start()
