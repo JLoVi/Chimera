@@ -102,7 +102,7 @@ public class AcpDataHandler : MonoBehaviour
         {
             if (AcpDataHandler.instance.acpData.terrainNodes[i].id == node.id)
             {
-                Debug.Log(exists);
+//                Debug.Log(exists);
                 exists = true;
             }
 
@@ -135,7 +135,7 @@ public class AcpDataHandler : MonoBehaviour
             if (AcpDataHandler.instance.acpData.buildingSlots[j].id == node.id)
             {
                 slotCount++;
-                Debug.Log(slotCount);
+//                Debug.Log(slotCount);
 
             }
         }
@@ -150,7 +150,7 @@ public class AcpDataHandler : MonoBehaviour
         {
             if (AcpDataHandler.instance.acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
             {
-                Debug.Log(exists);
+//                Debug.Log(exists);
                 exists = true;
             }
 
@@ -162,7 +162,12 @@ public class AcpDataHandler : MonoBehaviour
     {
         for (int i = 0; i < AcpDataHandler.instance.acpData.buildingSlots.Count; i++)
         {
+            if (AcpDataHandler.instance.acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
+            {
 
+                slot = AcpDataHandler.instance.acpData.buildingSlots[i];
+
+            }
 
         }
         return slot;

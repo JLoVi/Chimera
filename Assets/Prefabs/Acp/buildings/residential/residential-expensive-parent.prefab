@@ -46,7 +46,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingPieces: []
   fungi: {fileID: 6167390209193885350}
-  fungiPresence: 0
+  parentSlot:
+    id: 0
+    location: {fileID: 0}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 0
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 0
 --- !u!1001 &6408483479652425655
 PrefabInstance:
   m_ObjectHideFlags: 0

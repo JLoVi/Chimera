@@ -32,5 +32,16 @@ public class GameEventsBuildingSlots : MonoBehaviour
         }
     }
 
-   
+
+   /* public event Action<int> onFungiPresent;
+
+    public void FungiPresent(int id)
+    {
+        if (onFungiPresent != null)
+        {
+            onFungiPresent(id);
+        }
+    }*/
+
+
 }

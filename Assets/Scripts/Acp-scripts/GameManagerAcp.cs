@@ -26,11 +26,12 @@ public class GameManagerAcp : MonoBehaviour
     public Text expensesText;
     public Text maintenanceText;
 
-    
+    public static GameManagerAcp instance;
 
     // Start is called before the first frame update
     private void Awake()
     {
+        instance = this;
         if (acpData.wipeACPData) WipeAcpData();
     }
 
@@ -66,7 +67,7 @@ public class GameManagerAcp : MonoBehaviour
     public void OnTerrainPurchased()
     {
         terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased;
-       // Debug.Log("TERRAINPURCHASED");
+        // Debug.Log("TERRAINPURCHASED");
 
     }
 
@@ -91,25 +92,24 @@ public class GameManagerAcp : MonoBehaviour
         maintenanceText.text = "Seasonal Maintenance Fees: " + AcpDataHandler.maintenanceFees;
     }
 
-    void CheckForActiveFungiUnits()
+
+    public bool CheckForActiveFungiUnits(BuildingSlot slot, bool state)
     {
+
+        state = false;
         if (AcpDataHandler.instance.fungiData.activeUnitLocations != null)
         {
-            foreach (LocationOnMap location in AcpDataHandler.instance.fungiData.activeUnitLocations)
+            for (int i = 0; i < AcpDataHandler.instance.fungiData.activeUnitLocations.Count; i++)
             {
-                if (GetComponent<NodeController>().locatonOnMap != null)
+                if (AcpDataHandler.instance.fungiData.activeUnitLocations[i] == slot.location)
                 {
-                    if (location.name == GetComponent<NodeController>().locatonOnMap.name)
-                    {
-                       // rend.material.color = AcpDataHandler.acpDataHandlerInstance.colorPallette.color1;
-                       // startColor = rend.material.color;
-                    }
-                }
-                else
-                {
-                    return;
+                    state = true;
+
                 }
             }
         }
+        return state;
+
     }
+
 }

@@ -9,19 +9,18 @@ public class BuildingState : MonoBehaviour
 
     public GameObject fungi;
 
-    public bool fungiPresence;
-    private bool canAnimate;
-
     public BuildingSlot parentSlot;
 
-    public enum State { Decay, Recovery, Repaired, Demolished}
-
+    public void Awake()
+    {
+        fungi.SetActive(false);
+    }
     public void Start()
     {
-        parentSlot = AcpDataHandler.selectedBuildingSlot;
-        fungi.SetActive(false);
-        fungiPresence = false;
-        canAnimate = true;
+
+        
+
+
 
         foreach (Transform piece in transform)
         {
@@ -37,14 +36,13 @@ public class BuildingState : MonoBehaviour
             buildingPieces[randomIndex] = temp;
         }
         StartCoroutine(ActivatePiece(true));
+       
+
     }
 
     public void Update()
     {
-        if(fungiPresence && canAnimate)
-        {
-            StartCoroutine(StartFungiAttack());
-        }
+
     }
 
     public IEnumerator ActivatePiece(bool state)
@@ -56,14 +54,20 @@ public class BuildingState : MonoBehaviour
         }
     }
 
+    public void OnFungiAttack()
+    {
+
+        fungi.SetActive(true);
+     //   Debug.Log(fungi.activeSelf);
+        StartCoroutine(StartFungiAttack());
+
+    }
     public IEnumerator StartFungiAttack()
     {
-        canAnimate = false;
-        fungi.SetActive(true);
+       
+
         yield return new WaitForSeconds(20f);
         StartCoroutine(ActivatePiece(false));
     }
-
-   
 
 }

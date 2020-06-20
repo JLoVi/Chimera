@@ -252,6 +252,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -389,6 +390,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -526,6 +528,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -663,6 +666,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -892,6 +896,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1029,6 +1034,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1252,6 +1258,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1389,6 +1396,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1618,6 +1626,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1755,6 +1764,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1892,6 +1902,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2029,6 +2040,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2166,6 +2178,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2380,6 +2393,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2517,6 +2531,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2654,6 +2669,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2884,6 +2900,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3021,6 +3038,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3158,6 +3176,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3295,6 +3314,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3476,6 +3496,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3613,6 +3634,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3972,6 +3994,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4183,6 +4206,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4397,6 +4421,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4578,6 +4603,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4715,6 +4741,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4945,6 +4972,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5082,6 +5110,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5312,6 +5341,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5449,6 +5479,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5707,6 +5738,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5880,7 +5912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: a71c5ec6da1774225a2f3e65dc28da14, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -6021,6 +6052,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6158,6 +6190,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6295,6 +6328,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6644,6 +6678,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6781,6 +6816,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6995,6 +7031,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7224,6 +7261,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7361,6 +7399,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7498,6 +7537,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7635,6 +7675,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7923,6 +7964,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8060,6 +8102,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8197,6 +8240,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8455,6 +8499,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8669,6 +8714,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8806,6 +8852,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8943,6 +8990,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9080,6 +9128,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9217,6 +9266,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9354,6 +9404,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9491,6 +9542,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9628,6 +9680,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9904,6 +9957,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10133,6 +10187,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10314,6 +10369,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10587,6 +10643,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10827,7 +10884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: 7d076a74ee5ee4b5e8adacdb3edd2a68, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -11165,6 +11221,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11302,6 +11359,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11439,6 +11497,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11576,6 +11635,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11713,6 +11773,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11850,6 +11911,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11987,6 +12049,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12308,6 +12371,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12445,6 +12509,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12582,6 +12647,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12719,6 +12785,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12856,6 +12923,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12993,6 +13061,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13130,6 +13199,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13267,6 +13337,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13404,6 +13475,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13618,6 +13690,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13799,6 +13872,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14089,6 +14163,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14226,6 +14301,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14440,6 +14516,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14577,6 +14654,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14758,6 +14836,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14939,6 +15018,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15076,6 +15156,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15213,6 +15294,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15350,6 +15432,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15564,6 +15647,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15701,6 +15785,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15838,6 +15923,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15975,6 +16061,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16156,6 +16243,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16227,7 +16315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingSlotPrefab: {fileID: 1283715714}
   terrainNodeCount: 0
-  buildingSlotsOnMap: []
+  buildingSlotCount: 0
   buildingSlotGameObjects: []
   buildingInventoryUtility: {fileID: 420619846}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
@@ -16585,6 +16673,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16814,6 +16903,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16951,6 +17041,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17088,6 +17179,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17269,6 +17361,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17442,6 +17535,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17579,6 +17673,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17793,6 +17888,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17930,6 +18026,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18159,6 +18256,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18296,6 +18394,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18526,6 +18625,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18903,7 +19003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: e9283a02b245b4e67a8aa255a5326560, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -19321,6 +19420,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -19458,6 +19558,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -19617,7 +19718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: 85c83c43f57f94758b441cabb0af8468, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -20031,6 +20131,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20168,6 +20269,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20305,6 +20407,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20640,6 +20743,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20777,6 +20881,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21163,6 +21268,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21300,6 +21406,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21437,6 +21544,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21574,6 +21682,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21847,6 +21956,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21984,6 +22094,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22121,6 +22232,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22258,6 +22370,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22395,6 +22508,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22532,6 +22646,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22669,6 +22784,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22806,6 +22922,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -23102,7 +23219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: fd26d8ec7c75847c1a50890fcb84e293, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -23521,6 +23637,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -23707,6 +23824,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -23880,7 +23998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: 711128abd3ec74849875f8c9c7583867, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -24065,6 +24182,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24202,6 +24320,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24445,6 +24564,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24582,6 +24702,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24789,6 +24910,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24926,6 +25048,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25063,6 +25186,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25433,6 +25557,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25722,6 +25847,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26276,6 +26402,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26413,6 +26540,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26594,6 +26722,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26731,6 +26860,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26868,6 +26998,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27174,6 +27305,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27311,6 +27443,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27448,6 +27581,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27738,6 +27872,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27906,6 +28041,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28043,6 +28179,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28180,6 +28317,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28317,6 +28455,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28454,6 +28593,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28775,6 +28915,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28912,6 +29053,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29049,6 +29191,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29186,6 +29329,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29508,6 +29652,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29645,6 +29790,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29782,6 +29928,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29963,6 +30110,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}

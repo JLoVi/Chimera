@@ -6,9 +6,11 @@ public class SlotController : MonoBehaviour
 {
     [SerializeField] private int buildingSlotID;
     private bool exists;
+    private bool fungiActive;
 
     [SerializeField] private TerrainNode parentNode;
     [SerializeField] private HoverInfoPopup popup;
+    [SerializeField] private BuildingState buildingStateController;
     public GameObject inventoryUI;
     public BuildingSlot buildingSlot;
     //  public static InventoryBuilding currentInventoryBuilding;
@@ -21,13 +23,15 @@ public class SlotController : MonoBehaviour
             id = parentNode.id,
             location = parentNode.location,
             //price
-            purchased = false
+            purchased = false,
+            slotCondition = Condition.Stable
         };
         return slot;
     }
+
     private void Awake()
     {
-        
+
     }
 
     // Start is called before the first frame update
@@ -40,8 +44,8 @@ public class SlotController : MonoBehaviour
 
             buildingSlot = CreateBuilidingSlot();
 
-            AcpDataHandler.instance.terrainNodeCount++;
-            buildingSlot.buildingSlotID = AcpDataHandler.instance.terrainNodeCount;
+            AcpDataHandler.instance.buildingSlotCount++;
+            buildingSlot.buildingSlotID = AcpDataHandler.instance.buildingSlotCount;
 
             buildingSlotID = buildingSlot.buildingSlotID;
 
@@ -51,43 +55,56 @@ public class SlotController : MonoBehaviour
 
             if (exists)
             {
+
                 buildingSlot = AcpDataHandler.instance.ReadSlotFromData(buildingSlot);
-                Debug.Log(buildingSlot.purchased);
+                if (buildingSlot.containsBuilding)
+                {
+
+                    GameObject meshToBuild = Instantiate(buildingSlot.building.buildingMesh, this.transform.position, Quaternion.identity);
+                    meshToBuild.transform.localScale = meshToBuild.transform.localScale / 3;
+                    meshToBuild.transform.parent = this.transform;
+
+                    buildingStateController = this.GetComponentInChildren<BuildingState>();
+                    fungiActive = GameManagerAcp.instance.CheckForActiveFungiUnits(buildingSlot, fungiActive);
+
+                    if (fungiActive && buildingStateController != null)
+                    {
+
+                        buildingStateController.OnFungiAttack();
+                    }
+
+                }
             }
+
             else
             {
                 buildingSlot.AddBuildingSlotData(AcpDataHandler.instance.acpData);
             }
-            // buildingSlot.AddBuildingSlotData(AcpDataHandler.instance.acpData);
-
-            //AcpDataHandler.instance.buildingSlotsOnMap.Add(buildingSlot);
-            // buildingSlot.buildingSlotID = AcpDataHandler.instance.buildingSlotsOnMap.Count;
-
-
-
         }
+
         else
         {
             Debug.Log("can't find parent node");
         }
-      
-
 
         popup = HoverInfoPopup.hoverInfoPopup;
         inventoryUI = AcpDataHandler.buildingInventory;
         inventoryUI.SetActive(false);
+
 
         GameEventsBuildingSlots.currentBuildingSlotEvent.onSlotMouseHover += OnSlotHover;
         GameEventsBuildingSlots.currentBuildingSlotEvent.onSlotMouseClick += OnSlotClick;
 
     }
 
+   
+
     void OnSlotHover(int id)
     {
-       
+
         if (id == this.buildingSlotID)
         {
-            
+
             popup.DisplayInfo();
             popup.infoText.text = "Click to see your building options on this slot";
         }

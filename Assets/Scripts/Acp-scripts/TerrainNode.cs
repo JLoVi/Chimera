@@ -27,7 +27,7 @@ public class TerrainNode
     {
         for (int i = 0; i < data.terrainNodes.Count; i++)
         {
-            if (i == node.id)
+            if (data.terrainNodes[i].id == node.id)
             {
                 data.terrainNodes[i] = node;
 

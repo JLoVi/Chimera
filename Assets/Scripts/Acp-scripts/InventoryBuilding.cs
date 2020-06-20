@@ -7,7 +7,11 @@ using UnityEngine.UI;
 public class InventoryBuilding : MonoBehaviour
 {
 
-    public int inventoryID;
+    //  public int inventoryID;
+    private bool fungiActive;
+    [SerializeField] private BuildingState buildingStateController;
+
+
     public HoverInfoPopup popup;
     public Building building;
 
@@ -61,15 +65,27 @@ public class InventoryBuilding : MonoBehaviour
         InventoryPanel.SetActive(false);
 
         meshToBuild.transform.parent = AcpDataHandler.selectedBuildingSlotObject.transform;
+
+        buildingStateController = AcpDataHandler.selectedBuildingSlotObject.GetComponentInChildren<BuildingState>();
+        fungiActive = GameManagerAcp.instance.CheckForActiveFungiUnits(AcpDataHandler.selectedBuildingSlot, fungiActive);
+
+        if (fungiActive && buildingStateController != null)
+        {
+            
+            buildingStateController.OnFungiAttack();
+        }
+
     }
 
     public void UpdateSelectedBuilding()
     {
         building.maintenanceCost = AcpDataHandler.selectedBuildingSlot.health / 2;
 
-//        AcpDataHandler.selectedBuildingSlot.purchased = true;
         AcpDataHandler.selectedBuildingSlot.containsBuilding = true;
         AcpDataHandler.selectedBuildingSlot.building = building;
+        AcpDataHandler.selectedBuildingSlot.purchased = true;
+
+        AcpDataHandler.selectedBuildingSlot.ModifyBuildlingSlotData(acpData);
 
         acpData.capital -=  building.constructitonCost;
         acpData.socialScore += building.impactPeople;
@@ -77,7 +93,6 @@ public class InventoryBuilding : MonoBehaviour
         acpData.economicGrowth += building.impactCapital;
 
         updateCapital.Raise();
-   //     AcpDataHandler.selectedBuildingSlot.parentNode.ModifyTerrainNodeData(acpData, AcpDataHandler.selectedBuildingSlot.parentNode);
         purchaseBuilding.Raise();
         AcpDataHandler.expenses += building.constructitonCost;
         updateExpenses.Raise();
