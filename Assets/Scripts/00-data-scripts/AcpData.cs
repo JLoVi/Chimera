@@ -6,7 +6,7 @@ using UnityEngine;
 public class AcpData : ScriptableObject
 {
     public bool wipeACPData;
-    public bool populateNodes;
+  //  public bool populateNodes;
 
     public float capital;
     public int socialScore;

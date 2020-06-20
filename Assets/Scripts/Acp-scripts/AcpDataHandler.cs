@@ -8,9 +8,11 @@ public class AcpDataHandler : MonoBehaviour
 {
     //TERRAIN
     //  public List<TerrainNode> terrainNodesOnMap = new List<TerrainNode>();
+    public GameObject buildingSlotPrefab;
     public int terrainNodeCount;
+    public int buildingSlotCount;
 
-    public List<BuildingSlot> buildingSlotsOnMap = new List<BuildingSlot>();
+    //public List<BuildingSlot> buildingSlotsOnMap = new List<BuildingSlot>();
     public List<GameObject> buildingSlotGameObjects = new List<GameObject>();
 
     public static int terrainHealth;
@@ -62,7 +64,7 @@ public class AcpDataHandler : MonoBehaviour
             gameManagerAcp = GetComponent<GameManagerAcp>();
         }
 
-      
+
     }
 
     private void Start()
@@ -81,7 +83,7 @@ public class AcpDataHandler : MonoBehaviour
         buildingInventory.SetActive(false);
         inSeason = false;
         //terrainHealth = terrainNodesOnMap.Sum(TerrainNode => TerrainNode.health);
-       // CalculateTerrainHealth();
+        // CalculateTerrainHealth();
         gameManagerAcp.OnTerrainHealthUpdate();
 
         GetPurchasedTerrainNodes();
@@ -93,13 +95,86 @@ public class AcpDataHandler : MonoBehaviour
 
     }
 
-
-
-  /*  public void CalculateTerrainHealth()
+    public bool CheckIfNodeIdExists(TerrainNode node, bool exists)
     {
-        double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
-        terrainHealth = Mathf.RoundToInt((float)averageHealth);
-    }*/
+        exists = false;
+        for (int i = 0; i < AcpDataHandler.instance.acpData.terrainNodes.Count; i++)
+        {
+            if (AcpDataHandler.instance.acpData.terrainNodes[i].id == node.id)
+            {
+                Debug.Log(exists);
+                exists = true;
+            }
+
+        }
+        return exists;
+    }
+
+    public TerrainNode ReadNodeFromData(TerrainNode node)
+    {
+
+        for (int i = 0; i < AcpDataHandler.instance.acpData.terrainNodes.Count; i++)
+        {
+            if (AcpDataHandler.instance.acpData.terrainNodes[i].id == node.id)
+            {
+
+                node = AcpDataHandler.instance.acpData.terrainNodes[i];
+
+            }
+
+        }
+        return node;
+    }
+
+    public int numberOfSlotsOnNode(TerrainNode node, int slotCount)
+    {
+        slotCount = 0;
+
+        for (int j = 0; j < AcpDataHandler.instance.acpData.buildingSlots.Count; j++)
+        {
+            if (AcpDataHandler.instance.acpData.buildingSlots[j].id == node.id)
+            {
+                slotCount++;
+                Debug.Log(slotCount);
+
+            }
+        }
+
+        return slotCount;
+    }
+
+    public bool CheckIfSlotIdExists(BuildingSlot slot, bool exists)
+    {
+        exists = false;
+        for (int i = 0; i < AcpDataHandler.instance.acpData.buildingSlots.Count; i++)
+        {
+            if (AcpDataHandler.instance.acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
+            {
+                Debug.Log(exists);
+                exists = true;
+            }
+
+        }
+        return exists;
+    }
+
+    public BuildingSlot ReadSlotFromData(BuildingSlot slot)
+    {
+        for (int i = 0; i < AcpDataHandler.instance.acpData.buildingSlots.Count; i++)
+        {
+
+
+        }
+        return slot;
+    }
+
+
+
+    /*  public void CalculateTerrainHealth()
+      {
+          double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
+          terrainHealth = Mathf.RoundToInt((float)averageHealth);
+      }*/
 
     public void GetPurchasedTerrainNodes()
     {
@@ -119,36 +194,36 @@ public class AcpDataHandler : MonoBehaviour
         industrialAmt = 0;
         financialAmt = 0;
 
-   /*     for (int i = 0; i < acpData.buildingSlots.Count; i++)
-        {
-            if (buildingSlots[i].containsBuilding)
-            {
-                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Residential)
-                {
-                    residentialAmt++;
-                }
-                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Industrial)
-                {
-                    industrialAmt++;
-                }
-                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Financial)
-                {
-                    financialAmt++;
-                }
-            }
-        }*/
+            for (int i = 0; i < acpData.buildingSlots.Count; i++)
+             {
+                 if (acpData.buildingSlots[i].containsBuilding)
+                 {
+                     if (acpData.buildingSlots[i].building.buildingType == BuildingType.Residential)
+                     {
+                         residentialAmt++;
+                     }
+                     if (acpData.buildingSlots[i].building.buildingType == BuildingType.Industrial)
+                     {
+                         industrialAmt++;
+                     }
+                     if (acpData.buildingSlots[i].building.buildingType == BuildingType.Financial)
+                     {
+                         financialAmt++;
+                     }
+                 }
+             }
     }
 
     public void GetMaintenanceFees()
     {
         maintenanceFees = 0;
-      /*  for (int i = 0; i < acpData.buildingSlots.Count; i++)
-        {
-            if (acpData.buildingSlots[i].containsBuilding)
-            {
-                maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
-            }
-        }*/
+          for (int i = 0; i < acpData.buildingSlots.Count; i++)
+          {
+              if (acpData.buildingSlots[i].containsBuilding)
+              {
+                  maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
+              }
+          }
     }
 
 }

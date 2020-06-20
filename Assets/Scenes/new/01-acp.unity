@@ -16225,7 +16225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96980746de1d345bbaee36404ccc0cc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  terrainNodesOnMap: []
+  buildingSlotPrefab: {fileID: 1283715714}
+  terrainNodeCount: 0
   buildingSlotsOnMap: []
   buildingSlotGameObjects: []
   buildingInventoryUtility: {fileID: 420619846}

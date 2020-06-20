@@ -5,6 +5,8 @@ using UnityEngine;
 public class SlotController : MonoBehaviour
 {
     [SerializeField] private int buildingSlotID;
+    private bool exists;
+
     [SerializeField] private TerrainNode parentNode;
     [SerializeField] private HoverInfoPopup popup;
     public GameObject inventoryUI;
@@ -35,12 +37,34 @@ public class SlotController : MonoBehaviour
         if (GetComponentInParent<NodeController>().terrainNode != null)
         {
             parentNode = GetComponentInParent<NodeController>().terrainNode;
+
             buildingSlot = CreateBuilidingSlot();
-            buildingSlot.AddBuildingSlotData(AcpDataHandler.instance.acpData);
-            AcpDataHandler.instance.buildingSlotsOnMap.Add(buildingSlot);
-            buildingSlot.buildingSlotID = AcpDataHandler.instance.buildingSlotsOnMap.Count;
+
+            AcpDataHandler.instance.terrainNodeCount++;
+            buildingSlot.buildingSlotID = AcpDataHandler.instance.terrainNodeCount;
+
             buildingSlotID = buildingSlot.buildingSlotID;
+
             GetComponent<SlotClickArea>().id = buildingSlotID;
+
+            exists = AcpDataHandler.instance.CheckIfSlotIdExists(buildingSlot, exists);
+
+            if (exists)
+            {
+                buildingSlot = AcpDataHandler.instance.ReadSlotFromData(buildingSlot);
+                Debug.Log(buildingSlot.purchased);
+            }
+            else
+            {
+                buildingSlot.AddBuildingSlotData(AcpDataHandler.instance.acpData);
+            }
+            // buildingSlot.AddBuildingSlotData(AcpDataHandler.instance.acpData);
+
+            //AcpDataHandler.instance.buildingSlotsOnMap.Add(buildingSlot);
+            // buildingSlot.buildingSlotID = AcpDataHandler.instance.buildingSlotsOnMap.Count;
+
+
+
         }
         else
         {
