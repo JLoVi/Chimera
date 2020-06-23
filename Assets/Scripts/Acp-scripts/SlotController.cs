@@ -65,14 +65,15 @@ public class SlotController : MonoBehaviour
                     meshToBuild.transform.parent = this.transform;
 
                     buildingStateController = this.GetComponentInChildren<BuildingState>();
+                    buildingStateController.parentSlot = this;
                     fungiActive = GameManagerAcp.instance.CheckForActiveFungiUnits(buildingSlot, fungiActive);
 
                     if (fungiActive && buildingStateController != null)
                     {
 
                         buildingStateController.OnFungiAttack();
+                        buildingSlot.slotCondition  = Condition.Damaged;
                     }
-
                 }
             }
 
@@ -125,5 +126,13 @@ public class SlotController : MonoBehaviour
                 popup.infoText.text = "This slot already contains a building";
             }
         }
+    }
+
+    public void RemoveSlotFromDatabase()
+    {
+        AcpDataHandler.instance.acpData.buildingSlots.Remove(buildingSlot);
+        AcpDataHandler.instance.CalculateStats();
+        this.gameObject.SetActive(false);
+
     }
 }

@@ -83,7 +83,7 @@ public class AcpDataHandler : MonoBehaviour
         buildingInventory.SetActive(false);
         inSeason = false;
         //terrainHealth = terrainNodesOnMap.Sum(TerrainNode => TerrainNode.health);
-        // CalculateTerrainHealth();
+         CalculateTerrainHealth();
         gameManagerAcp.OnTerrainHealthUpdate();
 
         GetPurchasedTerrainNodes();
@@ -98,9 +98,9 @@ public class AcpDataHandler : MonoBehaviour
     public bool CheckIfNodeIdExists(TerrainNode node, bool exists)
     {
         exists = false;
-        for (int i = 0; i < AcpDataHandler.instance.acpData.terrainNodes.Count; i++)
+        for (int i = 0; i < acpData.terrainNodes.Count; i++)
         {
-            if (AcpDataHandler.instance.acpData.terrainNodes[i].id == node.id)
+            if (acpData.terrainNodes[i].id == node.id)
             {
 //                Debug.Log(exists);
                 exists = true;
@@ -113,12 +113,12 @@ public class AcpDataHandler : MonoBehaviour
     public TerrainNode ReadNodeFromData(TerrainNode node)
     {
 
-        for (int i = 0; i < AcpDataHandler.instance.acpData.terrainNodes.Count; i++)
+        for (int i = 0; i < acpData.terrainNodes.Count; i++)
         {
-            if (AcpDataHandler.instance.acpData.terrainNodes[i].id == node.id)
+            if (acpData.terrainNodes[i].id == node.id)
             {
 
-                node = AcpDataHandler.instance.acpData.terrainNodes[i];
+                node = acpData.terrainNodes[i];
 
             }
 
@@ -130,9 +130,9 @@ public class AcpDataHandler : MonoBehaviour
     {
         slotCount = 0;
 
-        for (int j = 0; j < AcpDataHandler.instance.acpData.buildingSlots.Count; j++)
+        for (int j = 0; j < acpData.buildingSlots.Count; j++)
         {
-            if (AcpDataHandler.instance.acpData.buildingSlots[j].id == node.id)
+            if (acpData.buildingSlots[j].id == node.id)
             {
                 slotCount++;
 //                Debug.Log(slotCount);
@@ -146,9 +146,9 @@ public class AcpDataHandler : MonoBehaviour
     public bool CheckIfSlotIdExists(BuildingSlot slot, bool exists)
     {
         exists = false;
-        for (int i = 0; i < AcpDataHandler.instance.acpData.buildingSlots.Count; i++)
+        for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
-            if (AcpDataHandler.instance.acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
+            if (acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
             {
 //                Debug.Log(exists);
                 exists = true;
@@ -160,12 +160,12 @@ public class AcpDataHandler : MonoBehaviour
 
     public BuildingSlot ReadSlotFromData(BuildingSlot slot)
     {
-        for (int i = 0; i < AcpDataHandler.instance.acpData.buildingSlots.Count; i++)
+        for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
-            if (AcpDataHandler.instance.acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
+            if (acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
             {
 
-                slot = AcpDataHandler.instance.acpData.buildingSlots[i];
+                slot = acpData.buildingSlots[i];
 
             }
 
@@ -173,13 +173,23 @@ public class AcpDataHandler : MonoBehaviour
         return slot;
     }
 
+    public void CalculateStats()
+    {
+        CalculateTerrainHealth();
+        gameManagerAcp.OnTerrainHealthUpdate();
+        GetPurchasedBuilidingTypes();
+        gameManagerAcp.OnBuildingPurchased();
+        GetMaintenanceFees();
+        gameManagerAcp.OnUpdateExpenses();
+        gameManagerAcp.UpdateMaintenance();
 
+    }
 
-    /*  public void CalculateTerrainHealth()
+      public void CalculateTerrainHealth()
       {
           double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
           terrainHealth = Mathf.RoundToInt((float)averageHealth);
-      }*/
+      }
 
     public void GetPurchasedTerrainNodes()
     {
@@ -231,6 +241,7 @@ public class AcpDataHandler : MonoBehaviour
           }
     }
 
+    
 }
 
 

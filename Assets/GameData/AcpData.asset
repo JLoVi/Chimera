@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: AcpData
   m_EditorClassIdentifier: 
   wipeACPData: 0
-  capital: 477791
-  socialScore: 6
-  environmentScore: -32
-  economicGrowth: 20
+  capital: 469733
+  socialScore: 67
+  environmentScore: -47
+  economicGrowth: 9
   seasonLength: 5
   terrainNodes: []
   buildingSlots: []

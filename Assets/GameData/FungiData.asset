@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: FungiData
   m_EditorClassIdentifier: 
   activeUnitLocations:
+  - {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+  - {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
   - {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
   activeUnitLifespans:
+  - {fileID: 11400000, guid: 732551560f7984d418b68f6bb2db4a7b, type: 2}
+  - {fileID: 11400000, guid: 732551560f7984d418b68f6bb2db4a7b, type: 2}
   - {fileID: 11400000, guid: d0a7c930413134b828325bdbb553a7db, type: 2}

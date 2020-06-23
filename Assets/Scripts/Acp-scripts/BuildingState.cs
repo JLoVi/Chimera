@@ -9,7 +9,7 @@ public class BuildingState : MonoBehaviour
 
     public GameObject fungi;
 
-    public BuildingSlot parentSlot;
+    public SlotController parentSlot;
 
     public void Awake()
     {
@@ -66,8 +66,14 @@ public class BuildingState : MonoBehaviour
     {
        
 
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(30f);
+     
+        parentSlot.buildingSlot.slotCondition = Condition.Destroyed;
         StartCoroutine(ActivatePiece(false));
+
+        yield return new WaitForSeconds(60f);
+        parentSlot.RemoveSlotFromDatabase();
+
     }
 
 }
