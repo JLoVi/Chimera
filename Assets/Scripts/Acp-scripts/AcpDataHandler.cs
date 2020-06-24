@@ -27,6 +27,8 @@ public class AcpDataHandler : MonoBehaviour
     public static int residentialAmt;
     public static int industrialAmt;
     public static int financialAmt;
+    public static int socialAmt;
+    public static int sanitationAmt;
 
     //FINANCIAL DATA:
     public static int expenses;
@@ -83,7 +85,7 @@ public class AcpDataHandler : MonoBehaviour
         buildingInventory.SetActive(false);
         inSeason = false;
         //terrainHealth = terrainNodesOnMap.Sum(TerrainNode => TerrainNode.health);
-         CalculateTerrainHealth();
+        CalculateTerrainHealth();
         gameManagerAcp.OnTerrainHealthUpdate();
 
         GetPurchasedTerrainNodes();
@@ -102,7 +104,7 @@ public class AcpDataHandler : MonoBehaviour
         {
             if (acpData.terrainNodes[i].id == node.id)
             {
-//                Debug.Log(exists);
+                //Debug.Log(exists);
                 exists = true;
             }
 
@@ -135,7 +137,7 @@ public class AcpDataHandler : MonoBehaviour
             if (acpData.buildingSlots[j].id == node.id)
             {
                 slotCount++;
-//                Debug.Log(slotCount);
+                //Debug.Log(slotCount);
 
             }
         }
@@ -150,7 +152,7 @@ public class AcpDataHandler : MonoBehaviour
         {
             if (acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
             {
-//                Debug.Log(exists);
+                //Debug.Log(exists);
                 exists = true;
             }
 
@@ -162,6 +164,8 @@ public class AcpDataHandler : MonoBehaviour
     {
         for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
+           
+
             if (acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
             {
 
@@ -185,11 +189,11 @@ public class AcpDataHandler : MonoBehaviour
 
     }
 
-      public void CalculateTerrainHealth()
-      {
-          double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
-          terrainHealth = Mathf.RoundToInt((float)averageHealth);
-      }
+    public void CalculateTerrainHealth()
+    {
+        double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
+        terrainHealth = Mathf.RoundToInt((float)averageHealth);
+    }
 
     public void GetPurchasedTerrainNodes()
     {
@@ -208,40 +212,51 @@ public class AcpDataHandler : MonoBehaviour
         residentialAmt = 0;
         industrialAmt = 0;
         financialAmt = 0;
+        socialAmt = 0;
+        sanitationAmt = 0;
 
-            for (int i = 0; i < acpData.buildingSlots.Count; i++)
-             {
-                 if (acpData.buildingSlots[i].containsBuilding)
-                 {
-                     if (acpData.buildingSlots[i].building.buildingType == BuildingType.Residential)
-                     {
-                         residentialAmt++;
-                     }
-                     if (acpData.buildingSlots[i].building.buildingType == BuildingType.Industrial)
-                     {
-                         industrialAmt++;
-                     }
-                     if (acpData.buildingSlots[i].building.buildingType == BuildingType.Financial)
-                     {
-                         financialAmt++;
-                     }
-                 }
-             }
+        for (int i = 0; i < acpData.buildingSlots.Count; i++)
+        {
+            if (acpData.buildingSlots[i].containsBuilding)
+            {
+                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Residential)
+                {
+                    residentialAmt++;
+                }
+                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Industrial)
+                {
+                    industrialAmt++;
+                }
+                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Financial)
+                {
+                    financialAmt++;
+                }
+                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Social)
+                {
+                    socialAmt++;
+                    
+                }
+                if (acpData.buildingSlots[i].building.buildingType == BuildingType.Sanitation)
+                {
+                    sanitationAmt++;
+                }
+            }
+        }
     }
 
     public void GetMaintenanceFees()
     {
         maintenanceFees = 0;
-          for (int i = 0; i < acpData.buildingSlots.Count; i++)
-          {
-              if (acpData.buildingSlots[i].containsBuilding)
-              {
-                  maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
-              }
-          }
+        for (int i = 0; i < acpData.buildingSlots.Count; i++)
+        {
+            if (acpData.buildingSlots[i].containsBuilding)
+            {
+                maintenanceFees += acpData.buildingSlots[i].building.maintenanceCost;
+            }
+        }
     }
 
-    
+
 }
 
 

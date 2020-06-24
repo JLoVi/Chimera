@@ -27,11 +27,16 @@ public class ActivateFungiUnit : MonoBehaviour
     {
         if (location == GameManagerFungi.activeLocation)
         {
-            GetComponent<FungiUnit>().active = true;
-            animator.SetTrigger("grow");
-            fungiData.activeUnitLifespans.Add(lifespan);
-            fungiData.activeUnitLocations.Add(locationOnMap);
-            StartCoroutine(LifeSequence());
+            foreach (LocationOnMap loc in fungiData.activeUnitLocations)
+            {
+                if (loc != location) { 
+                GetComponent<FungiUnit>().active = true;
+                animator.SetTrigger("grow");
+                fungiData.activeUnitLifespans.Add(lifespan);
+                fungiData.activeUnitLocations.Add(locationOnMap);
+                StartCoroutine(LifeSequence());
+                }
+            }
         }
     }
 

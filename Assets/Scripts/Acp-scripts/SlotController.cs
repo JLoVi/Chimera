@@ -5,8 +5,14 @@ using UnityEngine;
 public class SlotController : MonoBehaviour
 {
     [SerializeField] private int buildingSlotID;
+    public bool fungiActive;
+
     private bool exists;
-    private bool fungiActive;
+    private string fungiActiveDisplay;
+    private string locationDisplay;
+    private string conditionDisplay;
+
+
 
     [SerializeField] private TerrainNode parentNode;
     [SerializeField] private HoverInfoPopup popup;
@@ -52,6 +58,7 @@ public class SlotController : MonoBehaviour
             GetComponent<SlotClickArea>().id = buildingSlotID;
 
             exists = AcpDataHandler.instance.CheckIfSlotIdExists(buildingSlot, exists);
+            fungiActive = GameManagerAcp.instance.CheckForActiveFungiUnits(buildingSlot, fungiActive);
 
             if (exists)
             {
@@ -66,13 +73,18 @@ public class SlotController : MonoBehaviour
 
                     buildingStateController = this.GetComponentInChildren<BuildingState>();
                     buildingStateController.parentSlot = this;
-                    fungiActive = GameManagerAcp.instance.CheckForActiveFungiUnits(buildingSlot, fungiActive);
 
-                    if (fungiActive && buildingStateController != null)
+                    if (fungiActive && buildingStateController != null && buildingSlot.building.buildingType != BuildingType.Sanitation)
                     {
 
                         buildingStateController.OnFungiAttack();
-                        buildingSlot.slotCondition  = Condition.Damaged;
+                        buildingSlot.slotCondition = Condition.Damaged;
+                    }
+
+                    if (buildingSlot.building.buildingType == BuildingType.Sanitation)
+                    {
+                        GameEventsBuildingSlots.currentBuildingSlotEvent.RecoverFromAttack(buildingSlot.location, fungiActive);
+
                     }
                 }
             }
@@ -98,7 +110,7 @@ public class SlotController : MonoBehaviour
 
     }
 
-   
+
 
     void OnSlotHover(int id)
     {
@@ -106,8 +118,37 @@ public class SlotController : MonoBehaviour
         if (id == this.buildingSlotID)
         {
 
+
             popup.DisplayInfo();
-            popup.infoText.text = "Click to see your building options on this slot";
+
+            //Debug.Log(fungiActive);
+            fungiActiveDisplay = fungiActive ? "Fungi are active in this area" : " Fungi are absent from this area";
+
+            if (buildingSlot.location != null)
+            {
+                locationDisplay = buildingSlot.location.Location.ToString();
+            }
+            else
+            {
+                locationDisplay = "none";
+            }
+
+            if (buildingSlot.containsBuilding)
+            {
+                popup.infoText.text =
+              fungiActiveDisplay.ToString()
+              + '\n' + '\n' + "Parent Node ID: " + buildingSlot.id.ToString()
+              + '\n' + '\n' + "Building Slot ID: " + buildingSlot.buildingSlotID.ToString()
+              + '\n' + '\n' + "Building Type: " + buildingSlot.building.buildingType.ToString()
+              + '\n' + '\n' + "Location on map: " + locationDisplay
+              + '\n' + '\n' + "Building Condition: " + conditionDisplay;
+                conditionDisplay = buildingSlot.slotCondition.ToString();
+            }
+
+            else if (!buildingSlot.containsBuilding)
+                popup.infoText.text =
+                   fungiActiveDisplay.ToString() + '\n' + '\n' + "Click to see your building options on this slot"
+                    + '\n' + '\n' + "Location on map: " + locationDisplay;
         }
     }
 

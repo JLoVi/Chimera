@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: BuildingSanitation
   m_EditorClassIdentifier: 
   constructitonCost: 1500
-  maintenanceCost: 500
+  maintenanceCost: 400
   highEnd: 0
   buildingType: 3
-  buildingMesh: {fileID: -927199367670048503, guid: 3fb3c4ae75a59458c86159006e9e198f,
+  buildingMesh: {fileID: 8027008562788841251, guid: ebe7f487329684db2bbb07b556500571,
     type: 3}
-  impactEnvironment: 3
-  impactPeople: 1
-  impactCapital: -10
+  impactEnvironment: 50
+  impactPeople: 10
+  impactCapital: -100

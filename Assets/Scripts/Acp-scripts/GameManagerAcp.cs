@@ -18,9 +18,11 @@ public class GameManagerAcp : MonoBehaviour
     public Text terrainNodesPurchasedText;
 
     //INFRASTRUCTURE INFO
-    public Text residentialText;
-    public Text industrialText;
-    public Text financialText;
+    public Text residentialBText;
+    public Text industrialBText;
+    public Text financialBText;
+    public Text socialBText;
+    public Text sanitationBText;
 
     //FINANCIAL INFO
     public Text expensesText;
@@ -73,9 +75,11 @@ public class GameManagerAcp : MonoBehaviour
 
     public void OnBuildingPurchased()
     {
-        residentialText.text = "Residential: " + AcpDataHandler.residentialAmt;
-        industrialText.text = "Industrial: " + AcpDataHandler.industrialAmt;
-        financialText.text = "Financial: " + AcpDataHandler.financialAmt;
+        residentialBText.text = "Residential: " + AcpDataHandler.residentialAmt;
+        industrialBText.text = "Industrial: " + AcpDataHandler.industrialAmt;
+        financialBText.text = "Financial: " + AcpDataHandler.financialAmt;
+        socialBText.text = "Social: " + AcpDataHandler.socialAmt;
+        sanitationBText.text = "Sanitation: " + AcpDataHandler.sanitationAmt;
 
         socialText.text = "Social Score: " + acpData.socialScore;
         environmentText.text = "Environmental Sustainability: " + acpData.environmentScore;
@@ -101,9 +105,12 @@ public class GameManagerAcp : MonoBehaviour
         {
             for (int i = 0; i < AcpDataHandler.instance.fungiData.activeUnitLocations.Count; i++)
             {
+               
                 if (AcpDataHandler.instance.fungiData.activeUnitLocations[i] == slot.location)
                 {
+                    
                     state = true;
+//                    Debug.Log(slot.location);
 
                 }
             }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BuildingResidentialHighEnd
   m_EditorClassIdentifier: 
   constructitonCost: 200
-  maintenanceCost: 37
+  maintenanceCost: 100
   highEnd: 1
   buildingType: 0
   buildingMesh: {fileID: 1321266975519058250, guid: 7d99569d1d79e465eb726eb2a98db1cf,

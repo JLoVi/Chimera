@@ -18,10 +18,6 @@ public class BuildingState : MonoBehaviour
     public void Start()
     {
 
-        
-
-
-
         foreach (Transform piece in transform)
         {
             buildingPieces.Add(piece.gameObject);
@@ -36,8 +32,8 @@ public class BuildingState : MonoBehaviour
             buildingPieces[randomIndex] = temp;
         }
         StartCoroutine(ActivatePiece(true));
-       
 
+        GameEventsBuildingSlots.currentBuildingSlotEvent.onRecoverFromAttack += OnFungiRecover;
     }
 
     public void Update()
@@ -64,7 +60,7 @@ public class BuildingState : MonoBehaviour
     }
     public IEnumerator StartFungiAttack()
     {
-       
+        parentSlot.buildingSlot.slotCondition = Condition.Damaged;
 
         yield return new WaitForSeconds(30f);
      
@@ -74,6 +70,20 @@ public class BuildingState : MonoBehaviour
         yield return new WaitForSeconds(60f);
         parentSlot.RemoveSlotFromDatabase();
 
+    }
+
+    public void OnFungiRecover(LocationOnMap location, bool fungiactive)
+    {
+        if (parentSlot.buildingSlot.location == location && parentSlot.fungiActive)
+        {
+            StopAllCoroutines();
+            parentSlot.buildingSlot.slotCondition = Condition.Recovery;
+            StartCoroutine(ActivatePiece(true));
+            fungi.SetActive(false);
+            
+
+
+        }
     }
 
 }

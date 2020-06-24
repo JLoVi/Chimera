@@ -18,6 +18,7 @@ public class GameManagerFungi : MonoBehaviour
 
 
     public static GameObject fungiRuntimeAssetParent;
+    [SerializeField] private GameEvent OnUnitActivated;
 
     void OnEnable()
     {
@@ -45,6 +46,7 @@ public class GameManagerFungi : MonoBehaviour
 
         territoryText = GameObject.Find("textterritory").GetComponent<Text>();
         territoryText.text = "territory occupied: " + territoryPercentage + "%";
+        OnUnitActivated.Raise();
 
     }
 

@@ -69,15 +69,20 @@ public class InventoryBuilding : MonoBehaviour
         buildingStateController = AcpDataHandler.selectedBuildingSlotObject.GetComponentInChildren<BuildingState>();
         fungiActive = GameManagerAcp.instance.CheckForActiveFungiUnits(AcpDataHandler.selectedBuildingSlot, fungiActive);
 
-        
 
-        
-        if (fungiActive && buildingStateController != null)
+        buildingStateController.parentSlot = AcpDataHandler.selectedBuildingSlotObject.GetComponent<SlotController>();
+
+
+        if (fungiActive && buildingStateController != null && AcpDataHandler.selectedBuildingSlot.building.buildingType != BuildingType.Sanitation)
         {
             
             buildingStateController.OnFungiAttack();
             AcpDataHandler.selectedBuildingSlot.slotCondition = Condition.Damaged;
-            buildingStateController.parentSlot = AcpDataHandler.selectedBuildingSlotObject.GetComponent<SlotController>();
+
+        }
+        if (AcpDataHandler.selectedBuildingSlot.building.buildingType == BuildingType.Sanitation)
+        {
+            GameEventsBuildingSlots.currentBuildingSlotEvent.RecoverFromAttack(AcpDataHandler.selectedBuildingSlot.location, fungiActive);
 
         }
 
