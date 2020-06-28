@@ -66,7 +66,6 @@ public class AcpDataHandler : MonoBehaviour
             gameManagerAcp = GetComponent<GameManagerAcp>();
         }
 
-
     }
 
     private void Start()
@@ -165,7 +164,6 @@ public class AcpDataHandler : MonoBehaviour
         for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
            
-
             if (acpData.buildingSlots[i].buildingSlotID == slot.buildingSlotID)
             {
 
