@@ -57,6 +57,10 @@ public class GameManagerFungi : MonoBehaviour
         territoryPercentage = fungiData.territorySpread;
         territoryText = GameObject.Find("textterritory").GetComponent<Text>();
         territoryText.text = "territory occupied: " + territoryPercentage + "%";
+        if (territoryPercentage > 100)
+        {
+            territoryText.text = "territory occupied: " + "100" + "%";
+        }
         // OnUnitActivated.Raise();
 
     }
@@ -107,6 +111,10 @@ public class GameManagerFungi : MonoBehaviour
             float territoryRounded = (float)Math.Round(territoryPercentage, 1);
             territoryText.text = "territory occupied: " + territoryRounded + "%";
             fungiData.territorySpread = territoryRounded;
+            if (territoryRounded > 100)
+            {
+                territoryText.text = "territory occupied: " + "100" + "%";
+            }
         }
     }
 

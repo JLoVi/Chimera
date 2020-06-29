@@ -135,10 +135,12 @@ public class SlotController : MonoBehaviour
 
             if (buildingSlot.containsBuilding)
             {
+           //     +'\n' + '\n' + "Parent Node ID: " + buildingSlot.id.ToString()
+        //   + '\n' + '\n' + "Building Slot ID: " + buildingSlot.buildingSlotID.ToString()
+
+
                 popup.infoText.text =
               fungiActiveDisplay.ToString()
-              + '\n' + '\n' + "Parent Node ID: " + buildingSlot.id.ToString()
-              + '\n' + '\n' + "Building Slot ID: " + buildingSlot.buildingSlotID.ToString()
               + '\n' + '\n' + "Building Type: " + buildingSlot.building.buildingType.ToString()
               + '\n' + '\n' + "Location on map: " + locationDisplay
               + '\n' + '\n' + "Building Condition: " + conditionDisplay;

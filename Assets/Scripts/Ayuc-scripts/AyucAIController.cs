@@ -27,7 +27,7 @@ public class AyucAIController : MonoBehaviour
         agent = this.GetComponent<NavMeshAgent>();
         if (targets != null)
         {
-            agent.SetDestination(targets[Random.Range(0, 1)].transform.position);
+            agent.SetDestination(targets[Random.Range(0, targets.Length - 1)].transform.position);
         }
     }
 

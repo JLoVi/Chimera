@@ -74,7 +74,7 @@ public class BuildingState : MonoBehaviour
 
     public void OnFungiRecover(LocationOnMap location, bool fungiactive)
     {
-        if (parentSlot.buildingSlot.location == location && parentSlot.fungiActive)
+        if (parentSlot.buildingSlot.location!=null && parentSlot.buildingSlot.location == location && parentSlot.fungiActive)
         {
             StopAllCoroutines();
             parentSlot.buildingSlot.slotCondition = Condition.Recovery;
