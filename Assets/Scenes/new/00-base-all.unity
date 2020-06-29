@@ -1067,7 +1067,7 @@ MonoBehaviour:
     m_LineSpacing: 1.5
   m_Text: '
 
-    | 1 | - ACP '
+    | 1 | - HCP '
 --- !u!222 &1255962772
 CanvasRenderer:
   m_ObjectHideFlags: 0

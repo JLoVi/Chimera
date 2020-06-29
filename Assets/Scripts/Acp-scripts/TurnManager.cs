@@ -29,7 +29,7 @@ public class TurnManager : MonoBehaviour
         OnCapitalUpdated.Raise();
         GameEventsTurns.currentSeasonEvent.onSeasonBegin += OnSeasonBegin;
         GameEventsTurns.currentSeasonEvent.onSeasonEnd += OnSeasonEnd;
-
+        revenuesText.text = "Start season to calculate revenues";
     }
 
     public void StartSeason()

@@ -39,6 +39,8 @@ public class GameManagerAcp : MonoBehaviour
 
     void Start()
     {
+        OnUpdateExpenses();
+        UpdateMaintenance();
 
     }
 

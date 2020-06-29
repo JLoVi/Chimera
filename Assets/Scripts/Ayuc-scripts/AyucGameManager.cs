@@ -14,8 +14,6 @@ public class AyucGameManager : MonoBehaviour
 
     public GameEvent onSpawnAgents;
 
-    public static CommandResponse currentCommandResponse;
-
     public int agentCount;
     public Transform spawnPosition;
 
@@ -25,63 +23,69 @@ public class AyucGameManager : MonoBehaviour
     public Text birthrateText;
     public Text remainingTimeText;
 
-    public enum Response
-    {
-        yes = 0,
-        no = 1,
-        maybe = 2,
-        word = 3
-    };
+    public GameObject[] responseUI;
 
-    public Response currentResponse;
-
+    public CommandContainer commandContainer;
     public Text commandText;
 
-    public GameObject responseUI;
+    public CommandResponse currentCommand;
+    public int currentResponseIndex;
+    public Text[] responseButtonTexts;
 
     void Start()
     {
         Cursor.visible = true;
-        responseUI.SetActive(false);
-        StartCoroutine(DisplayCommand());
+        SetResponseUI(false);
+        StartCoroutine(DisplayRandomCommand());
     }
 
-    public void ClickAction(int response)
+    public void SetResponseUI(bool state)
     {
-        currentResponse = (Response)response;
-        Debug.Log(currentResponse);
+        foreach (GameObject obj in responseUI)
+        {
+            obj.SetActive(state);
+        }
+    }
+
+    public void ClickAction(int responseIndex)
+    {
+        currentResponseIndex = responseIndex;
+        Debug.Log(currentResponseIndex);
         if (OnTargetChange != null)
         {
             OnTargetChange();
         }
-        responseUI.SetActive(false);
+        SetResponseUI(false);
 
-        StartCoroutine(DisplayCommand());
+        StartCoroutine(DisplayRandomCommand());
 
-        if (currentResponse == Response.yes)
-        {
-            currentCommandResponse.response.Raise();
-            onSpawnAgents.Raise();
-        }
-        if (currentResponse == Response.no)
-        {
-            return;
-        }
+
+        currentCommand.response.Raise();
+        onSpawnAgents.Raise();
     }
 
-    public IEnumerator DisplayCommand()
+    public IEnumerator DisplayRandomCommand()
     {
-        yield return new WaitForSeconds(5f);
-        responseUI.SetActive(true);
-        currentCommandResponse = ayucData.commandResponses[Random.Range(0, ayucData.commandResponses.Count)];
-        commandText.text = currentCommandResponse.command;
-        
+        yield return new WaitForSeconds(1f);
+        SetResponseUI(true);
+        currentCommand = commandContainer.commands[Random.Range(0, commandContainer.commands.Count)];
+        DisplayRandomResponses();
+        commandText.text = currentCommand.command;
+
+    }
+
+    public void DisplayRandomResponses()
+    {
+        responseButtonTexts[0].text = commandContainer.sequenceOne[Random.Range(0, commandContainer.sequenceOne.Count)];
+        responseButtonTexts[1].text = commandContainer.sequenceTwo[Random.Range(0, commandContainer.sequenceTwo.Count)];
+        responseButtonTexts[2].text = commandContainer.sequenceThree[Random.Range(0, commandContainer.sequenceThree.Count)];
+        responseButtonTexts[3].text = commandContainer.sequenceFour[Random.Range(0, commandContainer.sequenceFour.Count)];
+
     }
 
     public void SpawnAgents()
     {
         StartCoroutine(InstantiateAgentsByCount());
-
     }
 
 

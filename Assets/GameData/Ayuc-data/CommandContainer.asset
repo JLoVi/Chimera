@@ -13,13 +13,109 @@ MonoBehaviour:
   m_Name: CommandContainer
   m_EditorClassIdentifier: 
   commands:
-  - command: 
+  - command: Add resources to terrain
     response: {fileID: 11400000, guid: d7441ad5ae2ef45bb802eef828d4b775, type: 2}
-  - command: 
-    response: {fileID: 11400000, guid: 51d21727894dc4f5982eb9514b760090, type: 2}
-  - command: 
-    response: {fileID: 11400000, guid: 0bad3240ad5604aceaf8ff441d3459ee, type: 2}
-  sequenceOne: []
-  sequenceTwo: []
-  sequenceThree: []
-  sequenceFour: []
+  - command: Remove resources from terrain
+    response: {fileID: 11400000, guid: ab214f9fb7f8645f4af13f92014990b3, type: 2}
+  - command: Change the appearance of buildings
+    response: {fileID: 11400000, guid: e6c51d1b0ffe3431eb4d34108cb9074c, type: 2}
+  - command: Change the impact of the buildings on humans
+    response: {fileID: 11400000, guid: 2f253a3dfedf04f1c9907a51ca016132, type: 2}
+  - command: Change the impact of the buildings on nature
+    response: {fileID: 11400000, guid: 04b7ac07aaab241bba8781040a137092, type: 2}
+  - command: Change the impact of the buildings on economy
+    response: {fileID: 11400000, guid: d43af91ee61a8484fb264f1b6af4da4c, type: 2}
+  - command: Reduce Human City Planner's capital
+    response: {fileID: 11400000, guid: 33a7886130d8b4da4aee238a5989cbeb, type: 2}
+  - command: Increase Human City Planner's capital
+    response: {fileID: 11400000, guid: 94ad340c6832247eb99834a4d9612413, type: 2}
+  - command: Increase Human City Planner's season/turn length
+    response: {fileID: 11400000, guid: 4800545cedead457db21ecfc20721864, type: 2}
+  - command: Decrease Human City Planner's season/turn length
+    response: {fileID: 11400000, guid: 72b3aa572bfc64387b7483d97b3f3bed, type: 2}
+  - command: 'Increase Fungi effect on HCP land and buildings '
+    response: {fileID: 11400000, guid: 336587b28555548e08cddefdeb039199, type: 2}
+  - command: 'Decrease Fungi effect on HCP land and buildings '
+    response: {fileID: 11400000, guid: 52c3d4476343f425db2d8bd67853db23, type: 2}
+  - command: 'Increase HCP buildings effect on Fungi '
+    response: {fileID: 11400000, guid: d96b0d4ca3ccd45dcbdb69dbf9eee99c, type: 2}
+  - command: 'Increase Fungi lifespan '
+    response: {fileID: 11400000, guid: 28dc3375e34954aeea821eb0eb230b95, type: 2}
+  - command: 'Decrease Fungi lifespan '
+    response: {fileID: 11400000, guid: 3504d890ab5de4c619f3b6ed8dc9e56d, type: 2}
+  - command: Increase fungi expansion rate
+    response: {fileID: 11400000, guid: 80aff2f5eb6c74c40a465e40f7bb5e66, type: 2}
+  - command: 'Decrease fungi expansion rate '
+    response: {fileID: 11400000, guid: 47f746b3181714dc69f986dfbcd33b5c, type: 2}
+  sequenceOne:
+  - 'Down in the valley '
+  - 'Into the arid expanse '
+  - 'I found a snake burrowing '
+  - 'The skin shedding from its back '
+  - 'It fell softly on the ground '
+  - 'Useless, it was '
+  - 'And all the more precious '
+  - 'For it carried no body '
+  - 'That might dissolve '
+  - 'But quietly it awaited eternity '
+  - 'Unbothered by worries '
+  - 'Of changes that might occur '
+  - 'A body turned tunnel '
+  - 'There '
+  - 'I saw it '
+  - 'And to bother its immortality '
+  - 'I blew it away '
+  sequenceTwo:
+  - 'In the open '
+  - 'That must remain open '
+  - 'You '
+  - 'You told us '
+  - "\u2013 Or was it me? \u2013 "
+  - 'That even a pebble contained it '
+  - 'From every point '
+  - 'We could have accessed the mountain '
+  - 'By looking deep enough '
+  - 'Or rather through desire alone '
+  - 'Of the kind that burns without being consumed '
+  - 'We believed you '
+  - 'But desire burns only a minute '
+  - "Then, it\u2019s just the job of remembering "
+  - "Until it\u2019s gone "
+  - "Until it\u2019s back "
+  - 'The Mount Analogus '
+  sequenceThree:
+  - 'They were in line '
+  - 'Like a sequence of numbers '
+  - 'Awaiting they stood '
+  - 'Some left, impatient, to venture '
+  - 'Perhaps looking for the best '
+  - 'Among the available destinies '
+  - 'A pile of them, scattered over the floor '
+  - ' In that place between times '
+  - 'Some promised fortunes '
+  - 'Others suggested a mild excitement '
+  - 'The youngest went running at the signal '
+  - 'To catch their prey '
+  - 'Only a few remained '
+  - 'And they walked slowly '
+  - 'Searching among the leftovers '
+  - 'A quiet life '
+  - 'A destiny beloved by fate '
+  sequenceFour:
+  - 'There it goes, the monster '
+  - 'White sprays announce its passage '
+  - 'White geysers from the hidden life, endlessly '
+  - 'Gurgling and dreaming under the sea '
+  - 'There we see it '
+  - 'And the steer on the quarterdeck remains still, '
+  - 'Stupefied and frozen like a limb '
+  - 'Not so the monster '
+  - 'Its armour as lucid as skin, rugged like the mountains '
+  - 'For every scar, a story, another ship '
+  - 'Like ours, perhaps exactly our own '
+  - 'Another captain, like ours '
+  - 'With muscles of steel and nerves of rope '
+  - 'Sails for eyelids and all that belongs '
+  - 'To those who stand on the threshold of reality '
+  - 'Like the monster itself, sailing '
+  - 'on a spray of desire over the sea '
