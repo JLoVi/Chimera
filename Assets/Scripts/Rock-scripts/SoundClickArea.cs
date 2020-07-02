@@ -10,42 +10,74 @@ public class SoundClickArea : MonoBehaviour
     private Renderer rend;
     public Color startColor;
 
-    public HoverInfoPopup popup;
+
+    private void OnEnable()
+    {
+        GameManagerRock.OnInitializeScene += Initialize;
+
+    }
+    private void OnDisable()
+    {
+        GameManagerRock.OnInitializeScene -= Initialize;
+    }
 
     void Start()
     {
-        rend = GetComponent<Renderer>();
-        id = GetComponent<NodeController>().terrainNode.id;
+       
 
-        popup = HoverInfoPopup.hoverInfoPopup;
-        startColor = rend.material.color;
-        //   CheckForActiveFungiUnits();
+        Initialize();
     }
+
+
+    public void Initialize()
+    {
+        if (GlobalGameState.instance.activeSceneData.rockActive)
+        {
+            
+            rend = GetComponent<Renderer>();
+            id = GetComponent<SoundController>().id;
+
+
+            startColor = rend.material.color;
+        }
+    }
+
 
     private void OnMouseDown()
     {
-        if (!EventSystem.current.IsPointerOverGameObject())
+        if (GlobalGameState.instance.activeSceneData.rockActive)
         {
-            GameEventsTerrain.currentTerrainEvent.TerrainMouseClick(id);
-            popup.DisplayInfo();
+            if (!EventSystem.current.IsPointerOverGameObject())
+            {
+
+                GameEventsRock.currentRockEvent.RockPropMouseClick(id);
+
+
+            }
         }
     }
 
     void OnMouseEnter()
     {
-        if (!EventSystem.current.IsPointerOverGameObject())
+        
+
+        if (GlobalGameState.instance.activeSceneData.rockActive)
         {
-            GameEventsTerrain.currentTerrainEvent.TerrainMouseHover(id);
-            rend.material.color = hoverColor;
-            popup.DisplayInfo();
+            if (!EventSystem.current.IsPointerOverGameObject())
+            {
+               
+                GameEventsRock.currentRockEvent.RockPropMouseHover(id);
+                rend.material.color = hoverColor;
+
+            }
         }
     }
 
     void OnMouseExit()
     {
-        HoverInfoPopup.hoverInfoPopup.HideInfo();
-        rend.material.color = startColor;
+        if (GlobalGameState.instance.activeSceneData.rockActive)
+        {
+            rend.material.color = startColor;
+        }
     }
-
-
 }

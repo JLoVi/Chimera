@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ayuc Nav Agent Store
   m_EditorClassIdentifier: 
   agentMeshes:
-  - {fileID: 3124821191837812334, guid: e92e49f1b01f64825aad874f13b20792, type: 3}
+  - {fileID: 3884788229874590214, guid: aeb46f95ccc734c24ad6dce81bce2bbf, type: 3}
   - {fileID: 516155474239303381, guid: 0be9091ac5fc14b3c9f965d82c1d1fa3, type: 3}
   targets: []

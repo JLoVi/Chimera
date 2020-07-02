@@ -110,17 +110,17 @@ Material:
     - _DstBlend: 0
     - _EmissionMultiplayer: 0
     - _EmissionSwitch: 0
-    - _FresnelPower: 1
-    - _FresnelScale: 1
+    - _FresnelPower: 1.74
+    - _FresnelScale: 1.83
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HeightMultiplayer: 0.38
+    - _HeightMultiplayer: 3.72
     - _InnerGlowDepth: 0.1
-    - _InnerStructMapTilling: 2.81
+    - _InnerStructMapTilling: 5.45
     - _InnerStructure: 0.83
-    - _InnerStructureDepth: 0.06
-    - _MetalicBrightnes: 0
+    - _InnerStructureDepth: 1.17
+    - _MetalicBrightnes: 0.713
     - _Metallic: 1
     - _Mode: 0
     - _NormalMapDepth: 1
@@ -136,7 +136,7 @@ Material:
     - _Snoothness: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StructureGlowIntens: 2.93
+    - _StructureGlowIntens: 4.78
     - _Tiling: 1
     - _UVSec: 0
     - _ZWrite: 1

@@ -13,22 +13,22 @@ public class GameEventsRock : MonoBehaviour
         currentRockEvent = this;
     }
 
-    public event Action<int> onTerrainMouseClick;
-    public void TerrainMouseClick(int id)
+    public event Action<int> onRockPropMouseClick;
+    public void RockPropMouseClick(int id)
     {
-        if (onTerrainMouseClick != null)
+        if (onRockPropMouseClick != null)
         {
-            onTerrainMouseClick(id);
+            onRockPropMouseClick(id);
         }
     }
 
-    public event Action<int> onTerrainMouseHover;
+    public event Action<int> onRockPropMouseHover;
 
-    public void TerrainMouseHover(int id)
+    public void RockPropMouseHover(int id)
     {
-        if (onTerrainMouseHover != null)
+        if (onRockPropMouseHover != null)
         {
-            onTerrainMouseHover(id);
+            onRockPropMouseHover(id);
         }
     }
 }

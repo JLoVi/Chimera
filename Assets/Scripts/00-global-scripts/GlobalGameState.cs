@@ -12,13 +12,19 @@ public class GlobalGameState : MonoBehaviour
     [SerializeField]
     private GameEvent OnSceneChanged;
 
-    [SerializeField]
-    private ActiveSceneData activeSceneData;
+   
+    public ActiveSceneData activeSceneData;
     public Camera mainCam;
 
     [SerializeField]
     private GameObject acpAssets;
 
+    public static GlobalGameState instance;
+
+    public void Awake()
+    {
+        instance = this;
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
