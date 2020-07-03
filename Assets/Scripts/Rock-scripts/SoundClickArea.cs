@@ -9,7 +9,7 @@ public class SoundClickArea : MonoBehaviour
     public Color hoverColor;
     private Renderer rend;
     public Color startColor;
-
+    public AudioSource audioSource;
 
     private void OnEnable()
     {
@@ -23,9 +23,12 @@ public class SoundClickArea : MonoBehaviour
 
     void Start()
     {
-       
 
         Initialize();
+        if (GetComponent<AudioSource>() != null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
     }
 
 
@@ -33,10 +36,9 @@ public class SoundClickArea : MonoBehaviour
     {
         if (GlobalGameState.instance.activeSceneData.rockActive)
         {
-            
+
             rend = GetComponent<Renderer>();
             id = GetComponent<SoundController>().id;
-
 
             startColor = rend.material.color;
         }
@@ -49,9 +51,11 @@ public class SoundClickArea : MonoBehaviour
         {
             if (!EventSystem.current.IsPointerOverGameObject())
             {
-
+                if (GetComponent<AudioSource>() != null)
+                {
+                    audioSource.Play();
+                }
                 GameEventsRock.currentRockEvent.RockPropMouseClick(id);
-
 
             }
         }
@@ -59,15 +63,19 @@ public class SoundClickArea : MonoBehaviour
 
     void OnMouseEnter()
     {
-        
+
 
         if (GlobalGameState.instance.activeSceneData.rockActive)
         {
             if (!EventSystem.current.IsPointerOverGameObject())
             {
-               
+
                 GameEventsRock.currentRockEvent.RockPropMouseHover(id);
-                rend.material.color = hoverColor;
+
+                
+
+                if (rend.material.color != null)
+                    rend.material.color = hoverColor;
 
             }
         }
@@ -77,7 +85,10 @@ public class SoundClickArea : MonoBehaviour
     {
         if (GlobalGameState.instance.activeSceneData.rockActive)
         {
-            rend.material.color = startColor;
+
+           
+            if (rend.material.color != null)
+                rend.material.color = startColor;
         }
     }
 }

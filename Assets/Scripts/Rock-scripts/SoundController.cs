@@ -6,6 +6,7 @@ using UnityEngine;
 public class SoundController : MonoBehaviour
 {
     public int id;
+   
 
     private void OnEnable()
     {
@@ -25,10 +26,9 @@ public class SoundController : MonoBehaviour
 
     private void Start()
     {
-
+        
         Initialize();
     }
-
 
 
     public void Initialize()
@@ -50,6 +50,7 @@ public class SoundController : MonoBehaviour
         if (id == this.id)
         {
             Debug.Log("hover");
+           
         }
     }
 
@@ -59,6 +60,7 @@ public class SoundController : MonoBehaviour
         {
 
             Debug.Log("click");
+
         }
     }
 }
