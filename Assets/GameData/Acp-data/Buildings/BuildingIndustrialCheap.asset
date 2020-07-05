@@ -19,5 +19,5 @@ MonoBehaviour:
   buildingMesh: {fileID: 9029187963851500629, guid: 803bfd84d671d490ba60f6390254dcb9,
     type: 3}
   impactEnvironment: -50
-  impactPeople: -2
+  impactPeople: -10
   impactCapital: 50
