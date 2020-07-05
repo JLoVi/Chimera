@@ -10,32 +10,23 @@ public class BuildingSlot : TerrainNode
     public bool containsBuilding;
     public Building building;
 
-    public BuildingSlot(bool contains)
-    {
-        this.containsBuilding = contains;
-    }
+    public Condition slotCondition;
 
-    public BuildingSlot(bool contains, Building b)
-    {
-        this.containsBuilding = contains;
-        this.building = b;
-    }
 
     public void AddBuildingSlotData(AcpData data)
     {
         data.buildingSlots.Add(this);
     }
 
-    public void ModifyBuildingSlotData(AcpData data, BuildingSlot slot)
+    public void ModifyBuildlingSlotData(AcpData data)
     {
         for (int i = 0; i < data.buildingSlots.Count; i++)
         {
-            if (i == slot.buildingSlotID)
+            if (data.buildingSlots[i].buildingSlotID == this.buildingSlotID)
             {
-                data.buildingSlots[i] = slot;
+                data.buildingSlots[i] = this;
 
             }
         }
     }
-
 }

@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class NodeController : MonoBehaviour
 {
     public int id;
+    private bool exists;
 
     public int position;
     public LocationOnMap locatonOnMap;
@@ -15,11 +17,11 @@ public class NodeController : MonoBehaviour
 
     public static TerrainNode selectedNode;
 
-    [SerializeField]
-    public AcpDataHandler acpDataHandler;
+    [SerializeField] private int slotsToSpawn;
 
-    [SerializeField]
-    public AcpData acpData;
+    private Vector3 randomPos;
+
+
 
     [SerializeField]
     public GameEvent updateCapital;
@@ -45,29 +47,69 @@ public class NodeController : MonoBehaviour
     }
     private void Awake()
     {
-        terrainNode = CreateTerrainNode();
 
-        acpDataHandler.terrainNodesOnMap.Add(terrainNode);
-        terrainNode.id = acpDataHandler.terrainNodesOnMap.Count;
-
-        id = terrainNode.id;
-        terrainNode.AddTerrainNodeToData(acpData);
     }
 
     private void Start()
     {
+        terrainNode = CreateTerrainNode();
+
+        AcpDataHandler.instance.terrainNodeCount++;
+        terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
+
+        id = terrainNode.id;
+
+        GetComponent<NodeClickArea>().id = id;
+
+        exists = AcpDataHandler.instance.CheckIfNodeIdExists(terrainNode, exists);
+       
+        if (exists)
+        {
+            terrainNode = AcpDataHandler.instance.ReadNodeFromData(terrainNode);
+           // Debug.Log(terrainNode.purchased);
+        }
+        else
+        {
+            terrainNode.AddTerrainNodeToData(AcpDataHandler.instance.acpData);
+        }
+
+
+
         popup = HoverInfoPopup.hoverInfoPopup;
+
+        
+
+        if (terrainNode.purchased)
+        {
+            
+            // this.gameObject.AddComponent<CreateBuildingSlots>();
+            slotsToSpawn = AcpDataHandler.instance.numberOfSlotsOnNode(terrainNode, slotsToSpawn);
+            StartCoroutine(SpawnBuildingSlots(slotsToSpawn));
+            this.gameObject.GetComponent<NodeClickArea>().enabled = false;
+        }
+        else
+        {
+
+            slotsToSpawn = Mathf.RoundToInt(terrainNode.health / 10);
+
+        }
+
+
+
         GameEventsTerrain.currentTerrainEvent.onTerrainMouseHover += OnTerrainNodeHover;
         GameEventsTerrain.currentTerrainEvent.onTerrainMouseClick += OnTerrainNodeClick;
 
     }
 
+
+
     private void OnTerrainNodeHover(int id)
     {
-        // Debug.Log(terrainNode.observable);
+        //Debug.Log(id + "eyw"+ this.id);
         popup.DisplayInfo();
         if (id == this.id)
         {
+            //            Debug.Log("bbb");
             if (terrainNode != null && observable) Survey(id);
 
             if (terrainNode.purchased)
@@ -94,8 +136,9 @@ public class NodeController : MonoBehaviour
 
     private void Survey(int id)
     {
+
         //sx Debug.Log(terrainNode.health);
-        if (!terrainNode.purchased && acpData.capital > terrainNode.price)
+        if (!terrainNode.purchased && AcpDataHandler.instance.acpData.capital > terrainNode.price)
         {
             popup.infoText.text = "Terrain Survey: " + '\n'
                   + "health: " + terrainNode.health + '\n'
@@ -103,7 +146,7 @@ public class NodeController : MonoBehaviour
                   + '\n' + '\n' + "<Click To Buy> ";
         }
 
-        if (!terrainNode.purchased && acpData.capital < terrainNode.price)
+        if (!terrainNode.purchased && AcpDataHandler.instance.acpData.capital < terrainNode.price)
         {
             popup.infoText.text = "Terrain Survey: " + '\n'
                   + "health: " + terrainNode.health + '\n'
@@ -126,20 +169,44 @@ public class NodeController : MonoBehaviour
     private void Buy(int id)
     {
 
-        if (acpData.capital > terrainNode.price)
+        if (AcpDataHandler.instance.acpData.capital > terrainNode.price)
         {
-            acpData.capital -= terrainNode.price;
+            AcpDataHandler.instance.acpData.capital -= terrainNode.price;
             updateCapital.Raise();
             AcpDataHandler.expenses += terrainNode.price;
             updateExpenses.Raise();
 
             terrainNode.purchased = true;
-            terrainNode.ModifyTerrainNodeData(acpData, terrainNode);
+            terrainNode.ModifyTerrainNodeData(AcpDataHandler.instance.acpData, terrainNode);
             terrainNodePurchased.Raise();
 
-            this.gameObject.AddComponent<CreateBuildingSlots>();
+            StartCoroutine(SpawnBuildingSlots(slotsToSpawn));
             this.gameObject.GetComponent<NodeClickArea>().enabled = false;
 
+        }
+    }
+
+    public IEnumerator SpawnBuildingSlots(int objectsToSpawn)
+    {
+        for (int i = 0; i < objectsToSpawn; i++)
+
+        {
+
+            yield return new WaitForSeconds(0.1f);
+            randomPos = new Vector3(gameObject.transform.position.x + Random.Range(-1.5f, 1.5f),
+               gameObject.transform.position.y + 0.58f,
+               gameObject.transform.position.z + Random.Range(-1.5f, 1.5f));
+
+            GameObject buildingSlotObject = Instantiate(AcpDataHandler.instance.buildingSlotPrefab, randomPos, Quaternion.identity);
+            AcpDataHandler.instance.buildingSlotGameObjects.Add(buildingSlotObject);
+
+
+            buildingSlotObject.transform.localScale = buildingSlotObject.transform.localScale * Random.Range(0.7f, 1.4f);
+            buildingSlotObject.transform.parent = this.transform;
+
+            SlotController slotController = buildingSlotObject.AddComponent<SlotController>();
+            slotController.enabled = true;
+            // node.buildingSlots.Add(slotController.buildingSlot);
         }
     }
 

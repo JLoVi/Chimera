@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class SlotClickArea : MonoBehaviour
 {
@@ -18,24 +19,20 @@ public class SlotClickArea : MonoBehaviour
 
     void Start()
     {
-        if (activeSceneData.acpActive)
-        {
-            selected = false;
-            rend = GetComponent<Renderer>();
-            // Debug.Log(GetComponent<NodeController>().terrainNode);
 
-            popup = HoverInfoPopup.hoverInfoPopup;
-            startColor = rend.material.color;
-            if (GetComponent<SlotController>() != null)
-            {
-                id = GetComponent<SlotController>().buildingSlot.buildingSlotID;
-            }
-        }
+
+        //        Debug.Log("FSF");
+        selected = false;
+        rend = GetComponent<Renderer>();
+
+        popup = HoverInfoPopup.hoverInfoPopup;
+        startColor = rend.material.color;
+
     }
 
     private void OnMouseDown()
     {
-        if (activeSceneData.acpActive)
+        if (!EventSystem.current.IsPointerOverGameObject())
         {
             if (!selected)
             {
@@ -48,7 +45,7 @@ public class SlotClickArea : MonoBehaviour
 
             if (selected)
             {
-                foreach (GameObject slot in AcpDataHandler.buildingSlotGameObjects)
+                foreach (GameObject slot in AcpDataHandler.instance.buildingSlotGameObjects)
                 {
                     if (slot != this.gameObject && slot != null)
                     {
@@ -61,12 +58,12 @@ public class SlotClickArea : MonoBehaviour
             // Debug.Log(selected);
             GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseClick(id);
             //popup.DisplayInfo();
-        }
 
+        }
     }
     void OnMouseEnter()
     {
-        if (activeSceneData.acpActive)
+        if (!EventSystem.current.IsPointerOverGameObject())
         {
             GameEventsBuildingSlots.currentBuildingSlotEvent.SlotMouseHover(id);
 
@@ -78,7 +75,7 @@ public class SlotClickArea : MonoBehaviour
 
     void OnMouseExit()
     {
-        if (activeSceneData.acpActive)
+        if (!EventSystem.current.IsPointerOverGameObject())
         {
             if (HoverInfoPopup.hoverInfoPopup != null)
             {
@@ -91,4 +88,5 @@ public class SlotClickArea : MonoBehaviour
             }
         }
     }
+
 }

@@ -7,6 +7,8 @@ public class FungiUnitLifespan : ScriptableObject
 {
     public float lifespan;
 
-    public float health;
+    public HealthFungi health;
+
+    public LocationOnMap location;
 
 }

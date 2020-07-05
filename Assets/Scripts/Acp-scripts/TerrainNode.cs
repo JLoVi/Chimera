@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -8,11 +9,14 @@ public class TerrainNode
     public int id;
     public LocationOnMap location;
 
+
     //variable
     public int health;
     public int price;
-   
+
     public bool purchased;
+
+    
 
     public void AddTerrainNodeToData(AcpData data)
     {
@@ -23,10 +27,10 @@ public class TerrainNode
     {
         for (int i = 0; i < data.terrainNodes.Count; i++)
         {
-            if (i == node.id)
+            if (data.terrainNodes[i].id == node.id)
             {
                 data.terrainNodes[i] = node;
-                
+
             }
         }
     }

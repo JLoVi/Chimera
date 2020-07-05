@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dcfa8b7e26234fe58abef72b6d05027, type: 3}
+  m_Name: BuildingSanitation
+  m_EditorClassIdentifier: 
+  constructitonCost: 1500
+  maintenanceCost: 400
+  highEnd: 0
+  buildingType: 3
+  buildingMesh: {fileID: 8027008562788841251, guid: ebe7f487329684db2bbb07b556500571,
+    type: 3}
+  impactEnvironment: 50
+  impactPeople: 10
+  impactCapital: -100

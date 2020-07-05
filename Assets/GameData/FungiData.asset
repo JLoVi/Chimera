@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43314dc236d2e474c906000c0a186e6b, type: 3}
   m_Name: FungiData
   m_EditorClassIdentifier: 
+  territorySpread: 0
   activeUnitLocations: []
   activeUnitLifespans: []

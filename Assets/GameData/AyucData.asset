@@ -12,8 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbba17ba8698455590bf41952d81342, type: 3}
   m_Name: AyucData
   m_EditorClassIdentifier: 
-  commandResponses:
-  - {fileID: 11400000, guid: 37eb6930c62e84bb8a2be1b937a0238f, type: 2}
-  - {fileID: 11400000, guid: c85910c4fdff64596a3b21e5b3573f57, type: 2}
-  - {fileID: 11400000, guid: 7de95eebb36e04523b09620e8151393a, type: 2}
-  - {fileID: 11400000, guid: 5b962e6145e744075833ca381a7f26b2, type: 2}
+  numberOfUnbornChildren: 10

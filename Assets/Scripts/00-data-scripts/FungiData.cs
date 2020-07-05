@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class FungiData : ScriptableObject
 {
+    public float territorySpread;
 
     public List <LocationOnMap> activeUnitLocations  = new List<LocationOnMap>();
 

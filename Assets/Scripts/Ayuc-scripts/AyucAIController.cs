@@ -25,13 +25,18 @@ public class AyucAIController : MonoBehaviour
     {
         targets = GameObject.FindGameObjectsWithTag("ayuc-target");
         agent = this.GetComponent<NavMeshAgent>();
-        if (targets != null) {
-            agent.SetDestination(targets[Random.Range(0, 1)].transform.position);
+        if (targets != null)
+        {
+            agent.SetDestination(targets[Random.Range(0, targets.Length - 1)].transform.position);
         }
     }
 
-   public void changeTarget()
-   {
-        agent.SetDestination(targets[Random.Range(0, targets.Length - 1)].transform.position);
-   }
+    public void changeTarget()
+    {
+        targets = GameObject.FindGameObjectsWithTag("ayuc-target");
+        if (agent != null || targets != null)
+        {
+            agent.SetDestination(targets[Random.Range(0, targets.Length - 1)].transform.position);
+        }
+    }
 }

@@ -32,5 +32,16 @@ public class GameEventsBuildingSlots : MonoBehaviour
         }
     }
 
-   
+
+    public event Action<LocationOnMap, bool> onRecoverFromAttack;
+
+    public void RecoverFromAttack(LocationOnMap location, bool fungiactive)
+    {
+        if (onRecoverFromAttack != null)
+        {
+            onRecoverFromAttack(location, fungiactive);
+        }
+    }
+
+
 }

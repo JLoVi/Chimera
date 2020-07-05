@@ -132,8 +132,8 @@ GameObject:
   - component: {fileID: 1689511}
   - component: {fileID: 1689510}
   - component: {fileID: 1689509}
-  - component: {fileID: 1689513}
   - component: {fileID: 1689514}
+  - component: {fileID: 1689513}
   m_Layer: 9
   m_Name: Node (162)
   m_TagString: Untagged
@@ -252,8 +252,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -271,8 +270,8 @@ GameObject:
   - component: {fileID: 10168115}
   - component: {fileID: 10168114}
   - component: {fileID: 10168113}
-  - component: {fileID: 10168117}
   - component: {fileID: 10168118}
+  - component: {fileID: 10168117}
   m_Layer: 9
   m_Name: Node (129)
   m_TagString: Untagged
@@ -391,8 +390,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -410,15 +408,15 @@ GameObject:
   - component: {fileID: 18279101}
   - component: {fileID: 18279100}
   - component: {fileID: 18279099}
-  - component: {fileID: 18279103}
   - component: {fileID: 18279104}
+  - component: {fileID: 18279103}
   m_Layer: 9
   m_Name: Node (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &18279099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -530,8 +528,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -549,8 +546,8 @@ GameObject:
   - component: {fileID: 30001278}
   - component: {fileID: 30001277}
   - component: {fileID: 30001276}
-  - component: {fileID: 30001275}
   - component: {fileID: 30001279}
+  - component: {fileID: 30001275}
   m_Layer: 9
   m_Name: Node (90)
   m_TagString: Untagged
@@ -669,8 +666,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -780,15 +776,15 @@ GameObject:
   - component: {fileID: 46617412}
   - component: {fileID: 46617411}
   - component: {fileID: 46617410}
-  - component: {fileID: 46617414}
   - component: {fileID: 46617415}
+  - component: {fileID: 46617414}
   m_Layer: 9
   m_Name: Node (237)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &46617410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -900,8 +896,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -919,15 +914,15 @@ GameObject:
   - component: {fileID: 47360643}
   - component: {fileID: 47360642}
   - component: {fileID: 47360641}
-  - component: {fileID: 47360645}
   - component: {fileID: 47360646}
+  - component: {fileID: 47360645}
   m_Layer: 9
   m_Name: Node (176)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &47360641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1039,8 +1034,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1061,7 +1055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &54736454
 Transform:
   m_ObjectHideFlags: 0
@@ -1144,15 +1138,15 @@ GameObject:
   - component: {fileID: 75101977}
   - component: {fileID: 75101976}
   - component: {fileID: 75101975}
-  - component: {fileID: 75101979}
   - component: {fileID: 75101980}
+  - component: {fileID: 75101979}
   m_Layer: 9
   m_Name: Node (231)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &75101975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1264,8 +1258,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1283,15 +1276,15 @@ GameObject:
   - component: {fileID: 75950574}
   - component: {fileID: 75950573}
   - component: {fileID: 75950572}
-  - component: {fileID: 75950576}
   - component: {fileID: 75950577}
+  - component: {fileID: 75950576}
   m_Layer: 9
   m_Name: Node (203)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &75950572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1403,8 +1396,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1514,8 +1506,8 @@ GameObject:
   - component: {fileID: 91964890}
   - component: {fileID: 91964889}
   - component: {fileID: 91964888}
-  - component: {fileID: 91964892}
   - component: {fileID: 91964893}
+  - component: {fileID: 91964892}
   m_Layer: 9
   m_Name: Node (173)
   m_TagString: Untagged
@@ -1634,8 +1626,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1653,8 +1644,8 @@ GameObject:
   - component: {fileID: 101882615}
   - component: {fileID: 101882614}
   - component: {fileID: 101882613}
-  - component: {fileID: 101882617}
   - component: {fileID: 101882618}
+  - component: {fileID: 101882617}
   m_Layer: 9
   m_Name: Node (16)
   m_TagString: Untagged
@@ -1773,8 +1764,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1792,8 +1782,8 @@ GameObject:
   - component: {fileID: 102957790}
   - component: {fileID: 102957789}
   - component: {fileID: 102957788}
-  - component: {fileID: 102957792}
   - component: {fileID: 102957793}
+  - component: {fileID: 102957792}
   m_Layer: 9
   m_Name: Node (217)
   m_TagString: Untagged
@@ -1912,8 +1902,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -1931,8 +1920,8 @@ GameObject:
   - component: {fileID: 104693685}
   - component: {fileID: 104693684}
   - component: {fileID: 104693683}
-  - component: {fileID: 104693682}
   - component: {fileID: 104693686}
+  - component: {fileID: 104693682}
   m_Layer: 9
   m_Name: Node (101)
   m_TagString: Untagged
@@ -2051,8 +2040,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2070,8 +2058,8 @@ GameObject:
   - component: {fileID: 105661541}
   - component: {fileID: 105661540}
   - component: {fileID: 105661539}
-  - component: {fileID: 105661543}
   - component: {fileID: 105661544}
+  - component: {fileID: 105661543}
   m_Layer: 9
   m_Name: Node (93)
   m_TagString: Untagged
@@ -2190,8 +2178,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2286,8 +2273,8 @@ GameObject:
   - component: {fileID: 114503039}
   - component: {fileID: 114503038}
   - component: {fileID: 114503037}
-  - component: {fileID: 114503041}
   - component: {fileID: 114503042}
+  - component: {fileID: 114503041}
   m_Layer: 9
   m_Name: Node
   m_TagString: Untagged
@@ -2406,8 +2393,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2425,15 +2411,15 @@ GameObject:
   - component: {fileID: 121670458}
   - component: {fileID: 121670457}
   - component: {fileID: 121670456}
-  - component: {fileID: 121670460}
   - component: {fileID: 121670461}
+  - component: {fileID: 121670460}
   m_Layer: 9
   m_Name: Node (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &121670456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2545,8 +2531,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2564,8 +2549,8 @@ GameObject:
   - component: {fileID: 122435701}
   - component: {fileID: 122435700}
   - component: {fileID: 122435699}
-  - component: {fileID: 122435703}
   - component: {fileID: 122435704}
+  - component: {fileID: 122435703}
   m_Layer: 9
   m_Name: Node (255)
   m_TagString: Untagged
@@ -2684,8 +2669,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2796,8 +2780,8 @@ GameObject:
   - component: {fileID: 152416972}
   - component: {fileID: 152416971}
   - component: {fileID: 152416970}
-  - component: {fileID: 152416974}
   - component: {fileID: 152416975}
+  - component: {fileID: 152416974}
   m_Layer: 9
   m_Name: Node (195)
   m_TagString: Untagged
@@ -2916,8 +2900,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -2935,15 +2918,15 @@ GameObject:
   - component: {fileID: 171510643}
   - component: {fileID: 171510642}
   - component: {fileID: 171510641}
-  - component: {fileID: 171510645}
   - component: {fileID: 171510646}
+  - component: {fileID: 171510645}
   m_Layer: 9
   m_Name: Node (175)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &171510641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3055,8 +3038,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3074,8 +3056,8 @@ GameObject:
   - component: {fileID: 185038434}
   - component: {fileID: 185038433}
   - component: {fileID: 185038432}
-  - component: {fileID: 185038436}
   - component: {fileID: 185038437}
+  - component: {fileID: 185038436}
   m_Layer: 9
   m_Name: Node (253)
   m_TagString: Untagged
@@ -3194,8 +3176,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3213,8 +3194,8 @@ GameObject:
   - component: {fileID: 195078002}
   - component: {fileID: 195078001}
   - component: {fileID: 195078000}
-  - component: {fileID: 195078004}
   - component: {fileID: 195078005}
+  - component: {fileID: 195078004}
   m_Layer: 9
   m_Name: Node (95)
   m_TagString: Untagged
@@ -3333,8 +3314,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3396,8 +3376,8 @@ GameObject:
   - component: {fileID: 197263753}
   - component: {fileID: 197263752}
   - component: {fileID: 197263751}
-  - component: {fileID: 197263755}
   - component: {fileID: 197263756}
+  - component: {fileID: 197263755}
   m_Layer: 9
   m_Name: Node (97)
   m_TagString: Untagged
@@ -3516,8 +3496,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3535,8 +3514,8 @@ GameObject:
   - component: {fileID: 201667493}
   - component: {fileID: 201667492}
   - component: {fileID: 201667491}
-  - component: {fileID: 201667495}
   - component: {fileID: 201667496}
+  - component: {fileID: 201667495}
   m_Layer: 9
   m_Name: Node (219)
   m_TagString: Untagged
@@ -3655,8 +3634,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -3896,8 +3874,8 @@ GameObject:
   - component: {fileID: 246885899}
   - component: {fileID: 246885898}
   - component: {fileID: 246885897}
-  - component: {fileID: 246885896}
   - component: {fileID: 246885900}
+  - component: {fileID: 246885896}
   m_Layer: 9
   m_Name: Node (131)
   m_TagString: Untagged
@@ -4016,8 +3994,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4056,9 +4033,9 @@ RectTransform:
   m_Father: {fileID: 233325601}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 612}
   m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &247131884
@@ -4075,7 +4052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7411765}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4109,8 +4086,8 @@ GameObject:
   - component: {fileID: 254609647}
   - component: {fileID: 254609646}
   - component: {fileID: 254609645}
-  - component: {fileID: 254609644}
   - component: {fileID: 254609648}
+  - component: {fileID: 254609644}
   m_Layer: 9
   m_Name: Node (140)
   m_TagString: Untagged
@@ -4229,8 +4206,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4268,9 +4244,9 @@ RectTransform:
   m_Father: {fileID: 1962361234}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74, y: 7.000017}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256877262
@@ -4325,8 +4301,8 @@ GameObject:
   - component: {fileID: 258886126}
   - component: {fileID: 258886125}
   - component: {fileID: 258886124}
-  - component: {fileID: 258886123}
   - component: {fileID: 258886127}
+  - component: {fileID: 258886123}
   m_Layer: 9
   m_Name: Node (256)
   m_TagString: Untagged
@@ -4445,13 +4421,89 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
   updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
+--- !u!1 &259931988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 259931989}
+  - component: {fileID: 259931991}
+  - component: {fileID: 259931990}
+  m_Layer: 5
+  m_Name: Text_Sanitation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &259931989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259931988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785521909}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &259931990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259931988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9575472, b: 0.9575472, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e89e9644051954912a516820ae9eb10f, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Sanitation:'
+--- !u!222 &259931991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259931988}
+  m_CullTransparentMesh: 0
 --- !u!1 &268924347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,15 +4560,15 @@ GameObject:
   - component: {fileID: 275632985}
   - component: {fileID: 275632984}
   - component: {fileID: 275632983}
-  - component: {fileID: 275632987}
   - component: {fileID: 275632988}
+  - component: {fileID: 275632987}
   m_Layer: 9
   m_Name: Node (206)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &275632983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4628,8 +4680,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4647,15 +4698,15 @@ GameObject:
   - component: {fileID: 280798143}
   - component: {fileID: 280798142}
   - component: {fileID: 280798141}
-  - component: {fileID: 280798145}
   - component: {fileID: 280798146}
+  - component: {fileID: 280798145}
   m_Layer: 9
   m_Name: Node (209)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &280798141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4767,8 +4818,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -4879,8 +4929,8 @@ GameObject:
   - component: {fileID: 292044815}
   - component: {fileID: 292044814}
   - component: {fileID: 292044813}
-  - component: {fileID: 292044817}
   - component: {fileID: 292044818}
+  - component: {fileID: 292044817}
   m_Layer: 9
   m_Name: Node (151)
   m_TagString: Untagged
@@ -4999,8 +5049,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5018,15 +5067,15 @@ GameObject:
   - component: {fileID: 299067510}
   - component: {fileID: 299067509}
   - component: {fileID: 299067508}
-  - component: {fileID: 299067512}
   - component: {fileID: 299067513}
+  - component: {fileID: 299067512}
   m_Layer: 9
   m_Name: Node (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &299067508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5138,8 +5187,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5250,15 +5298,15 @@ GameObject:
   - component: {fileID: 311886713}
   - component: {fileID: 311886712}
   - component: {fileID: 311886711}
-  - component: {fileID: 311886715}
   - component: {fileID: 311886716}
+  - component: {fileID: 311886715}
   m_Layer: 9
   m_Name: Node (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &311886711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5370,13 +5418,89 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
   updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
+--- !u!1 &348622038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 348622039}
+  - component: {fileID: 348622041}
+  - component: {fileID: 348622040}
+  m_Layer: 5
+  m_Name: Text (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &348622039
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348622038}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1918014506}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.6, y: -41.2}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &348622040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348622038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 80fda83829d4446a9a8f1e977a87f9c9, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: high end
+--- !u!222 &348622041
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348622038}
+  m_CullTransparentMesh: 0
 --- !u!1 &356576503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5389,8 +5513,8 @@ GameObject:
   - component: {fileID: 356576506}
   - component: {fileID: 356576505}
   - component: {fileID: 356576504}
-  - component: {fileID: 356576508}
   - component: {fileID: 356576509}
+  - component: {fileID: 356576508}
   m_Layer: 9
   m_Name: Node (96)
   m_TagString: Untagged
@@ -5509,8 +5633,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5637,6 +5760,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369750026}
   m_CullTransparentMesh: 0
+--- !u!1 &371626957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371626958}
+  - component: {fileID: 371626960}
+  - component: {fileID: 371626959}
+  m_Layer: 5
+  m_Name: Text (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &371626958
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371626957}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 764396770}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.4, y: -41.2}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &371626959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371626957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 80fda83829d4446a9a8f1e977a87f9c9, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: high end
+--- !u!222 &371626960
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371626957}
+  m_CullTransparentMesh: 0
 --- !u!1 &390628799
 GameObject:
   m_ObjectHideFlags: 0
@@ -5649,8 +5849,8 @@ GameObject:
   - component: {fileID: 390628804}
   - component: {fileID: 390628803}
   - component: {fileID: 390628802}
-  - component: {fileID: 390628801}
   - component: {fileID: 390628805}
+  - component: {fileID: 390628801}
   m_Layer: 9
   m_Name: Node (132)
   m_TagString: Untagged
@@ -5769,8 +5969,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -5787,7 +5986,6 @@ GameObject:
   - component: {fileID: 395482217}
   - component: {fileID: 395482221}
   - component: {fileID: 395482220}
-  - component: {fileID: 395482218}
   - component: {fileID: 395482222}
   - component: {fileID: 395482219}
   m_Layer: 5
@@ -5816,28 +6014,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &395482218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395482216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!114 &395482219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5944,7 +6122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
+  buildingStateController: {fileID: 0}
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: a71c5ec6da1774225a2f3e65dc28da14, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -5965,8 +6143,8 @@ GameObject:
   - component: {fileID: 401038355}
   - component: {fileID: 401038354}
   - component: {fileID: 401038353}
-  - component: {fileID: 401038357}
   - component: {fileID: 401038358}
+  - component: {fileID: 401038357}
   m_Layer: 9
   m_Name: Node (193)
   m_TagString: Untagged
@@ -6085,8 +6263,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6104,8 +6281,8 @@ GameObject:
   - component: {fileID: 406658553}
   - component: {fileID: 406658552}
   - component: {fileID: 406658551}
-  - component: {fileID: 406658555}
   - component: {fileID: 406658556}
+  - component: {fileID: 406658555}
   m_Layer: 9
   m_Name: Node (108)
   m_TagString: Untagged
@@ -6224,8 +6401,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6243,8 +6419,8 @@ GameObject:
   - component: {fileID: 409211041}
   - component: {fileID: 409211040}
   - component: {fileID: 409211039}
-  - component: {fileID: 409211043}
   - component: {fileID: 409211044}
+  - component: {fileID: 409211043}
   m_Layer: 9
   m_Name: Node (54)
   m_TagString: Untagged
@@ -6363,8 +6539,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6513,13 +6688,15 @@ RectTransform:
   - {fileID: 395482217}
   - {fileID: 1673639236}
   - {fileID: 1717967004}
+  - {fileID: 764396770}
+  - {fileID: 1918014506}
   m_Father: {fileID: 1302765961}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 420, y: 100}
-  m_SizeDelta: {x: 800, y: 150}
+  m_AnchoredPosition: {x: 260, y: 155}
+  m_SizeDelta: {x: 500, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420619848
 MonoBehaviour:
@@ -6566,22 +6743,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 420619846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 10
+    m_Left: 20
     m_Right: 0
     m_Top: 20
-    m_Bottom: 30
-  m_ChildAlignment: 4
-  m_Spacing: 30
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 20, y: 20}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &429312891
 GameObject:
   m_ObjectHideFlags: 0
@@ -6594,8 +6770,8 @@ GameObject:
   - component: {fileID: 429312894}
   - component: {fileID: 429312893}
   - component: {fileID: 429312892}
-  - component: {fileID: 429312896}
   - component: {fileID: 429312897}
+  - component: {fileID: 429312896}
   m_Layer: 9
   m_Name: Node (2)
   m_TagString: Untagged
@@ -6714,8 +6890,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6733,8 +6908,8 @@ GameObject:
   - component: {fileID: 453307196}
   - component: {fileID: 453307195}
   - component: {fileID: 453307194}
-  - component: {fileID: 453307198}
   - component: {fileID: 453307199}
+  - component: {fileID: 453307198}
   m_Layer: 9
   m_Name: Node (148)
   m_TagString: Untagged
@@ -6853,8 +7028,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -6894,8 +7068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 30}
+  m_AnchoredPosition: {x: 0, y: 50}
+  m_SizeDelta: {x: 300, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &458417833
 MonoBehaviour:
@@ -6949,15 +7123,15 @@ GameObject:
   - component: {fileID: 467763013}
   - component: {fileID: 467763012}
   - component: {fileID: 467763011}
-  - component: {fileID: 467763015}
   - component: {fileID: 467763016}
+  - component: {fileID: 467763015}
   m_Layer: 9
   m_Name: Node (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &467763011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7069,8 +7243,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7180,8 +7353,8 @@ GameObject:
   - component: {fileID: 481570674}
   - component: {fileID: 481570673}
   - component: {fileID: 481570672}
-  - component: {fileID: 481570676}
   - component: {fileID: 481570677}
+  - component: {fileID: 481570676}
   m_Layer: 9
   m_Name: Node (180)
   m_TagString: Untagged
@@ -7300,8 +7473,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7319,8 +7491,8 @@ GameObject:
   - component: {fileID: 493255226}
   - component: {fileID: 493255225}
   - component: {fileID: 493255224}
-  - component: {fileID: 493255228}
   - component: {fileID: 493255229}
+  - component: {fileID: 493255228}
   m_Layer: 9
   m_Name: Node (150)
   m_TagString: Untagged
@@ -7439,8 +7611,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7458,8 +7629,8 @@ GameObject:
   - component: {fileID: 497898349}
   - component: {fileID: 497898348}
   - component: {fileID: 497898347}
-  - component: {fileID: 497898351}
   - component: {fileID: 497898352}
+  - component: {fileID: 497898351}
   m_Layer: 9
   m_Name: Node (85)
   m_TagString: Untagged
@@ -7578,8 +7749,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7597,15 +7767,15 @@ GameObject:
   - component: {fileID: 511653557}
   - component: {fileID: 511653556}
   - component: {fileID: 511653555}
-  - component: {fileID: 511653559}
   - component: {fileID: 511653560}
+  - component: {fileID: 511653559}
   m_Layer: 9
   m_Name: Node (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &511653555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7717,8 +7887,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -7760,7 +7929,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 413, y: 329}
+  m_AnchoredPosition: {x: 369, y: 373}
   m_SizeDelta: {x: 700, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513801953
@@ -7887,15 +8056,15 @@ GameObject:
   - component: {fileID: 518124802}
   - component: {fileID: 518124801}
   - component: {fileID: 518124800}
-  - component: {fileID: 518124804}
   - component: {fileID: 518124805}
+  - component: {fileID: 518124804}
   m_Layer: 9
   m_Name: Node (241)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &518124800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8007,8 +8176,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8026,15 +8194,15 @@ GameObject:
   - component: {fileID: 527311410}
   - component: {fileID: 527311409}
   - component: {fileID: 527311408}
-  - component: {fileID: 527311412}
   - component: {fileID: 527311413}
+  - component: {fileID: 527311412}
   m_Layer: 9
   m_Name: Node (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &527311408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8146,8 +8314,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8165,8 +8332,8 @@ GameObject:
   - component: {fileID: 539685605}
   - component: {fileID: 539685604}
   - component: {fileID: 539685603}
-  - component: {fileID: 539685607}
   - component: {fileID: 539685608}
+  - component: {fileID: 539685607}
   m_Layer: 9
   m_Name: Node (218)
   m_TagString: Untagged
@@ -8285,8 +8452,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8425,8 +8591,8 @@ GameObject:
   - component: {fileID: 553836788}
   - component: {fileID: 553836787}
   - component: {fileID: 553836786}
-  - component: {fileID: 553836785}
   - component: {fileID: 553836789}
+  - component: {fileID: 553836785}
   m_Layer: 9
   m_Name: Node (139)
   m_TagString: Untagged
@@ -8545,8 +8711,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8641,15 +8806,15 @@ GameObject:
   - component: {fileID: 585080435}
   - component: {fileID: 585080434}
   - component: {fileID: 585080433}
-  - component: {fileID: 585080437}
   - component: {fileID: 585080438}
+  - component: {fileID: 585080437}
   m_Layer: 9
   m_Name: Node (242)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &585080433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8761,8 +8926,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8780,8 +8944,8 @@ GameObject:
   - component: {fileID: 594113964}
   - component: {fileID: 594113963}
   - component: {fileID: 594113962}
-  - component: {fileID: 594113966}
   - component: {fileID: 594113967}
+  - component: {fileID: 594113966}
   m_Layer: 9
   m_Name: Node (84)
   m_TagString: Untagged
@@ -8900,8 +9064,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -8919,8 +9082,8 @@ GameObject:
   - component: {fileID: 603559115}
   - component: {fileID: 603559114}
   - component: {fileID: 603559113}
-  - component: {fileID: 603559112}
   - component: {fileID: 603559116}
+  - component: {fileID: 603559112}
   m_Layer: 9
   m_Name: Node (137)
   m_TagString: Untagged
@@ -9039,8 +9202,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9058,15 +9220,15 @@ GameObject:
   - component: {fileID: 624024694}
   - component: {fileID: 624024693}
   - component: {fileID: 624024692}
-  - component: {fileID: 624024696}
   - component: {fileID: 624024697}
+  - component: {fileID: 624024696}
   m_Layer: 9
   m_Name: Node (196)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &624024692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9178,8 +9340,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9197,15 +9358,15 @@ GameObject:
   - component: {fileID: 643264383}
   - component: {fileID: 643264382}
   - component: {fileID: 643264381}
-  - component: {fileID: 643264385}
   - component: {fileID: 643264386}
+  - component: {fileID: 643264385}
   m_Layer: 9
   m_Name: Node (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &643264381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9317,8 +9478,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9336,15 +9496,15 @@ GameObject:
   - component: {fileID: 655397055}
   - component: {fileID: 655397054}
   - component: {fileID: 655397053}
-  - component: {fileID: 655397057}
   - component: {fileID: 655397058}
+  - component: {fileID: 655397057}
   m_Layer: 9
   m_Name: Node (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &655397053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9456,8 +9616,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9475,15 +9634,15 @@ GameObject:
   - component: {fileID: 669479572}
   - component: {fileID: 669479571}
   - component: {fileID: 669479570}
-  - component: {fileID: 669479574}
   - component: {fileID: 669479575}
+  - component: {fileID: 669479574}
   m_Layer: 9
   m_Name: Node (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &669479570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9595,8 +9754,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9614,8 +9772,8 @@ GameObject:
   - component: {fileID: 674411383}
   - component: {fileID: 674411382}
   - component: {fileID: 674411381}
-  - component: {fileID: 674411380}
   - component: {fileID: 674411384}
+  - component: {fileID: 674411380}
   m_Layer: 9
   m_Name: Node (88)
   m_TagString: Untagged
@@ -9734,8 +9892,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -9819,6 +9976,7 @@ MonoBehaviour:
   locationOnMap: {fileID: 11400000, guid: df76a2a0c6d8d4bd086293e1be20cd86, type: 2}
   lifespan: {fileID: 11400000, guid: a6d50c2f252b944adbff199ff5fe6b8c, type: 2}
   lifeTime: 0
+  lifeTimeColors: {fileID: 0}
 --- !u!114 &694630523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9892,15 +10050,15 @@ GameObject:
   - component: {fileID: 701677145}
   - component: {fileID: 701677144}
   - component: {fileID: 701677143}
-  - component: {fileID: 701677147}
   - component: {fileID: 701677148}
+  - component: {fileID: 701677147}
   m_Layer: 9
   m_Name: Node (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &701677143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10012,8 +10170,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10123,15 +10280,15 @@ GameObject:
   - component: {fileID: 724665261}
   - component: {fileID: 724665260}
   - component: {fileID: 724665259}
-  - component: {fileID: 724665263}
   - component: {fileID: 724665264}
+  - component: {fileID: 724665263}
   m_Layer: 9
   m_Name: Node (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &724665259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10243,8 +10400,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10306,8 +10462,8 @@ GameObject:
   - component: {fileID: 737060579}
   - component: {fileID: 737060578}
   - component: {fileID: 737060577}
-  - component: {fileID: 737060581}
   - component: {fileID: 737060582}
+  - component: {fileID: 737060581}
   m_Layer: 9
   m_Name: Node (177)
   m_TagString: Untagged
@@ -10426,8 +10582,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10581,8 +10736,8 @@ GameObject:
   - component: {fileID: 745369617}
   - component: {fileID: 745369616}
   - component: {fileID: 745369615}
-  - component: {fileID: 745369619}
   - component: {fileID: 745369620}
+  - component: {fileID: 745369619}
   m_Layer: 9
   m_Name: Node (130)
   m_TagString: Untagged
@@ -10701,8 +10856,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -10774,6 +10928,162 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &764396769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764396770}
+  - component: {fileID: 764396775}
+  - component: {fileID: 764396774}
+  - component: {fileID: 764396772}
+  - component: {fileID: 764396771}
+  m_Layer: 5
+  m_Name: D-normal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &764396770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764396769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1920901548}
+  - {fileID: 371626958}
+  m_Father: {fileID: 420619847}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &764396771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764396769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 764396772}
+          m_MethodName: MouseOnUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 764396772}
+          m_MethodName: ExitMouseUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 764396772}
+          m_MethodName: MouseClickUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &764396772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764396769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingStateController: {fileID: 0}
+  popup: {fileID: 0}
+  building: {fileID: 11400000, guid: cd99ec90c63494d43a933e2749e256fc, type: 2}
+  InventoryPanel: {fileID: 420619846}
+  newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+--- !u!114 &764396774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764396769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7137255}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 223d4df6ca03843e78e75900a262f72f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &764396775
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764396769}
+  m_CullTransparentMesh: 0
 --- !u!1 &766378802
 GameObject:
   m_ObjectHideFlags: 0
@@ -10785,7 +11095,6 @@ GameObject:
   - component: {fileID: 766378803}
   - component: {fileID: 766378806}
   - component: {fileID: 766378805}
-  - component: {fileID: 766378807}
   - component: {fileID: 766378808}
   - component: {fileID: 766378804}
   - component: {fileID: 766378809}
@@ -10815,7 +11124,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766378804
 MonoBehaviour:
@@ -10911,26 +11220,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766378802}
   m_CullTransparentMesh: 0
---- !u!114 &766378807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 766378802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!114 &766378808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10943,7 +11232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
+  buildingStateController: {fileID: 0}
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: 7d076a74ee5ee4b5e8adacdb3edd2a68, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -11027,9 +11316,9 @@ RectTransform:
   m_Father: {fileID: 1962361234}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.00006, y: 38.000015}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &768082536
@@ -11083,6 +11372,7 @@ GameObject:
   - component: {fileID: 785521909}
   - component: {fileID: 785521911}
   - component: {fileID: 785521910}
+  - component: {fileID: 785521912}
   m_Layer: 5
   m_Name: Buildings_Panel
   m_TagString: Untagged
@@ -11105,13 +11395,15 @@ RectTransform:
   - {fileID: 1864976740}
   - {fileID: 1446507740}
   - {fileID: 1977959731}
+  - {fileID: 259931989}
+  - {fileID: 2080211993}
   m_Father: {fileID: 1302765961}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -222, y: -250}
-  m_SizeDelta: {x: 400, y: 200}
+  m_AnchoredPosition: {x: -222, y: -296}
+  m_SizeDelta: {x: 400, y: 290}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785521910
 MonoBehaviour:
@@ -11149,6 +11441,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785521908}
   m_CullTransparentMesh: 0
+--- !u!114 &785521912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785521908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 30
+    m_Right: 30
+    m_Top: 30
+    m_Bottom: 30
+  m_ChildAlignment: 0
+  m_Spacing: 12
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &793150810
 GameObject:
   m_ObjectHideFlags: 0
@@ -11161,8 +11478,8 @@ GameObject:
   - component: {fileID: 793150813}
   - component: {fileID: 793150812}
   - component: {fileID: 793150811}
-  - component: {fileID: 793150815}
   - component: {fileID: 793150816}
+  - component: {fileID: 793150815}
   m_Layer: 9
   m_Name: Node (60)
   m_TagString: Untagged
@@ -11281,8 +11598,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11300,8 +11616,8 @@ GameObject:
   - component: {fileID: 811562300}
   - component: {fileID: 811562299}
   - component: {fileID: 811562298}
-  - component: {fileID: 811562302}
   - component: {fileID: 811562303}
+  - component: {fileID: 811562302}
   m_Layer: 9
   m_Name: Node (216)
   m_TagString: Untagged
@@ -11420,8 +11736,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11439,15 +11754,15 @@ GameObject:
   - component: {fileID: 823321137}
   - component: {fileID: 823321136}
   - component: {fileID: 823321135}
-  - component: {fileID: 823321139}
   - component: {fileID: 823321140}
+  - component: {fileID: 823321139}
   m_Layer: 9
   m_Name: Node (248)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &823321135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11559,8 +11874,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11578,15 +11892,15 @@ GameObject:
   - component: {fileID: 823732760}
   - component: {fileID: 823732759}
   - component: {fileID: 823732758}
-  - component: {fileID: 823732762}
   - component: {fileID: 823732763}
+  - component: {fileID: 823732762}
   m_Layer: 9
   m_Name: Node (201)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &823732758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11698,8 +12012,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11717,15 +12030,15 @@ GameObject:
   - component: {fileID: 830456864}
   - component: {fileID: 830456863}
   - component: {fileID: 830456862}
-  - component: {fileID: 830456866}
   - component: {fileID: 830456867}
+  - component: {fileID: 830456866}
   m_Layer: 9
   m_Name: Node (207)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &830456862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11837,8 +12150,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11856,8 +12168,8 @@ GameObject:
   - component: {fileID: 867636412}
   - component: {fileID: 867636411}
   - component: {fileID: 867636410}
-  - component: {fileID: 867636414}
   - component: {fileID: 867636415}
+  - component: {fileID: 867636414}
   m_Layer: 9
   m_Name: Node (103)
   m_TagString: Untagged
@@ -11976,8 +12288,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -11995,15 +12306,15 @@ GameObject:
   - component: {fileID: 872172164}
   - component: {fileID: 872172163}
   - component: {fileID: 872172162}
-  - component: {fileID: 872172166}
   - component: {fileID: 872172167}
+  - component: {fileID: 872172166}
   m_Layer: 9
   m_Name: Node (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &872172162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12115,8 +12426,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12318,8 +12628,8 @@ GameObject:
   - component: {fileID: 882843309}
   - component: {fileID: 882843308}
   - component: {fileID: 882843307}
-  - component: {fileID: 882843311}
   - component: {fileID: 882843313}
+  - component: {fileID: 882843311}
   m_Layer: 9
   m_Name: Node (7)
   m_TagString: Untagged
@@ -12438,8 +12748,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12457,8 +12766,8 @@ GameObject:
   - component: {fileID: 887449654}
   - component: {fileID: 887449653}
   - component: {fileID: 887449652}
-  - component: {fileID: 887449656}
   - component: {fileID: 887449657}
+  - component: {fileID: 887449656}
   m_Layer: 9
   m_Name: Node (65)
   m_TagString: Untagged
@@ -12577,8 +12886,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12596,8 +12904,8 @@ GameObject:
   - component: {fileID: 888091151}
   - component: {fileID: 888091150}
   - component: {fileID: 888091149}
-  - component: {fileID: 888091153}
   - component: {fileID: 888091154}
+  - component: {fileID: 888091153}
   m_Layer: 9
   m_Name: Node (69)
   m_TagString: Untagged
@@ -12716,8 +13024,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12735,8 +13042,8 @@ GameObject:
   - component: {fileID: 896194969}
   - component: {fileID: 896194968}
   - component: {fileID: 896194967}
-  - component: {fileID: 896194971}
   - component: {fileID: 896194972}
+  - component: {fileID: 896194971}
   m_Layer: 9
   m_Name: Node (75)
   m_TagString: Untagged
@@ -12855,8 +13162,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -12874,8 +13180,8 @@ GameObject:
   - component: {fileID: 897528593}
   - component: {fileID: 897528592}
   - component: {fileID: 897528591}
-  - component: {fileID: 897528595}
   - component: {fileID: 897528596}
+  - component: {fileID: 897528595}
   m_Layer: 9
   m_Name: Node (169)
   m_TagString: Untagged
@@ -12994,8 +13300,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13013,15 +13318,15 @@ GameObject:
   - component: {fileID: 900931048}
   - component: {fileID: 900931047}
   - component: {fileID: 900931046}
-  - component: {fileID: 900931050}
   - component: {fileID: 900931051}
+  - component: {fileID: 900931050}
   m_Layer: 9
   m_Name: Node (200)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &900931046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13133,8 +13438,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13152,15 +13456,15 @@ GameObject:
   - component: {fileID: 904325122}
   - component: {fileID: 904325121}
   - component: {fileID: 904325120}
-  - component: {fileID: 904325124}
   - component: {fileID: 904325125}
+  - component: {fileID: 904325124}
   m_Layer: 9
   m_Name: Node (246)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &904325120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13272,8 +13576,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13291,15 +13594,15 @@ GameObject:
   - component: {fileID: 908758036}
   - component: {fileID: 908758035}
   - component: {fileID: 908758034}
-  - component: {fileID: 908758038}
   - component: {fileID: 908758039}
+  - component: {fileID: 908758038}
   m_Layer: 9
   m_Name: Node (202)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &908758034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13411,8 +13714,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13430,8 +13732,8 @@ GameObject:
   - component: {fileID: 922643232}
   - component: {fileID: 922643231}
   - component: {fileID: 922643230}
-  - component: {fileID: 922643234}
   - component: {fileID: 922643235}
+  - component: {fileID: 922643234}
   m_Layer: 9
   m_Name: Node (110)
   m_TagString: Untagged
@@ -13550,8 +13852,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13646,15 +13947,15 @@ GameObject:
   - component: {fileID: 947196111}
   - component: {fileID: 947196110}
   - component: {fileID: 947196109}
-  - component: {fileID: 947196113}
   - component: {fileID: 947196114}
+  - component: {fileID: 947196113}
   m_Layer: 9
   m_Name: Node (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &947196109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13766,8 +14067,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -13829,8 +14129,8 @@ GameObject:
   - component: {fileID: 957281409}
   - component: {fileID: 957281408}
   - component: {fileID: 957281407}
-  - component: {fileID: 957281411}
   - component: {fileID: 957281412}
+  - component: {fileID: 957281411}
   m_Layer: 9
   m_Name: Node (4)
   m_TagString: Untagged
@@ -13949,8 +14249,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14059,6 +14358,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1880683641}
+  - {fileID: 1097005219}
+  - {fileID: 1107821845}
+  - {fileID: 1252490468}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 67, y: 0, z: 0}
@@ -14076,7 +14378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panSpeed: 15
   panBorderThickness: 50
-  scrollSpeed: 5
+  scrollSpeed: 3
   minZoom: 2
   maxZoom: 20
   camSize: 7
@@ -14121,15 +14423,15 @@ GameObject:
   - component: {fileID: 963761256}
   - component: {fileID: 963761255}
   - component: {fileID: 963761254}
-  - component: {fileID: 963761258}
   - component: {fileID: 963761259}
+  - component: {fileID: 963761258}
   m_Layer: 9
   m_Name: Node (230)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &963761254
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14241,8 +14543,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14260,8 +14561,8 @@ GameObject:
   - component: {fileID: 976029158}
   - component: {fileID: 976029157}
   - component: {fileID: 976029156}
-  - component: {fileID: 976029160}
   - component: {fileID: 976029161}
+  - component: {fileID: 976029160}
   m_Layer: 9
   m_Name: Node (15)
   m_TagString: Untagged
@@ -14380,8 +14681,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14476,8 +14776,8 @@ GameObject:
   - component: {fileID: 1002062912}
   - component: {fileID: 1002062911}
   - component: {fileID: 1002062910}
-  - component: {fileID: 1002062914}
   - component: {fileID: 1002062915}
+  - component: {fileID: 1002062914}
   m_Layer: 9
   m_Name: Node (53)
   m_TagString: Untagged
@@ -14596,8 +14896,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14615,15 +14914,15 @@ GameObject:
   - component: {fileID: 1003247510}
   - component: {fileID: 1003247509}
   - component: {fileID: 1003247508}
-  - component: {fileID: 1003247512}
   - component: {fileID: 1003247513}
+  - component: {fileID: 1003247512}
   m_Layer: 9
   m_Name: Node (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1003247508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14735,8 +15034,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14798,15 +15096,15 @@ GameObject:
   - component: {fileID: 1018121872}
   - component: {fileID: 1018121871}
   - component: {fileID: 1018121870}
-  - component: {fileID: 1018121874}
   - component: {fileID: 1018121875}
+  - component: {fileID: 1018121874}
   m_Layer: 9
   m_Name: Node (247)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1018121870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14918,8 +15216,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -14981,15 +15278,15 @@ GameObject:
   - component: {fileID: 1023222972}
   - component: {fileID: 1023222971}
   - component: {fileID: 1023222970}
-  - component: {fileID: 1023222974}
   - component: {fileID: 1023222975}
+  - component: {fileID: 1023222974}
   m_Layer: 9
   m_Name: Node (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1023222970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15101,8 +15398,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15120,15 +15416,15 @@ GameObject:
   - component: {fileID: 1028266388}
   - component: {fileID: 1028266387}
   - component: {fileID: 1028266386}
-  - component: {fileID: 1028266390}
   - component: {fileID: 1028266391}
+  - component: {fileID: 1028266390}
   m_Layer: 9
   m_Name: Node (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1028266386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15240,8 +15536,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15259,15 +15554,15 @@ GameObject:
   - component: {fileID: 1037756108}
   - component: {fileID: 1037756107}
   - component: {fileID: 1037756106}
-  - component: {fileID: 1037756110}
   - component: {fileID: 1037756111}
+  - component: {fileID: 1037756110}
   m_Layer: 9
   m_Name: Node (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1037756106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15379,8 +15674,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15398,8 +15692,8 @@ GameObject:
   - component: {fileID: 1049444561}
   - component: {fileID: 1049444560}
   - component: {fileID: 1049444559}
-  - component: {fileID: 1049444558}
   - component: {fileID: 1049444562}
+  - component: {fileID: 1049444558}
   m_Layer: 9
   m_Name: Node (257)
   m_TagString: Untagged
@@ -15518,8 +15812,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15614,8 +15907,8 @@ GameObject:
   - component: {fileID: 1055317879}
   - component: {fileID: 1055317878}
   - component: {fileID: 1055317877}
-  - component: {fileID: 1055317881}
   - component: {fileID: 1055317882}
+  - component: {fileID: 1055317881}
   m_Layer: 9
   m_Name: Node (107)
   m_TagString: Untagged
@@ -15734,8 +16027,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15753,15 +16045,15 @@ GameObject:
   - component: {fileID: 1065173609}
   - component: {fileID: 1065173608}
   - component: {fileID: 1065173607}
-  - component: {fileID: 1065173611}
   - component: {fileID: 1065173612}
+  - component: {fileID: 1065173611}
   m_Layer: 9
   m_Name: Node (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1065173607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15873,8 +16165,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -15892,15 +16183,15 @@ GameObject:
   - component: {fileID: 1066490616}
   - component: {fileID: 1066490615}
   - component: {fileID: 1066490614}
-  - component: {fileID: 1066490618}
   - component: {fileID: 1066490619}
+  - component: {fileID: 1066490618}
   m_Layer: 9
   m_Name: Node (224)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1066490614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16012,8 +16303,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16031,8 +16321,8 @@ GameObject:
   - component: {fileID: 1069515942}
   - component: {fileID: 1069515941}
   - component: {fileID: 1069515940}
-  - component: {fileID: 1069515944}
   - component: {fileID: 1069515945}
+  - component: {fileID: 1069515944}
   m_Layer: 9
   m_Name: Node (170)
   m_TagString: Untagged
@@ -16151,8 +16441,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16202,6 +16491,97 @@ Transform:
   m_Father: {fileID: 1684132849}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1097005217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097005219}
+  - component: {fileID: 1097005218}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1097005218
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097005217}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 0.45376468, g: 0.62640923, b: 0.9716981, a: 1}
+  m_Intensity: 4
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1097005219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097005217}
+  m_LocalRotation: {x: -0.5519369, y: 0, z: -0, w: 0.83388585}
+  m_LocalPosition: {x: -8, y: 10.7, z: 94.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1099374365
 GameObject:
   m_ObjectHideFlags: 0
@@ -16214,15 +16594,15 @@ GameObject:
   - component: {fileID: 1099374368}
   - component: {fileID: 1099374367}
   - component: {fileID: 1099374366}
-  - component: {fileID: 1099374370}
   - component: {fileID: 1099374371}
+  - component: {fileID: 1099374370}
   m_Layer: 9
   m_Name: Node (240)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1099374366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16334,8 +16714,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16405,7 +16784,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96980746de1d345bbaee36404ccc0cc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  terrainNodesOnMap: []
+  buildingSlotPrefab: {fileID: 1283715714}
+  terrainNodeCount: 0
+  buildingSlotCount: 0
+  buildingSlotGameObjects: []
   buildingInventoryUtility: {fileID: 420619846}
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
   fungiData: {fileID: 11400000, guid: 9db48c57541b24bcba71edc727599458, type: 2}
@@ -16499,9 +16881,11 @@ MonoBehaviour:
   economicText: {fileID: 1812945716}
   terrainHealthText: {fileID: 582948282}
   terrainNodesPurchasedText: {fileID: 410412285}
-  residentialText: {fileID: 1864976741}
-  industrialText: {fileID: 1446507741}
-  financialText: {fileID: 1977959732}
+  residentialBText: {fileID: 1864976741}
+  industrialBText: {fileID: 1446507741}
+  financialBText: {fileID: 1977959732}
+  socialBText: {fileID: 2080211994}
+  sanitationBText: {fileID: 259931990}
   expensesText: {fileID: 1884230115}
   maintenanceText: {fileID: 1286030262}
 --- !u!114 &1102954418
@@ -16630,6 +17014,97 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1107821844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107821845}
+  - component: {fileID: 1107821846}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107821845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107821844}
+  m_LocalRotation: {x: -0.5519369, y: 0, z: -0, w: 0.83388585}
+  m_LocalPosition: {x: 10.1, y: 5.9, z: 92.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1107821846
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107821844}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 0.45376468, g: 0.62640923, b: 0.9716981, a: 1}
+  m_Intensity: 4
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1119382830
 GameObject:
   m_ObjectHideFlags: 0
@@ -16642,15 +17117,15 @@ GameObject:
   - component: {fileID: 1119382833}
   - component: {fileID: 1119382832}
   - component: {fileID: 1119382831}
-  - component: {fileID: 1119382835}
   - component: {fileID: 1119382836}
+  - component: {fileID: 1119382835}
   m_Layer: 9
   m_Name: Node (205)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1119382831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16762,8 +17237,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -16873,15 +17347,15 @@ GameObject:
   - component: {fileID: 1131182586}
   - component: {fileID: 1131182585}
   - component: {fileID: 1131182584}
-  - component: {fileID: 1131182588}
   - component: {fileID: 1131182589}
+  - component: {fileID: 1131182588}
   m_Layer: 9
   m_Name: Node (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1131182584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16993,8 +17467,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17012,8 +17485,8 @@ GameObject:
   - component: {fileID: 1144730415}
   - component: {fileID: 1144730414}
   - component: {fileID: 1144730413}
-  - component: {fileID: 1144730417}
   - component: {fileID: 1144730418}
+  - component: {fileID: 1144730417}
   m_Layer: 9
   m_Name: Node (114)
   m_TagString: Untagged
@@ -17132,8 +17605,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17151,8 +17623,8 @@ GameObject:
   - component: {fileID: 1168524506}
   - component: {fileID: 1168524505}
   - component: {fileID: 1168524504}
-  - component: {fileID: 1168524508}
   - component: {fileID: 1168524510}
+  - component: {fileID: 1168524508}
   m_Layer: 9
   m_Name: Node (5)
   m_TagString: Untagged
@@ -17271,8 +17743,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17334,8 +17805,8 @@ GameObject:
   - component: {fileID: 1196710714}
   - component: {fileID: 1196710713}
   - component: {fileID: 1196710712}
-  - component: {fileID: 1196710716}
   - component: {fileID: 1196710717}
+  - component: {fileID: 1196710716}
   m_Layer: 9
   m_Name: Node (158)
   m_TagString: Untagged
@@ -17454,8 +17925,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17509,15 +17979,15 @@ GameObject:
   - component: {fileID: 1208584358}
   - component: {fileID: 1208584357}
   - component: {fileID: 1208584356}
-  - component: {fileID: 1208584360}
   - component: {fileID: 1208584361}
+  - component: {fileID: 1208584360}
   m_Layer: 9
   m_Name: Node (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1208584356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17629,8 +18099,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -17648,15 +18117,15 @@ GameObject:
   - component: {fileID: 1213118097}
   - component: {fileID: 1213118096}
   - component: {fileID: 1213118095}
-  - component: {fileID: 1213118099}
   - component: {fileID: 1213118100}
+  - component: {fileID: 1213118099}
   m_Layer: 9
   m_Name: Node (204)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1213118095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17768,13 +18237,18 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
   updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
+--- !u!224 &1220654428 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1082881189472811372}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1228846489
 GameObject:
   m_ObjectHideFlags: 0
@@ -17864,15 +18338,15 @@ GameObject:
   - component: {fileID: 1230007800}
   - component: {fileID: 1230007799}
   - component: {fileID: 1230007798}
-  - component: {fileID: 1230007802}
   - component: {fileID: 1230007803}
+  - component: {fileID: 1230007802}
   m_Layer: 9
   m_Name: Node (225)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1230007798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17984,8 +18458,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18003,15 +18476,15 @@ GameObject:
   - component: {fileID: 1238483737}
   - component: {fileID: 1238483736}
   - component: {fileID: 1238483735}
-  - component: {fileID: 1238483739}
   - component: {fileID: 1238483740}
+  - component: {fileID: 1238483739}
   m_Layer: 9
   m_Name: Node (185)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1238483735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18123,8 +18596,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18234,8 +18706,8 @@ GameObject:
   - component: {fileID: 1242181910}
   - component: {fileID: 1242181909}
   - component: {fileID: 1242181908}
-  - component: {fileID: 1242181912}
   - component: {fileID: 1242181913}
+  - component: {fileID: 1242181912}
   m_Layer: 9
   m_Name: Node (28)
   m_TagString: Untagged
@@ -18354,13 +18826,103 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
   updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
+--- !u!1 &1252490467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252490468}
+  - component: {fileID: 1252490469}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1252490468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252490467}
+  m_LocalRotation: {x: -0.5519369, y: 0, z: -0, w: 0.83388585}
+  m_LocalPosition: {x: 0.7, y: 16.7, z: 97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1252490469
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252490467}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 0.45376468, g: 0.62640923, b: 0.9716981, a: 1}
+  m_Intensity: 4
+  m_Range: 20
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1257947914
 GameObject:
   m_ObjectHideFlags: 0
@@ -18373,15 +18935,15 @@ GameObject:
   - component: {fileID: 1257947917}
   - component: {fileID: 1257947916}
   - component: {fileID: 1257947915}
-  - component: {fileID: 1257947919}
   - component: {fileID: 1257947920}
+  - component: {fileID: 1257947919}
   m_Layer: 9
   m_Name: Node (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1257947915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18493,8 +19055,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18605,15 +19166,15 @@ GameObject:
   - component: {fileID: 1269045791}
   - component: {fileID: 1269045790}
   - component: {fileID: 1269045789}
-  - component: {fileID: 1269045793}
   - component: {fileID: 1269045794}
+  - component: {fileID: 1269045793}
   m_Layer: 9
   m_Name: Node (232)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1269045789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18725,8 +19286,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -18857,7 +19417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  hoverColor: {r: 0.33953366, g: 0.36788717, b: 0.6603774, a: 0}
+  hoverColor: {r: 1, g: 1, b: 1, a: 0.89411765}
   rend: {fileID: 0}
   startColor: {r: 0, g: 0, b: 0, a: 0}
   popup: {fileID: 0}
@@ -18893,7 +19453,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6aa826a5c429649d28b3cd2ec4367f7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18947,7 +19507,6 @@ GameObject:
   - component: {fileID: 1285098942}
   - component: {fileID: 1285098945}
   - component: {fileID: 1285098944}
-  - component: {fileID: 1285098946}
   - component: {fileID: 1285098947}
   - component: {fileID: 1285098943}
   m_Layer: 5
@@ -18976,7 +19535,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1285098943
 MonoBehaviour:
@@ -19072,26 +19631,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285098941}
   m_CullTransparentMesh: 0
---- !u!114 &1285098946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285098941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!114 &1285098947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19104,7 +19643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
+  buildingStateController: {fileID: 0}
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: e9283a02b245b4e67a8aa255a5326560, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -19145,9 +19684,9 @@ RectTransform:
   m_Father: {fileID: 1489506145}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: 2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1286030262
@@ -19361,7 +19900,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 450
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!224 &1302765961
 RectTransform:
@@ -19377,11 +19916,12 @@ RectTransform:
   - {fileID: 420619847}
   - {fileID: 1982811733}
   - {fileID: 1962361234}
+  - {fileID: 1489506145}
   - {fileID: 1862134469}
   - {fileID: 785521909}
-  - {fileID: 1489506145}
   - {fileID: 513801952}
   - {fileID: 1746809974}
+  - {fileID: 1220654428}
   m_Father: {fileID: 1992359190}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19402,15 +19942,15 @@ GameObject:
   - component: {fileID: 1327177594}
   - component: {fileID: 1327177593}
   - component: {fileID: 1327177592}
-  - component: {fileID: 1327177596}
   - component: {fileID: 1327177597}
+  - component: {fileID: 1327177596}
   m_Layer: 9
   m_Name: Node (236)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1327177592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19522,8 +20062,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -19541,15 +20080,15 @@ GameObject:
   - component: {fileID: 1337173740}
   - component: {fileID: 1337173739}
   - component: {fileID: 1337173738}
-  - component: {fileID: 1337173742}
   - component: {fileID: 1337173743}
+  - component: {fileID: 1337173742}
   m_Layer: 9
   m_Name: Node (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1337173738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19661,8 +20200,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -19679,7 +20217,6 @@ GameObject:
   - component: {fileID: 1338770910}
   - component: {fileID: 1338770913}
   - component: {fileID: 1338770912}
-  - component: {fileID: 1338770914}
   - component: {fileID: 1338770915}
   - component: {fileID: 1338770911}
   - component: {fileID: 1338770916}
@@ -19709,7 +20246,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1338770911
 MonoBehaviour:
@@ -19790,26 +20327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338770909}
   m_CullTransparentMesh: 0
---- !u!114 &1338770914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338770909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!114 &1338770915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19822,7 +20339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
+  buildingStateController: {fileID: 0}
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: 85c83c43f57f94758b441cabb0af8468, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -20009,9 +20526,9 @@ RectTransform:
   m_Father: {fileID: 1489506145}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: -46.999985}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1360505179
@@ -20071,7 +20588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1382853599
 Transform:
   m_ObjectHideFlags: 0
@@ -20116,8 +20633,8 @@ GameObject:
   - component: {fileID: 1397785177}
   - component: {fileID: 1397785176}
   - component: {fileID: 1397785175}
-  - component: {fileID: 1397785179}
   - component: {fileID: 1397785180}
+  - component: {fileID: 1397785179}
   m_Layer: 9
   m_Name: Node (168)
   m_TagString: Untagged
@@ -20236,8 +20753,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20255,8 +20771,8 @@ GameObject:
   - component: {fileID: 1433300568}
   - component: {fileID: 1433300567}
   - component: {fileID: 1433300566}
-  - component: {fileID: 1433300565}
   - component: {fileID: 1433300569}
+  - component: {fileID: 1433300565}
   m_Layer: 9
   m_Name: Node (134)
   m_TagString: Untagged
@@ -20375,8 +20891,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20394,8 +20909,8 @@ GameObject:
   - component: {fileID: 1442795109}
   - component: {fileID: 1442795108}
   - component: {fileID: 1442795107}
-  - component: {fileID: 1442795111}
   - component: {fileID: 1442795112}
+  - component: {fileID: 1442795111}
   m_Layer: 9
   m_Name: Node (1)
   m_TagString: Untagged
@@ -20514,8 +21029,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20553,9 +21067,9 @@ RectTransform:
   m_Father: {fileID: 785521909}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: -25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446507741
@@ -20731,15 +21245,15 @@ GameObject:
   - component: {fileID: 1476989770}
   - component: {fileID: 1476989769}
   - component: {fileID: 1476989768}
-  - component: {fileID: 1476989772}
   - component: {fileID: 1476989773}
+  - component: {fileID: 1476989772}
   m_Layer: 9
   m_Name: Node (251)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1476989768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20851,8 +21365,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -20870,8 +21383,8 @@ GameObject:
   - component: {fileID: 1479557051}
   - component: {fileID: 1479557050}
   - component: {fileID: 1479557049}
-  - component: {fileID: 1479557053}
   - component: {fileID: 1479557054}
+  - component: {fileID: 1479557053}
   m_Layer: 9
   m_Name: Node (87)
   m_TagString: Untagged
@@ -20990,8 +21503,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21008,6 +21520,7 @@ GameObject:
   - component: {fileID: 1489506145}
   - component: {fileID: 1489506147}
   - component: {fileID: 1489506146}
+  - component: {fileID: 1489506148}
   m_Layer: 5
   m_Name: Expenses_Panel
   m_TagString: Untagged
@@ -21030,12 +21543,12 @@ RectTransform:
   - {fileID: 1286030261}
   - {fileID: 1360505178}
   m_Father: {fileID: 1302765961}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -222.99994, y: -442.00006}
-  m_SizeDelta: {x: 400, y: 170}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 216, y: -331}
+  m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489506146
 MonoBehaviour:
@@ -21073,6 +21586,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489506144}
   m_CullTransparentMesh: 0
+--- !u!114 &1489506148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489506144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 30
+    m_Right: 30
+    m_Top: 30
+    m_Bottom: 30
+  m_ChildAlignment: 0
+  m_Spacing: 10
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &1495715027
 GameObject:
   m_ObjectHideFlags: 0
@@ -21258,8 +21796,8 @@ GameObject:
   - component: {fileID: 1530688542}
   - component: {fileID: 1530688541}
   - component: {fileID: 1530688540}
-  - component: {fileID: 1530688539}
   - component: {fileID: 1530688543}
+  - component: {fileID: 1530688539}
   m_Layer: 9
   m_Name: Node (135)
   m_TagString: Untagged
@@ -21378,8 +21916,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21397,15 +21934,15 @@ GameObject:
   - component: {fileID: 1533993307}
   - component: {fileID: 1533993306}
   - component: {fileID: 1533993305}
-  - component: {fileID: 1533993309}
   - component: {fileID: 1533993310}
+  - component: {fileID: 1533993309}
   m_Layer: 9
   m_Name: Node (188)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1533993305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21517,8 +22054,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21536,15 +22072,15 @@ GameObject:
   - component: {fileID: 1540562095}
   - component: {fileID: 1540562094}
   - component: {fileID: 1540562093}
-  - component: {fileID: 1540562097}
   - component: {fileID: 1540562098}
+  - component: {fileID: 1540562097}
   m_Layer: 9
   m_Name: Node (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1540562093
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21656,8 +22192,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21675,15 +22210,15 @@ GameObject:
   - component: {fileID: 1543700120}
   - component: {fileID: 1543700119}
   - component: {fileID: 1543700118}
-  - component: {fileID: 1543700122}
   - component: {fileID: 1543700123}
+  - component: {fileID: 1543700122}
   m_Layer: 9
   m_Name: Node (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1543700118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21795,8 +22330,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -21950,8 +22484,8 @@ GameObject:
   - component: {fileID: 1558615732}
   - component: {fileID: 1558615731}
   - component: {fileID: 1558615730}
-  - component: {fileID: 1558615734}
   - component: {fileID: 1558615735}
+  - component: {fileID: 1558615734}
   m_Layer: 9
   m_Name: Node (136)
   m_TagString: Untagged
@@ -22070,8 +22604,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22089,15 +22622,15 @@ GameObject:
   - component: {fileID: 1565114865}
   - component: {fileID: 1565114864}
   - component: {fileID: 1565114863}
-  - component: {fileID: 1565114867}
   - component: {fileID: 1565114868}
+  - component: {fileID: 1565114867}
   m_Layer: 9
   m_Name: Node (245)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1565114863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22209,8 +22742,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22228,8 +22760,8 @@ GameObject:
   - component: {fileID: 1571992178}
   - component: {fileID: 1571992177}
   - component: {fileID: 1571992176}
-  - component: {fileID: 1571992175}
   - component: {fileID: 1571992179}
+  - component: {fileID: 1571992175}
   m_Layer: 9
   m_Name: Node (258)
   m_TagString: Untagged
@@ -22348,8 +22880,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22367,8 +22898,8 @@ GameObject:
   - component: {fileID: 1586446912}
   - component: {fileID: 1586446911}
   - component: {fileID: 1586446910}
-  - component: {fileID: 1586446914}
   - component: {fileID: 1586446915}
+  - component: {fileID: 1586446914}
   m_Layer: 9
   m_Name: Node (171)
   m_TagString: Untagged
@@ -22487,8 +23018,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22506,15 +23036,15 @@ GameObject:
   - component: {fileID: 1616344418}
   - component: {fileID: 1616344417}
   - component: {fileID: 1616344416}
-  - component: {fileID: 1616344420}
   - component: {fileID: 1616344421}
+  - component: {fileID: 1616344420}
   m_Layer: 9
   m_Name: Node (249)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1616344416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22626,8 +23156,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22645,15 +23174,15 @@ GameObject:
   - component: {fileID: 1622607129}
   - component: {fileID: 1622607128}
   - component: {fileID: 1622607127}
-  - component: {fileID: 1622607131}
   - component: {fileID: 1622607132}
+  - component: {fileID: 1622607131}
   m_Layer: 9
   m_Name: Node (174)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1622607127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22765,8 +23294,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22784,15 +23312,15 @@ GameObject:
   - component: {fileID: 1624374940}
   - component: {fileID: 1624374939}
   - component: {fileID: 1624374938}
-  - component: {fileID: 1624374942}
   - component: {fileID: 1624374943}
+  - component: {fileID: 1624374942}
   m_Layer: 9
   m_Name: Node (229)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1624374938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22904,8 +23432,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -22923,15 +23450,15 @@ GameObject:
   - component: {fileID: 1634966481}
   - component: {fileID: 1634966480}
   - component: {fileID: 1634966479}
-  - component: {fileID: 1634966483}
   - component: {fileID: 1634966484}
+  - component: {fileID: 1634966483}
   m_Layer: 9
   m_Name: Node (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1634966479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23043,8 +23570,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -23184,7 +23710,6 @@ GameObject:
   - component: {fileID: 1673639236}
   - component: {fileID: 1673639240}
   - component: {fileID: 1673639239}
-  - component: {fileID: 1673639237}
   - component: {fileID: 1673639241}
   - component: {fileID: 1673639238}
   m_Layer: 5
@@ -23213,28 +23738,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1673639237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673639235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!114 &1673639238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23341,7 +23846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
+  buildingStateController: {fileID: 0}
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: fd26d8ec7c75847c1a50890fcb84e293, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -23640,15 +24145,15 @@ GameObject:
   - component: {fileID: 1690019084}
   - component: {fileID: 1690019083}
   - component: {fileID: 1690019082}
-  - component: {fileID: 1690019086}
   - component: {fileID: 1690019087}
+  - component: {fileID: 1690019086}
   m_Layer: 9
   m_Name: Node (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1690019082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23760,8 +24265,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -23828,15 +24332,15 @@ GameObject:
   - component: {fileID: 1697229004}
   - component: {fileID: 1697229003}
   - component: {fileID: 1697229002}
-  - component: {fileID: 1697229006}
   - component: {fileID: 1697229007}
+  - component: {fileID: 1697229006}
   m_Layer: 9
   m_Name: Node (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1697229002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23948,8 +24452,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -23966,7 +24469,6 @@ GameObject:
   - component: {fileID: 1717967004}
   - component: {fileID: 1717967008}
   - component: {fileID: 1717967007}
-  - component: {fileID: 1717967005}
   - component: {fileID: 1717967009}
   - component: {fileID: 1717967006}
   m_Layer: 5
@@ -23995,28 +24497,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1717967005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717967003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 100
-  m_PreferredHeight: 100
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
 --- !u!114 &1717967006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24123,7 +24605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryID: 0
+  buildingStateController: {fileID: 0}
   popup: {fileID: 0}
   building: {fileID: 11400000, guid: 711128abd3ec74849875f8c9c7583867, type: 2}
   InventoryPanel: {fileID: 420619846}
@@ -24188,15 +24670,15 @@ GameObject:
   - component: {fileID: 1721857889}
   - component: {fileID: 1721857888}
   - component: {fileID: 1721857887}
-  - component: {fileID: 1721857891}
   - component: {fileID: 1721857892}
+  - component: {fileID: 1721857891}
   m_Layer: 9
   m_Name: Node (233)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1721857887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24308,8 +24790,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24327,15 +24808,15 @@ GameObject:
   - component: {fileID: 1722468991}
   - component: {fileID: 1722468990}
   - component: {fileID: 1722468989}
-  - component: {fileID: 1722468993}
   - component: {fileID: 1722468994}
+  - component: {fileID: 1722468993}
   m_Layer: 9
   m_Name: Node (239)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1722468989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24447,8 +24928,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24532,6 +25012,7 @@ MonoBehaviour:
   locationOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   lifespan: {fileID: 11400000, guid: a6d50c2f252b944adbff199ff5fe6b8c, type: 2}
   lifeTime: 0
+  lifeTimeColors: {fileID: 0}
 --- !u!114 &1741928810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24572,15 +25053,15 @@ GameObject:
   - component: {fileID: 1742156499}
   - component: {fileID: 1742156498}
   - component: {fileID: 1742156497}
-  - component: {fileID: 1742156501}
   - component: {fileID: 1742156502}
+  - component: {fileID: 1742156501}
   m_Layer: 9
   m_Name: Node (210)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1742156497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24692,8 +25173,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24711,8 +25191,8 @@ GameObject:
   - component: {fileID: 1745249977}
   - component: {fileID: 1745249976}
   - component: {fileID: 1745249975}
-  - component: {fileID: 1745249979}
   - component: {fileID: 1745249980}
+  - component: {fileID: 1745249979}
   m_Layer: 9
   m_Name: Node (128)
   m_TagString: Untagged
@@ -24831,8 +25311,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -24920,15 +25399,15 @@ GameObject:
   - component: {fileID: 1760503222}
   - component: {fileID: 1760503221}
   - component: {fileID: 1760503220}
-  - component: {fileID: 1760503224}
   - component: {fileID: 1760503225}
+  - component: {fileID: 1760503224}
   m_Layer: 9
   m_Name: Node (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1760503220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25040,8 +25519,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25059,15 +25537,15 @@ GameObject:
   - component: {fileID: 1760608793}
   - component: {fileID: 1760608792}
   - component: {fileID: 1760608791}
-  - component: {fileID: 1760608795}
   - component: {fileID: 1760608796}
+  - component: {fileID: 1760608795}
   m_Layer: 9
   m_Name: Node (227)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1760608791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25179,8 +25657,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25198,8 +25675,8 @@ GameObject:
   - component: {fileID: 1769455689}
   - component: {fileID: 1769455688}
   - component: {fileID: 1769455687}
-  - component: {fileID: 1769455691}
   - component: {fileID: 1769455692}
+  - component: {fileID: 1769455691}
   m_Layer: 9
   m_Name: Node (76)
   m_TagString: Untagged
@@ -25318,8 +25795,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25357,9 +25833,9 @@ RectTransform:
   m_Father: {fileID: 785521909}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.99994, y: 47}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1769599816
@@ -25387,13 +25863,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Total Infrastructure
+  m_Text: 'Total Infrastructure:'
 --- !u!222 &1769599817
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25434,9 +25910,9 @@ RectTransform:
   m_Father: {fileID: 1962361234}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74, y: -24}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791148122
@@ -25481,6 +25957,99 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791148120}
   m_CullTransparentMesh: 0
+--- !u!1 &1791583466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791583467}
+  - component: {fileID: 1791583470}
+  - component: {fileID: 1791583469}
+  - component: {fileID: 1791583468}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1791583467
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791583466}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1918014506}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1791583468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791583466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.6232645, g: 0.8355509, b: 0.8867924, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1791583469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791583466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: E
+--- !u!222 &1791583470
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791583466}
+  m_CullTransparentMesh: 0
 --- !u!1 &1812945714
 GameObject:
   m_ObjectHideFlags: 0
@@ -25513,9 +26082,9 @@ RectTransform:
   m_Father: {fileID: 1962361234}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74, y: -54.999985}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 300, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1812945716
@@ -25570,8 +26139,8 @@ GameObject:
   - component: {fileID: 1843216563}
   - component: {fileID: 1843216562}
   - component: {fileID: 1843216561}
-  - component: {fileID: 1843216560}
   - component: {fileID: 1843216564}
+  - component: {fileID: 1843216560}
   m_Layer: 9
   m_Name: Node (260)
   m_TagString: Untagged
@@ -25690,8 +26259,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -25806,11 +26374,11 @@ RectTransform:
   - {fileID: 582948281}
   - {fileID: 410412284}
   m_Father: {fileID: 1302765961}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -222.99988, y: -76.00008}
+  m_AnchoredPosition: {x: -222, y: -76.00008}
   m_SizeDelta: {x: 400, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1862134470
@@ -25861,15 +26429,15 @@ GameObject:
   - component: {fileID: 1863909316}
   - component: {fileID: 1863909315}
   - component: {fileID: 1863909314}
-  - component: {fileID: 1863909318}
   - component: {fileID: 1863909319}
+  - component: {fileID: 1863909318}
   m_Layer: 9
   m_Name: Node (211)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1863909314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25981,8 +26549,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26064,9 +26631,9 @@ RectTransform:
   m_Father: {fileID: 785521909}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: 6}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864976741
@@ -26268,9 +26835,9 @@ RectTransform:
   m_Father: {fileID: 1489506145}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: 48.000015}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884230115
@@ -26417,8 +26984,8 @@ GameObject:
   - component: {fileID: 1887627614}
   - component: {fileID: 1887627613}
   - component: {fileID: 1887627612}
-  - component: {fileID: 1887627616}
   - component: {fileID: 1887627617}
+  - component: {fileID: 1887627616}
   m_Layer: 9
   m_Name: Node (64)
   m_TagString: Untagged
@@ -26537,8 +27104,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26556,8 +27122,8 @@ GameObject:
   - component: {fileID: 1910550763}
   - component: {fileID: 1910550762}
   - component: {fileID: 1910550761}
-  - component: {fileID: 1910550765}
   - component: {fileID: 1910550766}
+  - component: {fileID: 1910550765}
   m_Layer: 9
   m_Name: Node (77)
   m_TagString: Untagged
@@ -26676,8 +27242,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26727,6 +27292,255 @@ Transform:
   m_Father: {fileID: 1684132849}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1918014505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1918014506}
+  - component: {fileID: 1918014511}
+  - component: {fileID: 1918014510}
+  - component: {fileID: 1918014508}
+  - component: {fileID: 1918014507}
+  m_Layer: 5
+  m_Name: E-normal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1918014506
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918014505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791583467}
+  - {fileID: 348622039}
+  m_Father: {fileID: 420619847}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1918014507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918014505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1918014508}
+          m_MethodName: MouseOnUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1918014508}
+          m_MethodName: ExitMouseUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1918014508}
+          m_MethodName: MouseClickUI
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1918014508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918014505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd479d3d825b2489ba165107c82f8a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingStateController: {fileID: 0}
+  popup: {fileID: 0}
+  building: {fileID: 11400000, guid: 278f69c89b7924272baaaa626e70fb63, type: 2}
+  InventoryPanel: {fileID: 420619846}
+  newBuildingInfo: {fileID: 513801953}
+  updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
+  purchaseBuilding: {fileID: 11400000, guid: 4ba533ed1030e47b3a63d27a3e807e31, type: 2}
+  updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
+  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+--- !u!114 &1918014510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918014505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7137255}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8df1ec66473b8400abe11f23b60107c0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1918014511
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918014505}
+  m_CullTransparentMesh: 0
+--- !u!1 &1920901547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920901548}
+  - component: {fileID: 1920901551}
+  - component: {fileID: 1920901550}
+  - component: {fileID: 1920901549}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1920901548
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920901547}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 764396770}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1920901549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920901547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.6232645, g: 0.8355509, b: 0.8867924, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &1920901550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920901547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: D
+--- !u!222 &1920901551
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920901547}
+  m_CullTransparentMesh: 0
 --- !u!1 &1926472881
 GameObject:
   m_ObjectHideFlags: 0
@@ -26739,8 +27553,8 @@ GameObject:
   - component: {fileID: 1926472884}
   - component: {fileID: 1926472883}
   - component: {fileID: 1926472882}
-  - component: {fileID: 1926472886}
   - component: {fileID: 1926472887}
+  - component: {fileID: 1926472886}
   m_Layer: 9
   m_Name: Node (254)
   m_TagString: Untagged
@@ -26859,8 +27673,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -26878,8 +27691,8 @@ GameObject:
   - component: {fileID: 1937824521}
   - component: {fileID: 1937824520}
   - component: {fileID: 1937824519}
-  - component: {fileID: 1937824523}
   - component: {fileID: 1937824524}
+  - component: {fileID: 1937824523}
   m_Layer: 9
   m_Name: Node (80)
   m_TagString: Untagged
@@ -26998,8 +27811,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27017,8 +27829,8 @@ GameObject:
   - component: {fileID: 1942190362}
   - component: {fileID: 1942190361}
   - component: {fileID: 1942190360}
-  - component: {fileID: 1942190364}
   - component: {fileID: 1942190365}
+  - component: {fileID: 1942190364}
   m_Layer: 9
   m_Name: Node (105)
   m_TagString: Untagged
@@ -27137,8 +27949,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27247,6 +28058,7 @@ GameObject:
   - component: {fileID: 1962361234}
   - component: {fileID: 1962361236}
   - component: {fileID: 1962361235}
+  - component: {fileID: 1962361237}
   m_Layer: 5
   m_Name: Stats_Panel
   m_TagString: Untagged
@@ -27274,8 +28086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 261, y: -113}
-  m_SizeDelta: {x: 500, y: 200}
+  m_AnchoredPosition: {x: 216, y: -113}
+  m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962361235
 MonoBehaviour:
@@ -27313,6 +28125,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962361233}
   m_CullTransparentMesh: 0
+--- !u!114 &1962361237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962361233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 30
+    m_Right: 30
+    m_Top: 30
+    m_Bottom: 30
+  m_ChildAlignment: 0
+  m_Spacing: 10
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
 --- !u!1 &1968009469
 GameObject:
   m_ObjectHideFlags: 0
@@ -27325,15 +28162,15 @@ GameObject:
   - component: {fileID: 1968009472}
   - component: {fileID: 1968009471}
   - component: {fileID: 1968009470}
-  - component: {fileID: 1968009474}
   - component: {fileID: 1968009475}
+  - component: {fileID: 1968009474}
   m_Layer: 9
   m_Name: Node (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1968009470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27445,8 +28282,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27464,8 +28300,8 @@ GameObject:
   - component: {fileID: 1969983149}
   - component: {fileID: 1969983148}
   - component: {fileID: 1969983147}
-  - component: {fileID: 1969983151}
   - component: {fileID: 1969983152}
+  - component: {fileID: 1969983151}
   m_Layer: 9
   m_Name: Node (13)
   m_TagString: Untagged
@@ -27584,8 +28420,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27603,15 +28438,15 @@ GameObject:
   - component: {fileID: 1975944866}
   - component: {fileID: 1975944865}
   - component: {fileID: 1975944864}
-  - component: {fileID: 1975944868}
   - component: {fileID: 1975944869}
+  - component: {fileID: 1975944868}
   m_Layer: 9
   m_Name: Node (198)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1975944864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27723,8 +28558,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -27762,9 +28596,9 @@ RectTransform:
   m_Father: {fileID: 785521909}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.99994, y: -60}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1977959732
@@ -27842,9 +28676,9 @@ RectTransform:
   m_Father: {fileID: 1302765961}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 784.9999, y: -112.99997}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 125}
   m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982811734
@@ -27895,15 +28729,15 @@ GameObject:
   - component: {fileID: 1983902805}
   - component: {fileID: 1983902804}
   - component: {fileID: 1983902803}
-  - component: {fileID: 1983902807}
   - component: {fileID: 1983902808}
+  - component: {fileID: 1983902807}
   m_Layer: 9
   m_Name: Node (226)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1983902803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28015,8 +28849,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28065,8 +28898,8 @@ GameObject:
   - component: {fileID: 1993080458}
   - component: {fileID: 1993080457}
   - component: {fileID: 1993080456}
-  - component: {fileID: 1993080460}
   - component: {fileID: 1993080461}
+  - component: {fileID: 1993080460}
   m_Layer: 9
   m_Name: Node (99)
   m_TagString: Untagged
@@ -28185,8 +29018,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28204,15 +29036,15 @@ GameObject:
   - component: {fileID: 1998338115}
   - component: {fileID: 1998338114}
   - component: {fileID: 1998338113}
-  - component: {fileID: 1998338117}
   - component: {fileID: 1998338118}
+  - component: {fileID: 1998338117}
   m_Layer: 9
   m_Name: Node (252)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1998338113
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28324,8 +29156,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28343,8 +29174,8 @@ GameObject:
   - component: {fileID: 2002740976}
   - component: {fileID: 2002740975}
   - component: {fileID: 2002740974}
-  - component: {fileID: 2002740978}
   - component: {fileID: 2002740979}
+  - component: {fileID: 2002740978}
   m_Layer: 9
   m_Name: Node (52)
   m_TagString: Untagged
@@ -28463,8 +29294,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28482,8 +29312,8 @@ GameObject:
   - component: {fileID: 2011987546}
   - component: {fileID: 2011987545}
   - component: {fileID: 2011987544}
-  - component: {fileID: 2011987548}
   - component: {fileID: 2011987549}
+  - component: {fileID: 2011987548}
   m_Layer: 9
   m_Name: Node (74)
   m_TagString: Untagged
@@ -28602,8 +29432,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28621,15 +29450,15 @@ GameObject:
   - component: {fileID: 2013043818}
   - component: {fileID: 2013043817}
   - component: {fileID: 2013043816}
-  - component: {fileID: 2013043820}
   - component: {fileID: 2013043821}
+  - component: {fileID: 2013043820}
   m_Layer: 9
   m_Name: Node (228)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2013043816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28741,8 +29570,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -28944,15 +29772,15 @@ GameObject:
   - component: {fileID: 2038264223}
   - component: {fileID: 2038264222}
   - component: {fileID: 2038264221}
-  - component: {fileID: 2038264225}
   - component: {fileID: 2038264226}
+  - component: {fileID: 2038264225}
   m_Layer: 9
   m_Name: Node (250)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2038264221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29064,8 +29892,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29083,8 +29910,8 @@ GameObject:
   - component: {fileID: 2039869359}
   - component: {fileID: 2039869358}
   - component: {fileID: 2039869357}
-  - component: {fileID: 2039869361}
   - component: {fileID: 2039869362}
+  - component: {fileID: 2039869361}
   m_Layer: 9
   m_Name: Node (17)
   m_TagString: Untagged
@@ -29203,8 +30030,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29222,8 +30048,8 @@ GameObject:
   - component: {fileID: 2073896723}
   - component: {fileID: 2073896722}
   - component: {fileID: 2073896721}
-  - component: {fileID: 2073896725}
   - component: {fileID: 2073896726}
+  - component: {fileID: 2073896725}
   m_Layer: 9
   m_Name: Node (55)
   m_TagString: Untagged
@@ -29342,13 +30168,89 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
   updateExpenses: {fileID: 11400000, guid: 4b1f616bc0fea48c293c3923698b3c54, type: 2}
   observable: 1
+--- !u!1 &2080211992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080211993}
+  - component: {fileID: 2080211995}
+  - component: {fileID: 2080211994}
+  m_Layer: 5
+  m_Name: Text_Social
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2080211993
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080211992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785521909}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2080211994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080211992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9575472, b: 0.9575472, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e89e9644051954912a516820ae9eb10f, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Social:'
+--- !u!222 &2080211995
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080211992}
+  m_CullTransparentMesh: 0
 --- !u!1 &2080704926
 GameObject:
   m_ObjectHideFlags: 0
@@ -29361,15 +30263,15 @@ GameObject:
   - component: {fileID: 2080704929}
   - component: {fileID: 2080704928}
   - component: {fileID: 2080704927}
-  - component: {fileID: 2080704931}
   - component: {fileID: 2080704932}
+  - component: {fileID: 2080704931}
   m_Layer: 9
   m_Name: Node (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2080704927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29481,8 +30383,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29685,8 +30586,8 @@ GameObject:
   - component: {fileID: 2116459796}
   - component: {fileID: 2116459795}
   - component: {fileID: 2116459794}
-  - component: {fileID: 2116459798}
   - component: {fileID: 2116459799}
+  - component: {fileID: 2116459798}
   m_Layer: 9
   m_Name: Node (189)
   m_TagString: Untagged
@@ -29805,8 +30706,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29824,15 +30724,15 @@ GameObject:
   - component: {fileID: 2126136052}
   - component: {fileID: 2126136051}
   - component: {fileID: 2126136050}
-  - component: {fileID: 2126136054}
   - component: {fileID: 2126136055}
+  - component: {fileID: 2126136054}
   m_Layer: 9
   m_Name: Node (243)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2126136050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29944,8 +30844,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -29963,8 +30862,8 @@ GameObject:
   - component: {fileID: 2132332783}
   - component: {fileID: 2132332782}
   - component: {fileID: 2132332781}
-  - component: {fileID: 2132332780}
   - component: {fileID: 2132332784}
+  - component: {fileID: 2132332780}
   m_Layer: 9
   m_Name: Node (259)
   m_TagString: Untagged
@@ -30083,8 +30982,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -30146,8 +31044,8 @@ GameObject:
   - component: {fileID: 2146531831}
   - component: {fileID: 2146531830}
   - component: {fileID: 2146531829}
-  - component: {fileID: 2146531828}
   - component: {fileID: 2146531832}
+  - component: {fileID: 2146531828}
   m_Layer: 9
   m_Name: Node (133)
   m_TagString: Untagged
@@ -30266,8 +31164,7 @@ MonoBehaviour:
     price: 0
     purchased: 0
   popup: {fileID: 0}
-  acpDataHandler: {fileID: 1102954413}
-  acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  slotsToSpawn: 0
   updateCapital: {fileID: 11400000, guid: c1bad7cfd0e424c47b5acda8fdcd368b, type: 2}
   terrainNodePurchased: {fileID: 11400000, guid: bce628c0cad304d808ff931ea0ad084a,
     type: 2}
@@ -31859,6 +32756,125 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &1082881189472811372
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1302765961}
+    m_Modifications:
+    - target: {fileID: 1082881188269067319, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_Name
+      value: Level Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082881188269067312, guid: 98c85b6dd597b4f858139638f6fb96be,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98c85b6dd597b4f858139638f6fb96be, type: 3}
 --- !u!1 &1139920312652516462
 GameObject:
   m_ObjectHideFlags: 0

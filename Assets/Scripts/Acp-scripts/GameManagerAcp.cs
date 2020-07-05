@@ -18,23 +18,29 @@ public class GameManagerAcp : MonoBehaviour
     public Text terrainNodesPurchasedText;
 
     //INFRASTRUCTURE INFO
-    public Text residentialText;
-    public Text industrialText;
-    public Text financialText;
+    public Text residentialBText;
+    public Text industrialBText;
+    public Text financialBText;
+    public Text socialBText;
+    public Text sanitationBText;
 
     //FINANCIAL INFO
     public Text expensesText;
     public Text maintenanceText;
 
+    public static GameManagerAcp instance;
 
     // Start is called before the first frame update
     private void Awake()
     {
+        instance = this;
         if (acpData.wipeACPData) WipeAcpData();
     }
 
     void Start()
     {
+        OnUpdateExpenses();
+        UpdateMaintenance();
 
     }
 
@@ -65,15 +71,17 @@ public class GameManagerAcp : MonoBehaviour
     public void OnTerrainPurchased()
     {
         terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased;
-       // Debug.Log("TERRAINPURCHASED");
+        // Debug.Log("TERRAINPURCHASED");
 
     }
 
     public void OnBuildingPurchased()
     {
-        residentialText.text = "Residential: " + AcpDataHandler.residentialAmt;
-        industrialText.text = "Industrial: " + AcpDataHandler.industrialAmt;
-        financialText.text = "Financial: " + AcpDataHandler.financialAmt;
+        residentialBText.text = "Residential: " + AcpDataHandler.residentialAmt;
+        industrialBText.text = "Industrial: " + AcpDataHandler.industrialAmt;
+        financialBText.text = "Financial: " + AcpDataHandler.financialAmt;
+        socialBText.text = "Social: " + AcpDataHandler.socialAmt;
+        sanitationBText.text = "Sanitation: " + AcpDataHandler.sanitationAmt;
 
         socialText.text = "Social Score: " + acpData.socialScore;
         environmentText.text = "Environmental Sustainability: " + acpData.environmentScore;
@@ -83,11 +91,34 @@ public class GameManagerAcp : MonoBehaviour
     public void OnUpdateExpenses()
     {
         expensesText.text = "Expenses: " + AcpDataHandler.expenses;
-
     }
 
     public void UpdateMaintenance()
     {
         maintenanceText.text = "Seasonal Maintenance Fees: " + AcpDataHandler.maintenanceFees;
     }
+
+
+    public bool CheckForActiveFungiUnits(BuildingSlot slot, bool state)
+    {
+
+        state = false;
+        if (AcpDataHandler.instance.fungiData.activeUnitLocations != null)
+        {
+            for (int i = 0; i < AcpDataHandler.instance.fungiData.activeUnitLocations.Count; i++)
+            {
+               
+                if (AcpDataHandler.instance.fungiData.activeUnitLocations[i] == slot.location)
+                {
+                    
+                    state = true;
+//                    Debug.Log(slot.location);
+
+                }
+            }
+        }
+        return state;
+
+    }
+
 }
