@@ -30,6 +30,7 @@ public class AcpDataHandler : MonoBehaviour
     public static int socialAmt;
     public static int sanitationAmt;
 
+    public int targetCapital;
     //FINANCIAL DATA:
     public static int expenses;
     public static int maintenanceFees;
@@ -93,6 +94,7 @@ public class AcpDataHandler : MonoBehaviour
         GetPurchasedBuilidingTypes();
         gameManagerAcp.OnBuildingPurchased();
 
+        
 
     }
 
@@ -254,6 +256,12 @@ public class AcpDataHandler : MonoBehaviour
         }
     }
 
+    public void CalculateTargetCapital()
+    {
+        if (targetCapital < acpData.capital) { 
+        targetCapital = (int)(acpData.capital + Random.Range(1, 100000));
+        }
+    }
 
 }
 

@@ -63,7 +63,7 @@ public class TurnManager : MonoBehaviour
         revenuesText.text = "Seasonal Revenues: " + AcpDataHandler.revenues;
         acpData.capital += acpData.economicGrowth / 10;
         
-        capitalText.text = "Total Capital Revenues: " + acpData.capital;
+        capitalText.text = "TOTAL CAPITTAL REVENUES: " + acpData.capital;
     }
 
     public void OnSeasonBegin()
@@ -82,6 +82,8 @@ public class TurnManager : MonoBehaviour
         Debug.Log("End Season");
         AcpDataHandler.seasonTimerValue = acpData.seasonLength;
         startSeasonButton.SetActive(true);
+        AcpDataHandler.instance.CalculateTargetCapital();
+        GameManagerAcp.instance.UpdateCapitalTargetText();
 
     }
 

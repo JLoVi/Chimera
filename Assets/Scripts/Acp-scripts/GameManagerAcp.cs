@@ -8,6 +8,7 @@ public class GameManagerAcp : MonoBehaviour
     public AcpData acpData;
 
     //CAPITAL AND SCORES
+    public Text capitalTargetText;
     public Text capitalText;
     public Text socialText;
     public Text environmentText;
@@ -41,6 +42,9 @@ public class GameManagerAcp : MonoBehaviour
     {
         OnUpdateExpenses();
         UpdateMaintenance();
+        AcpDataHandler.instance.CalculateTargetCapital();
+        UpdateCapitalTargetText();
+
 
     }
 
@@ -58,9 +62,14 @@ public class GameManagerAcp : MonoBehaviour
         acpData.economicGrowth = 0;
     }
 
+    public void UpdateCapitalTargetText()
+    {
+        capitalTargetText.text = "TARGET CAPITAL: " + AcpDataHandler.instance.targetCapital;
+    }
+
     public void UpdateCapitalText()
     {
-        capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
+        capitalText.text = "TOTAL CAPITAL REVENUES: " + Mathf.RoundToInt(acpData.capital);
     }
 
     public void OnTerrainHealthUpdate()
