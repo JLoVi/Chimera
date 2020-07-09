@@ -44,6 +44,8 @@ public class ActivateFungiUnit : MonoBehaviour
     {
         GetComponent<FungiUnit>().active = true;
         animator.SetTrigger("grow");
+        DisplayChildren(transform, lifeTimeColors.color1);
+
         //  StartCoroutine(ChangeColor(lifeTimeColors.color3));
         sanitationPresent = GameManagerFungi.instance.CheckIfSanitationPresent(locationOnMap, sanitationPresent);
         if (sanitationPresent)
@@ -51,12 +53,12 @@ public class ActivateFungiUnit : MonoBehaviour
             AddFungiToData();
             StopAllCoroutines();
             StartCoroutine(KillFungi());
-            Debug.Log("ff");
+           // Debug.Log("ff");
         }
         else
         {
             AddFungiToData();
-         //   StartCoroutine(LifeSequence());
+            StartCoroutine(LifeSequence());
         }
 
     }
@@ -68,26 +70,46 @@ public class ActivateFungiUnit : MonoBehaviour
             fungiData.activeUnitLocations.Add(locationOnMap);
             lifespan.location = locationOnMap;
             fungiData.activeUnitLifespans.Add(lifespan);
-            GameManagerFungi.instance.IncreaseTerritory(3f, 5f, true);
+            GameManagerFungi.instance.IncreaseTerritory(3f, 6f);
         }
     }
 
     public IEnumerator LifeSequence()
     {
         //   StartCoroutine(ChangeColor(lifeTimeColors.color1));
-        yield return new WaitForSeconds(lifeTime * 3);
-        //  StartCoroutine(ChangeColor(lifeTimeColors.color2));
+        yield return new WaitForSeconds(lifeTime * 10);
+       
         StartCoroutine(KillFungi());
-        
+
 
     }
 
     public IEnumerator KillFungi()
     {
         animator.SetTrigger("die");
-        yield return new WaitForSeconds(8);
-        GameManagerFungi.instance.IncreaseTerritory(3f, 5f, false);
+        DisplayChildren(transform, lifeTimeColors.color4);
+        yield return new WaitForSeconds(3);
+        DisplayChildren(transform, lifeTimeColors.color2);
+        yield return new WaitForSeconds(4);
+        DisplayChildren(transform, lifeTimeColors.color3);
+        yield return new WaitForSeconds(4);
+        DisplayChildren(transform, lifeTimeColors.color2);
+        yield return new WaitForSeconds(1);
+
+        GameManagerFungi.instance.DecreaseTerritory(3f, 6f);
         ResetData();
+    }
+
+    void DisplayChildren(Transform trans, Color color)
+    {
+        foreach (Transform child in trans)
+        {
+            StartCoroutine(ChangeColor(color,child.gameObject));
+            if (child.childCount > 0)
+            {
+                DisplayChildren(child, color);
+            }
+        }
     }
 
     public void ResetData()
@@ -99,20 +121,24 @@ public class ActivateFungiUnit : MonoBehaviour
         OnDeactivated();
     }
 
-    public IEnumerator ChangeColor(Color endcolor)
+    public IEnumerator ChangeColor(Color endcolor, GameObject child)
     {
         float t = 0f;
-        Color startcolor = this.gameObject.GetComponentInChildren<Renderer>().material.color;
-        Color lerpColor;
-
-        while (t < 1)
+        if (child.GetComponent<Renderer>() != null)
         {
-            t += Time.deltaTime;
+            Color startcolor = child.GetComponent<Renderer>().material.color;
 
-            lerpColor = Color.Lerp(startcolor, endcolor, t);
-            this.gameObject.GetComponentInChildren<Renderer>().material.color = lerpColor;
+            Color lerpColor;
 
-            yield return null;
+            while (t < 5)
+            {
+                t += Time.deltaTime;
+
+                lerpColor = Color.Lerp(startcolor, endcolor, t);
+                child.GetComponentInChildren<Renderer>().material.color = lerpColor;
+
+                yield return null;
+            }
         }
         yield return null;
     }

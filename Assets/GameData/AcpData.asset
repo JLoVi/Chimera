@@ -13,10 +13,536 @@ MonoBehaviour:
   m_Name: AcpData
   m_EditorClassIdentifier: 
   wipeACPData: 0
-  capital: 3000
-  socialScore: 0
-  environmentScore: 0
-  economicGrowth: 0
+  capital: 6014
+  socialScore: 20
+  environmentScore: 100
+  economicGrowth: -200
   seasonLength: 5
-  terrainNodes: []
-  buildingSlots: []
+  terrainNodes:
+  - id: 1
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 58
+    price: 44
+    purchased: 1
+  - id: 2
+    location: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
+    health: 82
+    price: 60
+    purchased: 0
+  - id: 3
+    location: {fileID: 0}
+    health: 48
+    price: 75
+    purchased: 0
+  - id: 4
+    location: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
+    health: 14
+    price: 9
+    purchased: 0
+  - id: 5
+    location: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
+    health: 74
+    price: 93
+    purchased: 0
+  - id: 6
+    location: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
+    health: 34
+    price: 47
+    purchased: 0
+  - id: 7
+    location: {fileID: 11400000, guid: c6d550bd8e37247dfb74f7a2221f36d5, type: 2}
+    health: 76
+    price: 19
+    purchased: 0
+  - id: 8
+    location: {fileID: 11400000, guid: df76a2a0c6d8d4bd086293e1be20cd86, type: 2}
+    health: 40
+    price: 62
+    purchased: 0
+  - id: 9
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 82
+    price: 71
+    purchased: 0
+  - id: 10
+    location: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
+    health: 8
+    price: 77
+    purchased: 0
+  - id: 11
+    location: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
+    health: 76
+    price: 18
+    purchased: 0
+  - id: 12
+    location: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
+    health: 76
+    price: 28
+    purchased: 0
+  - id: 13
+    location: {fileID: 11400000, guid: df76a2a0c6d8d4bd086293e1be20cd86, type: 2}
+    health: 97
+    price: 83
+    purchased: 0
+  - id: 14
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 10
+    price: 53
+    purchased: 0
+  - id: 15
+    location: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
+    health: 47
+    price: 86
+    purchased: 0
+  - id: 16
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 7
+    price: 60
+    purchased: 0
+  - id: 17
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 67
+    price: 37
+    purchased: 0
+  - id: 18
+    location: {fileID: 11400000, guid: 0489bbf84ad59482daba6a411f9ae69b, type: 2}
+    health: 62
+    price: 69
+    purchased: 0
+  - id: 19
+    location: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
+    health: 2
+    price: 84
+    purchased: 0
+  - id: 20
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 20
+    price: 43
+    purchased: 0
+  - id: 21
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 70
+    price: 81
+    purchased: 0
+  - id: 22
+    location: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
+    health: 36
+    price: 46
+    purchased: 0
+  - id: 23
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 64
+    price: 61
+    purchased: 0
+  - id: 24
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 79
+    price: 64
+    purchased: 0
+  - id: 25
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 72
+    price: 3
+    purchased: 0
+  - id: 26
+    location: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
+    health: 47
+    price: 42
+    purchased: 0
+  - id: 27
+    location: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
+    health: 66
+    price: 39
+    purchased: 0
+  - id: 28
+    location: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
+    health: 5
+    price: 30
+    purchased: 0
+  - id: 29
+    location: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
+    health: 84
+    price: 46
+    purchased: 0
+  - id: 30
+    location: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
+    health: 14
+    price: 15
+    purchased: 0
+  - id: 31
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 21
+    price: 32
+    purchased: 0
+  - id: 32
+    location: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
+    health: 56
+    price: 54
+    purchased: 0
+  - id: 33
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 51
+    price: 53
+    purchased: 0
+  - id: 34
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 80
+    price: 67
+    purchased: 0
+  - id: 35
+    location: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
+    health: 45
+    price: 89
+    purchased: 0
+  - id: 36
+    location: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
+    health: 98
+    price: 87
+    purchased: 0
+  - id: 37
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 42
+    price: 34
+    purchased: 0
+  - id: 38
+    location: {fileID: 11400000, guid: b013ca696225e4f3c90afa3097c48096, type: 2}
+    health: 80
+    price: 70
+    purchased: 0
+  - id: 39
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 37
+    price: 87
+    purchased: 0
+  - id: 40
+    location: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
+    health: 61
+    price: 77
+    purchased: 0
+  - id: 41
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 1
+    price: 79
+    purchased: 0
+  - id: 42
+    location: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
+    health: 32
+    price: 36
+    purchased: 0
+  - id: 43
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 68
+    price: 89
+    purchased: 0
+  - id: 44
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 71
+    price: 6
+    purchased: 0
+  - id: 45
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 65
+    price: 40
+    purchased: 0
+  - id: 46
+    location: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
+    health: 42
+    price: 51
+    purchased: 0
+  - id: 47
+    location: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
+    health: 21
+    price: 83
+    purchased: 0
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 98
+    price: 70
+    purchased: 1
+  - id: 49
+    location: {fileID: 11400000, guid: 0489bbf84ad59482daba6a411f9ae69b, type: 2}
+    health: 11
+    price: 70
+    purchased: 0
+  - id: 50
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 77
+    price: 77
+    purchased: 0
+  - id: 51
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 10
+    price: 86
+    purchased: 0
+  - id: 52
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 97
+    price: 48
+    purchased: 0
+  - id: 53
+    location: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
+    health: 27
+    price: 52
+    purchased: 0
+  - id: 54
+    location: {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
+    health: 59
+    price: 64
+    purchased: 0
+  - id: 55
+    location: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
+    health: 41
+    price: 85
+    purchased: 0
+  - id: 56
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 7
+    price: 89
+    purchased: 0
+  - id: 57
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 26
+    price: 68
+    purchased: 0
+  - id: 58
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 52
+    price: 55
+    purchased: 0
+  - id: 59
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 38
+    price: 14
+    purchased: 0
+  - id: 60
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 49
+    price: 91
+    purchased: 0
+  - id: 61
+    location: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
+    health: 79
+    price: 28
+    purchased: 0
+  - id: 62
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 22
+    price: 81
+    purchased: 0
+  - id: 63
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 5
+    price: 90
+    purchased: 0
+  - id: 64
+    location: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
+    health: 42
+    price: 11
+    purchased: 0
+  - id: 65
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 41
+    price: 99
+    purchased: 0
+  - id: 66
+    location: {fileID: 11400000, guid: 0489bbf84ad59482daba6a411f9ae69b, type: 2}
+    health: 25
+    price: 17
+    purchased: 0
+  - id: 67
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 35
+    price: 98
+    purchased: 0
+  - id: 68
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 67
+    price: 14
+    purchased: 0
+  - id: 69
+    location: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
+    health: 79
+    price: 49
+    purchased: 0
+  - id: 70
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 88
+    price: 51
+    purchased: 0
+  - id: 71
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 94
+    price: 21
+    purchased: 0
+  - id: 72
+    location: {fileID: 11400000, guid: 5b527ed7cba5c4a3891e01b59026ffc6, type: 2}
+    health: 96
+    price: 25
+    purchased: 0
+  - id: 73
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 33
+    price: 48
+    purchased: 0
+  - id: 74
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 47
+    price: 72
+    purchased: 0
+  - id: 75
+    location: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
+    health: 95
+    price: 97
+    purchased: 0
+  - id: 76
+    location: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
+    health: 95
+    price: 31
+    purchased: 0
+  - id: 77
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 35
+    price: 28
+    purchased: 0
+  - id: 78
+    location: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
+    health: 63
+    price: 58
+    purchased: 0
+  - id: 79
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 84
+    price: 3
+    purchased: 0
+  - id: 80
+    location: {fileID: 11400000, guid: b3c4ae67bfb6a4c5e8a60d31e1c64ef3, type: 2}
+    health: 27
+    price: 97
+    purchased: 0
+  buildingSlots:
+  - id: 1
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 1
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 1
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 2
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 1
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 3
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 1
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 0
+    price: 0
+    purchased: 1
+    buildingSlotID: 4
+    containsBuilding: 1
+    building: {fileID: 11400000, guid: cd99ec90c63494d43a933e2749e256fc, type: 2}
+    slotCondition: 2
+  - id: 1
+    location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 5
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 6
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 7
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 8
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 9
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 1
+    buildingSlotID: 10
+    containsBuilding: 1
+    building: {fileID: 11400000, guid: cd99ec90c63494d43a933e2749e256fc, type: 2}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 11
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 12
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 13
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2
+  - id: 48
+    location: {fileID: 11400000, guid: 985086744204b4f93abe1cd2e5110ea1, type: 2}
+    health: 0
+    price: 0
+    purchased: 0
+    buildingSlotID: 14
+    containsBuilding: 0
+    building: {fileID: 0}
+    slotCondition: 2

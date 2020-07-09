@@ -1756,7 +1756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 0}
+  locatonOnMap: {fileID: 11400000, guid: 725352b5ef08e4860808e4abca4c38e8, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -2892,7 +2892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 0}
+  locatonOnMap: {fileID: 11400000, guid: 3f93f733bed3c4a91bd37a8f1ec98dc6, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -12878,10 +12878,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 0}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
-    location: {fileID: 0}
+    location: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
     health: 0
     price: 0
     purchased: 0
@@ -13016,7 +13016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 0}
+  locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -13154,7 +13154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -25941,7 +25941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -27250,7 +27250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 11400000, guid: 53dff9b84ff59430a8f38d11f2eb6468, type: 2}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -27388,7 +27388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 11400000, guid: b51776fd4ef3e47eea23f9c34d967fed, type: 2}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -27957,7 +27957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 11400000, guid: 739ee27d7af2c4ccfaf3eb93b6c865ea, type: 2}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}
@@ -29578,7 +29578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   position: 2
-  locatonOnMap: {fileID: 11400000, guid: f907130427f28403e80b8608684e7764, type: 2}
+  locatonOnMap: {fileID: 11400000, guid: 8fdb4a7b02fb04288a7d250ca093698d, type: 2}
   terrainNode:
     id: 0
     location: {fileID: 0}

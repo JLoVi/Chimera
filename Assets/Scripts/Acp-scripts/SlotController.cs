@@ -174,6 +174,7 @@ public class SlotController : MonoBehaviour
     public void RemoveSlotFromDatabase()
     {
         AcpDataHandler.instance.acpData.buildingSlots.Remove(buildingSlot);
+        parentNode.health -= parentNode.health / 2;
         AcpDataHandler.instance.CalculateStats();
         this.gameObject.SetActive(false);
 
