@@ -62,12 +62,12 @@ public class BuildingState : MonoBehaviour
     {
         parentSlot.buildingSlot.slotCondition = Condition.Damaged;
 
-        yield return new WaitForSeconds(30f);
+        yield return new WaitForSeconds(GameManagerAcp.instance.acpData.buildingResistanceTime);
      
         parentSlot.buildingSlot.slotCondition = Condition.Destroyed;
         StartCoroutine(ActivatePiece(false));
 
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(GameManagerAcp.instance.acpData.buildingResistanceTime*2);
         parentSlot.RemoveSlotFromDatabase();
 
     }

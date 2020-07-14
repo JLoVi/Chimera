@@ -32,6 +32,12 @@ public class AyucGameManager : MonoBehaviour
     public int currentResponseIndex;
     public Text[] responseButtonTexts;
 
+    public static AyucGameManager instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         Cursor.visible = true;
@@ -68,9 +74,11 @@ public class AyucGameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         SetResponseUI(true);
-        currentCommand = commandContainer.commands[Random.Range(0, commandContainer.commands.Count)];
+        int randomCommandResponseIndex = Random.Range(0, commandContainer.commands.Count);
+        currentCommand = commandContainer.commands[randomCommandResponseIndex];
         DisplayRandomResponses();
         commandText.text = currentCommand.command;
+       
 
     }
 

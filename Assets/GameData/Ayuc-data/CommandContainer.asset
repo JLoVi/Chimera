@@ -38,7 +38,7 @@ MonoBehaviour:
   - command: 'Decrease Fungi effect on HCP land and buildings '
     response: {fileID: 11400000, guid: 52c3d4476343f425db2d8bd67853db23, type: 2}
   - command: 'Increase HCP buildings effect on Fungi '
-    response: {fileID: 11400000, guid: d96b0d4ca3ccd45dcbdb69dbf9eee99c, type: 2}
+    response: {fileID: 11400000, guid: 3504d890ab5de4c619f3b6ed8dc9e56d, type: 2}
   - command: 'Increase Fungi lifespan '
     response: {fileID: 11400000, guid: 28dc3375e34954aeea821eb0eb230b95, type: 2}
   - command: 'Decrease Fungi lifespan '

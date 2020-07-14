@@ -18,6 +18,7 @@ MonoBehaviour:
   environmentScore: 100
   economicGrowth: -200
   seasonLength: 5
+  buildingResistanceTime: 30
   terrainNodes:
   - id: 1
     location: {fileID: 11400000, guid: 431087a37c1624e02ad39df854837063, type: 2}

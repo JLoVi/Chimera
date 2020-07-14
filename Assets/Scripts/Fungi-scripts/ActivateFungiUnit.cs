@@ -24,12 +24,15 @@ public class ActivateFungiUnit : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         lifeTime = lifespan.lifespan;
         // lifeTime = 3f;
+        
         exists = GameManagerFungi.instance.CheckIfUnitExists(locationOnMap, exists);
 
         if (exists)
         {
             Activate();
         }
+
+
     }
 
     public void ActivateFUnit(LocationOnMap location)
@@ -53,7 +56,7 @@ public class ActivateFungiUnit : MonoBehaviour
             AddFungiToData();
             StopAllCoroutines();
             StartCoroutine(KillFungi());
-           // Debug.Log("ff");
+            // Debug.Log("ff");
         }
         else
         {
@@ -78,7 +81,7 @@ public class ActivateFungiUnit : MonoBehaviour
     {
         //   StartCoroutine(ChangeColor(lifeTimeColors.color1));
         yield return new WaitForSeconds(lifeTime * 10);
-       
+
         StartCoroutine(KillFungi());
 
 
@@ -104,7 +107,7 @@ public class ActivateFungiUnit : MonoBehaviour
     {
         foreach (Transform child in trans)
         {
-            StartCoroutine(ChangeColor(color,child.gameObject));
+            StartCoroutine(ChangeColor(color, child.gameObject));
             if (child.childCount > 0)
             {
                 DisplayChildren(child, color);

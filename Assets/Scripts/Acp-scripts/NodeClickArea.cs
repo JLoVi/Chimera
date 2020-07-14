@@ -12,13 +12,19 @@ public class NodeClickArea : MonoBehaviour
 
     public HoverInfoPopup popup;
 
+    private void Awake()
+    {
+        
+
+    }
     void Start()
     {
         rend = GetComponent<Renderer>();
-        id = GetComponent<NodeController>().terrainNode.id;
+      //  id = GetComponent<NodeController>().terrainNode.id;
+        //rend.material.color = AcpDataHandler.instance.nodeColorPallette.color1;
 
         popup = HoverInfoPopup.hoverInfoPopup;
-        startColor = rend.material.color;
+        
         //   CheckForActiveFungiUnits();
     }
 

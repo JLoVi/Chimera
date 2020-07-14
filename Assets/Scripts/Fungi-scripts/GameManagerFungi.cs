@@ -8,6 +8,7 @@ public class GameManagerFungi : MonoBehaviour
     public FungiData fungiData;
     public AcpData acpData;
     public RockData rockData;
+    public AyucData ayucData;
 
     public List<GameObject> fungiUnits;
 
@@ -18,6 +19,7 @@ public class GameManagerFungi : MonoBehaviour
     public static FungiUnitLifespan deadLifespan;
 
     public Text territoryText;
+    public GameObject worldEndText;
     //public static float territoryPercentage;
 
 
@@ -55,8 +57,9 @@ public class GameManagerFungi : MonoBehaviour
             Debug.LogError(" FUNGI runtime parent NOT FOUND!");
         }
 
-        territoryText = GameObject.Find("textterritory").GetComponent<Text>();
-        territoryText.text = "territory occupied: " + fungiData.territorySpread + "%";
+        float territoryRounded = (float)Math.Round(fungiData.territorySpread, 1);
+        territoryText.text = "territory occupied: " + territoryRounded + "%";
+        fungiData.territorySpread = territoryRounded;
         if (fungiData.territorySpread > 100)
         {
             //territoryText.text = "territory occupied: " + "100" + "%";
@@ -67,6 +70,12 @@ public class GameManagerFungi : MonoBehaviour
         {
             territoryText.text = "territory occupied: " + "0" + "%";
 
+        }
+
+        if (ayucData.worldEnd)
+        {
+            worldEndText.SetActive(true);
+            territoryText.gameObject.SetActive(false);
         }
     }
 

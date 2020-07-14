@@ -6,5 +6,5 @@ using UnityEngine;
 public class AyucData : ScriptableObject
 { 
     public int numberOfUnbornChildren;
-
+    public bool worldEnd;
 }

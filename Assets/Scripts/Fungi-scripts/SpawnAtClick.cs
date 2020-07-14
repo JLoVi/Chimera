@@ -11,7 +11,7 @@ public class SpawnAtClick : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !GameManagerFungi.instance.ayucData.worldEnd)
         {
 
             RaycastHit hit;

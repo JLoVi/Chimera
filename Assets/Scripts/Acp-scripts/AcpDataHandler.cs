@@ -47,7 +47,8 @@ public class AcpDataHandler : MonoBehaviour
     public FungiData fungiData;
     public RockData rockData;
     private GameManagerAcp gameManagerAcp;
-    public ColorPallette colorPallette;
+    public ColorPallette nodeColorPallette;
+    public ColorPallette buildingColorPallette;
     public static AcpDataHandler instance;
 
 
