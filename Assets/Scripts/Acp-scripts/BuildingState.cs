@@ -9,6 +9,8 @@ public class BuildingState : MonoBehaviour
 
     public GameObject fungi;
 
+    private Color[] slotColors;
+
     public SlotController parentSlot;
 
     public void Awake()
@@ -18,9 +20,11 @@ public class BuildingState : MonoBehaviour
     public void Start()
     {
 
+
         foreach (Transform piece in transform)
         {
             buildingPieces.Add(piece.gameObject);
+            piece.GetComponent<Renderer>().material.color = GameManagerAcp.instance.acpData.buildingColor;
             piece.gameObject.SetActive(false);
 
         }

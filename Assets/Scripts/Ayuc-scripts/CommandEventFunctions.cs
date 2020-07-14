@@ -178,6 +178,7 @@ public class CommandEventFunctions : MonoBehaviour
     public void ChangeBuildingsColor()
     {
         // Change the appearance of the buildings
+        acpData.changeBuildingColor = true;
     }
 
     public void IncreaseFungiExpansion()

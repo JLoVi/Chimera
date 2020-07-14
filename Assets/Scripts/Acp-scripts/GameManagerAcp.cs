@@ -29,6 +29,8 @@ public class GameManagerAcp : MonoBehaviour
     public Text expensesText;
     public Text maintenanceText;
 
+    private Color[] slotColors;
+
     public static GameManagerAcp instance;
 
     // Start is called before the first frame update
@@ -36,6 +38,19 @@ public class GameManagerAcp : MonoBehaviour
     {
         instance = this;
         if (acpData.wipeACPData) WipeAcpData();
+        Color[] possibleColors = { AcpDataHandler.instance.buildingColorPallette.color1,
+         AcpDataHandler.instance.buildingColorPallette.color2,
+             AcpDataHandler.instance.buildingColorPallette.color3,
+             AcpDataHandler.instance.buildingColorPallette.color4,
+             AcpDataHandler.instance.buildingColorPallette.color5 };
+
+        slotColors = possibleColors;
+
+        if (acpData.changeBuildingColor)
+        {
+            acpData.changeBuildingColor = false;
+            acpData.buildingColor = slotColors[Random.Range(0, slotColors.Length)];
+        }
     }
 
     void Start()
@@ -44,6 +59,9 @@ public class GameManagerAcp : MonoBehaviour
         UpdateMaintenance();
         AcpDataHandler.instance.CalculateTargetCapital();
         UpdateCapitalTargetText();
+
+
+       
 
 
     }

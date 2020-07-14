@@ -16,6 +16,8 @@ public class AcpData : ScriptableObject
     public int seasonLength;
 
     public int buildingResistanceTime;
+    public Color buildingColor;
+    public bool changeBuildingColor;
 
     public List<TerrainNode> terrainNodes;
     public List<BuildingSlot> buildingSlots;

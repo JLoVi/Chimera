@@ -64,9 +64,10 @@ public class NodeController : MonoBehaviour
 
         CheckIfFungiActiveOnNode();
         AcpDataHandler.instance.terrainNodeCount++;
-        terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
+        terrainNode.id = id;
+       // terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
 
-        id = terrainNode.id;
+       // id = terrainNode.id;
 
         GetComponent<NodeClickArea>().id = id;
 
