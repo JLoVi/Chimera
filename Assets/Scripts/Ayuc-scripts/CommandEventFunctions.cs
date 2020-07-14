@@ -142,12 +142,12 @@ public class CommandEventFunctions : MonoBehaviour
     //Increase ACP season/turn length
     public void IncreaseSeasonLength()
     {
-        acpData.seasonLength += acpData.seasonLength / Random.Range(3, 10);
+        acpData.seasonLength = acpData.seasonLength * 2;
     }
     //Decrease ACP season/turn length
     public void DecreaseSeasonLength()
     {
-        acpData.seasonLength -= acpData.seasonLength / Random.Range(3, 10);
+        acpData.seasonLength = acpData.seasonLength / 2;
     }
     //Increase Fungi effect on ACP land and buildings
     public void IncreaseFungiEffect()

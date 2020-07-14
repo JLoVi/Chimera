@@ -10,11 +10,12 @@ public class AyucGameManager : MonoBehaviour
     public static event ChangeTarget OnTargetChange;
 
     public AyucData ayucData;
+    public AcpData acpData;
     public AyucNavAgentStore ayucAgentStore;
 
     public GameEvent onSpawnAgents;
 
-    public int agentCount;
+  //  public int agentCount;
     public Transform spawnPosition;
 
     public static int numberOfAgents;
@@ -41,10 +42,47 @@ public class AyucGameManager : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
+
+        if (acpData.socialScore < -500)
+        {
+            ayucData.numberOfUnbornChildren = 1;
+        }
+        if(acpData.socialScore > -500 && acpData.socialScore < -100)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(1,5);
+        }
+        if (acpData.socialScore > -100 && acpData.socialScore < 0)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(3, 10);
+        }
+        if (acpData.socialScore >0 && acpData.socialScore < 100)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(10, 20);
+        }
+
+        if (acpData.socialScore > 100 && acpData.socialScore < 500)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(20, 50);
+        }
+        if (acpData.socialScore >  500)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(50, 100);
+        }
+
+
+
+
         SetResponseUI(false);
         StartCoroutine(DisplayRandomCommand());
     }
 
+    public void Update()
+    {
+        if(numberOfAgents == 0)
+        {
+            ayucData.worldEnd = true;
+        }
+    }
     public void SetResponseUI(bool state)
     {
         foreach (GameObject obj in responseUI)
@@ -99,7 +137,7 @@ public class AyucGameManager : MonoBehaviour
 
     public IEnumerator InstantiateAgentsByCount()
     {
-        for (int i = 0; i < agentCount; i++)
+        for (int i = 0; i < ayucData.numberOfUnbornChildren; i++)
         {
             Instantiate(ayucAgentStore.agentMeshes[0], spawnPosition.position, Quaternion.identity, AyucDataHandler.ayucRuntimeAssetParent.transform);
             numberOfAgents++;
