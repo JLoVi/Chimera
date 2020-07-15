@@ -12015,6 +12015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
+  ayucData: {fileID: 11400000, guid: 361953bb7987945f5b8227c428a6de21, type: 2}
   capitalTargetText: {fileID: 927528177}
   capitalText: {fileID: 768082536}
   socialText: {fileID: 256877262}

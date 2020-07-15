@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AyucData
   m_EditorClassIdentifier: 
   numberOfUnbornChildren: 1
-  worldEnd: 0
+  worldEnd: 1

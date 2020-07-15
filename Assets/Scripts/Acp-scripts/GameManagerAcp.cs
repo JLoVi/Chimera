@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManagerAcp : MonoBehaviour
 {
     public AcpData acpData;
+    public AyucData ayucData;
    
     //CAPITAL AND SCORES
     public Text capitalTargetText;
