@@ -77,13 +77,8 @@ public class AyucGameManager : MonoBehaviour
 
         if (ayucData.worldEnd)
         {
-            StopAllCoroutines();
-            commandText.gameObject.SetActive(true);
-            commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
-            foreach (GameObject obj in interactiveUIElements)
-            {
-                obj.SetActive(false);
-            }
+
+            EndWorld();
 
         }
 
@@ -97,16 +92,22 @@ public class AyucGameManager : MonoBehaviour
         if (worldEndUtility)
         {
             worldEndUtility = false;
-            StopAllCoroutines();
-            commandText.gameObject.SetActive(true);
-            commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
-            foreach (GameObject obj in interactiveUIElements)
-            {
-                obj.SetActive(false);
-            }
 
+            EndWorld();
         }
     }
+
+    public void EndWorld()
+    {
+        StopAllCoroutines();
+        commandText.gameObject.SetActive(true);
+        commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
+        foreach (GameObject obj in interactiveUIElements)
+        {
+            obj.SetActive(false);
+        }
+    }
+
     public void SetResponseUI(bool state)
     {
         foreach (GameObject obj in responseUI)
@@ -175,11 +176,26 @@ public class AyucGameManager : MonoBehaviour
     {
         birthrateText.text = "Birth Rate: " + birthrate;
         remainingTimeText.text = "Remaining Time: " + numberOfAgents;
+        StartCoroutine(EndWorldBegin());
+
+    }
+
+    public IEnumerator EndWorldBegin()
+    {
         if (numberOfAgents == 0)
         {
-            ayucData.worldEnd = true;
-            worldEndUtility = true;
-        }
+            yield return new WaitForSeconds(4f);
 
+            if (numberOfAgents == 0)
+            {
+                commandText.text = "YOU WILL RUN OUT OF TIME SOON" + '\n' + " CHOSE AN OPTION QUICKLY";
+                yield return new WaitForSeconds(8f);
+                if (numberOfAgents == 0)
+                {
+                    ayucData.worldEnd = true;
+                    worldEndUtility = true;
+                }
+            }
+        }
     }
 }

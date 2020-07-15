@@ -124,8 +124,16 @@ public class NodeController : MonoBehaviour
                 fungiActive = true;
 
                 terrainNode.health /= 2;
-                terrainNode.ModifyTerrainNodeData(AcpDataHandler.instance.acpData, terrainNode);
-           
+               
+                for (int j = 0; j < AcpDataHandler.instance.acpData.terrainNodes.Count; j++)
+                {
+                    if (AcpDataHandler.instance.acpData.terrainNodes[j].id == terrainNode.id)
+                    {
+                        AcpDataHandler.instance.acpData.terrainNodes[j].health = terrainNode.health;
+
+                    }
+                }
+
                 AcpDataHandler.instance.CalculateTerrainHealth();
                 GameManagerAcp.instance.OnTerrainHealthUpdate();
 
