@@ -3503,6 +3503,7 @@ MonoBehaviour:
   ayucAgentStore: {fileID: 11400000, guid: 8e3e2c5a6c88a4db1839efa4368f79c7, type: 2}
   onSpawnAgents: {fileID: 11400000, guid: f131539fd02894b28b87b59a55888f38, type: 2}
   spawnPosition: {fileID: 167697878}
+  numberOfAgents: 0
   birthrateText: {fileID: 355458408}
   remainingTimeText: {fileID: 1100030095}
   responseUI:

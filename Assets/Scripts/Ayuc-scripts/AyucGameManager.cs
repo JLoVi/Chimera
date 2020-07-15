@@ -18,7 +18,7 @@ public class AyucGameManager : MonoBehaviour
   //  public int agentCount;
     public Transform spawnPosition;
 
-    public static int numberOfAgents;
+    public int numberOfAgents;
     public static int birthrate;
 
     public Text birthrateText;
@@ -78,10 +78,7 @@ public class AyucGameManager : MonoBehaviour
 
     public void Update()
     {
-        if(numberOfAgents == 0)
-        {
-            ayucData.worldEnd = true;
-        }
+       
     }
     public void SetResponseUI(bool state)
     {
@@ -151,6 +148,10 @@ public class AyucGameManager : MonoBehaviour
     {
         birthrateText.text = "Birth Rate: " + birthrate;
         remainingTimeText.text = "Remaining Time: " + numberOfAgents;
+        if (numberOfAgents == 0)
+        {
+            ayucData.worldEnd = true;
+        }
 
     }
 }

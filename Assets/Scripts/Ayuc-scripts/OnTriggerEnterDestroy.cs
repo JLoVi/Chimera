@@ -19,8 +19,8 @@ public class OnTriggerEnterDestroy : MonoBehaviour
         yield return new WaitForSeconds(3f);
         Destroy(agent);
 
-        if (AyucGameManager.numberOfAgents >=1) { 
-        AyucGameManager.numberOfAgents--;
+        if (AyucGameManager.instance.numberOfAgents >=1) { 
+        AyucGameManager.instance.numberOfAgents--;
         }
 
         AyucGameManager.birthrate++;

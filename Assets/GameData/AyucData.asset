@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbba17ba8698455590bf41952d81342, type: 3}
   m_Name: AyucData
   m_EditorClassIdentifier: 
-  numberOfUnbornChildren: 18
-  worldEnd: 1
+  numberOfUnbornChildren: 1
+  worldEnd: 0
