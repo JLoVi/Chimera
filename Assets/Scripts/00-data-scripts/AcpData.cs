@@ -12,8 +12,12 @@ public class AcpData : ScriptableObject
     public int socialScore;
     public int environmentScore;
     public int economicGrowth;
-
+    
     public int seasonLength;
+
+    public int buildingResistanceTime;
+    public Color buildingColor;
+    public bool changeBuildingColor;
 
     public List<TerrainNode> terrainNodes;
     public List<BuildingSlot> buildingSlots;

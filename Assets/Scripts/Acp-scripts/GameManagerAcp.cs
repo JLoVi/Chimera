@@ -6,8 +6,13 @@ using UnityEngine.UI;
 public class GameManagerAcp : MonoBehaviour
 {
     public AcpData acpData;
+    public AyucData ayucData;
 
+    public GameObject[] allUIProps;
+    public GameObject worldEndText;
+   
     //CAPITAL AND SCORES
+    public Text capitalTargetText;
     public Text capitalText;
     public Text socialText;
     public Text environmentText;
@@ -28,20 +33,48 @@ public class GameManagerAcp : MonoBehaviour
     public Text expensesText;
     public Text maintenanceText;
 
+    private Color[] slotColors;
+
     public static GameManagerAcp instance;
 
     // Start is called before the first frame update
     private void Awake()
     {
         instance = this;
-        if (acpData.wipeACPData) WipeAcpData();
+        if (acpData.wipeACPData || ayucData.worldEnd) WipeAcpData();
+        Color[] possibleColors = { AcpDataHandler.instance.buildingColorPallette.color1,
+         AcpDataHandler.instance.buildingColorPallette.color2,
+             AcpDataHandler.instance.buildingColorPallette.color3,
+             AcpDataHandler.instance.buildingColorPallette.color4,
+             AcpDataHandler.instance.buildingColorPallette.color5 };
+
+        slotColors = possibleColors;
+
+        if (acpData.changeBuildingColor)
+        {
+            acpData.changeBuildingColor = false;
+            acpData.buildingColor = slotColors[Random.Range(0, slotColors.Length)];
+        }
     }
 
     void Start()
     {
+        worldEndText.SetActive(false);
+        if (ayucData.worldEnd)
+        {
+            worldEndText.SetActive(true);
+            foreach(GameObject obj in allUIProps)
+            {
+                obj.SetActive(false);
+            }
+            return;
+        }
         OnUpdateExpenses();
         UpdateMaintenance();
+        AcpDataHandler.instance.CalculateTargetCapital();
+        UpdateCapitalTargetText();
 
+        
     }
 
     void Update()
@@ -58,19 +91,24 @@ public class GameManagerAcp : MonoBehaviour
         acpData.economicGrowth = 0;
     }
 
+    public void UpdateCapitalTargetText()
+    {
+        capitalTargetText.text = "REACH TARGET CAPITAL: " + AcpDataHandler.instance.targetCapital;
+    }
+
     public void UpdateCapitalText()
     {
-        capitalText.text = "Total Capital Revenues: " + Mathf.RoundToInt(acpData.capital);
+        capitalText.text = "TOTAL CAPITAL REVENUES: " + Mathf.RoundToInt(acpData.capital);
     }
 
     public void OnTerrainHealthUpdate()
     {
-        terrainHealthText.text = "Terrain Health: " + AcpDataHandler.terrainHealth;
+        terrainHealthText.text = "Terrain Health: " + AcpDataHandler.terrainHealth + " %";
     }
 
     public void OnTerrainPurchased()
     {
-        terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased;
+        terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased +  " / "  + acpData.terrainNodes.Count;
         // Debug.Log("TERRAINPURCHASED");
 
     }
@@ -90,7 +128,7 @@ public class GameManagerAcp : MonoBehaviour
 
     public void OnUpdateExpenses()
     {
-        expensesText.text = "Expenses: " + AcpDataHandler.expenses;
+        expensesText.text = "Seasonal Expenses: " + AcpDataHandler.expenses;
     }
 
     public void UpdateMaintenance()

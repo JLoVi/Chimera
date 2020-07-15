@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: fungiColor
   m_EditorClassIdentifier: 
   color1: {r: 0.2, g: 0.2, b: 0.2, a: 0}
-  color2: {r: 0.8207547, g: 0.76659405, b: 0.49942148, a: 0}
-  color3: {r: 0.3215112, g: 0.8018868, b: 0.34072506, a: 0}
-  color4: {r: 0, g: 0, b: 0, a: 0}
+  color2: {r: 1, g: 1, b: 1, a: 0}
+  color3: {r: 0.85882354, g: 0.14823478, b: 0.117647074, a: 0}
+  color4: {r: 0.49056602, g: 0.42695954, b: 0.2244571, a: 0}
   color5: {r: 0, g: 0, b: 0, a: 0}

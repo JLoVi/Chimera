@@ -30,6 +30,7 @@ public class AcpDataHandler : MonoBehaviour
     public static int socialAmt;
     public static int sanitationAmt;
 
+    public int targetCapital;
     //FINANCIAL DATA:
     public static int expenses;
     public static int maintenanceFees;
@@ -46,7 +47,8 @@ public class AcpDataHandler : MonoBehaviour
     public FungiData fungiData;
     public RockData rockData;
     private GameManagerAcp gameManagerAcp;
-    public ColorPallette colorPallette;
+    public ColorPallette nodeColorPallette;
+    public ColorPallette buildingColorPallette;
     public static AcpDataHandler instance;
 
 
@@ -66,10 +68,13 @@ public class AcpDataHandler : MonoBehaviour
             gameManagerAcp = GetComponent<GameManagerAcp>();
         }
 
+        if (gameManagerAcp.ayucData.worldEnd) return;
     }
 
     private void Start()
     {
+        if (gameManagerAcp.ayucData.worldEnd) return;
+
         acpRuntimeAssetParent = GameObject.Find("ACP-runtime-assets");
         if (acpRuntimeAssetParent != null)
         {
@@ -93,6 +98,7 @@ public class AcpDataHandler : MonoBehaviour
         GetPurchasedBuilidingTypes();
         gameManagerAcp.OnBuildingPurchased();
 
+        
 
     }
 
@@ -191,6 +197,11 @@ public class AcpDataHandler : MonoBehaviour
     {
         double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
         terrainHealth = Mathf.RoundToInt((float)averageHealth);
+
+       /* for (int i = 0; i < acpData.terrainNodes.Count; i++)
+        {
+            terrainHealth += acpData.terrainNodes[i].health;
+        }*/
     }
 
     public void GetPurchasedTerrainNodes()
@@ -254,6 +265,12 @@ public class AcpDataHandler : MonoBehaviour
         }
     }
 
+    public void CalculateTargetCapital()
+    {
+        if (targetCapital < acpData.capital) { 
+        targetCapital = (int)(acpData.capital + Random.Range(1, 100000));
+        }
+    }
 
 }
 

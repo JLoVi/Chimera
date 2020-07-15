@@ -54,6 +54,7 @@ public class SoundClickArea : MonoBehaviour
                 if (GetComponent<AudioSource>() != null)
                 {
                     audioSource.Play();
+                    audioSource.pitch = Random.Range(0.2f, 1.9f);
                 }
                 GameEventsRock.currentRockEvent.RockPropMouseClick(id);
 

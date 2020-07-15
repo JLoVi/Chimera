@@ -9,6 +9,8 @@ public class BuildingState : MonoBehaviour
 
     public GameObject fungi;
 
+    private Color[] slotColors;
+
     public SlotController parentSlot;
 
     public void Awake()
@@ -18,9 +20,11 @@ public class BuildingState : MonoBehaviour
     public void Start()
     {
 
+
         foreach (Transform piece in transform)
         {
             buildingPieces.Add(piece.gameObject);
+            piece.GetComponent<Renderer>().material.color = GameManagerAcp.instance.acpData.buildingColor;
             piece.gameObject.SetActive(false);
 
         }
@@ -62,12 +66,12 @@ public class BuildingState : MonoBehaviour
     {
         parentSlot.buildingSlot.slotCondition = Condition.Damaged;
 
-        yield return new WaitForSeconds(30f);
+        yield return new WaitForSeconds(GameManagerAcp.instance.acpData.buildingResistanceTime);
      
         parentSlot.buildingSlot.slotCondition = Condition.Destroyed;
         StartCoroutine(ActivatePiece(false));
 
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(GameManagerAcp.instance.acpData.buildingResistanceTime*2);
         parentSlot.RemoveSlotFromDatabase();
 
     }

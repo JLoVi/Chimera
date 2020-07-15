@@ -11,7 +11,7 @@ public class SpawnAtClick : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !GameManagerFungi.instance.ayucData.worldEnd)
         {
 
             RaycastHit hit;
@@ -24,7 +24,7 @@ public class SpawnAtClick : MonoBehaviour
 
                     float altitude = Random.Range(-3f, 0f);
                     Instantiate(spore, new Vector3(hit.point.x, hit.point.y + altitude, hit.point.z), Quaternion.identity, sporesParent.transform);
-                    GameManagerFungi.instance.IncreaseTerritory(0.1f, 0.3f, true);
+                    GameManagerFungi.instance.IncreaseTerritory(0.1f, 0.3f);
                 }
             }
         }

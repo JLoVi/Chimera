@@ -43,7 +43,7 @@ public class SlotController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
         if (GetComponentInParent<NodeController>().terrainNode != null)
         {
             parentNode = GetComponentInParent<NodeController>().terrainNode;
@@ -174,6 +174,7 @@ public class SlotController : MonoBehaviour
     public void RemoveSlotFromDatabase()
     {
         AcpDataHandler.instance.acpData.buildingSlots.Remove(buildingSlot);
+        parentNode.health -= parentNode.health / 2;
         AcpDataHandler.instance.CalculateStats();
         this.gameObject.SetActive(false);
 

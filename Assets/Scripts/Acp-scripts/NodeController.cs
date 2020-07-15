@@ -7,7 +7,7 @@ public class NodeController : MonoBehaviour
 {
     public int id;
     private bool exists;
-
+    private bool fungiActive;
     public int position;
     public LocationOnMap locatonOnMap;
 
@@ -21,7 +21,7 @@ public class NodeController : MonoBehaviour
 
     private Vector3 randomPos;
 
-
+    private Color[] nodeCoolors;
 
     [SerializeField]
     public GameEvent updateCapital;
@@ -52,21 +52,33 @@ public class NodeController : MonoBehaviour
 
     private void Start()
     {
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
         terrainNode = CreateTerrainNode();
+        fungiActive = false;
+        Color[] possibleColors = { AcpDataHandler.instance.nodeColorPallette.color1,
+         AcpDataHandler.instance.nodeColorPallette.color2,
+             AcpDataHandler.instance.nodeColorPallette.color3,
+             AcpDataHandler.instance.nodeColorPallette.color4,
+             AcpDataHandler.instance.nodeColorPallette.color5 };
 
+        nodeCoolors = possibleColors ;
+
+       
         AcpDataHandler.instance.terrainNodeCount++;
-        terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
+        terrainNode.id = id;
+        CheckIfFungiActiveOnNode();
+        // terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
 
-        id = terrainNode.id;
+        // id = terrainNode.id;
 
         GetComponent<NodeClickArea>().id = id;
 
         exists = AcpDataHandler.instance.CheckIfNodeIdExists(terrainNode, exists);
-       
+
         if (exists)
         {
             terrainNode = AcpDataHandler.instance.ReadNodeFromData(terrainNode);
-           // Debug.Log(terrainNode.purchased);
+            // Debug.Log(terrainNode.purchased);
         }
         else
         {
@@ -77,11 +89,11 @@ public class NodeController : MonoBehaviour
 
         popup = HoverInfoPopup.hoverInfoPopup;
 
-        
+
 
         if (terrainNode.purchased)
         {
-            
+
             // this.gameObject.AddComponent<CreateBuildingSlots>();
             slotsToSpawn = AcpDataHandler.instance.numberOfSlotsOnNode(terrainNode, slotsToSpawn);
             StartCoroutine(SpawnBuildingSlots(slotsToSpawn));
@@ -99,6 +111,30 @@ public class NodeController : MonoBehaviour
         GameEventsTerrain.currentTerrainEvent.onTerrainMouseHover += OnTerrainNodeHover;
         GameEventsTerrain.currentTerrainEvent.onTerrainMouseClick += OnTerrainNodeClick;
 
+    }
+
+    public void CheckIfFungiActiveOnNode()
+    {
+        for (int i = 0; i < AcpDataHandler.instance.fungiData.activeUnitLocations.Count; i++)
+        {
+
+            if (AcpDataHandler.instance.fungiData.activeUnitLocations[i] ==
+               terrainNode.location)
+            {
+                fungiActive = true;
+
+                terrainNode.health /= 2;
+                terrainNode.ModifyTerrainNodeData(AcpDataHandler.instance.acpData, terrainNode);
+           
+                AcpDataHandler.instance.CalculateTerrainHealth();
+                GameManagerAcp.instance.OnTerrainHealthUpdate();
+
+                GetComponent<Renderer>().material.color =
+                    nodeCoolors[Random.Range(0, nodeCoolors.Length)];
+            }
+        }
+
+        GetComponent<NodeClickArea>().startColor = GetComponent<Renderer>().material.color;
     }
 
 
@@ -136,12 +172,18 @@ public class NodeController : MonoBehaviour
 
     private void Survey(int id)
     {
+       
+
+        string fungiActiveDisplay = fungiActive ? "Fungi are active in this area" : " Fungi are absent from this area";
+
 
         //sx Debug.Log(terrainNode.health);
         if (!terrainNode.purchased && AcpDataHandler.instance.acpData.capital > terrainNode.price)
         {
             popup.infoText.text = "Terrain Survey: " + '\n'
-                  + "health: " + terrainNode.health + '\n'
+                + fungiActiveDisplay.ToString() + '\n'
+                  + "location: " + terrainNode.location + '\n'
+                   + "health: " + terrainNode.health + '\n'
                   + "cost: " + terrainNode.price
                   + '\n' + '\n' + "<Click To Buy> ";
         }

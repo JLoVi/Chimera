@@ -29,7 +29,10 @@ public class TerrainNode
         {
             if (data.terrainNodes[i].id == node.id)
             {
+//                Debug.Log("hr");
                 data.terrainNodes[i] = node;
+              
+
 
             }
         }

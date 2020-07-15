@@ -10,14 +10,16 @@ public class AyucGameManager : MonoBehaviour
     public static event ChangeTarget OnTargetChange;
 
     public AyucData ayucData;
+    public AcpData acpData;
     public AyucNavAgentStore ayucAgentStore;
 
     public GameEvent onSpawnAgents;
-
-    public int agentCount;
+    private bool worldEndUtility;
+    public GameObject[] interactiveUIElements;
+  //  public int agentCount;
     public Transform spawnPosition;
 
-    public static int numberOfAgents;
+    public int numberOfAgents;
     public static int birthrate;
 
     public Text birthrateText;
@@ -32,13 +34,79 @@ public class AyucGameManager : MonoBehaviour
     public int currentResponseIndex;
     public Text[] responseButtonTexts;
 
+    public static AyucGameManager instance;
+
+    private void Awake()
+    {
+        instance = this;
+        worldEndUtility = false;
+    }
     void Start()
     {
         Cursor.visible = true;
+
+      
+        if (acpData.socialScore < -500)
+        {
+            ayucData.numberOfUnbornChildren = 1;
+        }
+        if(acpData.socialScore > -500 && acpData.socialScore < -100)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(1,5);
+        }
+        if (acpData.socialScore > -100 && acpData.socialScore < 0)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(3, 10);
+        }
+        if (acpData.socialScore >0 && acpData.socialScore < 100)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(10, 20);
+        }
+
+        if (acpData.socialScore > 100 && acpData.socialScore < 500)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(20, 50);
+        }
+        if (acpData.socialScore >  500)
+        {
+            ayucData.numberOfUnbornChildren = Random.Range(50, 100);
+        }
+
+
         SetResponseUI(false);
+
+        if (ayucData.worldEnd)
+        {
+            StopAllCoroutines();
+            commandText.gameObject.SetActive(true);
+            commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
+            foreach (GameObject obj in interactiveUIElements)
+            {
+                obj.SetActive(false);
+            }
+
+        }
+
+        else { 
         StartCoroutine(DisplayRandomCommand());
+        }
     }
 
+    public void Update()
+    {
+        if (worldEndUtility)
+        {
+            worldEndUtility = false;
+            StopAllCoroutines();
+            commandText.gameObject.SetActive(true);
+            commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
+            foreach (GameObject obj in interactiveUIElements)
+            {
+                obj.SetActive(false);
+            }
+
+        }
+    }
     public void SetResponseUI(bool state)
     {
         foreach (GameObject obj in responseUI)
@@ -68,9 +136,11 @@ public class AyucGameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         SetResponseUI(true);
-        currentCommand = commandContainer.commands[Random.Range(0, commandContainer.commands.Count)];
+        int randomCommandResponseIndex = Random.Range(0, commandContainer.commands.Count);
+        currentCommand = commandContainer.commands[randomCommandResponseIndex];
         DisplayRandomResponses();
         commandText.text = currentCommand.command;
+       
 
     }
 
@@ -91,7 +161,7 @@ public class AyucGameManager : MonoBehaviour
 
     public IEnumerator InstantiateAgentsByCount()
     {
-        for (int i = 0; i < agentCount; i++)
+        for (int i = 0; i < ayucData.numberOfUnbornChildren; i++)
         {
             Instantiate(ayucAgentStore.agentMeshes[0], spawnPosition.position, Quaternion.identity, AyucDataHandler.ayucRuntimeAssetParent.transform);
             numberOfAgents++;
@@ -105,6 +175,11 @@ public class AyucGameManager : MonoBehaviour
     {
         birthrateText.text = "Birth Rate: " + birthrate;
         remainingTimeText.text = "Remaining Time: " + numberOfAgents;
+        if (numberOfAgents == 0)
+        {
+            ayucData.worldEnd = true;
+            worldEndUtility = true;
+        }
 
     }
 }

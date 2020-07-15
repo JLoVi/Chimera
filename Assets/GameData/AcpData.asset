@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: AcpData
   m_EditorClassIdentifier: 
   wipeACPData: 0
-  capital: 3000
+  capital: 1000
   socialScore: 0
   environmentScore: 0
   economicGrowth: 0
-  seasonLength: 5
+  seasonLength: 10
+  buildingResistanceTime: 30
+  buildingColor: {r: 0.72780573, g: 0.7245016, b: 0.764151, a: 0}
+  changeBuildingColor: 0
   terrainNodes: []
   buildingSlots: []

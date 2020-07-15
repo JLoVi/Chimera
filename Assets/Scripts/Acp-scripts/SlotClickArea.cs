@@ -20,7 +20,7 @@ public class SlotClickArea : MonoBehaviour
     void Start()
     {
 
-
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
         //        Debug.Log("FSF");
         selected = false;
         rend = GetComponent<Renderer>();
