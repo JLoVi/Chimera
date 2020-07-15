@@ -12,17 +12,17 @@ public class CommandEventFunctions : MonoBehaviour
     //Add resources to terrain(ACP and Fungi)
     public void AddResources()
     {
-        for (int i = 0; i < fungiData.activeUnitLocations.Count; i++)
+        for (int i = 0; i < acpData.terrainNodes.Count; i++)
         {
-            fungiData.activeUnitLocations[i].resources++;
+            acpData.terrainNodes[i].health += Random.Range(10, 40);
         }
     }
     //Remove resources from terrain(ACP and Fungi)
     public void RemoveResources()
     {
-        for (int i = 0; i < fungiData.activeUnitLocations.Count; i++)
+        for (int i = 0; i < acpData.terrainNodes.Count; i++)
         {
-            fungiData.activeUnitLocations[i].resources--;
+            acpData.terrainNodes[i].health -= Random.Range(10, 40);
         }
     }
     //Change the appearance of the buildings(ACP)
@@ -45,7 +45,7 @@ public class CommandEventFunctions : MonoBehaviour
         for (int i = 0; i < acpData.buildingSlots.Count; i++)
         {
             if (acpData.buildingSlots[i].containsBuilding) {
-                acpData.buildingSlots[i].building.impactPeople += Random.Range(10,100);
+                acpData.buildingSlots[i].building.impactPeople += Random.Range(10,30);
             }
         }
     }
@@ -55,7 +55,7 @@ public class CommandEventFunctions : MonoBehaviour
         {
             if (acpData.buildingSlots[i].containsBuilding)
             {
-                acpData.buildingSlots[i].building.impactPeople -= Random.Range(10, 100);
+                acpData.buildingSlots[i].building.impactPeople -= Random.Range(10, 30);
             }
         }
     }
@@ -78,7 +78,7 @@ public class CommandEventFunctions : MonoBehaviour
         {
             if (acpData.buildingSlots[i].containsBuilding)
             {
-                acpData.buildingSlots[i].building.impactEnvironment += Random.Range(10, 100);
+                acpData.buildingSlots[i].building.impactEnvironment += Random.Range(10, 30);
             }
         }
     }
@@ -89,7 +89,7 @@ public class CommandEventFunctions : MonoBehaviour
         {
             if (acpData.buildingSlots[i].containsBuilding)
             {
-                acpData.buildingSlots[i].building.impactEnvironment -= Random.Range(10, 100);
+                acpData.buildingSlots[i].building.impactEnvironment -= Random.Range(10, 30);
             }
         }
     }
@@ -112,7 +112,7 @@ public class CommandEventFunctions : MonoBehaviour
         {
             if (acpData.buildingSlots[i].containsBuilding)
             {
-                acpData.buildingSlots[i].building.impactPeople += Random.Range(10, 100);
+                acpData.buildingSlots[i].building.impactPeople += Random.Range(10, 30);
             }
         }
     }
@@ -123,7 +123,7 @@ public class CommandEventFunctions : MonoBehaviour
         {
             if (acpData.buildingSlots[i].containsBuilding)
             {
-                acpData.buildingSlots[i].building.impactPeople -= Random.Range(10, 100);
+                acpData.buildingSlots[i].building.impactPeople -= Random.Range(10, 30);
             }
         }
     }
@@ -152,26 +152,26 @@ public class CommandEventFunctions : MonoBehaviour
     //Increase Fungi effect on ACP land and buildings
     public void IncreaseFungiEffect()
     {
-        acpData.buildingResistanceTime += acpData.buildingResistanceTime/ Random.Range(5, 10);
+        acpData.buildingResistanceTime +=  Random.Range(1, 10);
     }
     // Decrease Fungi effect on ACP land and buildings
     public void DecreraseFungiEffect()
     {
-        acpData.buildingResistanceTime -= acpData.buildingResistanceTime / Random.Range(5, 10);
+        acpData.buildingResistanceTime -=  Random.Range(1, 10);
     }
     //Increase ACP buildings effect on Fungi
     public void IncreaseFungiLifespan()
     {
         for (int i = 0; i < fungiData.activeUnitLifespans.Count; i++)
         {
-            fungiData.activeUnitLifespans[i].lifespan += fungiData.activeUnitLifespans[i].lifespan / Random.Range(2, 10);
+            fungiData.activeUnitLifespans[i].lifespan +=  Random.Range(2, 10);
         }
     }
     public void DecreaseFungiLifespan()
     {
         for (int i = 0; i < fungiData.activeUnitLifespans.Count; i++)
         {
-            fungiData.activeUnitLifespans[i].lifespan -= fungiData.activeUnitLifespans[i].lifespan / Random.Range(2, 10);
+            fungiData.activeUnitLifespans[i].lifespan -=  Random.Range(2, 10);
         }
     }
 

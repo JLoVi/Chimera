@@ -79,7 +79,7 @@ public class GameManagerAcp : MonoBehaviour
 
     public void UpdateCapitalTargetText()
     {
-        capitalTargetText.text = "TARGET CAPITAL: " + AcpDataHandler.instance.targetCapital;
+        capitalTargetText.text = "REACH TARGET CAPITAL: " + AcpDataHandler.instance.targetCapital;
     }
 
     public void UpdateCapitalText()
@@ -89,12 +89,12 @@ public class GameManagerAcp : MonoBehaviour
 
     public void OnTerrainHealthUpdate()
     {
-        terrainHealthText.text = "Terrain Health: " + AcpDataHandler.terrainHealth;
+        terrainHealthText.text = "Terrain Health: " + AcpDataHandler.terrainHealth + " %";
     }
 
     public void OnTerrainPurchased()
     {
-        terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased;
+        terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased +  " / "  + acpData.terrainNodes.Count;
         // Debug.Log("TERRAINPURCHASED");
 
     }
@@ -114,7 +114,7 @@ public class GameManagerAcp : MonoBehaviour
 
     public void OnUpdateExpenses()
     {
-        expensesText.text = "Expenses: " + AcpDataHandler.expenses;
+        expensesText.text = "Seasonal Expenses: " + AcpDataHandler.expenses;
     }
 
     public void UpdateMaintenance()

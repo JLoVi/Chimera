@@ -194,6 +194,11 @@ public class AcpDataHandler : MonoBehaviour
     {
         double averageHealth = acpData.terrainNodes.Average(TerrainNode => TerrainNode.health);
         terrainHealth = Mathf.RoundToInt((float)averageHealth);
+
+       /* for (int i = 0; i < acpData.terrainNodes.Count; i++)
+        {
+            terrainHealth += acpData.terrainNodes[i].health;
+        }*/
     }
 
     public void GetPurchasedTerrainNodes()

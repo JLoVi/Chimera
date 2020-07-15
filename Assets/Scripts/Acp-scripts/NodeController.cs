@@ -62,12 +62,13 @@ public class NodeController : MonoBehaviour
 
         nodeCoolors = possibleColors ;
 
-        CheckIfFungiActiveOnNode();
+       
         AcpDataHandler.instance.terrainNodeCount++;
         terrainNode.id = id;
-       // terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
+        CheckIfFungiActiveOnNode();
+        // terrainNode.id = AcpDataHandler.instance.terrainNodeCount;
 
-       // id = terrainNode.id;
+        // id = terrainNode.id;
 
         GetComponent<NodeClickArea>().id = id;
 
@@ -120,6 +121,13 @@ public class NodeController : MonoBehaviour
                terrainNode.location)
             {
                 fungiActive = true;
+
+                terrainNode.health /= 2;
+                terrainNode.ModifyTerrainNodeData(AcpDataHandler.instance.acpData, terrainNode);
+           
+                AcpDataHandler.instance.CalculateTerrainHealth();
+                GameManagerAcp.instance.OnTerrainHealthUpdate();
+
                 GetComponent<Renderer>().material.color =
                     nodeCoolors[Random.Range(0, nodeCoolors.Length)];
             }
