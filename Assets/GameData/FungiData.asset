@@ -12,13 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43314dc236d2e474c906000c0a186e6b, type: 3}
   m_Name: FungiData
   m_EditorClassIdentifier: 
-  worldEnd: 1
-  territorySpread: 20
-  activeUnitLocations:
-  - {fileID: 11400000, guid: 7604563f35c354215af9182ea4086610, type: 2}
-  - {fileID: 11400000, guid: 39607a7bc97744532ada2442ef03d72b, type: 2}
-  - {fileID: 11400000, guid: 2cde06d4460c24f4d8042ef4630396a1, type: 2}
-  activeUnitLifespans:
-  - {fileID: 11400000, guid: 4e8b959ab0bee43d8bd8d19ca693828c, type: 2}
-  - {fileID: 11400000, guid: 279feebc3eecf48e09b20a5667ac8fce, type: 2}
-  - {fileID: 11400000, guid: 96569f2b398af4e50b0c4f2f57558533, type: 2}
+  territorySpread: 0
+  activeUnitLocations: []
+  activeUnitLifespans: []

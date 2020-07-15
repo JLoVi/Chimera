@@ -7,6 +7,9 @@ public class GameManagerAcp : MonoBehaviour
 {
     public AcpData acpData;
     public AyucData ayucData;
+
+    public GameObject[] allUIProps;
+    public GameObject worldEndText;
    
     //CAPITAL AND SCORES
     public Text capitalTargetText;
@@ -38,7 +41,7 @@ public class GameManagerAcp : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        if (acpData.wipeACPData) WipeAcpData();
+        if (acpData.wipeACPData || ayucData.worldEnd) WipeAcpData();
         Color[] possibleColors = { AcpDataHandler.instance.buildingColorPallette.color1,
          AcpDataHandler.instance.buildingColorPallette.color2,
              AcpDataHandler.instance.buildingColorPallette.color3,
@@ -56,6 +59,16 @@ public class GameManagerAcp : MonoBehaviour
 
     void Start()
     {
+        worldEndText.SetActive(false);
+        if (ayucData.worldEnd)
+        {
+            worldEndText.SetActive(true);
+            foreach(GameObject obj in allUIProps)
+            {
+                obj.SetActive(false);
+            }
+            return;
+        }
         OnUpdateExpenses();
         UpdateMaintenance();
         AcpDataHandler.instance.CalculateTargetCapital();

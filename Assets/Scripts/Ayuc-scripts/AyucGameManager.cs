@@ -14,7 +14,8 @@ public class AyucGameManager : MonoBehaviour
     public AyucNavAgentStore ayucAgentStore;
 
     public GameEvent onSpawnAgents;
-
+    private bool worldEndUtility;
+    public GameObject[] interactiveUIElements;
   //  public int agentCount;
     public Transform spawnPosition;
 
@@ -38,11 +39,13 @@ public class AyucGameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        worldEndUtility = false;
     }
     void Start()
     {
         Cursor.visible = true;
 
+      
         if (acpData.socialScore < -500)
         {
             ayucData.numberOfUnbornChildren = 1;
@@ -70,15 +73,39 @@ public class AyucGameManager : MonoBehaviour
         }
 
 
-
-
         SetResponseUI(false);
+
+        if (ayucData.worldEnd)
+        {
+            StopAllCoroutines();
+            commandText.gameObject.SetActive(true);
+            commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
+            foreach (GameObject obj in interactiveUIElements)
+            {
+                obj.SetActive(false);
+            }
+
+        }
+
+        else { 
         StartCoroutine(DisplayRandomCommand());
+        }
     }
 
     public void Update()
     {
-       
+        if (worldEndUtility)
+        {
+            worldEndUtility = false;
+            StopAllCoroutines();
+            commandText.gameObject.SetActive(true);
+            commandText.text = "YOU RAN OUT OF TIME" + '\n' + "THIS IS THE END OF THE WORLD";
+            foreach (GameObject obj in interactiveUIElements)
+            {
+                obj.SetActive(false);
+            }
+
+        }
     }
     public void SetResponseUI(bool state)
     {
@@ -151,6 +178,7 @@ public class AyucGameManager : MonoBehaviour
         if (numberOfAgents == 0)
         {
             ayucData.worldEnd = true;
+            worldEndUtility = true;
         }
 
     }

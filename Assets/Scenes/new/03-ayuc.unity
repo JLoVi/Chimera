@@ -1509,7 +1509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &355458406
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3502,6 +3502,9 @@ MonoBehaviour:
   acpData: {fileID: 11400000, guid: 9f3110d94a94a438aa22d329d6be0e9e, type: 2}
   ayucAgentStore: {fileID: 11400000, guid: 8e3e2c5a6c88a4db1839efa4368f79c7, type: 2}
   onSpawnAgents: {fileID: 11400000, guid: f131539fd02894b28b87b59a55888f38, type: 2}
+  interactiveUIElements:
+  - {fileID: 1928738823}
+  - {fileID: 1461212107}
   spawnPosition: {fileID: 167697878}
   numberOfAgents: 0
   birthrateText: {fileID: 355458408}
@@ -5597,9 +5600,9 @@ RectTransform:
   m_Father: {fileID: 1928738824}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 170, y: -22}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -16.99, y: 0}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100030095
@@ -5615,7 +5618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8490566, g: 0.30838373, b: 0.44389278, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5627,13 +5630,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: 'Remaining Time:'
+  m_Text: Remaining Time..
 --- !u!222 &1100030096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6669,8 +6672,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: -344}
-  m_SizeDelta: {x: 300, y: 800}
+  m_AnchoredPosition: {x: 250, y: -344}
+  m_SizeDelta: {x: 400, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374288671
 MonoBehaviour:

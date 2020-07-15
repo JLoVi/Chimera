@@ -52,6 +52,7 @@ public class NodeController : MonoBehaviour
 
     private void Start()
     {
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
         terrainNode = CreateTerrainNode();
         fungiActive = false;
         Color[] possibleColors = { AcpDataHandler.instance.nodeColorPallette.color1,

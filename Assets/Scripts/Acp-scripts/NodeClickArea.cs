@@ -19,6 +19,7 @@ public class NodeClickArea : MonoBehaviour
     }
     void Start()
     {
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
         rend = GetComponent<Renderer>();
       //  id = GetComponent<NodeController>().terrainNode.id;
         //rend.material.color = AcpDataHandler.instance.nodeColorPallette.color1;
@@ -30,6 +31,7 @@ public class NodeClickArea : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (GameManagerAcp.instance.ayucData.worldEnd && !GameManagerAcp.instance.ayucData.worldEnd) return;
         if (!EventSystem.current.IsPointerOverGameObject())
         {
             GameEventsTerrain.currentTerrainEvent.TerrainMouseClick(id);
@@ -39,7 +41,8 @@ public class NodeClickArea : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (!EventSystem.current.IsPointerOverGameObject())
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
+        if (!EventSystem.current.IsPointerOverGameObject() && !GameManagerAcp.instance.ayucData.worldEnd)
         {
             GameEventsTerrain.currentTerrainEvent.TerrainMouseHover(id);
             rend.material.color = hoverColor;
@@ -49,6 +52,7 @@ public class NodeClickArea : MonoBehaviour
 
     void OnMouseExit()
     {
+        if (GameManagerAcp.instance.ayucData.worldEnd) return;
         HoverInfoPopup.hoverInfoPopup.HideInfo();
         rend.material.color = startColor;
     }

@@ -68,10 +68,13 @@ public class AcpDataHandler : MonoBehaviour
             gameManagerAcp = GetComponent<GameManagerAcp>();
         }
 
+        if (gameManagerAcp.ayucData.worldEnd) return;
     }
 
     private void Start()
     {
+        if (gameManagerAcp.ayucData.worldEnd) return;
+
         acpRuntimeAssetParent = GameObject.Find("ACP-runtime-assets");
         if (acpRuntimeAssetParent != null)
         {
