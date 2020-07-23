@@ -31,6 +31,10 @@ public class AcpDataHandler : MonoBehaviour
     public static int sanitationAmt;
 
     public int targetCapital;
+    public int targetSocial;
+    public int targetGrowth;
+    public int targetEnvironmental;
+
     //FINANCIAL DATA:
     public static int expenses;
     public static int maintenanceFees;
@@ -272,6 +276,10 @@ public class AcpDataHandler : MonoBehaviour
         }
     }
 
+    public void CalculateTargetScores()
+    {
+         targetSocial = acpData.socialScore + Random.Range(1, 100);
+         targetEnvironmental = acpData.environmentScore + Random.Range(1, 100);
+         targetGrowth = acpData.economicGrowth + Random.Range(1, 100);
+    }
 }
-
-

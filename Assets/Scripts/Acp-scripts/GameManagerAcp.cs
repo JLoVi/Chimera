@@ -10,9 +10,13 @@ public class GameManagerAcp : MonoBehaviour
 
     public GameObject[] allUIProps;
     public GameObject worldEndText;
-   
+
     //CAPITAL AND SCORES
     public Text capitalTargetText;
+    public Text socialTargetText;
+    public Text environmentTargetText;
+    public Text growthTargetText;
+
     public Text capitalText;
     public Text socialText;
     public Text environmentText;
@@ -63,7 +67,7 @@ public class GameManagerAcp : MonoBehaviour
         if (ayucData.worldEnd)
         {
             worldEndText.SetActive(true);
-            foreach(GameObject obj in allUIProps)
+            foreach (GameObject obj in allUIProps)
             {
                 obj.SetActive(false);
             }
@@ -72,9 +76,11 @@ public class GameManagerAcp : MonoBehaviour
         OnUpdateExpenses();
         UpdateMaintenance();
         AcpDataHandler.instance.CalculateTargetCapital();
+        AcpDataHandler.instance.CalculateTargetScores();
         UpdateCapitalTargetText();
+        UpdateScoreTargetText();
 
-        
+
     }
 
     void Update()
@@ -93,7 +99,14 @@ public class GameManagerAcp : MonoBehaviour
 
     public void UpdateCapitalTargetText()
     {
-        capitalTargetText.text = "REACH TARGET CAPITAL: " + AcpDataHandler.instance.targetCapital;
+        capitalTargetText.text = "TARGET CAPITAL: " + AcpDataHandler.instance.targetCapital;
+    }
+
+    public void UpdateScoreTargetText()
+    {
+        socialTargetText.text = "SOCIAL SCORE: " + AcpDataHandler.instance.targetSocial;
+        environmentTargetText.text = "ENVIRONMENTAL SCORE: " + AcpDataHandler.instance.targetEnvironmental;
+        growthTargetText.text = "ECONOMIC GROWTH: " + AcpDataHandler.instance.targetGrowth;
     }
 
     public void UpdateCapitalText()
@@ -108,7 +121,7 @@ public class GameManagerAcp : MonoBehaviour
 
     public void OnTerrainPurchased()
     {
-        terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased +  " / "  + acpData.terrainNodes.Count;
+        terrainNodesPurchasedText.text = "Terrain Nodes Purchased: " + AcpDataHandler.terrainNodesPurchased + " / " + acpData.terrainNodes.Count;
         // Debug.Log("TERRAINPURCHASED");
 
     }
@@ -124,6 +137,9 @@ public class GameManagerAcp : MonoBehaviour
         socialText.text = "Social Score: " + acpData.socialScore;
         environmentText.text = "Environmental Sustainability: " + acpData.environmentScore;
         economicText.text = "Economic Growth: " + acpData.economicGrowth;
+
+        AcpDataHandler.instance.CalculateTargetScores();
+        UpdateScoreTargetText();
     }
 
     public void OnUpdateExpenses()
@@ -145,12 +161,12 @@ public class GameManagerAcp : MonoBehaviour
         {
             for (int i = 0; i < AcpDataHandler.instance.fungiData.activeUnitLocations.Count; i++)
             {
-               
+
                 if (AcpDataHandler.instance.fungiData.activeUnitLocations[i] == slot.location)
                 {
-                    
+
                     state = true;
-//                    Debug.Log(slot.location);
+                    //                    Debug.Log(slot.location);
 
                 }
             }

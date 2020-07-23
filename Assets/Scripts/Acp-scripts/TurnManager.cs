@@ -83,7 +83,9 @@ public class TurnManager : MonoBehaviour
         AcpDataHandler.seasonTimerValue = acpData.seasonLength;
         startSeasonButton.SetActive(true);
         AcpDataHandler.instance.CalculateTargetCapital();
+        AcpDataHandler.instance.CalculateTargetScores();
         GameManagerAcp.instance.UpdateCapitalTargetText();
+        GameManagerAcp.instance.UpdateScoreTargetText();
 
     }
 
